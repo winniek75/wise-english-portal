@@ -10,10 +10,14 @@ export function Footer() {
               <p className="text-sm text-gray-400">Learning Portal</p>
             </div>
           </div>
-          <p className="text-sm text-gray-400">
-            &copy; {new Date().getFullYear()} WISE English Club. All rights
-            reserved.
-          </p>
+          <div className="flex items-center gap-4">
+            <a href="/parent" className="text-sm text-purple-400 hover:text-purple-300 transition-colors font-medium">
+              👨‍👩‍👧‍👦 保護者ダッシュボード
+            </a>
+            <p className="text-sm text-gray-400">
+              &copy; {new Date().getFullYear()} WISE English Club. All rights reserved.
+            </p>
+          </div>
         </div>
       </div>
     </footer>
