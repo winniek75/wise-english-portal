@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
 const SUPABASE_URL = 'https://nrkhfkxzfaycehaxfdek.supabase.co';
 const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5ya2hma3h6ZmF5Y2VoYXhmZGVrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzkyNjY0MTEsImV4cCI6MjA5NDg0MjQxMX0.-GC_51aIDQGleMaWqa4Q7Y6qSynZiVZcSWnSYOMHfZw';
@@ -11,10 +11,70 @@ const headers = {
   'Authorization': `Bearer ${SUPABASE_KEY}`,
 };
 
+class LoadError extends Error {}
+
+async function request(path: string, init?: RequestInit) {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), 15000);
+  try {
+    return await fetch(`${SUPABASE_URL}/rest/v1/${path}`, { headers, signal: controller.signal, ...init });
+  } catch {
+    throw new LoadError('network');
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
 async function api(path: string) {
-  const res = await fetch(`${SUPABASE_URL}/rest/v1/${path}`, { headers });
-  if (!res.ok) return null;
+  const res = await request(path);
+  if (!res.ok) throw new LoadError(`http ${res.status}`);
   return res.json();
+}
+
+interface Dashboard {
+  player: Player;
+  sessions: Session[];
+  wrongAnswers: WrongAnswer[];
+  /** 集計の範囲（画面に明記する） */
+  scope: string;
+}
+
+/**
+ * 推奨経路: DB側の関数 get_parent_dashboard(p_code) がコードを照合し、その子の記録だけを返す
+ * （docs/supabase-parent-access.sql）。関数がまだ無い環境では従来のテーブル直接参照で動かす。
+ */
+async function loadDashboard(code: string): Promise<Dashboard | null> {
+  const rpc = await request('rpc/get_parent_dashboard', {
+    method: 'POST',
+    body: JSON.stringify({ p_code: code }),
+  });
+  if (rpc.ok) {
+    const data = await rpc.json();
+    if (!data || !data.player) return null;
+    return {
+      player: data.player,
+      sessions: data.sessions || [],
+      wrongAnswers: data.wrong_answers || [],
+      scope: '直近90日',
+    };
+  }
+  if (rpc.status !== 404) throw new LoadError(`http ${rpc.status}`);
+
+  const access = await api(`parent_access?access_code=eq.${code}&select=player_id`);
+  if (!access || access.length === 0) return null;
+  const playerId = access[0].player_id;
+  const [playerData, sessionData, wrongData] = await Promise.all([
+    api(`players?id=eq.${playerId}&select=*`),
+    api(`game_sessions?player_id=eq.${playerId}&order=played_at.desc&limit=50&select=*`),
+    api(`wrong_answers?player_id=eq.${playerId}&mastered=eq.false&order=wrong_count.desc&limit=30&select=*`),
+  ]);
+  if (!playerData || !playerData[0]) return null;
+  return {
+    player: playerData[0],
+    sessions: sessionData || [],
+    wrongAnswers: wrongData || [],
+    scope: '直近50回のプレイ',
+  };
 }
 
 interface Player {
@@ -49,13 +109,13 @@ const GAME_NAMES: Record<string, string> = {
   'eiken-game': '英検クエスト',
   'fallingwordbattle': 'フォーリングワード',
   'flashinput': 'フラッシュインプット',
-  'grammar-drill': 'グラマードリル',
-  'grammar-app': 'グラマーアプリ',
-  'eiken-grammar-game': '英検文法',
-  'aredo-game': 'Are/Doクイズ',
-  'verbform-battle': '動詞変化バトル',
+  'grammar-drill': 'to / ing 使い分けドリル',
+  'grammar-app': '先生と英文法レッスン',
+  'eiken-grammar-game': '英検3級 文法マスター',
+  'aredo-game': 'Am・Is・Are・Do・Does クイズ',
+  'verbform-battle': '関係詞＆分詞ドリル',
   'phonics': 'ジョリーフォニックス',
-  'phonics-battle': 'フォニックスバトル',
+  'phonics-battle': 'はじめての英単語バトル',
   'phonics-sounds': 'フォニックスサウンド',
   'sight-words-memory': 'サイトワーズメモリー',
   'instant-english-app': '瞬間英作文',
@@ -67,6 +127,10 @@ const GAME_NAMES: Record<string, string> = {
   'eiken-challenge': '英検チャレンジ',
 };
 
+const GAME_URLS: Record<string, string> = Object.fromEntries(
+  Object.keys(GAME_NAMES).map((slug) => [slug, `https://${slug}-winniek75s-projects.vercel.app`])
+);
+
 export default function ParentDashboard() {
   const [code, setCode] = useState('');
   const [player, setPlayer] = useState<Player | null>(null);
@@ -76,34 +140,28 @@ export default function ParentDashboard() {
   const [error, setError] = useState('');
   const [view, setView] = useState<'code' | 'dashboard'>('code');
 
+  const [scope, setScope] = useState('');
+
   const handleSubmit = async () => {
     if (code.length !== 6) { setError('6桁のコードを入力してください'); return; }
     setLoading(true);
     setError('');
-
-    const access = await api(`parent_access?access_code=eq.${code}&select=player_id`);
-    if (!access || access.length === 0) {
-      setError('コードが見つかりません');
-      setLoading(false);
-      return;
-    }
-
-    const playerId = access[0].player_id;
-    const [playerData, sessionData, wrongData] = await Promise.all([
-      api(`players?id=eq.${playerId}&select=*`),
-      api(`game_sessions?player_id=eq.${playerId}&order=played_at.desc&limit=50&select=*`),
-      api(`wrong_answers?player_id=eq.${playerId}&mastered=eq.false&order=wrong_count.desc&limit=30&select=*`),
-    ]);
-
-    if (playerData && playerData[0]) {
-      setPlayer(playerData[0]);
-      setSessions(sessionData || []);
-      setWrongAnswers(wrongData || []);
+    try {
+      const data = await loadDashboard(code);
+      if (!data) {
+        setError('コードが見つかりません。数字をもう一度ご確認ください。');
+        return;
+      }
+      setPlayer(data.player);
+      setSessions(data.sessions);
+      setWrongAnswers(data.wrongAnswers);
+      setScope(data.scope);
       setView('dashboard');
-    } else {
-      setError('プレイヤーデータが見つかりません');
+    } catch {
+      setError('読み込めませんでした。通信状況を確認して、もう一度「確認する」を押してください。');
+    } finally {
+      setLoading(false);
     }
-    setLoading(false);
   };
 
   // Group sessions by date
@@ -134,13 +192,17 @@ export default function ParentDashboard() {
         <div className="max-w-md w-full bg-white/10 backdrop-blur-xl rounded-3xl p-8 shadow-2xl border border-white/20">
           <div className="text-center mb-8">
             <div className="text-6xl mb-4">👨‍👩‍👧‍👦</div>
-            <h1 className="text-3xl font-black text-white mb-2">保護者ダッシュボード</h1>
-            <p className="text-gray-400">お子様のアクセスコードを入力してください</p>
+            <h1 className="text-3xl font-black text-white mb-2">保護者の方へ</h1>
+            <p className="text-gray-300">お子さまの学習のようすを確認できます。<br/>6桁のアクセスコードを入力してください。</p>
           </div>
 
           <div className="mb-6">
             <input
               type="text"
+              inputMode="numeric"
+              autoComplete="off"
+              aria-label="6桁のアクセスコード"
+              onKeyDown={e => { if (e.key === 'Enter') handleSubmit(); }}
               maxLength={6}
               value={code}
               onChange={e => setCode(e.target.value.replace(/\D/g, ''))}
@@ -149,7 +211,7 @@ export default function ParentDashboard() {
             />
           </div>
 
-          {error && <p className="text-red-400 text-center mb-4">{error}</p>}
+          {error && <p role="alert" className="text-red-300 text-center mb-4">{error}</p>}
 
           <button
             onClick={handleSubmit}
@@ -161,10 +223,14 @@ export default function ParentDashboard() {
           </button>
 
           <div className="mt-8 p-4 rounded-xl bg-white/5 border border-white/10">
-            <p className="text-sm text-gray-400 text-center">
-              アクセスコードは、お子様のゲーム画面の<br/>
+            <p className="text-sm text-gray-300 text-center">
+              アクセスコードは、お子さまのゲーム画面の<br/>
               プロフィール設定から確認できます
             </p>
+          </div>
+          <div className="mt-4 flex justify-center gap-5 text-sm">
+            <a href="/" className="text-purple-300 hover:text-white">← 学習ホーム</a>
+            <a href="/about" className="text-purple-300 hover:text-white">使い方・データの扱い</a>
           </div>
         </div>
       </div>
@@ -181,7 +247,7 @@ export default function ParentDashboard() {
           <button onClick={() => setView('code')} className="text-gray-400 hover:text-white transition-all">
             ← 戻る
           </button>
-          <span className="text-sm text-gray-500">保護者ダッシュボード</span>
+          <span className="text-sm text-gray-400">保護者ページ</span>
         </div>
 
         {/* Player Profile */}
@@ -212,7 +278,7 @@ export default function ParentDashboard() {
             <div className="grid grid-cols-3 gap-4">
               <div className="bg-white/5 rounded-xl p-4 text-center">
                 <div className="text-3xl font-black text-cyan-400">{todaySessions.length}</div>
-                <div className="text-xs text-gray-400 mt-1">ゲーム数</div>
+                <div className="text-xs text-gray-400 mt-1">取り組んだ回数</div>
               </div>
               <div className="bg-white/5 rounded-xl p-4 text-center">
                 <div className="text-3xl font-black text-green-400">
@@ -222,9 +288,13 @@ export default function ParentDashboard() {
               </div>
               <div className="bg-white/5 rounded-xl p-4 text-center">
                 <div className="text-3xl font-black text-yellow-400">
-                  {todaySessions.reduce((a, s) => a + (s.score || 0), 0).toLocaleString()}
+                  {(() => {
+                    const t = todaySessions.reduce((a, s) => a + (s.total_questions || 0), 0);
+                    const c = todaySessions.reduce((a, s) => a + (s.correct_count || 0), 0);
+                    return t > 0 ? `${Math.round((c / t) * 100)}%` : '—';
+                  })()}
                 </div>
-                <div className="text-xs text-gray-400 mt-1">合計スコア</div>
+                <div className="text-xs text-gray-400 mt-1">正答率</div>
               </div>
             </div>
           )}
@@ -242,17 +312,18 @@ export default function ParentDashboard() {
           </div>
           <div className="bg-white/10 rounded-2xl p-4 text-center border border-white/10">
             <div className="text-2xl font-black text-white">{Object.keys(gameStats).length}</div>
-            <div className="text-xs text-gray-400">プレイしたゲーム種類</div>
+            <div className="text-xs text-gray-400">取り組んだゲームの種類（{scope}）</div>
           </div>
           <div className="bg-white/10 rounded-2xl p-4 text-center border border-white/10">
             <div className="text-2xl font-black text-white">{wrongAnswers.length}</div>
-            <div className="text-xs text-gray-400">復習が必要な問題</div>
+            <div className="text-xs text-gray-400">まだ定着していない問題{scope === '直近50回のプレイ' ? '（上位30件まで）' : ''}</div>
           </div>
         </div>
 
         {/* Game Breakdown */}
         <div className="bg-white/10 backdrop-blur-xl rounded-3xl p-6 border border-white/20">
-          <h3 className="text-lg font-bold text-white mb-4">🎮 ゲーム別成績</h3>
+          <h3 className="text-lg font-bold text-white">🎮 ゲーム別の正答率</h3>
+          <p className="text-xs text-gray-400 mb-4">{scope}の記録から集計しています</p>
           <div className="space-y-3">
             {Object.entries(gameStats).sort((a, b) => b[1].count - a[1].count).map(([slug, stats]) => {
               const accuracy = stats.totalQuestions > 0 ? Math.round(stats.totalCorrect / stats.totalQuestions * 100) : 0;
@@ -260,14 +331,14 @@ export default function ParentDashboard() {
                 <div key={slug} className="flex items-center justify-between bg-white/5 rounded-xl p-3">
                   <div>
                     <div className="text-white font-bold text-sm">{GAME_NAMES[slug] || slug}</div>
-                    <div className="text-xs text-gray-500">{stats.count}回プレイ</div>
+                    <div className="text-xs text-gray-400">{stats.count}回</div>
                   </div>
                   <div className="flex items-center gap-3">
                     <div className="text-right">
                       <div className="text-sm font-bold" style={{ color: accuracy >= 80 ? '#6bff8e' : accuracy >= 60 ? '#ffd93d' : '#ff6b6b' }}>
                         {accuracy}%
                       </div>
-                      <div className="text-xs text-gray-500">正解率</div>
+                      <div className="text-xs text-gray-400">正答率</div>
                     </div>
                     <div className="w-16 h-2 bg-gray-700 rounded-full overflow-hidden">
                       <div
@@ -288,13 +359,14 @@ export default function ParentDashboard() {
         {/* Wrong Answers */}
         {wrongAnswers.length > 0 && (
           <div className="bg-white/10 backdrop-blur-xl rounded-3xl p-6 border border-white/20">
-            <h3 className="text-lg font-bold text-white mb-4">📝 苦手な問題 TOP10</h3>
+            <h3 className="text-lg font-bold text-white">📝 つぎに練習したい問題</h3>
+            <p className="text-xs text-gray-400 mb-4">まちがえた回数が多い順に10件。ゲーム名を押すと、そのゲームを開けます。</p>
             <div className="space-y-2">
               {wrongAnswers.slice(0, 10).map((w, i) => (
                 <div key={i} className="flex items-center justify-between bg-white/5 rounded-xl p-3">
                   <div className="flex-1">
                     <div className="text-white text-sm">{w.question_text}</div>
-                    <div className="text-xs text-gray-500">{GAME_NAMES[w.game_slug] || w.game_slug}</div>
+                    <a href={GAME_URLS[w.game_slug] || '/'} className="text-xs text-purple-300 underline">{GAME_NAMES[w.game_slug] || w.game_slug} でもう一度</a>
                   </div>
                   <div className="flex items-center gap-2 ml-3">
                     <span className="text-green-400 text-xs font-bold">{w.correct_answer}</span>
@@ -308,7 +380,8 @@ export default function ParentDashboard() {
 
         {/* Recent Activity */}
         <div className="bg-white/10 backdrop-blur-xl rounded-3xl p-6 border border-white/20">
-          <h3 className="text-lg font-bold text-white mb-4">📊 最近のプレイ履歴</h3>
+          <h3 className="text-lg font-bold text-white">📊 最近の取り組み</h3>
+          <p className="text-xs text-gray-400 mb-4">正解数／問題数と、ゲーム内の得点</p>
           <div className="space-y-4">
             {Object.entries(sessionsByDate).slice(0, 7).map(([date, daySessions]) => (
               <div key={date}>
@@ -329,8 +402,9 @@ export default function ParentDashboard() {
           </div>
         </div>
 
-        <div className="text-center text-gray-600 text-xs py-4">
-          WISE English Portal - Parent Dashboard
+        <div className="text-center text-gray-400 text-xs py-4 leading-relaxed">
+          ゲームや端末がちがうと、記録が別々になる場合があります（ひとつにまとめる仕組みは準備中です）。
+          <br/>WISE English Club
         </div>
       </div>
     </div>

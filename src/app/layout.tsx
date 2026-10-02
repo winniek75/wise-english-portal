@@ -8,9 +8,9 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "WISE English Club - Learning Portal",
+  title: "WISE English Club 学習ホーム｜今日の10分で使える英語を",
   description:
-    "WISE English Clubの英語学習ゲームポータル。フォニックス、語彙、文法、英作文をゲームで楽しく学ぼう！",
+    "WISE English Club の家庭学習ポータル。先生がえらんだ「今日の10分」コースと、音と文字・単語・文法・読む書くの英語学習ゲーム。",
   icons: { icon: "/favicon.ico" },
 };
 

@@ -8,7 +8,7 @@ interface CategorySectionProps {
 
 export function CategorySection({ category, index }: CategorySectionProps) {
   return (
-    <section id={category.id} className="pt-12 sm:pt-16">
+    <section id={category.id} className="pt-10 sm:pt-12 scroll-mt-20">
       <div className="flex items-center gap-3 mb-8">
         <div
           className={`flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-br ${category.gradient} text-white text-2xl shadow-lg`}
