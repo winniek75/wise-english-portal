@@ -87,9 +87,9 @@ function phonicsWeek(
 const vocabDay = (unit: number): Day => ({
   title: `ユニット${unit}（6語）`,
   steps: [
-    s("flashinput", "おぼえる", `写真と音声で6語をおぼえる`, 5, `/?grade=5&unit=${unit}&input=tiles`),
-    s("eiken-game", "たしかめる", "5級の4択クイズ 10問（時間制限なし）", 3, "/?grade=5&mode=practice&count=10"),
-    s("falling-word", "つかう", "やさしいモードで10語", 2, "/?grade=5&mode=easy&count=10"),
+    s("flashinput", "おぼえる", `写真と音声で6語をおぼえる`, 5, `/?unit=5-${unit}`),
+    s("eiken-game", "たしかめる", "おぼえた6語の4択クイズ", 3, `/?unit=5-${unit}`),
+    s("falling-word", "つかう", "おぼえた6語で落下ゲーム", 2, `/?unit=5-${unit}`),
   ],
 });
 
@@ -114,15 +114,15 @@ export const courses: Course[] = [
           {
             title: "はじめての単語",
             steps: [
-              s("flashinput", "おぼえる", "写真と音声で6語をおぼえる", 5, "/?grade=5&unit=1&input=tiles"),
-              s("eiken-game", "たしかめる", "5級の4択クイズ 5問（時間制限なし）", 3, "/?grade=5&mode=practice&count=5"),
-              s("falling-word", "つかう", "やさしいモードで5語", 2, "/?grade=5&mode=easy&count=5"),
+              s("flashinput", "おぼえる", "写真と音声で6語をおぼえる", 5, "/?unit=5-1"),
+              s("eiken-game", "たしかめる", "おぼえた6語の4択クイズ", 3, "/?unit=5-1"),
+              s("falling-word", "つかう", "おぼえた6語で落下ゲーム", 2, "/?unit=5-1"),
             ],
           },
           {
             title: "はじめての文",
             steps: [
-              s("flashinput", "おぼえる", "写真と音声で6語をおぼえる", 5, "/?grade=5&unit=2&input=tiles"),
+              s("flashinput", "おぼえる", "写真と音声で6語をおぼえる", 5, "/?unit=5-2"),
               s("aredo-game", "たしかめる", "Am・Is・Are をえらぶ 5問", 2, "/?level=be&count=5"),
               s("instant-english", "つかう", "ことばをならべて文をつくる 5問", 3, "/?mode=shuffle&level=starter&count=5"),
             ],
