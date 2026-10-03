@@ -1,23 +1,54 @@
+"use client";
+
 import { Game } from "@/data/games";
+import type { ProgressState } from "@/hooks/useProgress";
 
 interface GameCardProps {
   game: Game;
   index: number;
+  progressState?: ProgressState;
+  onStart?: (gameId: string) => void;
 }
 
-export function GameCard({ game, index }: GameCardProps) {
+const BADGE: Record<
+  Exclude<ProgressState, "none">,
+  { label: string; cls: string }
+> = {
+  started: { label: "開始済み", cls: "bg-amber-100 text-amber-700" },
+  completed: { label: "完了", cls: "bg-emerald-100 text-emerald-700" },
+  mastered: { label: "★ マスター", cls: "bg-yellow-100 text-yellow-700" },
+};
+
+export function GameCard({ game, index, progressState, onStart }: GameCardProps) {
+  const badge =
+    progressState && progressState !== "none" ? BADGE[progressState] : null;
+
   return (
     <a
       href={game.url}
       className={`card-hover flex flex-col rounded-2xl border-2 ${game.color} p-5 sm:p-6 animate-fade-in-up`}
       style={{ animationDelay: `${index * 0.1}s` }}
+      onClick={() => onStart?.(game.id)}
     >
       <div className="flex items-start gap-4">
         <div className="text-4xl flex-shrink-0">{game.icon}</div>
         <div className="flex-1 min-w-0">
-          <h4 className="font-bold text-gray-900 text-lg leading-tight">{game.titleJa}</h4>
+          <div className="flex items-center gap-2 mb-1 flex-wrap">
+            <h4 className="font-bold text-gray-900 text-lg leading-tight">
+              {game.titleJa}
+            </h4>
+            {badge && (
+              <span
+                className={`inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-bold ${badge.cls}`}
+              >
+                {badge.label}
+              </span>
+            )}
+          </div>
           <p className="text-xs text-gray-400 mb-2">{game.title}</p>
-          <p className="text-sm text-gray-600 leading-relaxed">{game.description}</p>
+          <p className="text-sm text-gray-600 leading-relaxed">
+            {game.description}
+          </p>
         </div>
       </div>
 

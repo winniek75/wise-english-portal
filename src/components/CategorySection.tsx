@@ -1,12 +1,22 @@
+"use client";
+
 import { Category } from "@/data/games";
 import { GameCard } from "@/components/GameCard";
+import type { ProgressState } from "@/hooks/useProgress";
 
 interface CategorySectionProps {
   category: Category;
   index: number;
+  progress: Record<string, ProgressState>;
+  onStart: (gameId: string) => void;
 }
 
-export function CategorySection({ category, index }: CategorySectionProps) {
+export function CategorySection({
+  category,
+  index,
+  progress,
+  onStart,
+}: CategorySectionProps) {
   return (
     <section id={category.id} className="pt-10 sm:pt-12 scroll-mt-20">
       <div className="flex items-center gap-3 mb-8">
@@ -25,7 +35,13 @@ export function CategorySection({ category, index }: CategorySectionProps) {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
         {category.games.map((game, gameIndex) => (
-          <GameCard key={game.id} game={game} index={gameIndex} />
+          <GameCard
+            key={game.id}
+            game={game}
+            index={gameIndex}
+            progressState={progress[game.id] || "none"}
+            onStart={onStart}
+          />
         ))}
       </div>
     </section>
