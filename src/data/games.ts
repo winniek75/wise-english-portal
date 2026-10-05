@@ -282,6 +282,46 @@ export const categories: Category[] = [
       },
     ],
   },
+  {
+    id: "eiken",
+    title: "Eiken Trainer",
+    titleJa: "英検対策",
+    icon: "🎯",
+    description: "英検4級・3級・準2級の単語と文法を、にがて優先で反復する",
+    gradient: "from-violet-400 to-purple-500",
+    games: [
+      {
+        id: "eiken-words",
+        title: "Eiken Word Trainer",
+        titleJa: "英検 単語トレーナー",
+        description:
+          "1セット6語を「見る・聞く → 意味をえらぶ → 例文に入れる」。ふくしゅうは、まちがえた語・しばらく見ていない語から先に出題",
+        url: "/eiken",
+        icon: "🗂️",
+        level: "英検4級・3級・準2級（各144語）",
+        minutes: "2〜4",
+        skill: "級別の単語を覚えて、例文で使う",
+        use: "home",
+        tags: ["6語ずつ", "にがて優先"],
+        color: "bg-violet-50 border-violet-200",
+      },
+      {
+        id: "eiken-drill",
+        title: "Eiken Grammar Drill",
+        titleJa: "英検 文法ドリル",
+        description:
+          "ポイントを読んでから10問（えらぶ＋ならべかえ）。答えのあとに「なぜ？」の解説。まちがえた問題はその場でもう1回",
+        url: "/eiken",
+        icon: "🧱",
+        level: "英検4級・3級・準2級（15単元・300問）",
+        minutes: "4〜5",
+        skill: "未来・助動詞・比較・完了形・分詞構文・仮定法 など",
+        use: "home",
+        tags: ["1回10問", "解説つき"],
+        color: "bg-violet-50 border-violet-200",
+      },
+    ],
+  },
 ];
 
 export const allGames: Game[] = categories.flatMap((c) => c.games);

@@ -1,0 +1,319 @@
+{
+  "id": "g4-future",
+  "grade": "4",
+  "title": "未来の文（be going to / will）",
+  "points": [
+    "be going to + 動詞の原形 で「〜するつもり」",
+    "will + 動詞の原形 で「〜するでしょう」。否定は won't",
+    "be動詞は主語に合わせる。tomorrow や next 〜 は未来の目印"
+  ],
+  "examples": [
+    {
+      "en": "I am going to play tennis tomorrow.",
+      "ja": "私は明日テニスをするつもりです。"
+    },
+    {
+      "en": "She will come to the party.",
+      "ja": "彼女はパーティーに来るでしょう。"
+    },
+    {
+      "en": "We won't be late for school.",
+      "ja": "私たちは学校に遅れません。"
+    }
+  ],
+  "questions": [
+    {
+      "id": "g4-future-01",
+      "type": "choice",
+      "q": "I ___ going to clean my room tomorrow.",
+      "ja": "私は明日、部屋をそうじするつもりです。",
+      "options": [
+        "am",
+        "is",
+        "are",
+        "be"
+      ],
+      "answer": 0,
+      "why": "主語が I のとき、be動詞は am を使う。"
+    },
+    {
+      "id": "g4-future-02",
+      "type": "choice",
+      "q": "Ken ___ going to play soccer after school.",
+      "ja": "ケンは放課後サッカーをするつもりです。",
+      "options": [
+        "are",
+        "is",
+        "am",
+        "will"
+      ],
+      "answer": 1,
+      "why": "主語が Ken（1人）なので be動詞は is。"
+    },
+    {
+      "id": "g4-future-03",
+      "type": "choice",
+      "q": "She will ___ her grandmother tomorrow.",
+      "ja": "彼女は明日おばあさんを訪ねるでしょう。",
+      "options": [
+        "visits",
+        "visited",
+        "visiting",
+        "visit"
+      ],
+      "answer": 3,
+      "why": "will のあとは動詞の原形。s や ed はつけない。"
+    },
+    {
+      "id": "g4-future-04",
+      "type": "choice",
+      "q": "We ___ going to have a party next Sunday.",
+      "ja": "私たちは次の日曜日にパーティーをするつもりです。",
+      "options": [
+        "is",
+        "am",
+        "are",
+        "will"
+      ],
+      "answer": 2,
+      "why": "主語が We（2人以上）なので be動詞は are。"
+    },
+    {
+      "id": "g4-future-05",
+      "type": "choice",
+      "q": "It ___ be sunny tomorrow.",
+      "ja": "明日は晴れるでしょう。",
+      "options": [
+        "is",
+        "will",
+        "does",
+        "was"
+      ],
+      "answer": 1,
+      "why": "あとが原形の be なので will。「〜でしょう」の意味。"
+    },
+    {
+      "id": "g4-future-06",
+      "type": "choice",
+      "q": "I'm going to ___ a new bag next week.",
+      "ja": "私は来週、新しいかばんを買うつもりです。",
+      "options": [
+        "buy",
+        "buys",
+        "bought",
+        "buying"
+      ],
+      "answer": 0,
+      "why": "be going to のあとは動詞の原形。"
+    },
+    {
+      "id": "g4-future-07",
+      "type": "choice",
+      "q": "Tom ___ going to come to the party.",
+      "ja": "トムはパーティーに来るつもりはありません。",
+      "options": [
+        "doesn't",
+        "won't",
+        "aren't",
+        "isn't"
+      ],
+      "answer": 3,
+      "why": "be going to の否定は be動詞に not。Tom なので isn't。"
+    },
+    {
+      "id": "g4-future-08",
+      "type": "choice",
+      "q": "They ___ play tennis tomorrow.",
+      "ja": "彼らは明日テニスをしません。",
+      "options": [
+        "aren't",
+        "isn't",
+        "won't",
+        "wasn't"
+      ],
+      "answer": 2,
+      "why": "あとが原形の play なので、will not を短くした won't。"
+    },
+    {
+      "id": "g4-future-09",
+      "type": "choice",
+      "q": "___ you going to study English tonight?",
+      "ja": "あなたは今夜、英語を勉強するつもりですか。",
+      "options": [
+        "Will",
+        "Are",
+        "Do",
+        "Is"
+      ],
+      "answer": 1,
+      "why": "be going to の疑問文は be動詞を前に出す。you には Are。"
+    },
+    {
+      "id": "g4-future-10",
+      "type": "choice",
+      "q": "Are you going to watch TV tonight? — Yes, I ___.",
+      "ja": "あなたは今夜テレビを見るつもりですか。— はい、そのつもりです。",
+      "options": [
+        "will",
+        "do",
+        "am",
+        "are"
+      ],
+      "answer": 2,
+      "why": "Are you 〜? と聞かれたら、be動詞を使って I am で答える。"
+    },
+    {
+      "id": "g4-future-11",
+      "type": "choice",
+      "q": "___ Emma come to school tomorrow?",
+      "ja": "エマは明日学校に来ますか。",
+      "options": [
+        "Will",
+        "Is",
+        "Are",
+        "Was"
+      ],
+      "answer": 0,
+      "why": "あとが原形の come なので Will。will の疑問文は Will を前に。"
+    },
+    {
+      "id": "g4-future-12",
+      "type": "choice",
+      "q": "Will it rain tomorrow? — No, it ___.",
+      "ja": "明日は雨が降りますか。— いいえ、降りません。",
+      "options": [
+        "isn't",
+        "doesn't",
+        "wasn't",
+        "won't"
+      ],
+      "answer": 3,
+      "why": "Will 〜? と聞かれたら will で答える。No のときは won't。"
+    },
+    {
+      "id": "g4-future-13",
+      "type": "choice",
+      "q": "What are you going to do ___?",
+      "ja": "あなたは次の日曜日に何をするつもりですか。",
+      "options": [
+        "yesterday",
+        "last night",
+        "next Sunday",
+        "two days ago"
+      ],
+      "answer": 2,
+      "why": "be going to は未来の文。next 〜 が未来を表す語。"
+    },
+    {
+      "id": "g4-future-14",
+      "type": "choice",
+      "q": "Where ___ your parents going to stay next week?",
+      "ja": "あなたの両親は来週どこに泊まるつもりですか。",
+      "options": [
+        "is",
+        "will",
+        "do",
+        "are"
+      ],
+      "answer": 3,
+      "why": "主語 your parents は2人なので are。will going とは言わない。"
+    },
+    {
+      "id": "g4-future-15",
+      "type": "order",
+      "ja": "彼はよい先生になるでしょう。",
+      "words": [
+        "he",
+        "will",
+        "be",
+        "a",
+        "good",
+        "teacher"
+      ],
+      "full": "He will be a good teacher.",
+      "why": "will のあとは原形。be動詞の原形は be。"
+    },
+    {
+      "id": "g4-future-16",
+      "type": "order",
+      "ja": "私は新しい自転車を買うつもりです。",
+      "words": [
+        "I",
+        "am",
+        "going",
+        "to",
+        "buy",
+        "a",
+        "new",
+        "bike"
+      ],
+      "full": "I am going to buy a new bike.",
+      "why": "be動詞 + going to + 動詞の原形 の順に並べる。"
+    },
+    {
+      "id": "g4-future-17",
+      "type": "order",
+      "ja": "私たちは公園に行きません。",
+      "words": [
+        "we",
+        "won't",
+        "go",
+        "to",
+        "the",
+        "park"
+      ],
+      "full": "We won't go to the park.",
+      "why": "won't（= will not）のあとに動詞の原形を置く。"
+    },
+    {
+      "id": "g4-future-18",
+      "type": "order",
+      "ja": "あなたのお父さんは早く帰ってきますか。",
+      "words": [
+        "will",
+        "your",
+        "father",
+        "come",
+        "home",
+        "early"
+      ],
+      "full": "Will your father come home early?",
+      "why": "will の疑問文は Will + 主語 + 動詞の原形 の順。"
+    },
+    {
+      "id": "g4-future-19",
+      "type": "order",
+      "ja": "私の姉はテニス部に入るつもりはありません。",
+      "words": [
+        "my",
+        "sister",
+        "isn't",
+        "going",
+        "to",
+        "join",
+        "the",
+        "tennis",
+        "team"
+      ],
+      "full": "My sister isn't going to join the tennis team.",
+      "why": "否定文は be動詞 + not のあとに going to + 原形。"
+    },
+    {
+      "id": "g4-future-20",
+      "type": "order",
+      "ja": "ケンは昼食に何を作るつもりですか。",
+      "words": [
+        "what",
+        "is",
+        "Ken",
+        "going",
+        "to",
+        "make",
+        "for",
+        "lunch"
+      ],
+      "full": "What is Ken going to make for lunch?",
+      "why": "What を文の最初に置き、あとは be動詞 + 主語 + going to。"
+    }
+  ]
+}

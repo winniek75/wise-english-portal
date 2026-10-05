@@ -1,0 +1,320 @@
+{
+  "id": "g4-comparison",
+  "grade": "4",
+  "title": "比較（-er than / the -est / more / most / as ... as）",
+  "points": [
+    "2つを比べるときは 比較級（-er / more 〜）+ than",
+    "3つ以上で一番は the + 最上級（-est / most）+ of / in",
+    "as 〜 as は「同じくらい」。good / well は better, best"
+  ],
+  "examples": [
+    {
+      "en": "Ken is taller than Tom.",
+      "ja": "ケンはトムより背が高いです。"
+    },
+    {
+      "en": "Mt. Fuji is the highest mountain in Japan.",
+      "ja": "富士山は日本で一番高い山です。"
+    },
+    {
+      "en": "I like dogs better than cats.",
+      "ja": "私はねこより犬のほうが好きです。"
+    }
+  ],
+  "questions": [
+    {
+      "id": "g4-comparison-01",
+      "type": "choice",
+      "q": "Ken is ___ than his father.",
+      "ja": "ケンはお父さんより背が高いです。",
+      "options": [
+        "tall",
+        "taller",
+        "tallest",
+        "more tall"
+      ],
+      "answer": 1,
+      "why": "than（〜より）があるので比較級。tall に er をつける。"
+    },
+    {
+      "id": "g4-comparison-02",
+      "type": "choice",
+      "q": "My bag is bigger ___ yours.",
+      "ja": "私のかばんはあなたのより大きいです。",
+      "options": [
+        "of",
+        "in",
+        "than",
+        "as"
+      ],
+      "answer": 2,
+      "why": "比較級（bigger）のあとに「〜より」の than を置く。"
+    },
+    {
+      "id": "g4-comparison-03",
+      "type": "choice",
+      "q": "This is the ___ river in Japan.",
+      "ja": "これは日本で一番長い川です。",
+      "options": [
+        "long",
+        "longer",
+        "more long",
+        "longest"
+      ],
+      "answer": 3,
+      "why": "the があり「一番〜」の意味なので、est をつけた最上級。"
+    },
+    {
+      "id": "g4-comparison-04",
+      "type": "choice",
+      "q": "This box is ___ than that one.",
+      "ja": "この箱はあの箱より大きいです。",
+      "options": [
+        "bigger",
+        "biger",
+        "more big",
+        "biggest"
+      ],
+      "answer": 0,
+      "why": "big は最後の g を重ねて er をつける。"
+    },
+    {
+      "id": "g4-comparison-05",
+      "type": "choice",
+      "q": "Math is ___ than science for me.",
+      "ja": "私には数学は理科よりかんたんです。",
+      "options": [
+        "easy",
+        "easyer",
+        "easier",
+        "easiest"
+      ],
+      "answer": 2,
+      "why": "easy は y を i にかえて er をつける。"
+    },
+    {
+      "id": "g4-comparison-06",
+      "type": "choice",
+      "q": "This book is ___ interesting than that one.",
+      "ja": "この本はあの本よりおもしろいです。",
+      "options": [
+        "more",
+        "most",
+        "much",
+        "very"
+      ],
+      "answer": 0,
+      "why": "interesting のような長い語の比較級は前に more を置く。"
+    },
+    {
+      "id": "g4-comparison-07",
+      "type": "choice",
+      "q": "Soccer is the ___ popular sport in my class.",
+      "ja": "サッカーは私のクラスで一番人気のあるスポーツです。",
+      "options": [
+        "more",
+        "much",
+        "best",
+        "most"
+      ],
+      "answer": 3,
+      "why": "popular のような長い語の最上級は the most 〜。"
+    },
+    {
+      "id": "g4-comparison-08",
+      "type": "choice",
+      "q": "Tom is the tallest ___ the three boys.",
+      "ja": "トムは3人の男の子の中で一番背が高いです。",
+      "options": [
+        "in",
+        "of",
+        "than",
+        "as"
+      ],
+      "answer": 1,
+      "why": "「〜の中で」は、数や複数を表す語の前では of を使う。"
+    },
+    {
+      "id": "g4-comparison-09",
+      "type": "choice",
+      "q": "Yumi runs the fastest ___ her class.",
+      "ja": "ユミはクラスで一番速く走ります。",
+      "options": [
+        "of",
+        "than",
+        "in",
+        "at"
+      ],
+      "answer": 2,
+      "why": "「〜の中で」は、クラスや場所などのまとまりの前では in。"
+    },
+    {
+      "id": "g4-comparison-10",
+      "type": "choice",
+      "q": "I am as ___ as my brother.",
+      "ja": "私は兄と同じくらいの背の高さです。",
+      "options": [
+        "taller",
+        "tall",
+        "tallest",
+        "more tall"
+      ],
+      "answer": 1,
+      "why": "as と as の間は、er も est もつけないもとの形。"
+    },
+    {
+      "id": "g4-comparison-11",
+      "type": "choice",
+      "q": "I like summer ___ than winter.",
+      "ja": "私は冬より夏のほうが好きです。",
+      "options": [
+        "good",
+        "well",
+        "best",
+        "better"
+      ],
+      "answer": 3,
+      "why": "like A better than B で「BよりAが好き」。"
+    },
+    {
+      "id": "g4-comparison-12",
+      "type": "choice",
+      "q": "I like baseball the ___ of all sports.",
+      "ja": "私はすべてのスポーツの中で野球が一番好きです。",
+      "options": [
+        "best",
+        "better",
+        "good",
+        "well"
+      ],
+      "answer": 0,
+      "why": "「一番好き」は like 〜 the best。the のあとは最上級。"
+    },
+    {
+      "id": "g4-comparison-13",
+      "type": "choice",
+      "q": "Which is larger, Canada ___ Japan?",
+      "ja": "カナダと日本では、どちらのほうが大きいですか。",
+      "options": [
+        "and",
+        "than",
+        "or",
+        "of"
+      ],
+      "answer": 2,
+      "why": "「AとBのどちらが〜か」は Which is 比較級, A or B?。"
+    },
+    {
+      "id": "g4-comparison-14",
+      "type": "choice",
+      "q": "My dog is not as big ___ yours.",
+      "ja": "私の犬はあなたの犬ほど大きくありません。",
+      "options": [
+        "than",
+        "as",
+        "so",
+        "of"
+      ],
+      "answer": 1,
+      "why": "not as 〜 as … で「…ほど〜ではない」。than は使わない。"
+    },
+    {
+      "id": "g4-comparison-15",
+      "type": "order",
+      "ja": "私は妹より年上です。",
+      "words": [
+        "I",
+        "am",
+        "older",
+        "than",
+        "my",
+        "sister"
+      ],
+      "full": "I am older than my sister.",
+      "why": "比較級（older）+ than + 比べる相手 の順。"
+    },
+    {
+      "id": "g4-comparison-16",
+      "type": "order",
+      "ja": "彼は私のクラスで一番背が高い男の子です。",
+      "words": [
+        "he",
+        "is",
+        "the",
+        "tallest",
+        "boy",
+        "in",
+        "my",
+        "class"
+      ],
+      "full": "He is the tallest boy in my class.",
+      "why": "the + 最上級 + 名詞 の順。「クラスで」は in。"
+    },
+    {
+      "id": "g4-comparison-17",
+      "type": "order",
+      "ja": "これらの問題はあの問題よりむずかしいです。",
+      "words": [
+        "these",
+        "questions",
+        "are",
+        "more",
+        "difficult",
+        "than",
+        "that",
+        "one"
+      ],
+      "full": "These questions are more difficult than that one.",
+      "why": "長い語の比較級は more + 形容詞 + than の順。"
+    },
+    {
+      "id": "g4-comparison-18",
+      "type": "order",
+      "ja": "あなたはどの季節が一番好きですか。",
+      "words": [
+        "which",
+        "season",
+        "do",
+        "you",
+        "like",
+        "the",
+        "best"
+      ],
+      "full": "Which season do you like the best?",
+      "why": "Which + 名詞 を最初に置く。「一番好き」は like 〜 the best。"
+    },
+    {
+      "id": "g4-comparison-19",
+      "type": "order",
+      "ja": "あなたの家族で一番若いのはだれですか。",
+      "words": [
+        "who",
+        "is",
+        "the",
+        "youngest",
+        "in",
+        "your",
+        "family"
+      ],
+      "full": "Who is the youngest in your family?",
+      "why": "Who を最初に置く。最上級の前には the をつける。"
+    },
+    {
+      "id": "g4-comparison-20",
+      "type": "order",
+      "ja": "彼女は日本で一番人気のある歌手です。",
+      "words": [
+        "she",
+        "is",
+        "the",
+        "most",
+        "popular",
+        "singer",
+        "in",
+        "Japan"
+      ],
+      "full": "She is the most popular singer in Japan.",
+      "why": "長い語の最上級は the most + 形容詞 + 名詞 の順。"
+    }
+  ]
+}

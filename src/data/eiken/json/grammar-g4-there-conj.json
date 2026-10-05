@@ -1,0 +1,319 @@
+{
+  "id": "g4-there-conj",
+  "grade": "4",
+  "title": "There is / are と接続詞（when / because / if / that）",
+  "points": [
+    "There is + 単数、There are + 複数。過去は was / were",
+    "when「〜のとき」 because「〜なので」 if「もし〜なら」",
+    "if・when のあとは未来のことも現在形。that は省略できる"
+  ],
+  "examples": [
+    {
+      "en": "There are five people in my family.",
+      "ja": "私の家族は5人です。"
+    },
+    {
+      "en": "When I got up, it was raining.",
+      "ja": "私が起きたとき、雨が降っていました。"
+    },
+    {
+      "en": "If it is sunny tomorrow, we will go to the park.",
+      "ja": "もし明日晴れたら、私たちは公園に行きます。"
+    }
+  ],
+  "questions": [
+    {
+      "id": "g4-there-conj-01",
+      "type": "choice",
+      "q": "There ___ a book on the desk.",
+      "ja": "つくえの上に本が1さつあります。",
+      "options": [
+        "is",
+        "are",
+        "am",
+        "be"
+      ],
+      "answer": 0,
+      "why": "あとの名詞が a book（1つ）なので There is。"
+    },
+    {
+      "id": "g4-there-conj-02",
+      "type": "choice",
+      "q": "There ___ three dogs in the park.",
+      "ja": "公園に犬が3びきいます。",
+      "options": [
+        "is",
+        "am",
+        "are",
+        "was"
+      ],
+      "answer": 2,
+      "why": "あとの名詞が three dogs（複数）なので There are。"
+    },
+    {
+      "id": "g4-there-conj-03",
+      "type": "choice",
+      "q": "___ there a library near your house?",
+      "ja": "あなたの家の近くに図書館はありますか。",
+      "options": [
+        "Are",
+        "Is",
+        "Does",
+        "Do"
+      ],
+      "answer": 1,
+      "why": "疑問文は be動詞を there の前に。a library は1つなので Is。"
+    },
+    {
+      "id": "g4-there-conj-04",
+      "type": "choice",
+      "q": "There ___ a big tree here ten years ago.",
+      "ja": "10年前、ここに大きな木がありました。",
+      "options": [
+        "is",
+        "are",
+        "were",
+        "was"
+      ],
+      "answer": 3,
+      "why": "ten years ago は過去。a big tree は1本なので was。"
+    },
+    {
+      "id": "g4-there-conj-05",
+      "type": "choice",
+      "q": "Is there a park near here? — No, there ___.",
+      "ja": "この近くに公園はありますか。— いいえ、ありません。",
+      "options": [
+        "aren't",
+        "doesn't",
+        "isn't",
+        "not"
+      ],
+      "answer": 2,
+      "why": "Is there 〜? には there is / there isn't で答える。"
+    },
+    {
+      "id": "g4-there-conj-06",
+      "type": "choice",
+      "q": "There ___ many people at the party last night.",
+      "ja": "昨夜のパーティーにはたくさんの人がいました。",
+      "options": [
+        "were",
+        "was",
+        "are",
+        "is"
+      ],
+      "answer": 0,
+      "why": "last night は過去。many people は複数なので were。"
+    },
+    {
+      "id": "g4-there-conj-07",
+      "type": "choice",
+      "q": "How many students ___ there in your class?",
+      "ja": "あなたのクラスには生徒が何人いますか。",
+      "options": [
+        "is",
+        "are",
+        "do",
+        "have"
+      ],
+      "answer": 1,
+      "why": "How many + 複数名詞 のあとは are there の順。"
+    },
+    {
+      "id": "g4-there-conj-08",
+      "type": "choice",
+      "q": "There ___ any chairs in this room.",
+      "ja": "この部屋にはいすが1つもありません。",
+      "options": [
+        "isn't",
+        "don't",
+        "doesn't",
+        "aren't"
+      ],
+      "answer": 3,
+      "why": "否定文は be動詞に not。chairs は複数なので aren't。"
+    },
+    {
+      "id": "g4-there-conj-09",
+      "type": "choice",
+      "q": "We didn't play soccer yesterday ___ it was raining.",
+      "ja": "雨が降っていたので、私たちは昨日サッカーをしませんでした。",
+      "options": [
+        "if",
+        "because",
+        "that",
+        "or"
+      ],
+      "answer": 1,
+      "why": "あとの文が理由を表すので、「〜なので」の because。"
+    },
+    {
+      "id": "g4-there-conj-10",
+      "type": "choice",
+      "q": "___ I was a child, I lived in Osaka.",
+      "ja": "私は子どものとき、大阪に住んでいました。",
+      "options": [
+        "If",
+        "That",
+        "When",
+        "Or"
+      ],
+      "answer": 2,
+      "why": "「〜のとき」と時を表すのは when。if は「もし〜なら」。"
+    },
+    {
+      "id": "g4-there-conj-11",
+      "type": "choice",
+      "q": "___ you are hungry, I will make lunch for you.",
+      "ja": "もしおなかがすいているなら、昼食を作ってあげます。",
+      "options": [
+        "If",
+        "That",
+        "But",
+        "Or"
+      ],
+      "answer": 0,
+      "why": "「もし〜なら」と条件を表すのは if。"
+    },
+    {
+      "id": "g4-there-conj-12",
+      "type": "choice",
+      "q": "If it ___ tomorrow, we will stay home.",
+      "ja": "もし明日雨が降ったら、私たちは家にいます。",
+      "options": [
+        "will rain",
+        "rained",
+        "rain",
+        "rains"
+      ],
+      "answer": 3,
+      "why": "if のあとは未来のことも現在形。主語が it なので rains。"
+    },
+    {
+      "id": "g4-there-conj-13",
+      "type": "choice",
+      "q": "I'll call you when I ___ home.",
+      "ja": "家に着いたら、あなたに電話します。",
+      "options": [
+        "will get",
+        "get",
+        "got",
+        "getting"
+      ],
+      "answer": 1,
+      "why": "when「〜のとき」のあとは未来のことも現在形で表す。"
+    },
+    {
+      "id": "g4-there-conj-14",
+      "type": "choice",
+      "q": "I think ___ Ken is a good tennis player.",
+      "ja": "私はケンはテニスが上手だと思います。",
+      "options": [
+        "when",
+        "if",
+        "that",
+        "because"
+      ],
+      "answer": 2,
+      "why": "I think that 〜 で「〜だと思う」。that は省略もできる。"
+    },
+    {
+      "id": "g4-there-conj-15",
+      "type": "order",
+      "ja": "テーブルの下にねこが2ひきいます。",
+      "words": [
+        "there",
+        "are",
+        "two",
+        "cats",
+        "under",
+        "the",
+        "table"
+      ],
+      "full": "There are two cats under the table.",
+      "why": "There are + 数 + 名詞 + 場所 の順に並べる。"
+    },
+    {
+      "id": "g4-there-conj-16",
+      "type": "order",
+      "ja": "この近くに駅はありますか。",
+      "words": [
+        "is",
+        "there",
+        "a",
+        "station",
+        "near",
+        "here"
+      ],
+      "full": "Is there a station near here?",
+      "why": "疑問文は be動詞を there の前に出す。"
+    },
+    {
+      "id": "g4-there-conj-17",
+      "type": "order",
+      "ja": "公園にはたくさんの人がいました。",
+      "words": [
+        "there",
+        "were",
+        "many",
+        "people",
+        "in",
+        "the",
+        "park"
+      ],
+      "full": "There were many people in the park.",
+      "why": "過去で複数なので There were。場所は最後に置く。"
+    },
+    {
+      "id": "g4-there-conj-18",
+      "type": "order",
+      "ja": "あなたのかばんには本が何さつ入っていますか。",
+      "words": [
+        "how",
+        "many",
+        "books",
+        "are",
+        "there",
+        "in",
+        "your",
+        "bag"
+      ],
+      "full": "How many books are there in your bag?",
+      "why": "How many + 複数名詞 + are there 〜? の順。"
+    },
+    {
+      "id": "g4-there-conj-19",
+      "type": "order",
+      "ja": "教室には生徒が1人もいません。",
+      "words": [
+        "there",
+        "aren't",
+        "any",
+        "students",
+        "in",
+        "the",
+        "classroom"
+      ],
+      "full": "There aren't any students in the classroom.",
+      "why": "否定文は There aren't any + 複数名詞。"
+    },
+    {
+      "id": "g4-there-conj-20",
+      "type": "order",
+      "ja": "彼女は私のプレゼントを気に入ると思います。",
+      "words": [
+        "I",
+        "think",
+        "that",
+        "she",
+        "will",
+        "like",
+        "my",
+        "present"
+      ],
+      "full": "I think that she will like my present.",
+      "why": "I think that のあとに「主語 + 動詞」の文を続ける。"
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "id": "p2-participle",
+  "grade": "p2",
+  "title": "分詞と分詞構文",
+  "points": [
+    "名詞を説明する分詞: 「〜している」は -ing、「〜された」は過去分詞",
+    "分詞構文: 主語が「する」側なら -ing、「される」側なら過去分詞",
+    "否定は Not -ing。with+名詞+分詞 で「〜したまま」"
+  ],
+  "examples": [
+    {
+      "en": "Walking along the river, I saw a beautiful bird.",
+      "ja": "川沿いを歩いているとき、私は美しい鳥を見ました。"
+    },
+    {
+      "en": "Seen from the sky, the island looks like a heart.",
+      "ja": "空から見ると、その島はハートのように見えます。"
+    },
+    {
+      "en": "He was sitting with his eyes closed.",
+      "ja": "彼は目を閉じてすわっていました。"
+    }
+  ],
+  "questions": [
+    {
+      "id": "p2-participle-01",
+      "type": "choice",
+      "q": "The girl ___ the piano on the stage is my sister.",
+      "ja": "舞台でピアノをひいている女の子は私の姉です。",
+      "options": [
+        "played",
+        "plays",
+        "playing",
+        "is playing"
+      ],
+      "answer": 2,
+      "why": "女の子は「ひいている」側。名詞のあとに -ing を置く。"
+    },
+    {
+      "id": "p2-participle-02",
+      "type": "choice",
+      "q": "This is a book ___ by a famous singer.",
+      "ja": "これは有名な歌手によって書かれた本です。",
+      "options": [
+        "written",
+        "writing",
+        "wrote",
+        "writes"
+      ],
+      "answer": 0,
+      "why": "本は「書かれた」側なので過去分詞。"
+    },
+    {
+      "id": "p2-participle-03",
+      "type": "choice",
+      "q": "Look at the dog ___ under the tree.",
+      "ja": "木の下でねむっている犬を見てください。",
+      "options": [
+        "slept",
+        "sleeping",
+        "sleeps",
+        "to sleep"
+      ],
+      "answer": 1,
+      "why": "犬は「ねむっている」側。-ing で名詞を説明する。"
+    },
+    {
+      "id": "p2-participle-04",
+      "type": "choice",
+      "q": "The language ___ in Australia is English.",
+      "ja": "オーストラリアで話されている言語は英語です。",
+      "options": [
+        "speaking",
+        "speaks",
+        "spoke",
+        "spoken"
+      ],
+      "answer": 3,
+      "why": "言語は「話される」側なので過去分詞。"
+    },
+    {
+      "id": "p2-participle-05",
+      "type": "choice",
+      "q": "___ along the river, I saw a beautiful bird.",
+      "ja": "川沿いを歩いているとき、私は美しい鳥を見ました。",
+      "options": [
+        "Walking",
+        "Walked",
+        "Walk",
+        "Walks"
+      ],
+      "answer": 0,
+      "why": "主語 I が「歩く」側なので -ing で始める。"
+    },
+    {
+      "id": "p2-participle-06",
+      "type": "choice",
+      "q": "I found a ___ window in the classroom.",
+      "ja": "私は教室で割れた窓を見つけました。",
+      "options": [
+        "breaking",
+        "break",
+        "broken",
+        "broke"
+      ],
+      "answer": 2,
+      "why": "窓は「割られた」側。過去分詞1語なら名詞の前。"
+    },
+    {
+      "id": "p2-participle-07",
+      "type": "choice",
+      "q": "___ from the sky, the island looks like a heart.",
+      "ja": "空から見ると、その島はハートのように見えます。",
+      "options": [
+        "Seeing",
+        "Seen",
+        "See",
+        "Saw"
+      ],
+      "answer": 1,
+      "why": "主語の島は「見られる」側なので過去分詞。"
+    },
+    {
+      "id": "p2-participle-08",
+      "type": "choice",
+      "q": "___ very tired, Ken went to bed early.",
+      "ja": "とてもつかれていたので、ケンは早くねました。",
+      "options": [
+        "Felt",
+        "Feel",
+        "Feels",
+        "Feeling"
+      ],
+      "answer": 3,
+      "why": "主語 Ken が「感じる」側なので -ing。理由を表す。"
+    },
+    {
+      "id": "p2-participle-09",
+      "type": "choice",
+      "q": "___ what to do, I asked my teacher for advice.",
+      "ja": "どうすればよいか分からなかったので、私は先生に助言を求めました。",
+      "options": [
+        "Knowing not",
+        "Not knowing",
+        "Not known",
+        "Don't know"
+      ],
+      "answer": 1,
+      "why": "分詞構文の否定は分詞の前に Not を置く。"
+    },
+    {
+      "id": "p2-participle-10",
+      "type": "choice",
+      "q": "My father was sitting on the sofa with his eyes ___.",
+      "ja": "父は目を閉じてソファーにすわっていました。",
+      "options": [
+        "closed",
+        "closing",
+        "close",
+        "to close"
+      ],
+      "answer": 0,
+      "why": "目は「閉じられる」側。with+名詞+過去分詞。"
+    },
+    {
+      "id": "p2-participle-11",
+      "type": "choice",
+      "q": "___ in easy English, this book is good for beginners.",
+      "ja": "やさしい英語で書かれているので、この本は初心者によいです。",
+      "options": [
+        "Writing",
+        "Wrote",
+        "Written",
+        "Write"
+      ],
+      "answer": 2,
+      "why": "主語の本は「書かれる」側なので過去分詞。"
+    },
+    {
+      "id": "p2-participle-12",
+      "type": "choice",
+      "q": "The boy came into the room ___ a song.",
+      "ja": "その男の子は歌を歌いながら部屋に入ってきました。",
+      "options": [
+        "sung",
+        "sang",
+        "sings",
+        "singing"
+      ],
+      "answer": 3,
+      "why": "「〜しながら」は -ing。男の子が「歌う」側。"
+    },
+    {
+      "id": "p2-participle-13",
+      "type": "choice",
+      "q": "Tom ran to me with his dog ___ him.",
+      "ja": "トムは犬をあとに従えて私のところへ走ってきました。",
+      "options": [
+        "followed",
+        "following",
+        "follows",
+        "follow"
+      ],
+      "answer": 1,
+      "why": "犬は「ついていく」側。with+名詞+-ing。"
+    },
+    {
+      "id": "p2-participle-14",
+      "type": "choice",
+      "q": "___ to the party, Tom was very happy.",
+      "ja": "パーティーに招待されて、トムはとてもうれしかったです。",
+      "options": [
+        "Invited",
+        "Inviting",
+        "Invite",
+        "To invite"
+      ],
+      "answer": 0,
+      "why": "主語 Tom は「招待される」側なので過去分詞。"
+    },
+    {
+      "id": "p2-participle-15",
+      "type": "order",
+      "ja": "私は向こうでテニスをしている少年を知っています。",
+      "words": [
+        "I",
+        "know",
+        "the",
+        "boy",
+        "playing",
+        "tennis",
+        "over",
+        "there"
+      ],
+      "full": "I know the boy playing tennis over there.",
+      "why": "-ing が語句をともなうときは名詞のあとに置く。"
+    },
+    {
+      "id": "p2-participle-16",
+      "type": "order",
+      "ja": "これは私のおじによって撮られた写真です。",
+      "words": [
+        "this",
+        "is",
+        "a",
+        "picture",
+        "taken",
+        "by",
+        "my",
+        "uncle"
+      ],
+      "full": "This is a picture taken by my uncle.",
+      "why": "写真は「撮られた」側。名詞+過去分詞+by 〜。"
+    },
+    {
+      "id": "p2-participle-17",
+      "type": "order",
+      "ja": "トムはテレビをつけたままねむってしまいました。",
+      "words": [
+        "Tom",
+        "fell",
+        "asleep",
+        "with",
+        "the",
+        "TV",
+        "turned",
+        "on"
+      ],
+      "full": "Tom fell asleep with the TV turned on.",
+      "why": "with+名詞+過去分詞 で「〜を…したまま」。"
+    },
+    {
+      "id": "p2-participle-18",
+      "type": "order",
+      "ja": "スマートフォンを見ながら歩いてはいけません。",
+      "words": [
+        "don't",
+        "walk",
+        "looking",
+        "at",
+        "your",
+        "phone"
+      ],
+      "full": "Don't walk looking at your phone.",
+      "why": "「〜しながら」は動詞のあとに -ing を続ける。"
+    },
+    {
+      "id": "p2-participle-19",
+      "type": "order",
+      "ja": "私たちは祖父によって建てられた家に住んでいます。",
+      "words": [
+        "we",
+        "live",
+        "in",
+        "a",
+        "house",
+        "built",
+        "by",
+        "my",
+        "grandfather"
+      ],
+      "full": "We live in a house built by my grandfather.",
+      "why": "家は「建てられた」側。名詞のあとに過去分詞。"
+    },
+    {
+      "id": "p2-participle-20",
+      "type": "order",
+      "ja": "彼女は顔に涙を流しながら話しました。",
+      "words": [
+        "she",
+        "spoke",
+        "with",
+        "tears",
+        "running",
+        "down",
+        "her",
+        "face"
+      ],
+      "full": "She spoke with tears running down her face.",
+      "why": "涙は「流れる」側なので with+名詞+-ing。"
+    }
+  ]
+}

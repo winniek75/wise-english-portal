@@ -1,0 +1,37 @@
+{
+  "id": "g3-infinitive",
+  "grade": "3",
+  "title": "不定詞の応用（It is ... to ～ / how to ～ / want 人 to ～）",
+  "points": [
+    "It is ... (for 人) to ～ で「(人にとって)～するのは…だ」",
+    "how / what to ～ など、want / tell / ask 人 to ～",
+    "too ... to ～、形容詞 + enough to ～、名詞 + to ～"
+  ],
+  "examples": [
+    { "en": "It is fun for me to play the piano.", "ja": "私にとってピアノをひくことは楽しいです。" },
+    { "en": "My father told me to come home early.", "ja": "父は私に早く帰ってくるように言いました。" },
+    { "en": "I was too busy to watch TV.", "ja": "私は忙しすぎてテレビを見られませんでした。" }
+  ],
+  "questions": [
+    { "id": "g3-infinitive-01", "type": "choice", "q": "It is important ___ English every day.", "ja": "毎日英語を勉強することは大切です。", "options": ["study", "to study", "studied", "studies"], "answer": 1, "why": "It is ... のあとは to + 動詞の原形で「～することは」を表す。" },
+    { "id": "g3-infinitive-02", "type": "choice", "q": "I want something cold ___.", "ja": "私は何か冷たい飲み物がほしいです。", "options": ["drinking", "drink", "drank", "to drink"], "answer": 3, "why": "something のあとに to + 動詞の原形を置くと「～するための何か」。" },
+    { "id": "g3-infinitive-03", "type": "choice", "q": "Do you know ___ to use this computer?", "ja": "あなたはこのコンピューターの使い方を知っていますか。", "options": ["how", "what", "who", "which"], "answer": 0, "why": "「～のしかた」は how to + 動詞の原形で表す。" },
+    { "id": "g3-infinitive-04", "type": "choice", "q": "I asked my father ___ me to the station.", "ja": "私は父に駅まで連れて行ってくれるように頼みました。", "options": ["take", "took", "to take", "taking"], "answer": 2, "why": "ask 人 to + 動詞の原形で「人に～するように頼む」。" },
+    { "id": "g3-infinitive-05", "type": "choice", "q": "It is easy ___ me to ride a bike.", "ja": "私にとって自転車に乗ることは簡単です。", "options": ["of", "for", "to", "with"], "answer": 1, "why": "「人にとって」は to ～ の前に for 人 を置いて表す。" },
+    { "id": "g3-infinitive-06", "type": "choice", "q": "Do you want me ___ the window?", "ja": "あなたは私に窓を開けてほしいですか。", "options": ["to open", "open", "opening", "opened"], "answer": 0, "why": "want 人 to + 動詞の原形で「人に～してほしい」。" },
+    { "id": "g3-infinitive-07", "type": "choice", "q": "Tom didn't know ___ to say to his teacher.", "ja": "トムは先生に何と言えばよいか分かりませんでした。", "options": ["how", "where", "who", "what"], "answer": 3, "why": "say の目的語になる「何を～すればよいか」は what to ～。" },
+    { "id": "g3-infinitive-08", "type": "choice", "q": "This tea is too hot ___.", "ja": "このお茶は熱すぎて飲めません。", "options": ["drink", "drinking", "to drink", "drank"], "answer": 2, "why": "too ... to + 動詞の原形で「…すぎて～できない」。" },
+    { "id": "g3-infinitive-09", "type": "choice", "q": "Please tell me ___ to put this box.", "ja": "この箱をどこに置けばよいか教えてください。", "options": ["what", "where", "who", "which"], "answer": 1, "why": "「どこに～すればよいか」は where to + 動詞の原形。" },
+    { "id": "g3-infinitive-10", "type": "choice", "q": "Ken's brother is ___ to drive a car.", "ja": "ケンのお兄さんは車を運転できる年齢です。", "options": ["enough old", "old too", "more old", "old enough"], "answer": 3, "why": "enough は形容詞のあとに置く（形容詞 + enough to ～）。" },
+    { "id": "g3-infinitive-11", "type": "choice", "q": "My teacher ___ us to read more books.", "ja": "先生は私たちにもっと本を読むように言いました。", "options": ["said", "spoke", "told", "talked"], "answer": 2, "why": "「人に～するように言う」は tell 人 to ～。say は使えない。" },
+    { "id": "g3-infinitive-12", "type": "choice", "q": "I was ___ tired to do my homework last night.", "ja": "私は昨夜、疲れすぎて宿題ができませんでした。", "options": ["too", "enough", "much", "more"], "answer": 0, "why": "「…すぎて～できない」は too + 形容詞 + to ～。" },
+    { "id": "g3-infinitive-13", "type": "choice", "q": "Is it difficult for ___ to get up early?", "ja": "彼にとって早く起きることは難しいですか。", "options": ["he", "him", "his", "he's"], "answer": 1, "why": "for のあとの代名詞は「～を／に」の形（him）にする。" },
+    { "id": "g3-infinitive-14", "type": "choice", "q": "The box was light enough ___ to carry.", "ja": "その箱は私が運べるくらい軽かったです。", "options": ["to me", "of me", "with me", "for me"], "answer": 3, "why": "to ～ をする人は、to の前に for 人 を置いて表す。" },
+    { "id": "g3-infinitive-15", "type": "order", "ja": "私にはテレビを見る時間がありません。", "words": ["I", "don't", "have", "time", "to", "watch", "TV"], "full": "I don't have time to watch TV.", "why": "名詞のあとに to + 動詞の原形を置くと「～するための…」になる。" },
+    { "id": "g3-infinitive-16", "type": "order", "ja": "彼はギターのひき方を知っています。", "words": ["he", "knows", "how", "to", "play", "the", "guitar"], "full": "He knows how to play the guitar.", "why": "how to + 動詞の原形で「～のしかた」。knows のあとに置く。" },
+    { "id": "g3-infinitive-17", "type": "order", "ja": "あなたにとって英語を話すことは簡単ですか。", "words": ["is", "it", "easy", "for", "you", "to", "speak", "English"], "full": "Is it easy for you to speak English?", "why": "疑問文は Is it ... の順。for 人 は to ～ の前に置く。" },
+    { "id": "g3-infinitive-18", "type": "order", "ja": "私は彼にもっとゆっくり話してほしいです。", "words": ["I", "want", "him", "to", "speak", "more", "slowly"], "full": "I want him to speak more slowly.", "why": "want + 人 + to + 動詞の原形の順で「人に～してほしい」。" },
+    { "id": "g3-infinitive-19", "type": "order", "ja": "彼女は私に、いつ家を出ればよいかたずねました。", "words": ["she", "asked", "me", "when", "to", "leave", "home"], "full": "She asked me when to leave home.", "why": "when to + 動詞の原形で「いつ～すればよいか」。" },
+    { "id": "g3-infinitive-20", "type": "order", "ja": "私は眠すぎて宿題を終えられませんでした。", "words": ["I", "was", "too", "sleepy", "to", "finish", "my", "homework"], "full": "I was too sleepy to finish my homework.", "why": "too + 形容詞 + to + 動詞の原形の順で「…すぎて～できない」。" }
+  ]
+}

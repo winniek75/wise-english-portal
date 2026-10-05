@@ -1,0 +1,314 @@
+{
+  "id": "g4-pastprog-svoo",
+  "grade": "4",
+  "title": "過去進行形と「人に物を〜する」（give / show / tell など）",
+  "points": [
+    "過去進行形は was / were + 動詞の ing形「〜していた」",
+    "give / show / tell などは「人 + 物」の順に並べる",
+    "物を先にするときは to 人（buy は for 人）。人は me, him など"
+  ],
+  "examples": [
+    {
+      "en": "I was watching TV at eight last night.",
+      "ja": "私は昨夜8時にテレビを見ていました。"
+    },
+    {
+      "en": "When Tom came, we were eating lunch.",
+      "ja": "トムが来たとき、私たちは昼食を食べていました。"
+    },
+    {
+      "en": "Mr. Smith showed us some pictures.",
+      "ja": "スミス先生は私たちに写真を何枚か見せてくれました。"
+    }
+  ],
+  "questions": [
+    {
+      "id": "g4-pastprog-svoo-01",
+      "type": "choice",
+      "q": "I ___ watching TV at nine last night.",
+      "ja": "私は昨夜9時にテレビを見ていました。",
+      "options": [
+        "was",
+        "were",
+        "am",
+        "did"
+      ],
+      "answer": 0,
+      "why": "過去進行形は was / were + ing形。主語が I なら was。"
+    },
+    {
+      "id": "g4-pastprog-svoo-02",
+      "type": "choice",
+      "q": "They ___ playing soccer an hour ago.",
+      "ja": "彼らは1時間前サッカーをしていました。",
+      "options": [
+        "was",
+        "are",
+        "were",
+        "did"
+      ],
+      "answer": 2,
+      "why": "an hour ago は過去。主語が They（複数）なので were。"
+    },
+    {
+      "id": "g4-pastprog-svoo-03",
+      "type": "choice",
+      "q": "Yumi was ___ a letter then.",
+      "ja": "ユミはそのとき手紙を書いていました。",
+      "options": [
+        "write",
+        "writing",
+        "wrote",
+        "writes"
+      ],
+      "answer": 1,
+      "why": "was のあとは ing形。write は e をとって ing をつける。"
+    },
+    {
+      "id": "g4-pastprog-svoo-04",
+      "type": "choice",
+      "q": "My father gave ___ a new bike.",
+      "ja": "父は私に新しい自転車をくれました。",
+      "options": [
+        "I",
+        "my",
+        "mine",
+        "me"
+      ],
+      "answer": 3,
+      "why": "give のあとの「人」は目的格。I は me になる。"
+    },
+    {
+      "id": "g4-pastprog-svoo-05",
+      "type": "choice",
+      "q": "When I came home, my mother ___ cooking dinner.",
+      "ja": "私が家に帰ったとき、母は夕食を作っていました。",
+      "options": [
+        "is",
+        "were",
+        "was",
+        "did"
+      ],
+      "answer": 2,
+      "why": "「〜したとき、…していた」は過去進行形。母1人なので was。"
+    },
+    {
+      "id": "g4-pastprog-svoo-06",
+      "type": "choice",
+      "q": "What ___ you doing at seven last night?",
+      "ja": "あなたは昨夜7時に何をしていましたか。",
+      "options": [
+        "were",
+        "was",
+        "did",
+        "are"
+      ],
+      "answer": 0,
+      "why": "doing があるので過去進行形。you には were を使う。"
+    },
+    {
+      "id": "g4-pastprog-svoo-07",
+      "type": "choice",
+      "q": "Mr. Smith told ___ an interesting story.",
+      "ja": "スミス先生は私たちにおもしろい話をしてくれました。",
+      "options": [
+        "we",
+        "us",
+        "our",
+        "ours"
+      ],
+      "answer": 1,
+      "why": "tell のあとの「人」は目的格。we は us になる。"
+    },
+    {
+      "id": "g4-pastprog-svoo-08",
+      "type": "choice",
+      "q": "Were you sleeping then? — No, I ___.",
+      "ja": "あなたはそのときねていましたか。— いいえ、ねていませんでした。",
+      "options": [
+        "weren't",
+        "didn't",
+        "don't",
+        "wasn't"
+      ],
+      "answer": 3,
+      "why": "Were you 〜? には was で答える。I なので wasn't。"
+    },
+    {
+      "id": "g4-pastprog-svoo-09",
+      "type": "choice",
+      "q": "My uncle sent ___.",
+      "ja": "おじは私にカードを送ってくれました。",
+      "options": [
+        "a card me",
+        "me to a card",
+        "me a card",
+        "a card to I"
+      ],
+      "answer": 2,
+      "why": "send は「人 + 物」の順。物を先にするなら to me。"
+    },
+    {
+      "id": "g4-pastprog-svoo-10",
+      "type": "choice",
+      "q": "I gave some flowers ___ my mother.",
+      "ja": "私は母に花をあげました。",
+      "options": [
+        "for",
+        "to",
+        "of",
+        "at"
+      ],
+      "answer": 1,
+      "why": "give は「物 + to + 人」の形にする。"
+    },
+    {
+      "id": "g4-pastprog-svoo-11",
+      "type": "choice",
+      "q": "My father bought a bike ___ me.",
+      "ja": "父は私に自転車を買ってくれました。",
+      "options": [
+        "to",
+        "of",
+        "at",
+        "for"
+      ],
+      "answer": 3,
+      "why": "buy は「物 + for + 人」の形。to ではなく for を使う。"
+    },
+    {
+      "id": "g4-pastprog-svoo-12",
+      "type": "choice",
+      "q": "Ken ___ studying when I called him. He was sleeping.",
+      "ja": "私が電話したとき、ケンは勉強していませんでした。ねていました。",
+      "options": [
+        "wasn't",
+        "weren't",
+        "didn't",
+        "isn't"
+      ],
+      "answer": 0,
+      "why": "ing形があるので過去進行形の否定。Ken なので wasn't。"
+    },
+    {
+      "id": "g4-pastprog-svoo-13",
+      "type": "choice",
+      "q": "I sent ___ a birthday card.",
+      "ja": "私は彼女に誕生日カードを送りました。",
+      "options": [
+        "she",
+        "hers",
+        "her",
+        "he"
+      ],
+      "answer": 2,
+      "why": "send のあとの「人」は目的格。she は her になる。"
+    },
+    {
+      "id": "g4-pastprog-svoo-14",
+      "type": "choice",
+      "q": "Ken was ___ in the pool when I saw him.",
+      "ja": "私が見たとき、ケンはプールで泳いでいました。",
+      "options": [
+        "swim",
+        "swimming",
+        "swiming",
+        "swam"
+      ],
+      "answer": 1,
+      "why": "swim は最後の m を重ねて ing をつける。"
+    },
+    {
+      "id": "g4-pastprog-svoo-15",
+      "type": "order",
+      "ja": "私は宿題をしていました。",
+      "words": [
+        "I",
+        "was",
+        "doing",
+        "my",
+        "homework"
+      ],
+      "full": "I was doing my homework.",
+      "why": "was + 動詞の ing形 で「〜していた」。"
+    },
+    {
+      "id": "g4-pastprog-svoo-16",
+      "type": "order",
+      "ja": "私たちは公園でテニスをしていました。",
+      "words": [
+        "we",
+        "were",
+        "playing",
+        "tennis",
+        "in",
+        "the",
+        "park"
+      ],
+      "full": "We were playing tennis in the park.",
+      "why": "主語が We なので were + ing形。場所は最後に置く。"
+    },
+    {
+      "id": "g4-pastprog-svoo-17",
+      "type": "order",
+      "ja": "ケンは台所で何を作っていましたか。",
+      "words": [
+        "what",
+        "was",
+        "Ken",
+        "making",
+        "in",
+        "the",
+        "kitchen"
+      ],
+      "full": "What was Ken making in the kitchen?",
+      "why": "What + was + 主語 + ing形 の順に並べる。"
+    },
+    {
+      "id": "g4-pastprog-svoo-18",
+      "type": "order",
+      "ja": "おばは私にうで時計をくれました。",
+      "words": [
+        "my",
+        "aunt",
+        "gave",
+        "me",
+        "a",
+        "watch"
+      ],
+      "full": "My aunt gave me a watch.",
+      "why": "give + 人 + 物 の順。「人」が先にくる。"
+    },
+    {
+      "id": "g4-pastprog-svoo-19",
+      "type": "order",
+      "ja": "あなたのノートを私に見せてくれませんか。",
+      "words": [
+        "can",
+        "you",
+        "show",
+        "me",
+        "your",
+        "notebook"
+      ],
+      "full": "Can you show me your notebook?",
+      "why": "show + 人 + 物 の順。「人」は目的格の me。"
+    },
+    {
+      "id": "g4-pastprog-svoo-20",
+      "type": "order",
+      "ja": "私は弟にぼうしを買いました。",
+      "words": [
+        "I",
+        "bought",
+        "a",
+        "cap",
+        "for",
+        "my",
+        "brother"
+      ],
+      "full": "I bought a cap for my brother.",
+      "why": "buy + 物 + for + 人 の順に並べる。"
+    }
+  ]
+}

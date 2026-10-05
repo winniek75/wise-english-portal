@@ -1,0 +1,1157 @@
+{
+  "grade": "p2",
+  "sets": [
+    {
+      "n": 1,
+      "theme": "仕事",
+      "words": [
+        {
+          "en": "hire",
+          "ja": "雇う",
+          "pos": "動",
+          "ex": "The company will hire ten new workers next spring.",
+          "exJa": "その会社は来年の春、新しい社員を10人雇います。"
+        },
+        {
+          "en": "earn",
+          "ja": "稼ぐ",
+          "pos": "動",
+          "ex": "She works on weekends to earn extra money for college.",
+          "exJa": "彼女は大学のためのお金を余分に稼ぐために週末働いています。"
+        },
+        {
+          "en": "career",
+          "ja": "職業",
+          "pos": "名",
+          "ex": "Ken wants to start his career as a chef in Tokyo.",
+          "exJa": "ケンは東京で料理人としての職業人生を始めたいと思っています。"
+        },
+        {
+          "en": "salary",
+          "ja": "給料",
+          "pos": "名",
+          "ex": "The company pays him a high salary every month.",
+          "exJa": "会社は彼に毎月高い給料を払っています。"
+        },
+        {
+          "en": "responsible",
+          "ja": "責任がある",
+          "pos": "形",
+          "ex": "Each student is responsible for cleaning the classroom.",
+          "exJa": "生徒一人ひとりが教室の掃除に責任があります。"
+        },
+        {
+          "en": "eventually",
+          "ja": "最終的に",
+          "pos": "副",
+          "ex": "After many tries, Tom eventually passed the driving test.",
+          "exJa": "何度も挑戦したあと、トムは最終的に運転免許の試験に合格しました。"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "theme": "健康",
+      "words": [
+        {
+          "en": "prevent",
+          "ja": "防ぐ",
+          "pos": "動",
+          "ex": "Washing your hands can prevent many colds in winter.",
+          "exJa": "手を洗うことで冬の多くのかぜを防ぐことができます。"
+        },
+        {
+          "en": "recommend",
+          "ja": "勧める",
+          "pos": "動",
+          "ex": "Can you recommend a good restaurant near the station?",
+          "exJa": "駅の近くのよいレストランを勧めてくれますか。"
+        },
+        {
+          "en": "habit",
+          "ja": "習慣",
+          "pos": "名",
+          "ex": "I have a habit of reading before I go to bed.",
+          "exJa": "私には寝る前に本を読む習慣があります。"
+        },
+        {
+          "en": "effect",
+          "ja": "効果",
+          "pos": "名",
+          "ex": "The medicine had a strong effect on my headache.",
+          "exJa": "その薬は私の頭痛に強い効果がありました。"
+        },
+        {
+          "en": "harmful",
+          "ja": "有害な",
+          "pos": "形",
+          "ex": "Too much sunlight can be harmful to your skin.",
+          "exJa": "日光の浴びすぎは肌に有害なことがあります。"
+        },
+        {
+          "en": "regular",
+          "ja": "定期的な",
+          "pos": "形",
+          "ex": "Doctors say that regular exercise keeps your body strong.",
+          "exJa": "医師は、定期的な運動が体を丈夫に保つと言っています。"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "theme": "学校",
+      "words": [
+        {
+          "en": "improve",
+          "ja": "上達させる",
+          "pos": "動",
+          "ex": "I listen to the radio every day to improve my English.",
+          "exJa": "私は英語を上達させるために毎日ラジオを聞いています。"
+        },
+        {
+          "en": "participate",
+          "ja": "参加する",
+          "pos": "動",
+          "ex": "Over fifty students will participate in the speech contest.",
+          "exJa": "50人以上の生徒がスピーチコンテストに参加します。"
+        },
+        {
+          "en": "education",
+          "ja": "教育",
+          "pos": "名",
+          "ex": "She went to college to continue her education.",
+          "exJa": "彼女は教育を受け続けるために大学へ進みました。"
+        },
+        {
+          "en": "knowledge",
+          "ja": "知識",
+          "pos": "名",
+          "ex": "Mr. Smith has a deep knowledge of Japanese history.",
+          "exJa": "スミス先生は日本の歴史について深い知識を持っています。"
+        },
+        {
+          "en": "confident",
+          "ja": "自信がある",
+          "pos": "形",
+          "ex": "After practicing a lot, Yumi felt confident about her speech.",
+          "exJa": "たくさん練習したので、ユミはスピーチに自信がありました。"
+        },
+        {
+          "en": "mostly",
+          "ja": "主に",
+          "pos": "副",
+          "ex": "The students in this class are mostly from Asia.",
+          "exJa": "このクラスの生徒は主にアジア出身です。"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "theme": "社会",
+      "words": [
+        {
+          "en": "provide",
+          "ja": "提供する",
+          "pos": "動",
+          "ex": "The hotel will provide towels and soap for all guests.",
+          "exJa": "そのホテルはすべての宿泊客にタオルと石けんを提供します。"
+        },
+        {
+          "en": "depend",
+          "ja": "頼る",
+          "pos": "動",
+          "ex": "Japan has to depend on other countries for oil.",
+          "exJa": "日本は石油を他の国々に頼らなければなりません。"
+        },
+        {
+          "en": "society",
+          "ja": "社会",
+          "pos": "名",
+          "ex": "Older people play an important role in our society.",
+          "exJa": "お年寄りは私たちの社会で大切な役割を果たしています。"
+        },
+        {
+          "en": "population",
+          "ja": "人口",
+          "pos": "名",
+          "ex": "The population of this town is about fifty thousand.",
+          "exJa": "この町の人口は約5万人です。"
+        },
+        {
+          "en": "common",
+          "ja": "よくある",
+          "pos": "形",
+          "ex": "Tanaka is a very common family name in Japan.",
+          "exJa": "田中は日本でとてもよくある名字です。"
+        },
+        {
+          "en": "despite",
+          "ja": "〜にもかかわらず",
+          "pos": "前",
+          "ex": "We enjoyed the festival despite the heavy rain.",
+          "exJa": "大雨にもかかわらず、私たちは祭りを楽しみました。"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "theme": "数と変化",
+      "words": [
+        {
+          "en": "increase",
+          "ja": "増やす",
+          "pos": "動",
+          "ex": "The zoo wants to increase the number of visitors this year.",
+          "exJa": "その動物園は今年、来園者の数を増やしたいと思っています。"
+        },
+        {
+          "en": "notice",
+          "ja": "気づく",
+          "pos": "動",
+          "ex": "Did you notice that Emma got a haircut?",
+          "exJa": "エマが髪を切ったことに気づきましたか。"
+        },
+        {
+          "en": "amount",
+          "ja": "量",
+          "pos": "名",
+          "ex": "A large amount of water is used in this factory.",
+          "exJa": "この工場では大量の水が使われています。"
+        },
+        {
+          "en": "average",
+          "ja": "平均",
+          "pos": "名",
+          "ex": "Tom's test score was above the class average.",
+          "exJa": "トムのテストの点数はクラスの平均より上でした。"
+        },
+        {
+          "en": "likely",
+          "ja": "ありそうな",
+          "pos": "形",
+          "ex": "It is likely to rain this afternoon, so take an umbrella.",
+          "exJa": "今日の午後は雨が降りそうなので、かさを持って行きなさい。"
+        },
+        {
+          "en": "nearly",
+          "ja": "ほぼ",
+          "pos": "副",
+          "ex": "It took nearly three hours to get to the airport.",
+          "exJa": "空港に着くのにほぼ3時間かかりました。"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "theme": "町と観光",
+      "words": [
+        {
+          "en": "attract",
+          "ja": "引きつける",
+          "pos": "動",
+          "ex": "The new museum will attract many tourists to our city.",
+          "exJa": "新しい博物館は多くの観光客を私たちの市に引きつけるでしょう。"
+        },
+        {
+          "en": "explore",
+          "ja": "探検する",
+          "pos": "動",
+          "ex": "We rented bikes to explore the old town.",
+          "exJa": "私たちは旧市街を探検するために自転車を借りました。"
+        },
+        {
+          "en": "region",
+          "ja": "地域",
+          "pos": "名",
+          "ex": "This region of Japan is famous for its hot springs.",
+          "exJa": "日本のこの地域は温泉で有名です。"
+        },
+        {
+          "en": "distance",
+          "ja": "距離",
+          "pos": "名",
+          "ex": "The distance from my house to school is two kilometers.",
+          "exJa": "私の家から学校までの距離は2キロです。"
+        },
+        {
+          "en": "ancient",
+          "ja": "古代の",
+          "pos": "形",
+          "ex": "People in ancient times used stones as tools.",
+          "exJa": "古代の人々は石を道具として使っていました。"
+        },
+        {
+          "en": "rural",
+          "ja": "田舎の",
+          "pos": "形",
+          "ex": "Life in rural areas is quieter than life in big cities.",
+          "exJa": "田舎の地域での生活は大都市での生活より静かです。"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "theme": "問題解決",
+      "words": [
+        {
+          "en": "require",
+          "ja": "必要とする",
+          "pos": "動",
+          "ex": "Most jobs at this company require good computer skills.",
+          "exJa": "この会社のほとんどの仕事は高いコンピューター技能を必要とします。"
+        },
+        {
+          "en": "achieve",
+          "ja": "達成する",
+          "pos": "動",
+          "ex": "You must work hard to achieve your goal.",
+          "exJa": "目標を達成するには一生懸命努力しなければなりません。"
+        },
+        {
+          "en": "detail",
+          "ja": "詳細",
+          "pos": "名",
+          "ex": "The teacher explained the new rules in detail.",
+          "exJa": "先生は新しい規則を詳細に説明しました。"
+        },
+        {
+          "en": "method",
+          "ja": "方法",
+          "pos": "名",
+          "ex": "This is a new method of teaching English to children.",
+          "exJa": "これは子どもに英語を教える新しい方法です。"
+        },
+        {
+          "en": "complex",
+          "ja": "複雑な",
+          "pos": "形",
+          "ex": "The rules of this game are too complex for small children.",
+          "exJa": "このゲームのルールは小さな子どもには複雑すぎます。"
+        },
+        {
+          "en": "therefore",
+          "ja": "それゆえに",
+          "pos": "副",
+          "ex": "The bus was late. Therefore, I missed the first class.",
+          "exJa": "バスが遅れました。それゆえに、私は1時間目の授業に間に合いませんでした。"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "theme": "本とメディア",
+      "words": [
+        {
+          "en": "avoid",
+          "ja": "避ける",
+          "pos": "動",
+          "ex": "Leave home early to avoid the morning traffic.",
+          "exJa": "朝の渋滞を避けるために早く家を出なさい。"
+        },
+        {
+          "en": "publish",
+          "ja": "出版する",
+          "pos": "動",
+          "ex": "The company will publish her first novel next month.",
+          "exJa": "その会社は来月、彼女の最初の小説を出版します。"
+        },
+        {
+          "en": "chapter",
+          "ja": "章",
+          "pos": "名",
+          "ex": "I read the first chapter of the novel last night.",
+          "exJa": "昨夜、その小説の最初の章を読みました。"
+        },
+        {
+          "en": "author",
+          "ja": "著者",
+          "pos": "名",
+          "ex": "The author of this book lives in a small town.",
+          "exJa": "この本の著者は小さな町に住んでいます。"
+        },
+        {
+          "en": "familiar",
+          "ja": "なじみのある",
+          "pos": "形",
+          "ex": "This song sounds familiar, but I can't remember its name.",
+          "exJa": "この歌はなじみがあるのですが、曲名が思い出せません。"
+        },
+        {
+          "en": "recently",
+          "ja": "最近",
+          "pos": "副",
+          "ex": "Have you seen any good movies recently?",
+          "exJa": "最近、何かよい映画を見ましたか。"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "theme": "環境",
+      "words": [
+        {
+          "en": "reduce",
+          "ja": "減らす",
+          "pos": "動",
+          "ex": "Using your own bag helps to reduce plastic waste.",
+          "exJa": "自分のバッグを使うことはプラスチックごみを減らすのに役立ちます。"
+        },
+        {
+          "en": "describe",
+          "ja": "描写する",
+          "pos": "動",
+          "ex": "Can you describe the man you saw at the station?",
+          "exJa": "駅で見た男の人の特徴を説明してもらえますか。"
+        },
+        {
+          "en": "fuel",
+          "ja": "燃料",
+          "pos": "名",
+          "ex": "The car stopped because it ran out of fuel.",
+          "exJa": "燃料がなくなったので、その車は止まりました。"
+        },
+        {
+          "en": "climate",
+          "ja": "気候",
+          "pos": "名",
+          "ex": "This island has a warm climate all year round.",
+          "exJa": "この島は一年中あたたかい気候です。"
+        },
+        {
+          "en": "global",
+          "ja": "地球規模の",
+          "pos": "形",
+          "ex": "Many countries are working together to stop global warming.",
+          "exJa": "多くの国が地球温暖化を止めるために協力しています。"
+        },
+        {
+          "en": "gradually",
+          "ja": "徐々に",
+          "pos": "副",
+          "ex": "The weather will gradually get warmer in March.",
+          "exJa": "3月には天気が徐々にあたたかくなるでしょう。"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "theme": "買い物",
+      "words": [
+        {
+          "en": "compare",
+          "ja": "比べる",
+          "pos": "動",
+          "ex": "You should compare prices at different stores before buying.",
+          "exJa": "買う前にいろいろな店で値段を比べるべきです。"
+        },
+        {
+          "en": "deliver",
+          "ja": "配達する",
+          "pos": "動",
+          "ex": "They will deliver the sofa to your house on Friday.",
+          "exJa": "金曜日にソファをご自宅に配達します。"
+        },
+        {
+          "en": "refund",
+          "ja": "払い戻し",
+          "pos": "名",
+          "ex": "You can get a refund if the camera does not work.",
+          "exJa": "カメラが動かなければ、払い戻しを受けられます。"
+        },
+        {
+          "en": "quality",
+          "ja": "品質",
+          "pos": "名",
+          "ex": "These shoes are cheap, but they are of poor quality.",
+          "exJa": "このくつは安いですが、品質がよくありません。"
+        },
+        {
+          "en": "available",
+          "ja": "入手できる",
+          "pos": "形",
+          "ex": "This jacket is available in three different colors.",
+          "exJa": "このジャケットは3つの色で入手できます。"
+        },
+        {
+          "en": "whether",
+          "ja": "〜かどうか",
+          "pos": "接",
+          "ex": "I don't know whether the shop is open today.",
+          "exJa": "その店が今日開いているかどうか私は知りません。"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "theme": "挑戦",
+      "words": [
+        {
+          "en": "offer",
+          "ja": "申し出る",
+          "pos": "動",
+          "ex": "Tom is kind enough to offer help to anyone in trouble.",
+          "exJa": "トムは親切で、困っている人には誰にでも手助けを申し出ます。"
+        },
+        {
+          "en": "survive",
+          "ja": "生き延びる",
+          "pos": "動",
+          "ex": "Camels can survive for many days without water.",
+          "exJa": "ラクダは水なしで何日も生き延びることができます。"
+        },
+        {
+          "en": "opportunity",
+          "ja": "機会",
+          "pos": "名",
+          "ex": "This trip is a great opportunity to practice my English.",
+          "exJa": "この旅行は英語を練習するすばらしい機会です。"
+        },
+        {
+          "en": "temperature",
+          "ja": "気温",
+          "pos": "名",
+          "ex": "The temperature will drop below zero tonight.",
+          "exJa": "今夜は気温が0度より下がるでしょう。"
+        },
+        {
+          "en": "anxious",
+          "ja": "心配な",
+          "pos": "形",
+          "ex": "I always feel anxious before a big test.",
+          "exJa": "私は大事なテストの前はいつも心配な気持ちになります。"
+        },
+        {
+          "en": "unless",
+          "ja": "〜でない限り",
+          "pos": "接",
+          "ex": "You will miss the train unless you leave right now.",
+          "exJa": "今すぐ出発しない限り、電車に乗り遅れますよ。"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "theme": "暮らし",
+      "words": [
+        {
+          "en": "replace",
+          "ja": "取り替える",
+          "pos": "動",
+          "ex": "We need to replace the old battery with a new one.",
+          "exJa": "古い電池を新しいものと取り替える必要があります。"
+        },
+        {
+          "en": "complain",
+          "ja": "不満を言う",
+          "pos": "動",
+          "ex": "Some guests complain about the noise from the street.",
+          "exJa": "通りからの騒音について不満を言う宿泊客もいます。"
+        },
+        {
+          "en": "equipment",
+          "ja": "装備",
+          "pos": "名",
+          "ex": "The climbers carried heavy equipment up the mountain.",
+          "exJa": "登山者たちは重い装備を山の上まで運びました。"
+        },
+        {
+          "en": "expense",
+          "ja": "出費",
+          "pos": "名",
+          "ex": "Rent is the biggest expense for most college students.",
+          "exJa": "家賃はほとんどの大学生にとって一番大きな出費です。"
+        },
+        {
+          "en": "ordinary",
+          "ja": "普通の",
+          "pos": "形",
+          "ex": "It was just an ordinary day, and nothing special happened.",
+          "exJa": "ごく普通の日で、特別なことは何も起こりませんでした。"
+        },
+        {
+          "en": "immediately",
+          "ja": "すぐに",
+          "pos": "副",
+          "ex": "When the bell rang, the students immediately left the room.",
+          "exJa": "ベルが鳴ると、生徒たちはすぐに部屋を出ました。"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "theme": "産業",
+      "words": [
+        {
+          "en": "suggest",
+          "ja": "提案する",
+          "pos": "動",
+          "ex": "I suggest that we take a short break now.",
+          "exJa": "今、短い休けいを取ることを提案します。"
+        },
+        {
+          "en": "export",
+          "ja": "輸出する",
+          "pos": "動",
+          "ex": "These factories export thousands of cars to Europe every year.",
+          "exJa": "これらの工場は毎年何千台もの車をヨーロッパに輸出します。"
+        },
+        {
+          "en": "industry",
+          "ja": "産業",
+          "pos": "名",
+          "ex": "Many people in this city work in the car industry.",
+          "exJa": "この市では多くの人が自動車産業で働いています。"
+        },
+        {
+          "en": "profit",
+          "ja": "利益",
+          "pos": "名",
+          "ex": "The shop made a big profit by selling handmade cakes.",
+          "exJa": "その店は手作りケーキを売って大きな利益を上げました。"
+        },
+        {
+          "en": "major",
+          "ja": "主要な",
+          "pos": "形",
+          "ex": "Tokyo and Osaka are major cities in Japan.",
+          "exJa": "東京と大阪は日本の主要な都市です。"
+        },
+        {
+          "en": "rarely",
+          "ja": "めったに〜ない",
+          "pos": "副",
+          "ex": "My father is very busy and rarely eats dinner at home.",
+          "exJa": "父はとても忙しく、めったに家で夕食を食べません。"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "theme": "イベント",
+      "words": [
+        {
+          "en": "support",
+          "ja": "支える",
+          "pos": "動",
+          "ex": "My parents always support me when I try something new.",
+          "exJa": "私が新しいことに挑戦するとき、両親はいつも私を支えてくれます。"
+        },
+        {
+          "en": "reserve",
+          "ja": "予約する",
+          "pos": "動",
+          "ex": "I would like to reserve a table for four at seven.",
+          "exJa": "7時に4人用のテーブルを予約したいのですが。"
+        },
+        {
+          "en": "announce",
+          "ja": "発表する",
+          "pos": "動",
+          "ex": "The company will announce the name of its new president today.",
+          "exJa": "その会社は今日、新しい社長の名前を発表します。"
+        },
+        {
+          "en": "performance",
+          "ja": "演技",
+          "pos": "名",
+          "ex": "The actor's performance in the movie was wonderful.",
+          "exJa": "その映画での俳優の演技はすばらしかったです。"
+        },
+        {
+          "en": "occasion",
+          "ja": "行事",
+          "pos": "名",
+          "ex": "A wedding is a very special occasion for a family.",
+          "exJa": "結婚式は家族にとってとても特別な行事です。"
+        },
+        {
+          "en": "official",
+          "ja": "公式の",
+          "pos": "形",
+          "ex": "You can buy tickets on the official website of the festival.",
+          "exJa": "その祭りの公式ウェブサイトでチケットを買えます。"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "theme": "会社",
+      "words": [
+        {
+          "en": "affect",
+          "ja": "影響を与える",
+          "pos": "動",
+          "ex": "The bad weather will affect the train schedule today.",
+          "exJa": "悪天候は今日の電車のダイヤに影響を与えるでしょう。"
+        },
+        {
+          "en": "organize",
+          "ja": "企画する",
+          "pos": "動",
+          "ex": "Let's organize a welcome party for the new students.",
+          "exJa": "新入生のために歓迎会を企画しましょう。"
+        },
+        {
+          "en": "employee",
+          "ja": "従業員",
+          "pos": "名",
+          "ex": "Each employee must wear a name tag at work.",
+          "exJa": "従業員は一人ひとり、仕事中に名札をつけなければなりません。"
+        },
+        {
+          "en": "income",
+          "ja": "収入",
+          "pos": "名",
+          "ex": "He spends half of his income on rent and food.",
+          "exJa": "彼は収入の半分を家賃と食費に使っています。"
+        },
+        {
+          "en": "efficient",
+          "ja": "効率的な",
+          "pos": "形",
+          "ex": "Trains are an efficient way to carry many people quickly.",
+          "exJa": "電車は多くの人をすばやく運ぶ効率的な方法です。"
+        },
+        {
+          "en": "private",
+          "ja": "個人的な",
+          "pos": "形",
+          "ex": "I don't want to answer such a private question.",
+          "exJa": "そんな個人的な質問には答えたくありません。"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "theme": "食べ物",
+      "words": [
+        {
+          "en": "allow",
+          "ja": "許す",
+          "pos": "動",
+          "ex": "My parents don't allow me to play games after ten.",
+          "exJa": "両親は私が10時以降にゲームをするのを許してくれません。"
+        },
+        {
+          "en": "contain",
+          "ja": "中に含む",
+          "pos": "動",
+          "ex": "These drinks contain a lot of sugar.",
+          "exJa": "これらの飲み物は砂糖をたくさん含んでいます。"
+        },
+        {
+          "en": "ingredient",
+          "ja": "料理の材料",
+          "pos": "名",
+          "ex": "Rice is the main ingredient in this dish.",
+          "exJa": "米はこの料理の主な材料です。"
+        },
+        {
+          "en": "variety",
+          "ja": "種類",
+          "pos": "名",
+          "ex": "The shop sells a wide variety of cheese from Europe.",
+          "exJa": "その店はヨーロッパのさまざまな種類のチーズを売っています。"
+        },
+        {
+          "en": "raw",
+          "ja": "生の",
+          "pos": "形",
+          "ex": "Some people don't like to eat raw fish.",
+          "exJa": "生の魚を食べるのが好きではない人もいます。"
+        },
+        {
+          "en": "according",
+          "ja": "〜によれば",
+          "pos": "前",
+          "ex": "According to the weather report, it will snow tomorrow.",
+          "exJa": "天気予報によれば、明日は雪が降るでしょう。"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "theme": "科学",
+      "words": [
+        {
+          "en": "apply",
+          "ja": "申し込む",
+          "pos": "動",
+          "ex": "I am going to apply for a job at the bookstore.",
+          "exJa": "私はその書店の仕事に申し込むつもりです。"
+        },
+        {
+          "en": "observe",
+          "ja": "観察する",
+          "pos": "動",
+          "ex": "We used a telescope to observe the stars at night.",
+          "exJa": "私たちは夜に星を観察するために望遠鏡を使いました。"
+        },
+        {
+          "en": "experiment",
+          "ja": "実験",
+          "pos": "名",
+          "ex": "The students did an experiment with salt and ice.",
+          "exJa": "生徒たちは塩と氷を使って実験をしました。"
+        },
+        {
+          "en": "laboratory",
+          "ja": "実験室",
+          "pos": "名",
+          "ex": "The scientists work in a laboratory at the university.",
+          "exJa": "その科学者たちは大学の実験室で働いています。"
+        },
+        {
+          "en": "obvious",
+          "ja": "明らかな",
+          "pos": "形",
+          "ex": "It was obvious that Tom had not slept well.",
+          "exJa": "トムがよく眠れなかったことは明らかでした。"
+        },
+        {
+          "en": "similar",
+          "ja": "似ている",
+          "pos": "形",
+          "ex": "Your bag is very similar to mine.",
+          "exJa": "あなたのかばんは私のものにとても似ています。"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "theme": "人との関係",
+      "words": [
+        {
+          "en": "cause",
+          "ja": "引き起こす",
+          "pos": "動",
+          "ex": "Driving too fast can cause terrible accidents.",
+          "exJa": "スピードの出しすぎはひどい事故を引き起こすことがあります。"
+        },
+        {
+          "en": "treat",
+          "ja": "扱う",
+          "pos": "動",
+          "ex": "We should treat all people fairly and kindly.",
+          "exJa": "私たちはすべての人を公平に親切に扱うべきです。"
+        },
+        {
+          "en": "attitude",
+          "ja": "態度",
+          "pos": "名",
+          "ex": "The coach likes his positive attitude toward practice.",
+          "exJa": "コーチは彼の練習に対する前向きな態度を気に入っています。"
+        },
+        {
+          "en": "generation",
+          "ja": "世代",
+          "pos": "名",
+          "ex": "This song is popular among the younger generation.",
+          "exJa": "この歌は若い世代の間で人気があります。"
+        },
+        {
+          "en": "influence",
+          "ja": "影響",
+          "pos": "名",
+          "ex": "Parents have a great influence on their children.",
+          "exJa": "親は子どもに大きな影響を与えます。"
+        },
+        {
+          "en": "patient",
+          "ja": "がまん強い",
+          "pos": "形",
+          "ex": "Be patient and wait for your turn, please.",
+          "exJa": "がまん強く自分の順番を待ってください。"
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "theme": "身の回り",
+      "words": [
+        {
+          "en": "consider",
+          "ja": "よく考える",
+          "pos": "動",
+          "ex": "I will consider your idea and call you tomorrow.",
+          "exJa": "あなたの案をよく考えて、明日電話します。"
+        },
+        {
+          "en": "remove",
+          "ja": "取り除く",
+          "pos": "動",
+          "ex": "Use this soap to remove the stain from your shirt.",
+          "exJa": "シャツのしみを取り除くにはこの石けんを使いなさい。"
+        },
+        {
+          "en": "recognize",
+          "ja": "それとわかる",
+          "pos": "動",
+          "ex": "I didn't recognize Emma because she had cut her hair short.",
+          "exJa": "エマが髪を短く切っていたので、彼女だとわかりませんでした。"
+        },
+        {
+          "en": "damage",
+          "ja": "損害",
+          "pos": "名",
+          "ex": "The typhoon did great damage to the rice fields.",
+          "exJa": "台風は田んぼに大きな損害を与えました。"
+        },
+        {
+          "en": "material",
+          "ja": "素材",
+          "pos": "名",
+          "ex": "Cotton is a soft material often used for shirts.",
+          "exJa": "綿はシャツによく使われるやわらかい素材です。"
+        },
+        {
+          "en": "valuable",
+          "ja": "貴重な",
+          "pos": "形",
+          "ex": "Keep your valuable things in the hotel safe.",
+          "exJa": "貴重な物はホテルの金庫に入れておきなさい。"
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "theme": "地域",
+      "words": [
+        {
+          "en": "establish",
+          "ja": "設立する",
+          "pos": "動",
+          "ex": "They plan to establish a new school in the village.",
+          "exJa": "彼らはその村に新しい学校を設立する計画です。"
+        },
+        {
+          "en": "warn",
+          "ja": "警告する",
+          "pos": "動",
+          "ex": "I must warn you that the road is very icy.",
+          "exJa": "道路がとても凍っていると警告しておかなければなりません。"
+        },
+        {
+          "en": "image",
+          "ja": "印象",
+          "pos": "名",
+          "ex": "The company wants to change its image with a new logo.",
+          "exJa": "その会社は新しいロゴで自社の印象を変えたいと思っています。"
+        },
+        {
+          "en": "community",
+          "ja": "地域社会",
+          "pos": "名",
+          "ex": "Volunteers clean the park for the local community.",
+          "exJa": "ボランティアが地域社会のために公園を掃除しています。"
+        },
+        {
+          "en": "typical",
+          "ja": "典型的な",
+          "pos": "形",
+          "ex": "Miso soup and rice are a typical Japanese breakfast.",
+          "exJa": "みそ汁とごはんは典型的な日本の朝食です。"
+        },
+        {
+          "en": "entire",
+          "ja": "全体の",
+          "pos": "形",
+          "ex": "It rained hard, so we spent the entire day at home.",
+          "exJa": "雨がひどかったので、私たちは丸一日を家で過ごしました。"
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "theme": "目標",
+      "words": [
+        {
+          "en": "develop",
+          "ja": "開発する",
+          "pos": "動",
+          "ex": "The company plans to develop a new kind of battery.",
+          "exJa": "その会社は新しい種類の電池を開発する計画です。"
+        },
+        {
+          "en": "succeed",
+          "ja": "成功する",
+          "pos": "動",
+          "ex": "Work hard, and you will succeed in passing the exam.",
+          "exJa": "一生懸命がんばれば、試験合格に成功するでしょう。"
+        },
+        {
+          "en": "resource",
+          "ja": "資源",
+          "pos": "名",
+          "ex": "Water is an important natural resource for every country.",
+          "exJa": "水はどの国にとっても大切な天然資源です。"
+        },
+        {
+          "en": "condition",
+          "ja": "状態",
+          "pos": "名",
+          "ex": "The used car is still in good condition.",
+          "exJa": "その中古車はまだよい状態です。"
+        },
+        {
+          "en": "purpose",
+          "ja": "目的",
+          "pos": "名",
+          "ex": "What is the purpose of your visit to Japan?",
+          "exJa": "あなたの日本訪問の目的は何ですか。"
+        },
+        {
+          "en": "certain",
+          "ja": "確信している",
+          "pos": "形",
+          "ex": "I am certain that I locked the door.",
+          "exJa": "私はドアにかぎをかけたと確信しています。"
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "theme": "音楽と旅",
+      "words": [
+        {
+          "en": "expect",
+          "ja": "予想する",
+          "pos": "動",
+          "ex": "We expect about fifty people to come to the party.",
+          "exJa": "私たちは約50人がパーティーに来ると予想しています。"
+        },
+        {
+          "en": "entertain",
+          "ja": "楽しませる",
+          "pos": "動",
+          "ex": "The clown did tricks to entertain the children at the party.",
+          "exJa": "ピエロはパーティーで子どもたちを楽しませるために手品をしました。"
+        },
+        {
+          "en": "instrument",
+          "ja": "楽器",
+          "pos": "名",
+          "ex": "The piano is the first instrument I learned to play.",
+          "exJa": "ピアノは私が最初に弾けるようになった楽器です。"
+        },
+        {
+          "en": "journey",
+          "ja": "旅",
+          "pos": "名",
+          "ex": "The journey from Tokyo to Osaka takes about three hours by train.",
+          "exJa": "東京から大阪までの旅は電車で約3時間かかります。"
+        },
+        {
+          "en": "proper",
+          "ja": "適切な",
+          "pos": "形",
+          "ex": "Children need to learn the proper way to brush their teeth.",
+          "exJa": "子どもは適切な歯のみがき方を学ぶ必要があります。"
+        },
+        {
+          "en": "flexible",
+          "ja": "柔軟な",
+          "pos": "形",
+          "ex": "My work hours are flexible, so I can start late.",
+          "exJa": "私の勤務時間は柔軟なので、遅く始めることができます。"
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "theme": "気持ち",
+      "words": [
+        {
+          "en": "admit",
+          "ja": "認める",
+          "pos": "動",
+          "ex": "I must admit that I was wrong.",
+          "exJa": "私がまちがっていたと認めなければなりません。"
+        },
+        {
+          "en": "manage",
+          "ja": "なんとかやり遂げる",
+          "pos": "動",
+          "ex": "Did you manage to finish the report on time?",
+          "exJa": "レポートをなんとか時間どおりに終えられましたか。"
+        },
+        {
+          "en": "appreciate",
+          "ja": "感謝する",
+          "pos": "動",
+          "ex": "I really appreciate your help with my homework.",
+          "exJa": "宿題を手伝ってくれて本当に感謝しています。"
+        },
+        {
+          "en": "situation",
+          "ja": "状況",
+          "pos": "名",
+          "ex": "Stay calm even in a difficult situation.",
+          "exJa": "難しい状況でも落ち着いていなさい。"
+        },
+        {
+          "en": "pressure",
+          "ja": "重圧",
+          "pos": "名",
+          "ex": "The players felt a lot of pressure before the final game.",
+          "exJa": "選手たちは決勝戦の前に大きな重圧を感じていました。"
+        },
+        {
+          "en": "physical",
+          "ja": "身体の",
+          "pos": "形",
+          "ex": "Swimming is a good physical activity for all ages.",
+          "exJa": "水泳はあらゆる年代の人によい身体活動です。"
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "theme": "学びと力",
+      "words": [
+        {
+          "en": "gain",
+          "ja": "得る",
+          "pos": "動",
+          "ex": "You can gain useful experience by working part time.",
+          "exJa": "アルバイトをすることで役に立つ経験を得ることができます。"
+        },
+        {
+          "en": "include",
+          "ja": "含める",
+          "pos": "動",
+          "ex": "Does the price include breakfast and dinner?",
+          "exJa": "その料金には朝食と夕食が含まれていますか。"
+        },
+        {
+          "en": "skill",
+          "ja": "技術",
+          "pos": "名",
+          "ex": "Cooking is a useful skill that everyone should learn.",
+          "exJa": "料理はだれもが身につけるべき役に立つ技術です。"
+        },
+        {
+          "en": "research",
+          "ja": "研究",
+          "pos": "名",
+          "ex": "She is doing research on how dolphins talk to each other.",
+          "exJa": "彼女はイルカがどのように会話するかについて研究をしています。"
+        },
+        {
+          "en": "advantage",
+          "ja": "有利な点",
+          "pos": "名",
+          "ex": "Our team had an advantage because we played at home.",
+          "exJa": "地元で試合をしたので、私たちのチームには有利な点がありました。"
+        },
+        {
+          "en": "various",
+          "ja": "さまざまな",
+          "pos": "形",
+          "ex": "The festival had food from various countries around the world.",
+          "exJa": "その祭りには世界のさまざまな国の食べ物がありました。"
+        }
+      ]
+    }
+  ]
+}

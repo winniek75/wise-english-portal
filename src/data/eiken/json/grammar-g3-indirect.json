@@ -1,0 +1,37 @@
+{
+  "id": "g3-indirect",
+  "grade": "3",
+  "title": "間接疑問文（疑問詞＋主語＋動詞）",
+  "points": [
+    "文の中に入る疑問文は「疑問詞＋主語＋動詞」の語順にする",
+    "do / does / did は使わず、動詞を lives / lived の形にする",
+    "疑問詞が主語のときは「疑問詞＋動詞」のまま（who made this cake）"
+  ],
+  "examples": [
+    { "en": "I know where he lives.", "ja": "私は彼がどこに住んでいるか知っています。" },
+    { "en": "Do you know what time it is?", "ja": "あなたは何時か分かりますか。" },
+    { "en": "Tell me who made this cake.", "ja": "だれがこのケーキを作ったのか教えてください。" }
+  ],
+  "questions": [
+    { "id": "g3-indirect-01", "type": "choice", "q": "I know where ___.", "ja": "私は彼がどこに住んでいるか知っています。", "options": ["he lives", "does he live", "lives he", "he live"], "answer": 0, "why": "文の中の疑問文は「疑問詞＋主語＋動詞」。主語が he なので lives。" },
+    { "id": "g3-indirect-02", "type": "choice", "q": "Do you know what time ___?", "ja": "あなたは何時か分かりますか。", "options": ["is it", "does it", "it is", "it be"], "answer": 2, "why": "Do you know のあとは「疑問詞＋主語＋動詞」の語順にする。" },
+    { "id": "g3-indirect-03", "type": "choice", "q": "Tell me who ___.", "ja": "あの男の人がだれなのか教えてください。", "options": ["is that man", "that man is", "does that man", "that man"], "answer": 1, "why": "Tell me のあとは who + 主語 + be動詞 の順になる。" },
+    { "id": "g3-indirect-04", "type": "choice", "q": "I don't know ___ Ken is from.", "ja": "私はケンがどこの出身か知りません。", "options": ["what", "when", "who", "where"], "answer": 3, "why": "出身地をたずねる be from には where を使う。" },
+    { "id": "g3-indirect-05", "type": "choice", "q": "Do you know who ___ this cake?", "ja": "あなたはだれがこのケーキを作ったか知っていますか。", "options": ["making", "made", "make", "did made"], "answer": 1, "why": "who が主語のときは、すぐあとに動詞を置く。過去のことなので made。" },
+    { "id": "g3-indirect-06", "type": "choice", "q": "I want to know when ___.", "ja": "私はその映画がいつ始まるか知りたいです。", "options": ["does the movie start", "starts the movie", "the movie starts", "the movie start"], "answer": 2, "why": "does は使わず、主語 + 動詞（三人称単数の s つき）の順にする。" },
+    { "id": "g3-indirect-07", "type": "choice", "q": "Please tell me where ___ yesterday.", "ja": "あなたがきのうどこへ行ったのか教えてください。", "options": ["you went", "did you go", "you go", "went you"], "answer": 0, "why": "did は使わず、動詞を過去形（went）にして主語のあとに置く。" },
+    { "id": "g3-indirect-08", "type": "choice", "q": "Where ___ yesterday?", "ja": "あなたはきのうどこへ行きましたか。", "options": ["you went", "went you", "you did go", "did you go"], "answer": 3, "why": "ふつうの疑問文なので、疑問詞 + did + 主語 + 動詞の原形の順。" },
+    { "id": "g3-indirect-09", "type": "choice", "q": "Do you know how old ___?", "ja": "あなたはエマのお兄さんが何歳か知っていますか。", "options": ["is Emma's brother", "Emma's brother is", "does Emma's brother", "Emma's brother does"], "answer": 1, "why": "how old のあとは 主語 + be動詞 の順にする。" },
+    { "id": "g3-indirect-10", "type": "choice", "q": "I asked my sister ___ she was crying.", "ja": "私は妹になぜ泣いているのかたずねました。", "options": ["what", "who", "why", "which"], "answer": 2, "why": "理由をたずねるときは why。あとは主語 + 動詞の順。" },
+    { "id": "g3-indirect-11", "type": "choice", "q": "Can you tell me how many books ___?", "ja": "彼が本を何冊持っているか教えてくれますか。", "options": ["he has", "does he have", "has he", "he have"], "answer": 0, "why": "how many + 名詞のあとも 主語 + 動詞。he なので has。" },
+    { "id": "g3-indirect-12", "type": "choice", "q": "Do you know what ___ in this box?", "ja": "あなたはこの箱に何が入っているか知っていますか。", "options": ["does", "be", "it", "is"], "answer": 3, "why": "what が主語なので、すぐあとに動詞 is を置く。" },
+    { "id": "g3-indirect-13", "type": "choice", "q": "I don't know who ___ in that house.", "ja": "私はあの家にだれが住んでいるのか知りません。", "options": ["live", "lives", "is live", "living"], "answer": 1, "why": "主語の who は三人称単数あつかい。現在の文は動詞に s をつける。" },
+    { "id": "g3-indirect-14", "type": "choice", "q": "Do you remember what ___ at the party?", "ja": "あなたは彼女がパーティーで何と言ったか覚えていますか。", "options": ["did she say", "said she", "she said", "she say"], "answer": 2, "why": "過去のことは did を使わず、主語 + 過去形（said）で表す。" },
+    { "id": "g3-indirect-15", "type": "order", "ja": "私は彼女がなぜ悲しいのか知っています。", "words": ["I", "know", "why", "she", "is", "sad"], "full": "I know why she is sad.", "why": "know のあとは why + 主語 + be動詞 の順にする。" },
+    { "id": "g3-indirect-16", "type": "order", "ja": "彼が何をほしがっているか教えて。", "words": ["tell", "me", "what", "he", "wants"], "full": "Tell me what he wants.", "why": "Tell me のあとは what + 主語 + 動詞。does は使わない。" },
+    { "id": "g3-indirect-17", "type": "order", "ja": "私は図書館がどこにあるか知りません。", "words": ["I", "don't", "know", "where", "the", "library", "is"], "full": "I don't know where the library is.", "why": "where のあとは 主語 + be動詞 の順。is は最後に置く。" },
+    { "id": "g3-indirect-18", "type": "order", "ja": "私はだれがこの窓を割ったのか知りません。", "words": ["I", "don't", "know", "who", "broke", "this", "window"], "full": "I don't know who broke this window.", "why": "who が主語なので、who のすぐあとに動詞（broke）を置く。" },
+    { "id": "g3-indirect-19", "type": "order", "ja": "彼は私に何時に起きたのかたずねました。", "words": ["he", "asked", "me", "what", "time", "I", "got", "up"], "full": "He asked me what time I got up.", "why": "what time のあとは 主語 + 動詞の過去形。did は使わない。" },
+    { "id": "g3-indirect-20", "type": "order", "ja": "私はユミがどうやって学校に来るのか知りません。", "words": ["I", "don't", "know", "how", "Yumi", "comes", "to", "school"], "full": "I don't know how Yumi comes to school.", "why": "how のあとは 主語 + 動詞。Yumi に合わせて comes にする。" }
+  ]
+}

@@ -1,0 +1,1157 @@
+{
+  "grade": "4",
+  "sets": [
+    {
+      "n": 1,
+      "theme": "学校",
+      "words": [
+        {
+          "en": "borrow",
+          "ja": "借りる",
+          "pos": "動",
+          "ex": "Can I borrow your eraser for a minute?",
+          "exJa": "少しの間、消しゴムを借りてもいいですか。"
+        },
+        {
+          "en": "forget",
+          "ja": "忘れる",
+          "pos": "動",
+          "ex": "Don't forget to bring your lunch tomorrow.",
+          "exJa": "明日はお弁当を持ってくるのを忘れないでね。"
+        },
+        {
+          "en": "dictionary",
+          "ja": "辞書",
+          "pos": "名",
+          "ex": "I use a dictionary to look up new words.",
+          "exJa": "私は新しい単語を調べるのに辞書を使います。"
+        },
+        {
+          "en": "homework",
+          "ja": "宿題",
+          "pos": "名",
+          "ex": "I have to do my math homework tonight.",
+          "exJa": "私は今夜、数学の宿題をしなければなりません。"
+        },
+        {
+          "en": "difficult",
+          "ja": "難しい",
+          "pos": "形",
+          "ex": "This question is too difficult for me.",
+          "exJa": "この問題は私には難しすぎます。"
+        },
+        {
+          "en": "already",
+          "ja": "すでに",
+          "pos": "副",
+          "ex": "It is already ten o'clock. Let's go home.",
+          "exJa": "もう10時です。家に帰りましょう。"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "theme": "旅行",
+      "words": [
+        {
+          "en": "arrive",
+          "ja": "到着する",
+          "pos": "動",
+          "ex": "We will arrive at the station at noon.",
+          "exJa": "私たちは正午に駅に到着します。"
+        },
+        {
+          "en": "travel",
+          "ja": "旅行する",
+          "pos": "動",
+          "ex": "I want to travel around the world someday.",
+          "exJa": "私はいつか世界中を旅行したいです。"
+        },
+        {
+          "en": "passenger",
+          "ja": "乗客",
+          "pos": "名",
+          "ex": "Each passenger must sit down on the bus.",
+          "exJa": "バスでは乗客はみんな座らなければなりません。"
+        },
+        {
+          "en": "ticket",
+          "ja": "切符",
+          "pos": "名",
+          "ex": "I need to buy a ticket for the train.",
+          "exJa": "私は電車の切符を買う必要があります。"
+        },
+        {
+          "en": "island",
+          "ja": "島",
+          "pos": "名",
+          "ex": "They went to the small island by boat.",
+          "exJa": "彼らは船でその小さな島へ行きました。"
+        },
+        {
+          "en": "famous",
+          "ja": "有名な",
+          "pos": "形",
+          "ex": "Kyoto is famous for its old temples.",
+          "exJa": "京都は古いお寺で有名です。"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "theme": "天気と自然",
+      "words": [
+        {
+          "en": "weather",
+          "ja": "天気",
+          "pos": "名",
+          "ex": "How is the weather in Tokyo today?",
+          "exJa": "今日の東京の天気はどうですか。"
+        },
+        {
+          "en": "umbrella",
+          "ja": "かさ",
+          "pos": "名",
+          "ex": "Take an umbrella with you. It will rain.",
+          "exJa": "かさを持っていきなさい。雨が降りますよ。"
+        },
+        {
+          "en": "climb",
+          "ja": "登る",
+          "pos": "動",
+          "ex": "We will climb the mountain next Sunday.",
+          "exJa": "私たちは次の日曜日にその山に登ります。"
+        },
+        {
+          "en": "grow",
+          "ja": "育てる",
+          "pos": "動",
+          "ex": "My grandmother wants to grow tomatoes in her yard.",
+          "exJa": "祖母は庭でトマトを育てたいと思っています。"
+        },
+        {
+          "en": "dangerous",
+          "ja": "危険な",
+          "pos": "形",
+          "ex": "It is dangerous to swim in this river.",
+          "exJa": "この川で泳ぐのは危険です。"
+        },
+        {
+          "en": "suddenly",
+          "ja": "突然",
+          "pos": "副",
+          "ex": "It suddenly started to rain very hard.",
+          "exJa": "突然、とても激しく雨が降り始めました。"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "theme": "家族と家",
+      "words": [
+        {
+          "en": "uncle",
+          "ja": "おじ",
+          "pos": "名",
+          "ex": "My uncle is my mother's brother.",
+          "exJa": "私のおじは母の兄です。"
+        },
+        {
+          "en": "kitchen",
+          "ja": "台所",
+          "pos": "名",
+          "ex": "My father is cooking dinner in the kitchen.",
+          "exJa": "父は台所で夕食を作っています。"
+        },
+        {
+          "en": "invite",
+          "ja": "招待する",
+          "pos": "動",
+          "ex": "I will invite Emma to my birthday party.",
+          "exJa": "私はエマを誕生日パーティーに招待します。"
+        },
+        {
+          "en": "remember",
+          "ja": "思い出す",
+          "pos": "動",
+          "ex": "I can't remember the name of that movie.",
+          "exJa": "私はあの映画の名前を思い出せません。"
+        },
+        {
+          "en": "hungry",
+          "ja": "おなかがすいた",
+          "pos": "形",
+          "ex": "I am hungry. Let's eat lunch now.",
+          "exJa": "おなかがすきました。今すぐ昼食を食べましょう。"
+        },
+        {
+          "en": "together",
+          "ja": "いっしょに",
+          "pos": "副",
+          "ex": "Let's play video games together after school.",
+          "exJa": "放課後、いっしょにテレビゲームをしましょう。"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "theme": "食べ物",
+      "words": [
+        {
+          "en": "delicious",
+          "ja": "おいしい",
+          "pos": "形",
+          "ex": "This pizza is really delicious. I want more.",
+          "exJa": "このピザは本当においしいです。もっと欲しいです。"
+        },
+        {
+          "en": "dessert",
+          "ja": "デザート",
+          "pos": "名",
+          "ex": "We had ice cream for dessert after dinner.",
+          "exJa": "私たちは夕食後、デザートにアイスクリームを食べました。"
+        },
+        {
+          "en": "vegetable",
+          "ja": "野菜",
+          "pos": "名",
+          "ex": "A carrot is a vegetable, not a fruit.",
+          "exJa": "にんじんは野菜で、果物ではありません。"
+        },
+        {
+          "en": "taste",
+          "ja": "味がする",
+          "pos": "動",
+          "ex": "Does this soup taste good?",
+          "exJa": "このスープはおいしい味がしますか。"
+        },
+        {
+          "en": "order",
+          "ja": "注文する",
+          "pos": "動",
+          "ex": "Let's order pizza by phone tonight.",
+          "exJa": "今夜は電話でピザを注文しましょう。"
+        },
+        {
+          "en": "restaurant",
+          "ja": "レストラン",
+          "pos": "名",
+          "ex": "We ate dinner at a new Italian restaurant.",
+          "exJa": "私たちは新しいイタリアンレストランで夕食を食べました。"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "theme": "行事",
+      "words": [
+        {
+          "en": "festival",
+          "ja": "祭り",
+          "pos": "名",
+          "ex": "We watched fireworks at the summer festival.",
+          "exJa": "私たちは夏祭りで花火を見ました。"
+        },
+        {
+          "en": "contest",
+          "ja": "コンテスト",
+          "pos": "名",
+          "ex": "Yumi was second in the English speech contest.",
+          "exJa": "ユミは英語スピーチコンテストで2位でした。"
+        },
+        {
+          "en": "prize",
+          "ja": "賞",
+          "pos": "名",
+          "ex": "She got first prize for her painting.",
+          "exJa": "彼女は絵で1等賞をとりました。"
+        },
+        {
+          "en": "win",
+          "ja": "勝つ",
+          "pos": "動",
+          "ex": "Our team is strong. We will win easily.",
+          "exJa": "私たちのチームは強いです。簡単に勝つでしょう。"
+        },
+        {
+          "en": "join",
+          "ja": "参加する",
+          "pos": "動",
+          "ex": "Do you want to join our tennis club?",
+          "exJa": "私たちのテニス部に参加したいですか。"
+        },
+        {
+          "en": "exciting",
+          "ja": "わくわくする",
+          "pos": "形",
+          "ex": "The soccer game was very exciting.",
+          "exJa": "そのサッカーの試合はとてもわくわくするものでした。"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "theme": "町",
+      "words": [
+        {
+          "en": "bridge",
+          "ja": "橋",
+          "pos": "名",
+          "ex": "We walked across the bridge over the river.",
+          "exJa": "私たちは川にかかる橋を歩いて渡りました。"
+        },
+        {
+          "en": "corner",
+          "ja": "角",
+          "pos": "名",
+          "ex": "The shop is on the corner of this street.",
+          "exJa": "その店はこの通りの角にあります。"
+        },
+        {
+          "en": "build",
+          "ja": "建てる",
+          "pos": "動",
+          "ex": "They will build a new school here next year.",
+          "exJa": "彼らは来年ここに新しい学校を建てます。"
+        },
+        {
+          "en": "wait",
+          "ja": "待つ",
+          "pos": "動",
+          "ex": "Please wait here for a few minutes.",
+          "exJa": "ここで数分間待ってください。"
+        },
+        {
+          "en": "quiet",
+          "ja": "静かな",
+          "pos": "形",
+          "ex": "This street is very quiet at night.",
+          "exJa": "この通りは夜とても静かです。"
+        },
+        {
+          "en": "between",
+          "ja": "〜の間に",
+          "pos": "前",
+          "ex": "The bank is between the park and the hospital.",
+          "exJa": "銀行は公園と病院の間にあります。"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "theme": "買い物",
+      "words": [
+        {
+          "en": "money",
+          "ja": "お金",
+          "pos": "名",
+          "ex": "I don't have enough money to buy it.",
+          "exJa": "私はそれを買うのに十分なお金を持っていません。"
+        },
+        {
+          "en": "price",
+          "ja": "値段",
+          "pos": "名",
+          "ex": "What is the price of this bag?",
+          "exJa": "このかばんの値段はいくらですか。"
+        },
+        {
+          "en": "sell",
+          "ja": "売る",
+          "pos": "動",
+          "ex": "They sell fresh fruit at that shop.",
+          "exJa": "あの店では新鮮な果物を売っています。"
+        },
+        {
+          "en": "pay",
+          "ja": "支払う",
+          "pos": "動",
+          "ex": "How much did you pay for the shoes?",
+          "exJa": "そのくつにいくら支払いましたか。"
+        },
+        {
+          "en": "expensive",
+          "ja": "高価な",
+          "pos": "形",
+          "ex": "This watch is too expensive. I can't buy it.",
+          "exJa": "この腕時計は高すぎます。私には買えません。"
+        },
+        {
+          "en": "cheap",
+          "ja": "安い",
+          "pos": "形",
+          "ex": "This shirt was cheap. It was only five dollars.",
+          "exJa": "このシャツは安かったです。たった5ドルでした。"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "theme": "スポーツ",
+      "words": [
+        {
+          "en": "practice",
+          "ja": "練習する",
+          "pos": "動",
+          "ex": "We practice soccer after school every day.",
+          "exJa": "私たちは毎日放課後にサッカーを練習します。"
+        },
+        {
+          "en": "throw",
+          "ja": "投げる",
+          "pos": "動",
+          "ex": "Please throw the ball to me.",
+          "exJa": "私にボールを投げてください。"
+        },
+        {
+          "en": "coach",
+          "ja": "コーチ",
+          "pos": "名",
+          "ex": "Our coach teaches us how to play basketball.",
+          "exJa": "コーチは私たちにバスケットボールのやり方を教えてくれます。"
+        },
+        {
+          "en": "stadium",
+          "ja": "スタジアム",
+          "pos": "名",
+          "ex": "Many fans came to the stadium to watch baseball.",
+          "exJa": "多くのファンが野球を見にスタジアムに来ました。"
+        },
+        {
+          "en": "uniform",
+          "ja": "制服",
+          "pos": "名",
+          "ex": "We wear a school uniform every day.",
+          "exJa": "私たちは毎日、学校の制服を着ます。"
+        },
+        {
+          "en": "strong",
+          "ja": "強い",
+          "pos": "形",
+          "ex": "He is very strong and can lift big rocks.",
+          "exJa": "彼はとても強くて、大きな岩を持ち上げられます。"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "theme": "趣味",
+      "words": [
+        {
+          "en": "hobby",
+          "ja": "趣味",
+          "pos": "名",
+          "ex": "My hobby is taking pictures of birds.",
+          "exJa": "私の趣味は鳥の写真をとることです。"
+        },
+        {
+          "en": "collect",
+          "ja": "集める",
+          "pos": "動",
+          "ex": "I collect stamps from many countries.",
+          "exJa": "私はたくさんの国の切手を集めています。"
+        },
+        {
+          "en": "paint",
+          "ja": "ペンキをぬる",
+          "pos": "動",
+          "ex": "Let's paint the wall white this weekend.",
+          "exJa": "今週末、かべを白くぬりましょう。"
+        },
+        {
+          "en": "favorite",
+          "ja": "お気に入りの",
+          "pos": "形",
+          "ex": "What is your favorite food?",
+          "exJa": "あなたのお気に入りの食べ物は何ですか。"
+        },
+        {
+          "en": "concert",
+          "ja": "コンサート",
+          "pos": "名",
+          "ex": "The band will play at the concert tonight.",
+          "exJa": "そのバンドは今夜コンサートで演奏します。"
+        },
+        {
+          "en": "often",
+          "ja": "よく",
+          "pos": "副",
+          "ex": "I often go fishing with my father.",
+          "exJa": "私はよく父とつりに行きます。"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "theme": "気持ち",
+      "words": [
+        {
+          "en": "worry",
+          "ja": "心配する",
+          "pos": "動",
+          "ex": "Don't worry about me. I'm fine.",
+          "exJa": "私のことは心配しないで。大丈夫です。"
+        },
+        {
+          "en": "laugh",
+          "ja": "笑う",
+          "pos": "動",
+          "ex": "His jokes are funny. We always laugh a lot.",
+          "exJa": "彼の冗談はおもしろいです。私たちはいつもたくさん笑います。"
+        },
+        {
+          "en": "problem",
+          "ja": "問題",
+          "pos": "名",
+          "ex": "I can't solve this math problem.",
+          "exJa": "私はこの数学の問題が解けません。"
+        },
+        {
+          "en": "voice",
+          "ja": "声",
+          "pos": "名",
+          "ex": "Please speak in a loud voice.",
+          "exJa": "大きな声で話してください。"
+        },
+        {
+          "en": "angry",
+          "ja": "怒った",
+          "pos": "形",
+          "ex": "My brother broke my toy, so I got angry.",
+          "exJa": "弟が私のおもちゃをこわしたので、私は怒りました。"
+        },
+        {
+          "en": "nervous",
+          "ja": "緊張した",
+          "pos": "形",
+          "ex": "I always feel nervous before a big test.",
+          "exJa": "私は大きなテストの前はいつも緊張します。"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "theme": "時間と予定",
+      "words": [
+        {
+          "en": "plan",
+          "ja": "計画する",
+          "pos": "動",
+          "ex": "We plan to visit Hokkaido this summer.",
+          "exJa": "私たちはこの夏、北海道を訪れることを計画しています。"
+        },
+        {
+          "en": "finish",
+          "ja": "終える",
+          "pos": "動",
+          "ex": "I will finish reading this book tonight.",
+          "exJa": "私は今夜この本を読み終えます。"
+        },
+        {
+          "en": "minute",
+          "ja": "分",
+          "pos": "名",
+          "ex": "There are sixty seconds in one minute.",
+          "exJa": "1分は60秒です。"
+        },
+        {
+          "en": "future",
+          "ja": "将来",
+          "pos": "名",
+          "ex": "I want to be a pilot in the future.",
+          "exJa": "私は将来パイロットになりたいです。"
+        },
+        {
+          "en": "ready",
+          "ja": "準備ができた",
+          "pos": "形",
+          "ex": "I'm ready to go. Let's get on the bus.",
+          "exJa": "出かける準備ができました。バスに乗りましょう。"
+        },
+        {
+          "en": "soon",
+          "ja": "まもなく",
+          "pos": "副",
+          "ex": "Spring vacation will start soon.",
+          "exJa": "春休みがまもなく始まります。"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "theme": "学び",
+      "words": [
+        {
+          "en": "explain",
+          "ja": "説明する",
+          "pos": "動",
+          "ex": "Please explain this word to me.",
+          "exJa": "この単語を私に説明してください。"
+        },
+        {
+          "en": "understand",
+          "ja": "理解する",
+          "pos": "動",
+          "ex": "I can't understand him. He speaks too fast.",
+          "exJa": "彼の言うことが理解できません。話すのが速すぎます。"
+        },
+        {
+          "en": "subject",
+          "ja": "教科",
+          "pos": "名",
+          "ex": "Science is my best subject at school.",
+          "exJa": "理科は私が学校でいちばん得意な教科です。"
+        },
+        {
+          "en": "question",
+          "ja": "質問",
+          "pos": "名",
+          "ex": "May I ask you a question, Mr. Smith?",
+          "exJa": "スミス先生、質問をしてもいいですか。"
+        },
+        {
+          "en": "language",
+          "ja": "言語",
+          "pos": "名",
+          "ex": "What language do people speak in Brazil?",
+          "exJa": "ブラジルでは人々は何語を話しますか。"
+        },
+        {
+          "en": "important",
+          "ja": "重要な",
+          "pos": "形",
+          "ex": "It is important to sleep well every night.",
+          "exJa": "毎晩よく眠ることは重要です。"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "theme": "連絡",
+      "words": [
+        {
+          "en": "send",
+          "ja": "送る",
+          "pos": "動",
+          "ex": "I will send you an email tonight.",
+          "exJa": "今夜あなたにメールを送ります。"
+        },
+        {
+          "en": "answer",
+          "ja": "答える",
+          "pos": "動",
+          "ex": "I can't answer this question. It's too hard.",
+          "exJa": "この質問には答えられません。難しすぎます。"
+        },
+        {
+          "en": "message",
+          "ja": "メッセージ",
+          "pos": "名",
+          "ex": "I got a text message from Emma.",
+          "exJa": "私はエマからテキストメッセージを受け取りました。"
+        },
+        {
+          "en": "newspaper",
+          "ja": "新聞",
+          "pos": "名",
+          "ex": "My father reads the newspaper every morning.",
+          "exJa": "父は毎朝、新聞を読みます。"
+        },
+        {
+          "en": "useful",
+          "ja": "役に立つ",
+          "pos": "形",
+          "ex": "This map is very useful for tourists.",
+          "exJa": "この地図は旅行者にとても役に立ちます。"
+        },
+        {
+          "en": "again",
+          "ja": "もう一度",
+          "pos": "副",
+          "ex": "Please say that again more slowly.",
+          "exJa": "それをもう一度、もっとゆっくり言ってください。"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "theme": "話し合い",
+      "words": [
+        {
+          "en": "decide",
+          "ja": "決める",
+          "pos": "動",
+          "ex": "I can't decide. I like both of these bags.",
+          "exJa": "決められません。このかばんは両方とも好きです。"
+        },
+        {
+          "en": "agree",
+          "ja": "賛成する",
+          "pos": "動",
+          "ex": "I think so, too. I agree with you.",
+          "exJa": "私もそう思います。あなたに賛成します。"
+        },
+        {
+          "en": "idea",
+          "ja": "考え",
+          "pos": "名",
+          "ex": "That's a good idea. Let's try it.",
+          "exJa": "それはいい考えですね。やってみましょう。"
+        },
+        {
+          "en": "member",
+          "ja": "一員",
+          "pos": "名",
+          "ex": "Emma is a member of the tennis team.",
+          "exJa": "エマはテニスチームの一員です。"
+        },
+        {
+          "en": "different",
+          "ja": "違った",
+          "pos": "形",
+          "ex": "My shoes are different from yours.",
+          "exJa": "私のくつはあなたのものとは違います。"
+        },
+        {
+          "en": "because",
+          "ja": "〜なので",
+          "pos": "接",
+          "ex": "I stayed home because I had a cold.",
+          "exJa": "私はかぜをひいていたので家にいました。"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "theme": "自然",
+      "words": [
+        {
+          "en": "catch",
+          "ja": "つかまえる",
+          "pos": "動",
+          "ex": "We can catch fish in this river.",
+          "exJa": "この川では魚をつかまえることができます。"
+        },
+        {
+          "en": "stay",
+          "ja": "滞在する",
+          "pos": "動",
+          "ex": "We will stay at the hotel for three days.",
+          "exJa": "私たちはそのホテルに3日間滞在します。"
+        },
+        {
+          "en": "forest",
+          "ja": "森",
+          "pos": "名",
+          "ex": "There are many tall trees in the forest.",
+          "exJa": "森には高い木がたくさんあります。"
+        },
+        {
+          "en": "lake",
+          "ja": "湖",
+          "pos": "名",
+          "ex": "We rode in a small boat on the lake.",
+          "exJa": "私たちは湖で小さなボートに乗りました。"
+        },
+        {
+          "en": "dark",
+          "ja": "暗い",
+          "pos": "形",
+          "ex": "It's dark in here. Please turn on the light.",
+          "exJa": "ここは暗いです。明かりをつけてください。"
+        },
+        {
+          "en": "thirsty",
+          "ja": "のどがかわいた",
+          "pos": "形",
+          "ex": "I'm thirsty. Can I have some water?",
+          "exJa": "のどがかわきました。水をもらえますか。"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "theme": "健康",
+      "words": [
+        {
+          "en": "medicine",
+          "ja": "薬",
+          "pos": "名",
+          "ex": "Take this medicine after dinner.",
+          "exJa": "夕食後にこの薬を飲みなさい。"
+        },
+        {
+          "en": "meal",
+          "ja": "食事",
+          "pos": "名",
+          "ex": "Breakfast is the first meal of the day.",
+          "exJa": "朝食は1日の最初の食事です。"
+        },
+        {
+          "en": "check",
+          "ja": "調べる",
+          "pos": "動",
+          "ex": "The doctor will check your eyes today.",
+          "exJa": "今日はお医者さんがあなたの目を調べます。"
+        },
+        {
+          "en": "wear",
+          "ja": "着る",
+          "pos": "動",
+          "ex": "You must wear a warm coat in winter.",
+          "exJa": "冬には暖かいコートを着なければなりません。"
+        },
+        {
+          "en": "sick",
+          "ja": "病気の",
+          "pos": "形",
+          "ex": "I was sick in bed all day yesterday.",
+          "exJa": "私は昨日、一日中病気で寝ていました。"
+        },
+        {
+          "en": "usually",
+          "ja": "ふつうは",
+          "pos": "副",
+          "ex": "I usually go to bed at ten.",
+          "exJa": "私はふつう10時に寝ます。"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "theme": "ふるさと",
+      "words": [
+        {
+          "en": "hometown",
+          "ja": "故郷",
+          "pos": "名",
+          "ex": "I was born in Osaka. It is my hometown.",
+          "exJa": "私は大阪で生まれました。そこが私の故郷です。"
+        },
+        {
+          "en": "village",
+          "ja": "村",
+          "pos": "名",
+          "ex": "Only fifty people live in this small village.",
+          "exJa": "この小さな村には50人しか住んでいません。"
+        },
+        {
+          "en": "farmer",
+          "ja": "農家",
+          "pos": "名",
+          "ex": "The farmer grows rice and potatoes.",
+          "exJa": "その農家は米とじゃがいもを育てています。"
+        },
+        {
+          "en": "leave",
+          "ja": "出発する",
+          "pos": "動",
+          "ex": "Our train will leave Tokyo Station at nine.",
+          "exJa": "私たちの電車は9時に東京駅を出発します。"
+        },
+        {
+          "en": "return",
+          "ja": "戻る",
+          "pos": "動",
+          "ex": "He will return to Japan next month.",
+          "exJa": "彼は来月、日本に戻ります。"
+        },
+        {
+          "en": "wonderful",
+          "ja": "すばらしい",
+          "pos": "形",
+          "ex": "We had a wonderful time at the party.",
+          "exJa": "私たちはパーティーですばらしい時間を過ごしました。"
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "theme": "身近な人",
+      "words": [
+        {
+          "en": "cousin",
+          "ja": "いとこ",
+          "pos": "名",
+          "ex": "My aunt's son is my cousin.",
+          "exJa": "おばの息子は私のいとこです。"
+        },
+        {
+          "en": "neighbor",
+          "ja": "隣人",
+          "pos": "名",
+          "ex": "Mr. Smith is our neighbor. He lives next door.",
+          "exJa": "スミスさんは私たちの隣人です。となりに住んでいます。"
+        },
+        {
+          "en": "lend",
+          "ja": "貸す",
+          "pos": "動",
+          "ex": "Can you lend me your pen?",
+          "exJa": "あなたのペンを私に貸してくれますか。"
+        },
+        {
+          "en": "believe",
+          "ja": "信じる",
+          "pos": "動",
+          "ex": "I can't believe that story. Is it true?",
+          "exJa": "その話は信じられません。本当ですか。"
+        },
+        {
+          "en": "lucky",
+          "ja": "幸運な",
+          "pos": "形",
+          "ex": "I was lucky to get the last ticket.",
+          "exJa": "最後の1枚のチケットが手に入って幸運でした。"
+        },
+        {
+          "en": "without",
+          "ja": "〜なしで",
+          "pos": "前",
+          "ex": "I can't read small letters without my glasses.",
+          "exJa": "私はめがねなしでは小さな文字が読めません。"
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "theme": "休み",
+      "words": [
+        {
+          "en": "vacation",
+          "ja": "休暇",
+          "pos": "名",
+          "ex": "Our summer vacation starts in July.",
+          "exJa": "私たちの夏休みは7月に始まります。"
+        },
+        {
+          "en": "beach",
+          "ja": "浜辺",
+          "pos": "名",
+          "ex": "We played in the sand on the beach.",
+          "exJa": "私たちは浜辺の砂で遊びました。"
+        },
+        {
+          "en": "spend",
+          "ja": "過ごす",
+          "pos": "動",
+          "ex": "I want to spend more time with my family.",
+          "exJa": "私は家族ともっと多くの時間を過ごしたいです。"
+        },
+        {
+          "en": "miss",
+          "ja": "乗りそこなう",
+          "pos": "動",
+          "ex": "Let's run. I don't want to miss the train.",
+          "exJa": "走りましょう。電車に乗りそこないたくありません。"
+        },
+        {
+          "en": "popular",
+          "ja": "人気のある",
+          "pos": "形",
+          "ex": "This singer is popular among young people.",
+          "exJa": "この歌手は若者の間で人気があります。"
+        },
+        {
+          "en": "during",
+          "ja": "〜の間じゅう",
+          "pos": "前",
+          "ex": "I stayed in Hawaii during the winter holidays.",
+          "exJa": "私は冬休みの間じゅうハワイに滞在しました。"
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "theme": "季節とくらし",
+      "words": [
+        {
+          "en": "season",
+          "ja": "季節",
+          "pos": "名",
+          "ex": "Winter is the coldest season of the year.",
+          "exJa": "冬は1年でいちばん寒い季節です。"
+        },
+        {
+          "en": "holiday",
+          "ja": "祝日",
+          "pos": "名",
+          "ex": "New Year's Day is a national holiday.",
+          "exJa": "元日は国民の祝日です。"
+        },
+        {
+          "en": "change",
+          "ja": "変える",
+          "pos": "動",
+          "ex": "Leaves change color in the fall.",
+          "exJa": "秋には木の葉が色を変えます。"
+        },
+        {
+          "en": "move",
+          "ja": "引っ越す",
+          "pos": "動",
+          "ex": "My family will move to Osaka next spring.",
+          "exJa": "私の家族は今度の春、大阪に引っ越します。"
+        },
+        {
+          "en": "special",
+          "ja": "特別な",
+          "pos": "形",
+          "ex": "Today is a special day. It's my birthday.",
+          "exJa": "今日は特別な日です。私の誕生日なのです。"
+        },
+        {
+          "en": "garden",
+          "ja": "庭",
+          "pos": "名",
+          "ex": "My mother is watering flowers in the garden.",
+          "exJa": "母は庭で花に水をやっています。"
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "theme": "将来と仕事",
+      "words": [
+        {
+          "en": "company",
+          "ja": "会社",
+          "pos": "名",
+          "ex": "My father works for a car company.",
+          "exJa": "父は自動車会社で働いています。"
+        },
+        {
+          "en": "dream",
+          "ja": "夢",
+          "pos": "名",
+          "ex": "My dream is to be a doctor.",
+          "exJa": "私の夢は医者になることです。"
+        },
+        {
+          "en": "daughter",
+          "ja": "娘",
+          "pos": "名",
+          "ex": "Mr. Smith has two sons and one daughter.",
+          "exJa": "スミスさんには息子が2人と娘が1人います。"
+        },
+        {
+          "en": "choose",
+          "ja": "選ぶ",
+          "pos": "動",
+          "ex": "Please choose one color from these five.",
+          "exJa": "この5つの中から色を1つ選んでください。"
+        },
+        {
+          "en": "learn",
+          "ja": "学ぶ",
+          "pos": "動",
+          "ex": "We learn English from Mr. Smith at school.",
+          "exJa": "私たちは学校でスミス先生から英語を学びます。"
+        },
+        {
+          "en": "careful",
+          "ja": "注意深い",
+          "pos": "形",
+          "ex": "Be careful when you cross the street.",
+          "exJa": "通りを渡るときは注意しなさい。"
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "theme": "おでかけ",
+      "words": [
+        {
+          "en": "bring",
+          "ja": "持ってくる",
+          "pos": "動",
+          "ex": "Please bring your lunch to the picnic tomorrow.",
+          "exJa": "明日のピクニックにはお弁当を持ってきてください。"
+        },
+        {
+          "en": "lose",
+          "ja": "なくす",
+          "pos": "動",
+          "ex": "Don't lose your key. Put it in your bag.",
+          "exJa": "かぎをなくさないで。かばんに入れなさい。"
+        },
+        {
+          "en": "hurry",
+          "ja": "急ぐ",
+          "pos": "動",
+          "ex": "Let's hurry. The movie starts in five minutes.",
+          "exJa": "急ぎましょう。映画は5分後に始まります。"
+        },
+        {
+          "en": "trip",
+          "ja": "旅行",
+          "pos": "名",
+          "ex": "We went on a school trip to Nara.",
+          "exJa": "私たちは修学旅行で奈良へ行きました。"
+        },
+        {
+          "en": "castle",
+          "ja": "城",
+          "pos": "名",
+          "ex": "A king lived in this old castle long ago.",
+          "exJa": "昔、この古い城には王様が住んでいました。"
+        },
+        {
+          "en": "sleepy",
+          "ja": "眠い",
+          "pos": "形",
+          "ex": "I went to bed late, so I'm sleepy.",
+          "exJa": "おそく寝たので、私は眠いです。"
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "theme": "生活の動作",
+      "words": [
+        {
+          "en": "carry",
+          "ja": "運ぶ",
+          "pos": "動",
+          "ex": "I will carry your suitcase to your room.",
+          "exJa": "あなたのスーツケースを部屋まで運びます。"
+        },
+        {
+          "en": "break",
+          "ja": "こわす",
+          "pos": "動",
+          "ex": "Don't play ball here. You'll break the window.",
+          "exJa": "ここでボール遊びをしないで。窓をこわしてしまいますよ。"
+        },
+        {
+          "en": "save",
+          "ja": "節約する",
+          "pos": "動",
+          "ex": "Let's take a short shower to save water.",
+          "exJa": "水を節約するために、シャワーは短くしましょう。"
+        },
+        {
+          "en": "race",
+          "ja": "競走",
+          "pos": "名",
+          "ex": "Who was the fastest runner in the race?",
+          "exJa": "その競走でいちばん速い走者はだれでしたか。"
+        },
+        {
+          "en": "heavy",
+          "ja": "重い",
+          "pos": "形",
+          "ex": "This box is too heavy. I can't lift it.",
+          "exJa": "この箱は重すぎます。私には持ち上げられません。"
+        },
+        {
+          "en": "museum",
+          "ja": "博物館",
+          "pos": "名",
+          "ex": "We saw dinosaur bones at the museum.",
+          "exJa": "私たちは博物館で恐竜の骨を見ました。"
+        }
+      ]
+    }
+  ]
+}

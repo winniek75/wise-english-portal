@@ -4,6 +4,7 @@
 - `/course/[id]` 「今日の10分」コース（`src/data/courses.ts` で定義。各ステップはゲームの直接起動URL）
 - `/parent` 保護者ページ（6桁コード）
 - `/teachers` 外部の英語教室向け案内（4週間パック）
+- `/eiken` 英検対策トレーナー（4級・3級・準2級）。単語 `/eiken/words/[級]/[セット]`、単語ふくしゅう `/eiken/review/[級]/[セットまで]`、文法ドリル `/eiken/grammar/[単元]`
 - `/about` 使い方・データの扱い
 
 ## よく変える場所
@@ -26,3 +27,9 @@
 npm install
 npm run dev
 ```
+
+## 英検対策トレーナー
+
+- 単語（各級144語＝6語×24セット）と文法ドリル（15単元×20問）の中身は `src/data/eiken/json/*.json`。文言の修正はこのJSONだけで済む。
+- 12週間コース（`/course/eiken-g4` `eiken-g3` `eiken-p2`）の週ごとの割り当ては `src/data/eiken/plan.ts`。
+- 正解・不正解は端末の localStorage（`wise_eiken_stats_v1`）にだけ保存し、にがて優先の出題に使う。保護者ページの学習記録には送っていない。
