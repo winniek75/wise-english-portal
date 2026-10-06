@@ -43,7 +43,7 @@ export const categories: Category[] = [
       {
         id: "phonics",
         title: "Phonics Garden",
-        titleJa: "ジョリーフォニックス",
+        titleJa: "フォニックス",
         description:
           "42の音を、音・ことば・おはなし・うごきで1つずつ学ぶ。8種類のミニゲームつき",
         url: "https://phonics-winniek75s-projects.vercel.app",

@@ -114,7 +114,7 @@ const GAME_NAMES: Record<string, string> = {
   'eiken-grammar-game': '英検3級 文法マスター',
   'aredo-game': 'Am・Is・Are・Do・Does クイズ',
   'verbform-battle': '関係詞＆分詞ドリル',
-  'phonics': 'ジョリーフォニックス',
+  'phonics': 'フォニックス',
   'phonics-battle': 'はじめての英単語バトル',
   'phonics-sounds': 'フォニックスサウンド',
   'sight-words-memory': 'サイトワーズメモリー',
