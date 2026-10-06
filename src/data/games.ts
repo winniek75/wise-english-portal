@@ -332,7 +332,12 @@ export function getGame(id: string): Game {
   return g;
 }
 
-/** ゲームのURLに直接起動用のパス・パラメータを付ける */
+/** ゲームのURLに直接起動用のパス・パラメータを付ける。player名があれば付加する */
 export function gameLink(id: string, path = ""): string {
-  return getGame(id).url + path;
+  const base = getGame(id).url + path;
+  if (typeof window === "undefined") return base;
+  const playerName = localStorage.getItem("wise-player-name") || "";
+  if (!playerName) return base;
+  const sep = base.includes("?") ? "&" : "?";
+  return `${base}${sep}player=${encodeURIComponent(playerName)}`;
 }
