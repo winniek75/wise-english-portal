@@ -1,0 +1,286 @@
+{
+  "id": "g4-present",
+  "grade": "4",
+  "title": "現在形と三人称単数（-s / -es / 不規則）",
+  "points": [
+    "三人称単数（he / she / it）のとき、動詞に -s / -es をつける",
+    "疑問文は Does + 主語 + 動詞の原形、否定文は doesn't + 動詞の原形",
+    "have は三人称単数で has になる不規則変化"
+  ],
+  "examples": [
+    {
+      "en": "She plays the piano every day.",
+      "ja": "彼女は毎日ピアノを弾きます。"
+    },
+    {
+      "en": "Does he like soccer?",
+      "ja": "彼はサッカーが好きですか。"
+    },
+    {
+      "en": "My brother doesn't eat breakfast.",
+      "ja": "私の兄は朝ごはんを食べません。"
+    }
+  ],
+  "questions": [
+    {
+      "id": "g4-present-01",
+      "type": "choice",
+      "q": "She ___ English every day.",
+      "ja": "彼女は毎日英語を勉強します。",
+      "options": ["study", "studies", "studying", "studied"],
+      "answer": 1,
+      "why": "主語が She（三人称単数）なので、study の y を i に変えて -es をつける。"
+    },
+    {
+      "id": "g4-present-02",
+      "type": "choice",
+      "q": "My father ___ to work by train.",
+      "ja": "私の父は電車で仕事に行きます。",
+      "options": ["go", "goes", "going", "went"],
+      "answer": 1,
+      "why": "主語が My father（三人称単数）なので go に -es をつける。"
+    },
+    {
+      "id": "g4-present-03",
+      "type": "choice",
+      "q": "Tom ___ two cats.",
+      "ja": "トムは猫を2匹飼っています。",
+      "options": ["have", "has", "having", "had"],
+      "answer": 1,
+      "why": "主語が Tom（三人称単数）なので、have は不規則に has になる。"
+    },
+    {
+      "id": "g4-present-04",
+      "type": "choice",
+      "q": "___ your sister like music?",
+      "ja": "あなたのお姉さんは音楽が好きですか。",
+      "options": ["Do", "Does", "Is", "Are"],
+      "answer": 1,
+      "why": "your sister は三人称単数なので疑問文は Does を使う。"
+    },
+    {
+      "id": "g4-present-05",
+      "type": "choice",
+      "q": "He ___ play soccer on Sundays.",
+      "ja": "彼は日曜日にサッカーをしません。",
+      "options": ["don't", "isn't", "doesn't", "aren't"],
+      "answer": 2,
+      "why": "主語が He（三人称単数）で一般動詞の否定なので doesn't。"
+    },
+    {
+      "id": "g4-present-06",
+      "type": "choice",
+      "q": "We ___ breakfast at seven every morning.",
+      "ja": "私たちは毎朝7時に朝ごはんを食べます。",
+      "options": ["eats", "eating", "eat", "ate"],
+      "answer": 2,
+      "why": "主語が We（三人称単数ではない）なので動詞は原形の eat。"
+    },
+    {
+      "id": "g4-present-07",
+      "type": "choice",
+      "q": "Ms. Brown ___ math at our school.",
+      "ja": "ブラウン先生は私たちの学校で数学を教えています。",
+      "options": ["teach", "teaches", "teaching", "taught"],
+      "answer": 1,
+      "why": "主語が Ms. Brown（三人称単数）なので teach に -es をつける。"
+    },
+    {
+      "id": "g4-present-08",
+      "type": "choice",
+      "q": "Does Ken walk to school? — Yes, he ___.",
+      "ja": "ケンは歩いて学校に行きますか。— はい、行きます。",
+      "options": ["walks", "is", "does", "do"],
+      "answer": 2,
+      "why": "Does で聞かれたら does で答える。Yes, he does."
+    },
+    {
+      "id": "g4-present-09",
+      "type": "choice",
+      "q": "My mother ___ dinner for us every evening.",
+      "ja": "私の母は毎晩私たちに夕食を作ります。",
+      "options": ["cook", "cooks", "cooking", "cooked"],
+      "answer": 1,
+      "why": "主語が My mother（三人称単数）なので cook に -s をつける。"
+    },
+    {
+      "id": "g4-present-10",
+      "type": "choice",
+      "q": "I ___ to the library after school.",
+      "ja": "私は放課後、図書館に行きます。",
+      "options": ["goes", "going", "go", "went"],
+      "answer": 2,
+      "why": "主語が I なので動詞は原形の go を使う。"
+    },
+    {
+      "id": "g4-present-11",
+      "type": "choice",
+      "q": "The bus ___ at 8:00 every morning.",
+      "ja": "そのバスは毎朝8時に来ます。",
+      "options": ["come", "comes", "coming", "came"],
+      "answer": 1,
+      "why": "主語が The bus（三人称単数）なので come に -s をつける。"
+    },
+    {
+      "id": "g4-present-12",
+      "type": "choice",
+      "q": "Does she ___ a bicycle?",
+      "ja": "彼女は自転車を持っていますか。",
+      "options": ["has", "have", "having", "had"],
+      "answer": 1,
+      "why": "Does のあとは動詞の原形。have が正しい（has にしない）。"
+    },
+    {
+      "id": "g4-present-13",
+      "type": "choice",
+      "q": "My dog ___ in the park every afternoon.",
+      "ja": "私の犬は毎日午後、公園で走ります。",
+      "options": ["run", "runs", "running", "ran"],
+      "answer": 1,
+      "why": "主語が My dog（三人称単数）なので run に -s をつける。"
+    },
+    {
+      "id": "g4-present-14",
+      "type": "choice",
+      "q": "Yumi doesn't ___ coffee.",
+      "ja": "ユミはコーヒーを飲みません。",
+      "options": ["drinks", "drinking", "drank", "drink"],
+      "answer": 3,
+      "why": "doesn't のあとは動詞の原形。drink が正しい。"
+    },
+    {
+      "id": "g4-present-15",
+      "type": "choice",
+      "q": "Ken ___ up at six every morning.",
+      "ja": "ケンは毎朝6時に起きます。",
+      "options": ["get", "gets", "getting", "got"],
+      "answer": 1,
+      "why": "主語が Ken（三人称単数）なので get に -s をつける。"
+    },
+    {
+      "id": "g4-present-16",
+      "type": "choice",
+      "q": "___ you like apples? — No, I ___.",
+      "ja": "あなたはりんごが好きですか。— いいえ、好きではありません。",
+      "options": ["Do / don't", "Does / doesn't", "Are / am not", "Is / isn't"],
+      "answer": 0,
+      "why": "主語が you なので Do を使い、I で答えるので don't。"
+    },
+    {
+      "id": "g4-present-17",
+      "type": "choice",
+      "q": "His brother ___ TV after dinner.",
+      "ja": "彼の兄は夕食後にテレビを見ます。",
+      "options": ["watch", "watches", "watching", "watched"],
+      "answer": 1,
+      "why": "主語が His brother（三人称単数）。watch は -es をつける。"
+    },
+    {
+      "id": "g4-present-18",
+      "type": "choice",
+      "q": "That bird ___ very well.",
+      "ja": "あの鳥はとても上手に歌います。",
+      "options": ["sing", "sings", "singing", "sang"],
+      "answer": 1,
+      "why": "主語が That bird（三人称単数）なので sing に -s をつける。"
+    },
+    {
+      "id": "g4-present-19",
+      "type": "choice",
+      "q": "My sister ___ a letter to her friend every week.",
+      "ja": "私の姉は毎週友だちに手紙を書きます。",
+      "options": ["write", "writes", "writing", "wrote"],
+      "answer": 1,
+      "why": "主語が My sister（三人称単数）なので write に -s をつける。"
+    },
+    {
+      "id": "g4-present-20",
+      "type": "choice",
+      "q": "Mr. Tanaka ___ at this hospital.",
+      "ja": "田中さんはこの病院で働いています。",
+      "options": ["work", "works", "working", "worked"],
+      "answer": 1,
+      "why": "主語が Mr. Tanaka（三人称単数）なので work に -s をつける。"
+    },
+    {
+      "id": "g4-present-21",
+      "type": "order",
+      "ja": "彼女は毎日学校に歩いて行きます。",
+      "words": ["she", "walks", "to", "school", "every", "day"],
+      "full": "She walks to school every day.",
+      "why": "三単現の walks を使い、主語→動詞→場所→時の順に並べる。"
+    },
+    {
+      "id": "g4-present-22",
+      "type": "order",
+      "ja": "トムは朝ごはんを食べません。",
+      "words": ["Tom", "doesn't", "eat", "breakfast"],
+      "full": "Tom doesn't eat breakfast.",
+      "why": "三人称単数の否定は doesn't + 動詞の原形。"
+    },
+    {
+      "id": "g4-present-23",
+      "type": "order",
+      "ja": "あなたのお母さんは英語を話しますか。",
+      "words": ["does", "your", "mother", "speak", "English"],
+      "full": "Does your mother speak English?",
+      "why": "三人称単数の疑問文は Does + 主語 + 動詞の原形。"
+    },
+    {
+      "id": "g4-present-24",
+      "type": "order",
+      "ja": "私の兄は毎週日曜日にサッカーをします。",
+      "words": ["my", "brother", "plays", "soccer", "every", "Sunday"],
+      "full": "My brother plays soccer every Sunday.",
+      "why": "三単現の plays を使い、主語→動詞→目的語→時の順。"
+    },
+    {
+      "id": "g4-present-25",
+      "type": "order",
+      "ja": "彼は犬を3匹飼っています。",
+      "words": ["he", "has", "three", "dogs"],
+      "full": "He has three dogs.",
+      "why": "三人称単数では have が has に変わる。"
+    },
+    {
+      "id": "g4-present-26",
+      "type": "order",
+      "ja": "ケンは放課後テニスをしません。",
+      "words": ["Ken", "doesn't", "play", "tennis", "after", "school"],
+      "full": "Ken doesn't play tennis after school.",
+      "why": "doesn't のあとは動詞の原形 play。"
+    },
+    {
+      "id": "g4-present-27",
+      "type": "order",
+      "ja": "あなたのお父さんは何時に家に帰りますか。",
+      "words": ["what", "time", "does", "your", "father", "come", "home"],
+      "full": "What time does your father come home?",
+      "why": "What time を先に置き、Does + 主語 + 動詞の原形の語順。"
+    },
+    {
+      "id": "g4-present-28",
+      "type": "order",
+      "ja": "私たちは毎朝牛乳を飲みます。",
+      "words": ["we", "drink", "milk", "every", "morning"],
+      "full": "We drink milk every morning.",
+      "why": "主語が We なので動詞は原形の drink。三単現の s はつけない。"
+    },
+    {
+      "id": "g4-present-29",
+      "type": "order",
+      "ja": "彼女のお姉さんはこの店で働いています。",
+      "words": ["her", "sister", "works", "at", "this", "store"],
+      "full": "Her sister works at this store.",
+      "why": "三単現の works を使い、場所は at this store。"
+    },
+    {
+      "id": "g4-present-30",
+      "type": "order",
+      "ja": "その電車は9時に出発します。",
+      "words": ["the", "train", "leaves", "at", "nine"],
+      "full": "The train leaves at nine.",
+      "why": "The train は三人称単数なので leave に -s をつける。時刻には at を使う。"
+    }
+  ]
+}

@@ -1,0 +1,494 @@
+{
+  "id": "p2-formal-object",
+  "grade": "p2",
+  "title": "形式目的語（find it + 形容詞 + to ～）",
+  "points": [
+    "find/make/think it + 形容詞 + to不定詞",
+    "it = 仮の目的語（形式目的語）。真の目的語は to不定詞や that節",
+    "that節を目的語にする場合（think it natural that ...）"
+  ],
+  "examples": [
+    {
+      "en": "I find it difficult to speak English fluently.",
+      "ja": "英語を流暢に話すのは難しいと感じます。"
+    },
+    {
+      "en": "The Internet has made it possible to work from home.",
+      "ja": "インターネットのおかげで在宅勤務が可能になった。"
+    },
+    {
+      "en": "I think it important that we respect each other.",
+      "ja": "私たちがお互いを尊重することが大切だと思う。"
+    }
+  ],
+  "questions": [
+    {
+      "id": "p2-formal-object-01",
+      "type": "choice",
+      "q": "I find ___ difficult to get up early in the morning.",
+      "ja": "朝早く起きるのは難しいと感じます。",
+      "options": [
+        "that",
+        "this",
+        "it",
+        "what"
+      ],
+      "answer": 2,
+      "why": "find it + 形容詞 + to不定詞。it は形式目的語。"
+    },
+    {
+      "id": "p2-formal-object-02",
+      "type": "choice",
+      "q": "The new rule made ___ impossible to leave school early.",
+      "ja": "新しい規則のせいで早退することが不可能になった。",
+      "options": [
+        "that",
+        "this",
+        "what",
+        "it"
+      ],
+      "answer": 3,
+      "why": "make it + 形容詞 + to不定詞。it は形式目的語。"
+    },
+    {
+      "id": "p2-formal-object-03",
+      "type": "choice",
+      "q": "I think it ___ that students learn about other cultures.",
+      "ja": "生徒たちが他の文化について学ぶことは重要だと思う。",
+      "options": [
+        "importance",
+        "importantly",
+        "important",
+        "importing"
+      ],
+      "answer": 2,
+      "why": "think it + 形容詞 + that節。形容詞 important が入る。"
+    },
+    {
+      "id": "p2-formal-object-04",
+      "type": "choice",
+      "q": "She found it ___ to make new friends at the new school.",
+      "ja": "彼女は新しい学校で友達を作るのが簡単だと感じた。",
+      "options": [
+        "easily",
+        "easy",
+        "ease",
+        "easier"
+      ],
+      "answer": 1,
+      "why": "find it + 形容詞 + to不定詞。副詞ではなく形容詞が入る。"
+    },
+    {
+      "id": "p2-formal-object-05",
+      "type": "choice",
+      "q": "Technology has made it ___ for people to communicate worldwide.",
+      "ja": "テクノロジーのおかげで世界中の人々がコミュニケーションを取ることが可能になった。",
+      "options": [
+        "possibility",
+        "possibly",
+        "possible",
+        "possessing"
+      ],
+      "answer": 2,
+      "why": "make it + 形容詞 + for + 人 + to不定詞。形容詞 possible。"
+    },
+    {
+      "id": "p2-formal-object-06",
+      "type": "choice",
+      "q": "He considers ___ necessary to exercise every day.",
+      "ja": "彼は毎日運動することが必要だと考えている。",
+      "options": [
+        "that",
+        "this",
+        "it",
+        "what"
+      ],
+      "answer": 2,
+      "why": "consider it + 形容詞 + to不定詞。it は形式目的語。"
+    },
+    {
+      "id": "p2-formal-object-07",
+      "type": "choice",
+      "q": "I found it surprising ___ he could finish the project alone.",
+      "ja": "彼が一人でそのプロジェクトを終わらせられたのは驚きだと思った。",
+      "options": [
+        "what",
+        "which",
+        "that",
+        "whether"
+      ],
+      "answer": 2,
+      "why": "find it + 形容詞 + that節。that 節が真の目的語。"
+    },
+    {
+      "id": "p2-formal-object-08",
+      "type": "choice",
+      "q": "The heavy rain made it ___ for us to go outside.",
+      "ja": "大雨のせいで外出するのが危険になった。",
+      "options": [
+        "danger",
+        "dangerously",
+        "dangerous",
+        "endangered"
+      ],
+      "answer": 2,
+      "why": "make it + 形容詞 + for + 人 + to不定詞。形容詞が入る。"
+    },
+    {
+      "id": "p2-formal-object-09",
+      "type": "choice",
+      "q": "We think ___ natural that children want to play.",
+      "ja": "子供が遊びたがるのは自然なことだと思います。",
+      "options": [
+        "that",
+        "this",
+        "what",
+        "it"
+      ],
+      "answer": 3,
+      "why": "think it + 形容詞 + that節。it は形式目的語。"
+    },
+    {
+      "id": "p2-formal-object-10",
+      "type": "choice",
+      "q": "The Internet makes it ___ to find information quickly.",
+      "ja": "インターネットのおかげで情報をすぐに見つけるのが簡単だ。",
+      "options": [
+        "easily",
+        "easy",
+        "ease",
+        "easing"
+      ],
+      "answer": 1,
+      "why": "make it + 形容詞 + to不定詞。形容詞 easy。"
+    },
+    {
+      "id": "p2-formal-object-11",
+      "type": "choice",
+      "q": "I consider it ___ to be kind to everyone.",
+      "ja": "誰にでも親切にすることが大切だと考えている。",
+      "options": [
+        "importance",
+        "importantly",
+        "important",
+        "import"
+      ],
+      "answer": 2,
+      "why": "consider it + 形容詞 + to不定詞。形容詞 important。"
+    },
+    {
+      "id": "p2-formal-object-12",
+      "type": "choice",
+      "q": "She made ___ clear that she didn't agree with the plan.",
+      "ja": "彼女はその計画に賛成しないことをはっきりさせた。",
+      "options": [
+        "that",
+        "this",
+        "it",
+        "what"
+      ],
+      "answer": 2,
+      "why": "make it clear that ... で「〜をはっきりさせる」。it は形式目的語。"
+    },
+    {
+      "id": "p2-formal-object-13",
+      "type": "choice",
+      "q": "I find it ___ to read books before going to bed.",
+      "ja": "寝る前に本を読むのは楽しいと思います。",
+      "options": [
+        "enjoy",
+        "enjoyable",
+        "enjoying",
+        "enjoyed"
+      ],
+      "answer": 1,
+      "why": "find it + 形容詞 + to不定詞。形容詞 enjoyable。"
+    },
+    {
+      "id": "p2-formal-object-14",
+      "type": "choice",
+      "q": "The noise from the construction made it hard ___ me to concentrate.",
+      "ja": "工事の騒音のせいで集中するのが難しかった。",
+      "options": [
+        "to",
+        "of",
+        "for",
+        "with"
+      ],
+      "answer": 2,
+      "why": "make it + 形容詞 + for + 人 + to不定詞。for は意味上の主語。"
+    },
+    {
+      "id": "p2-formal-object-15",
+      "type": "choice",
+      "q": "He thought it strange ___ nobody answered the phone.",
+      "ja": "誰も電話に出ないのは変だと彼は思った。",
+      "options": [
+        "what",
+        "which",
+        "that",
+        "whether"
+      ],
+      "answer": 2,
+      "why": "think it + 形容詞 + that節。that 節が真の目的語。"
+    },
+    {
+      "id": "p2-formal-object-16",
+      "type": "choice",
+      "q": "She finds ___ boring to watch the news every day.",
+      "ja": "彼女は毎日ニュースを見るのは退屈だと感じている。",
+      "options": [
+        "that",
+        "what",
+        "it",
+        "this"
+      ],
+      "answer": 2,
+      "why": "find it + 形容詞 + to不定詞。it は形式目的語。"
+    },
+    {
+      "id": "p2-formal-object-17",
+      "type": "choice",
+      "q": "The teacher made it ___ that cheating would not be tolerated.",
+      "ja": "先生はカンニングは許されないことをはっきりさせた。",
+      "options": [
+        "clearly",
+        "clearing",
+        "cleared",
+        "clear"
+      ],
+      "answer": 3,
+      "why": "make it + 形容詞 + that節。形容詞 clear が入る。"
+    },
+    {
+      "id": "p2-formal-object-18",
+      "type": "choice",
+      "q": "I think it ___ to learn a foreign language.",
+      "ja": "外国語を学ぶのは役に立つと思います。",
+      "options": [
+        "usefully",
+        "useful",
+        "use",
+        "using"
+      ],
+      "answer": 1,
+      "why": "think it + 形容詞 + to不定詞。形容詞 useful。"
+    },
+    {
+      "id": "p2-formal-object-19",
+      "type": "choice",
+      "q": "GPS has made it easier ___ people to travel to new places.",
+      "ja": "GPSのおかげで知らない場所への旅行がより簡単になった。",
+      "options": [
+        "to",
+        "of",
+        "with",
+        "for"
+      ],
+      "answer": 3,
+      "why": "make it + 形容詞（比較級）+ for + 人 + to不定詞。"
+    },
+    {
+      "id": "p2-formal-object-20",
+      "type": "choice",
+      "q": "He found it ___ to believe the story she told him.",
+      "ja": "彼は彼女の話を信じるのが難しいと感じた。",
+      "options": [
+        "hardly",
+        "hardness",
+        "hard",
+        "harden"
+      ],
+      "answer": 2,
+      "why": "find it + 形容詞 + to不定詞。形容詞 hard。"
+    },
+    {
+      "id": "p2-formal-object-21",
+      "type": "order",
+      "ja": "英語を流暢に話すのは難しいと感じます。",
+      "words": [
+        "I",
+        "find",
+        "it",
+        "difficult",
+        "to",
+        "speak",
+        "English",
+        "fluently"
+      ],
+      "full": "I find it difficult to speak English fluently.",
+      "why": "find it + 形容詞 + to不定詞。it は形式目的語。"
+    },
+    {
+      "id": "p2-formal-object-22",
+      "type": "order",
+      "ja": "インターネットのおかげで在宅勤務が可能になった。",
+      "words": [
+        "the",
+        "Internet",
+        "has",
+        "made",
+        "it",
+        "possible",
+        "to",
+        "work",
+        "from",
+        "home"
+      ],
+      "full": "The Internet has made it possible to work from home.",
+      "why": "make it + 形容詞 + to不定詞。it は形式目的語。"
+    },
+    {
+      "id": "p2-formal-object-23",
+      "type": "order",
+      "ja": "私たちがお互いを尊重することが大切だと思う。",
+      "words": [
+        "I",
+        "think",
+        "it",
+        "important",
+        "that",
+        "we",
+        "respect",
+        "each",
+        "other"
+      ],
+      "full": "I think it important that we respect each other.",
+      "why": "think it + 形容詞 + that節。it は形式目的語。"
+    },
+    {
+      "id": "p2-formal-object-24",
+      "type": "order",
+      "ja": "彼女はその計画に賛成しないことをはっきりさせた。",
+      "words": [
+        "she",
+        "made",
+        "it",
+        "clear",
+        "that",
+        "she",
+        "didn't",
+        "agree",
+        "with",
+        "the",
+        "plan"
+      ],
+      "full": "She made it clear that she didn't agree with the plan.",
+      "why": "make it clear that ... で「〜をはっきりさせる」。"
+    },
+    {
+      "id": "p2-formal-object-25",
+      "type": "order",
+      "ja": "毎日運動することが必要だと彼は考えている。",
+      "words": [
+        "he",
+        "considers",
+        "it",
+        "necessary",
+        "to",
+        "exercise",
+        "every",
+        "day"
+      ],
+      "full": "He considers it necessary to exercise every day.",
+      "why": "consider it + 形容詞 + to不定詞。it は形式目的語。"
+    },
+    {
+      "id": "p2-formal-object-26",
+      "type": "order",
+      "ja": "大雨のせいで私たちが外出するのが危険になった。",
+      "words": [
+        "the",
+        "heavy",
+        "rain",
+        "made",
+        "it",
+        "dangerous",
+        "for",
+        "us",
+        "to",
+        "go",
+        "outside"
+      ],
+      "full": "The heavy rain made it dangerous for us to go outside.",
+      "why": "make it + 形容詞 + for + 人 + to不定詞。"
+    },
+    {
+      "id": "p2-formal-object-27",
+      "type": "order",
+      "ja": "寝る前に本を読むのは楽しいと思います。",
+      "words": [
+        "I",
+        "find",
+        "it",
+        "enjoyable",
+        "to",
+        "read",
+        "books",
+        "before",
+        "going",
+        "to",
+        "bed"
+      ],
+      "full": "I find it enjoyable to read books before going to bed.",
+      "why": "find it + 形容詞 + to不定詞。it は形式目的語。"
+    },
+    {
+      "id": "p2-formal-object-28",
+      "type": "order",
+      "ja": "誰も電話に出ないのは変だと彼は思った。",
+      "words": [
+        "he",
+        "thought",
+        "it",
+        "strange",
+        "that",
+        "nobody",
+        "answered",
+        "the",
+        "phone"
+      ],
+      "full": "He thought it strange that nobody answered the phone.",
+      "why": "think it + 形容詞 + that節。it は形式目的語。"
+    },
+    {
+      "id": "p2-formal-object-29",
+      "type": "order",
+      "ja": "外国語を学ぶのは役に立つと思います。",
+      "words": [
+        "I",
+        "think",
+        "it",
+        "useful",
+        "to",
+        "learn",
+        "a",
+        "foreign",
+        "language"
+      ],
+      "full": "I think it useful to learn a foreign language.",
+      "why": "think it + 形容詞 + to不定詞。it は形式目的語。"
+    },
+    {
+      "id": "p2-formal-object-30",
+      "type": "order",
+      "ja": "GPSのおかげで知らない場所への旅行がより簡単になった。",
+      "words": [
+        "GPS",
+        "has",
+        "made",
+        "it",
+        "easier",
+        "for",
+        "people",
+        "to",
+        "travel",
+        "to",
+        "new",
+        "places"
+      ],
+      "full": "GPS has made it easier for people to travel to new places.",
+      "why": "make it + 形容詞（比較級）+ for + 人 + to不定詞。"
+    }
+  ]
+}

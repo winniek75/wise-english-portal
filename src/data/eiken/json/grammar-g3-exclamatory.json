@@ -1,0 +1,47 @@
+{
+  "id": "g3-exclamatory",
+  "grade": "3",
+  "title": "感嘆文（What a ～! / How ～!）",
+  "points": [
+    "What a/an + 形容詞 + 名詞 + 主語 + 動詞! で「なんて～な…でしょう！」",
+    "How + 形容詞/副詞 + 主語 + 動詞! で「なんて～でしょう！」",
+    "日常でよく使う感嘆文の表現"
+  ],
+  "examples": [
+    { "en": "What a beautiful flower this is!", "ja": "これはなんて美しい花でしょう！" },
+    { "en": "How tall he is!", "ja": "彼はなんて背が高いのでしょう！" },
+    { "en": "What a nice day it is!", "ja": "なんていい天気でしょう！" }
+  ],
+  "questions": [
+    { "id": "g3-exclamatory-01", "type": "choice", "q": "___ a beautiful picture this is!", "ja": "これはなんて美しい絵でしょう！", "options": ["How", "What", "Which", "That"], "answer": 1, "why": "名詞（picture）があるので What a + 形容詞 + 名詞 の形を使う。" },
+    { "id": "g3-exclamatory-02", "type": "choice", "q": "___ fast he runs!", "ja": "彼はなんて速く走るのでしょう！", "options": ["What", "What a", "How", "Which"], "answer": 2, "why": "副詞（fast）だけなので How + 副詞 + 主語 + 動詞! の形を使う。" },
+    { "id": "g3-exclamatory-03", "type": "choice", "q": "What ___ interesting book this is!", "ja": "これはなんておもしろい本でしょう！", "options": ["a", "an", "the", "some"], "answer": 1, "why": "interesting は母音で始まるので an を使う。What an + 形容詞 + 名詞。" },
+    { "id": "g3-exclamatory-04", "type": "choice", "q": "___ delicious this cake is!", "ja": "このケーキはなんておいしいのでしょう！", "options": ["What", "What a", "How", "Which"], "answer": 2, "why": "形容詞（delicious）だけで名詞がないので How を使う。" },
+    { "id": "g3-exclamatory-05", "type": "choice", "q": "What a ___ dog that is!", "ja": "あれはなんてかわいい犬でしょう！", "options": ["cute", "cutely", "cuter", "cutest"], "answer": 0, "why": "What a のあとには形容詞の原級を置く。cute が正しい。" },
+    { "id": "g3-exclamatory-06", "type": "choice", "q": "___ kind she is!", "ja": "彼女はなんて親切なのでしょう！", "options": ["What", "What a", "How", "Which"], "answer": 2, "why": "形容詞（kind）だけで名詞がないので How + 形容詞 + 主語 + 動詞! の形。" },
+    { "id": "g3-exclamatory-07", "type": "choice", "q": "What ___ tall building that is!", "ja": "あれはなんて高い建物でしょう！", "options": ["an", "the", "a", "some"], "answer": 2, "why": "tall は子音で始まるので a を使う。What a + 形容詞 + 名詞。" },
+    { "id": "g3-exclamatory-08", "type": "choice", "q": "___ well she sings!", "ja": "彼女はなんて上手に歌うのでしょう！", "options": ["What", "What a", "How", "Which"], "answer": 2, "why": "副詞（well）を使うので How + 副詞 + 主語 + 動詞! の形。" },
+    { "id": "g3-exclamatory-09", "type": "choice", "q": "What a ___ day it is today!", "ja": "今日はなんて素晴らしい日でしょう！", "options": ["wonderfully", "wonderful", "wonder", "more wonderful"], "answer": 1, "why": "What a のあとには形容詞を置く。wonderful が正しい。" },
+    { "id": "g3-exclamatory-10", "type": "choice", "q": "___ big eyes she has!", "ja": "彼女はなんて大きな目をしているのでしょう！", "options": ["How", "How a", "What", "What a"], "answer": 2, "why": "複数名詞（eyes）なので a/an はつけない。What + 形容詞 + 複数名詞 の形。" },
+    { "id": "g3-exclamatory-11", "type": "choice", "q": "___ cold it is today!", "ja": "今日はなんて寒いのでしょう！", "options": ["What", "What a", "How", "Which"], "answer": 2, "why": "形容詞（cold）だけで名詞がないので How を使う。" },
+    { "id": "g3-exclamatory-12", "type": "choice", "q": "What ___ exciting game it was!", "ja": "なんてわくわくする試合だったのでしょう！", "options": ["a", "an", "the", "some"], "answer": 1, "why": "exciting は母音で始まるので an を使う。" },
+    { "id": "g3-exclamatory-13", "type": "choice", "q": "___ slowly the turtle walks!", "ja": "そのカメはなんてゆっくり歩くのでしょう！", "options": ["What", "What a", "How", "Which"], "answer": 2, "why": "副詞（slowly）を使うので How + 副詞 + 主語 + 動詞! の形。" },
+    { "id": "g3-exclamatory-14", "type": "choice", "q": "What a ___ story this is!", "ja": "これはなんて悲しい話でしょう！", "options": ["sadly", "sad", "sadder", "saddest"], "answer": 1, "why": "What a のあとには形容詞の原級を置く。sad が正しい。" },
+    { "id": "g3-exclamatory-15", "type": "choice", "q": "___ a long bridge this is!", "ja": "これはなんて長い橋でしょう！", "options": ["How", "Which", "What", "That"], "answer": 2, "why": "名詞（bridge）があるので What a + 形容詞 + 名詞 の形を使う。" },
+    { "id": "g3-exclamatory-16", "type": "choice", "q": "___ hard he studies!", "ja": "彼はなんて一生懸命勉強するのでしょう！", "options": ["What", "What a", "How", "Which"], "answer": 2, "why": "副詞（hard）を使うので How + 副詞 + 主語 + 動詞! の形。" },
+    { "id": "g3-exclamatory-17", "type": "choice", "q": "What ___ cute baby she is!", "ja": "彼女はなんてかわいい赤ちゃんでしょう！", "options": ["an", "the", "a", "some"], "answer": 2, "why": "cute は子音で始まるので a を使う。What a + 形容詞 + 名詞。" },
+    { "id": "g3-exclamatory-18", "type": "choice", "q": "___ surprising this news is!", "ja": "このニュースはなんて驚きでしょう！", "options": ["What", "What a", "How", "Which"], "answer": 2, "why": "形容詞（surprising）だけで名詞がないので How を使う。" },
+    { "id": "g3-exclamatory-19", "type": "choice", "q": "What ___ colorful flowers they are!", "ja": "なんて色鮮やかな花でしょう！", "options": ["a", "an", "the", "×（何もいらない）"], "answer": 3, "why": "複数名詞（flowers）なので a/an はつけない。What + 形容詞 + 複数名詞。" },
+    { "id": "g3-exclamatory-20", "type": "choice", "q": "___ beautiful the sunset is!", "ja": "その夕日はなんて美しいのでしょう！", "options": ["What", "What a", "How", "Which"], "answer": 2, "why": "形容詞（beautiful）だけなので How + 形容詞 + 主語 + 動詞! の形。" },
+    { "id": "g3-exclamatory-21", "type": "order", "ja": "これはなんて大きな家でしょう！", "words": ["what", "a", "big", "house", "this", "is"], "full": "What a big house this is!", "why": "What a + 形容詞 + 名詞 + 主語 + 動詞! の語順。" },
+    { "id": "g3-exclamatory-22", "type": "order", "ja": "彼女はなんて美しいのでしょう！", "words": ["how", "beautiful", "she", "is"], "full": "How beautiful she is!", "why": "How + 形容詞 + 主語 + 動詞! の語順。" },
+    { "id": "g3-exclamatory-23", "type": "order", "ja": "なんておいしいケーキでしょう！", "words": ["what", "a", "delicious", "cake", "this", "is"], "full": "What a delicious cake this is!", "why": "What a + 形容詞 + 名詞 + 主語 + 動詞! の語順。" },
+    { "id": "g3-exclamatory-24", "type": "order", "ja": "彼はなんて速く泳ぐのでしょう！", "words": ["how", "fast", "he", "swims"], "full": "How fast he swims!", "why": "How + 副詞 + 主語 + 動詞! の語順。" },
+    { "id": "g3-exclamatory-25", "type": "order", "ja": "なんてかわいいネコでしょう！", "words": ["what", "a", "cute", "cat", "it", "is"], "full": "What a cute cat it is!", "why": "What a + 形容詞 + 名詞 + 主語 + 動詞! の語順。" },
+    { "id": "g3-exclamatory-26", "type": "order", "ja": "今日はなんて暑いのでしょう！", "words": ["how", "hot", "it", "is", "today"], "full": "How hot it is today!", "why": "How + 形容詞 + 主語 + 動詞! の語順。today は最後に置く。" },
+    { "id": "g3-exclamatory-27", "type": "order", "ja": "これはなんておもしろい映画でしょう！", "words": ["what", "an", "interesting", "movie", "this", "is"], "full": "What an interesting movie this is!", "why": "interesting は母音で始まるので an を使う。" },
+    { "id": "g3-exclamatory-28", "type": "order", "ja": "彼女はなんて上手にピアノをひくのでしょう！", "words": ["how", "well", "she", "plays", "the", "piano"], "full": "How well she plays the piano!", "why": "How + 副詞 + 主語 + 動詞 + 目的語! の語順。" },
+    { "id": "g3-exclamatory-29", "type": "order", "ja": "なんて親切な人たちでしょう！", "words": ["what", "kind", "people", "they", "are"], "full": "What kind people they are!", "why": "複数名詞（people）なので a/an はつけない。What + 形容詞 + 複数名詞。" },
+    { "id": "g3-exclamatory-30", "type": "order", "ja": "この花はなんていい香りがするのでしょう！", "words": ["how", "nice", "this", "flower", "smells"], "full": "How nice this flower smells!", "why": "How + 形容詞 + 主語 + 動詞! の語順。smell は感覚動詞。" }
+  ]
+}

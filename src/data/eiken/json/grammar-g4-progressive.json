@@ -1,0 +1,286 @@
+{
+  "id": "g4-progressive",
+  "grade": "4",
+  "title": "現在進行形（be + -ing）",
+  "points": [
+    "am / is / are + 動詞の -ing形 で「〜しているところです」",
+    "否定文は be動詞 + not + -ing、疑問文は be動詞を主語の前に出す",
+    "現在形は「いつもすること」、現在進行形は「今していること」"
+  ],
+  "examples": [
+    {
+      "en": "I am reading a book now.",
+      "ja": "私は今、本を読んでいます。"
+    },
+    {
+      "en": "She is not watching TV.",
+      "ja": "彼女はテレビを見ていません。"
+    },
+    {
+      "en": "Are they playing soccer?",
+      "ja": "彼らはサッカーをしていますか。"
+    }
+  ],
+  "questions": [
+    {
+      "id": "g4-progressive-01",
+      "type": "choice",
+      "q": "I ___ reading a book now.",
+      "ja": "私は今、本を読んでいます。",
+      "options": ["is", "am", "are", "do"],
+      "answer": 1,
+      "why": "主語が I のとき、be動詞は am を使う。"
+    },
+    {
+      "id": "g4-progressive-02",
+      "type": "choice",
+      "q": "She is ___ to music in her room.",
+      "ja": "彼女は部屋で音楽を聴いています。",
+      "options": ["listen", "listens", "listened", "listening"],
+      "answer": 3,
+      "why": "be動詞 + -ing形 で現在進行形。listening が正しい。"
+    },
+    {
+      "id": "g4-progressive-03",
+      "type": "choice",
+      "q": "The boys ___ playing baseball in the park.",
+      "ja": "男の子たちは公園で野球をしています。",
+      "options": ["is", "am", "are", "does"],
+      "answer": 2,
+      "why": "主語が The boys（複数）なので be動詞は are。"
+    },
+    {
+      "id": "g4-progressive-04",
+      "type": "choice",
+      "q": "My mother is ___ dinner now.",
+      "ja": "私の母は今、夕食を作っています。",
+      "options": ["cook", "cooks", "cooked", "cooking"],
+      "answer": 3,
+      "why": "is + -ing形 で現在進行形。cooking が正しい。"
+    },
+    {
+      "id": "g4-progressive-05",
+      "type": "choice",
+      "q": "___ Ken studying English now?",
+      "ja": "ケンは今、英語を勉強していますか。",
+      "options": ["Does", "Do", "Is", "Are"],
+      "answer": 2,
+      "why": "現在進行形の疑問文は be動詞を前に出す。Ken は三人称単数なので Is。"
+    },
+    {
+      "id": "g4-progressive-06",
+      "type": "choice",
+      "q": "They are not ___ TV right now.",
+      "ja": "彼らは今、テレビを見ていません。",
+      "options": ["watch", "watches", "watched", "watching"],
+      "answer": 3,
+      "why": "are not + -ing形 で現在進行形の否定文。"
+    },
+    {
+      "id": "g4-progressive-07",
+      "type": "choice",
+      "q": "Look! The cat ___ on the sofa.",
+      "ja": "見て！猫がソファの上で寝ています。",
+      "options": ["sleep", "sleeps", "is sleeping", "sleeping"],
+      "answer": 2,
+      "why": "Look! は「今の状況」を表すので現在進行形。is sleeping が正しい。"
+    },
+    {
+      "id": "g4-progressive-08",
+      "type": "choice",
+      "q": "Is your father working now? — Yes, he ___.",
+      "ja": "あなたのお父さんは今働いていますか。— はい。",
+      "options": ["does", "is", "works", "working"],
+      "answer": 1,
+      "why": "Is 〜? と聞かれたら be動詞で答える。Yes, he is."
+    },
+    {
+      "id": "g4-progressive-09",
+      "type": "choice",
+      "q": "We ___ having lunch now.",
+      "ja": "私たちは今、昼ごはんを食べています。",
+      "options": ["is", "am", "are", "do"],
+      "answer": 2,
+      "why": "主語が We（複数）なので be動詞は are。"
+    },
+    {
+      "id": "g4-progressive-10",
+      "type": "choice",
+      "q": "He is ___ a letter to his friend.",
+      "ja": "彼は友だちに手紙を書いています。",
+      "options": ["write", "writes", "wrote", "writing"],
+      "answer": 3,
+      "why": "is + -ing形 で現在進行形。write の e を取って -ing をつける。"
+    },
+    {
+      "id": "g4-progressive-11",
+      "type": "choice",
+      "q": "Yumi ___ running in the gym now.",
+      "ja": "ユミは今、体育館で走っていません。",
+      "options": ["doesn't", "don't", "isn't", "aren't"],
+      "answer": 2,
+      "why": "現在進行形の否定は be動詞 + not。Yumi は三人称単数なので isn't。"
+    },
+    {
+      "id": "g4-progressive-12",
+      "type": "choice",
+      "q": "What ___ you doing now?",
+      "ja": "あなたは今、何をしていますか。",
+      "options": ["do", "does", "is", "are"],
+      "answer": 3,
+      "why": "主語が you のとき、be動詞は are。What are you doing?"
+    },
+    {
+      "id": "g4-progressive-13",
+      "type": "choice",
+      "q": "Tom ___ soccer every Sunday. (毎週日曜日)",
+      "ja": "トムは毎週日曜日にサッカーをします。",
+      "options": ["is playing", "plays", "playing", "play"],
+      "answer": 1,
+      "why": "every Sunday は習慣なので現在形を使う。三単現の plays。"
+    },
+    {
+      "id": "g4-progressive-14",
+      "type": "choice",
+      "q": "Look! It ___ outside.",
+      "ja": "見て！外で雨が降っています。",
+      "options": ["rains", "rain", "is raining", "rained"],
+      "answer": 2,
+      "why": "Look! は「今」を示すので現在進行形。is raining が正しい。"
+    },
+    {
+      "id": "g4-progressive-15",
+      "type": "choice",
+      "q": "My sister is ___ the piano in her room.",
+      "ja": "私の姉は部屋でピアノを弾いています。",
+      "options": ["play", "plays", "played", "playing"],
+      "answer": 3,
+      "why": "is + -ing形 で現在進行形。playing が正しい。"
+    },
+    {
+      "id": "g4-progressive-16",
+      "type": "choice",
+      "q": "The children ___ swimming in the pool.",
+      "ja": "子どもたちはプールで泳いでいます。",
+      "options": ["is", "am", "are", "does"],
+      "answer": 2,
+      "why": "主語が The children（複数）なので be動詞は are。"
+    },
+    {
+      "id": "g4-progressive-17",
+      "type": "choice",
+      "q": "He is ___ now. Please be quiet.",
+      "ja": "彼は今、眠っています。静かにしてください。",
+      "options": ["sleep", "sleeps", "slept", "sleeping"],
+      "answer": 3,
+      "why": "is + -ing形 で現在進行形。sleeping が正しい。"
+    },
+    {
+      "id": "g4-progressive-18",
+      "type": "choice",
+      "q": "Are the students ___ in the classroom?",
+      "ja": "生徒たちは教室で勉強していますか。",
+      "options": ["study", "studies", "studying", "studied"],
+      "answer": 2,
+      "why": "Are + 主語 + -ing形 で現在進行形の疑問文。study の y を取って -ing。"
+    },
+    {
+      "id": "g4-progressive-19",
+      "type": "choice",
+      "q": "Who ___ singing in the music room?",
+      "ja": "だれが音楽室で歌っていますか。",
+      "options": ["are", "is", "does", "do"],
+      "answer": 1,
+      "why": "Who が主語のとき、be動詞は is を使う（1人を想定）。"
+    },
+    {
+      "id": "g4-progressive-20",
+      "type": "choice",
+      "q": "My father ___ the car in the garden.",
+      "ja": "私の父は庭で車を洗っています。",
+      "options": ["washes", "wash", "washing", "is washing"],
+      "answer": 3,
+      "why": "「今している動作」なので現在進行形 is washing を使う。"
+    },
+    {
+      "id": "g4-progressive-21",
+      "type": "order",
+      "ja": "彼女は今、英語を勉強しています。",
+      "words": ["she", "is", "studying", "English", "now"],
+      "full": "She is studying English now.",
+      "why": "主語 + be動詞 + -ing形 + 目的語 + 時の語の順。"
+    },
+    {
+      "id": "g4-progressive-22",
+      "type": "order",
+      "ja": "私たちは公園で走っています。",
+      "words": ["we", "are", "running", "in", "the", "park"],
+      "full": "We are running in the park.",
+      "why": "主語 + are + -ing形 + 場所の順に並べる。"
+    },
+    {
+      "id": "g4-progressive-23",
+      "type": "order",
+      "ja": "ケンは今、テレビを見ていません。",
+      "words": ["Ken", "is", "not", "watching", "TV", "now"],
+      "full": "Ken is not watching TV now.",
+      "why": "否定は be動詞 + not + -ing形。"
+    },
+    {
+      "id": "g4-progressive-24",
+      "type": "order",
+      "ja": "あなたは今、何を読んでいますか。",
+      "words": ["what", "are", "you", "reading", "now"],
+      "full": "What are you reading now?",
+      "why": "What を文頭に置き、are + 主語 + -ing形の語順。"
+    },
+    {
+      "id": "g4-progressive-25",
+      "type": "order",
+      "ja": "男の子たちはサッカーをしています。",
+      "words": ["the", "boys", "are", "playing", "soccer"],
+      "full": "The boys are playing soccer.",
+      "why": "複数主語なので are + -ing形。"
+    },
+    {
+      "id": "g4-progressive-26",
+      "type": "order",
+      "ja": "彼女は台所で料理をしています。",
+      "words": ["she", "is", "cooking", "in", "the", "kitchen"],
+      "full": "She is cooking in the kitchen.",
+      "why": "主語 + is + -ing形 + 場所の順。"
+    },
+    {
+      "id": "g4-progressive-27",
+      "type": "order",
+      "ja": "あなたのお兄さんは今、寝ていますか。",
+      "words": ["is", "your", "brother", "sleeping", "now"],
+      "full": "Is your brother sleeping now?",
+      "why": "疑問文は be動詞を主語の前に出す。Is + your brother + -ing形。"
+    },
+    {
+      "id": "g4-progressive-28",
+      "type": "order",
+      "ja": "私は友だちと話しています。",
+      "words": ["I", "am", "talking", "with", "my", "friend"],
+      "full": "I am talking with my friend.",
+      "why": "主語が I なので am + -ing形。「〜と」は with。"
+    },
+    {
+      "id": "g4-progressive-29",
+      "type": "order",
+      "ja": "彼らは今、昼ごはんを食べていません。",
+      "words": ["they", "are", "not", "eating", "lunch", "now"],
+      "full": "They are not eating lunch now.",
+      "why": "複数主語の否定は are + not + -ing形。"
+    },
+    {
+      "id": "g4-progressive-30",
+      "type": "order",
+      "ja": "だれが窓のそばに立っていますか。",
+      "words": ["who", "is", "standing", "by", "the", "window"],
+      "full": "Who is standing by the window?",
+      "why": "Who が主語の疑問文は Who + is + -ing形の語順。"
+    }
+  ]
+}

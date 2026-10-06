@@ -1,0 +1,47 @@
+{
+  "id": "g3-gerund-idiom",
+  "grade": "3",
+  "title": "動名詞の慣用表現",
+  "points": [
+    "look forward to -ing, be good at -ing, be interested in -ing など前置詞のあとは動名詞",
+    "enjoy -ing, stop -ing, finish -ing など動名詞を目的語にとる動詞",
+    "How about -ing? / feel like -ing / be worth -ing などの慣用表現"
+  ],
+  "examples": [
+    { "en": "I am looking forward to seeing you.", "ja": "あなたに会えることを楽しみにしています。" },
+    { "en": "She is good at playing the piano.", "ja": "彼女はピアノをひくのが得意です。" },
+    { "en": "How about going to the movies?", "ja": "映画を観に行くのはどうですか？" }
+  ],
+  "questions": [
+    { "id": "g3-gerund-idiom-01", "type": "choice", "q": "I am looking forward to ___ you again.", "ja": "またあなたに会えることを楽しみにしています。", "options": ["see", "seeing", "saw", "seen"], "answer": 1, "why": "look forward to のあとは動名詞（-ing）。to は前置詞なので不定詞ではない。" },
+    { "id": "g3-gerund-idiom-02", "type": "choice", "q": "She is good ___ cooking Italian food.", "ja": "彼女はイタリア料理を作るのが得意です。", "options": ["in", "at", "of", "for"], "answer": 1, "why": "be good at -ing で「～するのが得意」。前置詞は at。" },
+    { "id": "g3-gerund-idiom-03", "type": "choice", "q": "We enjoyed ___ in the sea last summer.", "ja": "私たちは去年の夏、海で泳ぐことを楽しみました。", "options": ["swim", "to swim", "swimming", "swam"], "answer": 2, "why": "enjoy のあとは動名詞（-ing）が来る。不定詞は使えない。" },
+    { "id": "g3-gerund-idiom-04", "type": "choice", "q": "How about ___ a walk in the park?", "ja": "公園を散歩するのはどうですか？", "options": ["take", "to take", "taking", "took"], "answer": 2, "why": "How about のあとは動名詞（-ing）を使う。" },
+    { "id": "g3-gerund-idiom-05", "type": "choice", "q": "He is interested ___ learning Japanese.", "ja": "彼は日本語を学ぶことに興味があります。", "options": ["at", "of", "in", "for"], "answer": 2, "why": "be interested in -ing で「～することに興味がある」。前置詞は in。" },
+    { "id": "g3-gerund-idiom-06", "type": "choice", "q": "Please stop ___ so much noise.", "ja": "そんなに騒ぐのをやめてください。", "options": ["make", "to make", "making", "made"], "answer": 2, "why": "stop -ing で「～することをやめる」。動名詞を使う。" },
+    { "id": "g3-gerund-idiom-07", "type": "choice", "q": "She finished ___ her homework before dinner.", "ja": "彼女は夕食前に宿題を終えました。", "options": ["do", "to do", "doing", "did"], "answer": 2, "why": "finish のあとは動名詞（-ing）が来る。" },
+    { "id": "g3-gerund-idiom-08", "type": "choice", "q": "I don't feel like ___ out tonight.", "ja": "今夜は外出する気分ではありません。", "options": ["go", "to go", "going", "went"], "answer": 2, "why": "feel like -ing で「～する気分だ」。like は前置詞なので動名詞が来る。" },
+    { "id": "g3-gerund-idiom-09", "type": "choice", "q": "Thank you ___ helping me.", "ja": "手伝ってくれてありがとうございます。", "options": ["to", "of", "for", "at"], "answer": 2, "why": "Thank you for -ing で「～してくれてありがとう」。前置詞は for。" },
+    { "id": "g3-gerund-idiom-10", "type": "choice", "q": "He is afraid ___ speaking in front of people.", "ja": "彼は人前で話すことを怖がっています。", "options": ["at", "of", "for", "in"], "answer": 1, "why": "be afraid of -ing で「～するのを怖がる」。前置詞は of。" },
+    { "id": "g3-gerund-idiom-11", "type": "choice", "q": "Would you mind ___ the door?", "ja": "ドアを閉めていただけますか？", "options": ["close", "to close", "closing", "closed"], "answer": 2, "why": "mind のあとは動名詞（-ing）が来る。" },
+    { "id": "g3-gerund-idiom-12", "type": "choice", "q": "She is busy ___ for the exam.", "ja": "彼女は試験の準備で忙しいです。", "options": ["prepare", "to prepare", "preparing", "prepared"], "answer": 2, "why": "be busy -ing で「～するのに忙しい」。動名詞を使う。" },
+    { "id": "g3-gerund-idiom-13", "type": "choice", "q": "I gave up ___ to be a singer.", "ja": "私は歌手になることをあきらめました。", "options": ["try", "to try", "trying", "tried"], "answer": 2, "why": "give up -ing で「～することをあきらめる」。動名詞を使う。" },
+    { "id": "g3-gerund-idiom-14", "type": "choice", "q": "This movie is worth ___.", "ja": "この映画は観る価値があります。", "options": ["watch", "to watch", "watching", "watched"], "answer": 2, "why": "be worth -ing で「～する価値がある」。動名詞を使う。" },
+    { "id": "g3-gerund-idiom-15", "type": "choice", "q": "My sister kept ___ even though she was tired.", "ja": "妹は疲れていたのに走り続けました。", "options": ["run", "to run", "running", "ran"], "answer": 2, "why": "keep -ing で「～し続ける」。動名詞を使う。" },
+    { "id": "g3-gerund-idiom-16", "type": "choice", "q": "He is used ___ getting up early.", "ja": "彼は早起きすることに慣れています。", "options": ["for", "at", "to", "in"], "answer": 2, "why": "be used to -ing で「～することに慣れている」。to は前置詞。" },
+    { "id": "g3-gerund-idiom-17", "type": "choice", "q": "I can't help ___ when I see that video.", "ja": "あの動画を見ると笑わずにはいられません。", "options": ["laugh", "to laugh", "laughing", "laughed"], "answer": 2, "why": "can't help -ing で「～せずにはいられない」。動名詞を使う。" },
+    { "id": "g3-gerund-idiom-18", "type": "choice", "q": "She practiced ___ the guitar every day.", "ja": "彼女は毎日ギターをひく練習をしました。", "options": ["play", "to play", "playing", "played"], "answer": 2, "why": "practice -ing で「～する練習をする」。動名詞を使う。" },
+    { "id": "g3-gerund-idiom-19", "type": "choice", "q": "We are thinking ___ going to Okinawa.", "ja": "私たちは沖縄に行こうかと考えています。", "options": ["for", "at", "of", "to"], "answer": 2, "why": "think of -ing で「～しようかと考える」。前置詞は of。" },
+    { "id": "g3-gerund-idiom-20", "type": "choice", "q": "Without ___ a word, he left the room.", "ja": "一言も言わずに彼は部屋を出ました。", "options": ["say", "to say", "saying", "said"], "answer": 2, "why": "without のあとは動名詞（-ing）を使う。前置詞のあとだから。" },
+    { "id": "g3-gerund-idiom-21", "type": "order", "ja": "私はあなたからの手紙を受け取ることを楽しみにしています。", "words": ["I", "am", "looking", "forward", "to", "receiving", "your", "letter"], "full": "I am looking forward to receiving your letter.", "why": "look forward to -ing で「～を楽しみにしている」。to は前置詞。" },
+    { "id": "g3-gerund-idiom-22", "type": "order", "ja": "彼女は英語を話すのが上手です。", "words": ["she", "is", "good", "at", "speaking", "English"], "full": "She is good at speaking English.", "why": "be good at -ing で「～するのが上手」。" },
+    { "id": "g3-gerund-idiom-23", "type": "order", "ja": "音楽を聴くのはどうですか？", "words": ["how", "about", "listening", "to", "music"], "full": "How about listening to music?", "why": "How about -ing? で「～するのはどう？」と提案する表現。" },
+    { "id": "g3-gerund-idiom-24", "type": "order", "ja": "彼は日本の歴史を学ぶことに興味があります。", "words": ["he", "is", "interested", "in", "learning", "Japanese", "history"], "full": "He is interested in learning Japanese history.", "why": "be interested in -ing で「～することに興味がある」。" },
+    { "id": "g3-gerund-idiom-25", "type": "order", "ja": "遅れてすみません。", "words": ["I", "am", "sorry", "for", "being", "late"], "full": "I am sorry for being late.", "why": "be sorry for -ing で「～してすみません」。前置詞 for のあとは動名詞。" },
+    { "id": "g3-gerund-idiom-26", "type": "order", "ja": "彼女は泣くのをやめることができなかった。", "words": ["she", "couldn't", "stop", "crying"], "full": "She couldn't stop crying.", "why": "stop -ing で「～することをやめる」。動名詞を使う。" },
+    { "id": "g3-gerund-idiom-27", "type": "order", "ja": "私は新しい友達を作ることを楽しみました。", "words": ["I", "enjoyed", "making", "new", "friends"], "full": "I enjoyed making new friends.", "why": "enjoy -ing で「～を楽しむ」。enjoy のあとは動名詞。" },
+    { "id": "g3-gerund-idiom-28", "type": "order", "ja": "彼は読書に飽きることがない。", "words": ["he", "never", "gets", "tired", "of", "reading", "books"], "full": "He never gets tired of reading books.", "why": "get tired of -ing で「～することに飽きる」。前置詞 of のあとは動名詞。" },
+    { "id": "g3-gerund-idiom-29", "type": "order", "ja": "テレビゲームをするのをやめて宿題をしなさい。", "words": ["stop", "playing", "video", "games", "and", "do", "your", "homework"], "full": "Stop playing video games and do your homework.", "why": "stop -ing で「～するのをやめる」。命令文なので動詞の原形から始まる。" },
+    { "id": "g3-gerund-idiom-30", "type": "order", "ja": "窓を開けてもいいですか？", "words": ["would", "you", "mind", "opening", "the", "window"], "full": "Would you mind opening the window?", "why": "Would you mind -ing? で「～していただけますか」。mind のあとは動名詞。" }
+  ]
+}

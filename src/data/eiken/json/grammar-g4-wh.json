@@ -1,0 +1,286 @@
+{
+  "id": "g4-wh",
+  "grade": "4",
+  "title": "疑問詞（What / When / Where / Who / How）",
+  "points": [
+    "What（何）, When（いつ）, Where（どこ）, Who（だれ）, Why（なぜ）, How（どう）",
+    "How many（いくつ）, How much（いくら）, How long（どのくらい）, How old（何歳）",
+    "疑問詞 + do/does/is/are + 主語 + 動詞 の語順"
+  ],
+  "examples": [
+    {
+      "en": "What do you want for lunch?",
+      "ja": "昼食に何がほしいですか。"
+    },
+    {
+      "en": "Where does she live?",
+      "ja": "彼女はどこに住んでいますか。"
+    },
+    {
+      "en": "How many books do you have?",
+      "ja": "あなたは何冊の本を持っていますか。"
+    }
+  ],
+  "questions": [
+    {
+      "id": "g4-wh-01",
+      "type": "choice",
+      "q": "___ is your birthday?",
+      "ja": "あなたの誕生日はいつですか。",
+      "options": ["What", "Where", "When", "Who"],
+      "answer": 2,
+      "why": "「いつ」と聞くときは When を使う。"
+    },
+    {
+      "id": "g4-wh-02",
+      "type": "choice",
+      "q": "___ do you live?",
+      "ja": "あなたはどこに住んでいますか。",
+      "options": ["What", "Where", "When", "How"],
+      "answer": 1,
+      "why": "「どこ」と聞くときは Where を使う。"
+    },
+    {
+      "id": "g4-wh-03",
+      "type": "choice",
+      "q": "___ is that tall boy? — He is my brother.",
+      "ja": "あの背の高い男の子はだれですか。— 私の兄です。",
+      "options": ["What", "Where", "When", "Who"],
+      "answer": 3,
+      "why": "「だれ」と聞くときは Who を使う。"
+    },
+    {
+      "id": "g4-wh-04",
+      "type": "choice",
+      "q": "___ do you go to school? — By bus.",
+      "ja": "あなたはどうやって学校に行きますか。— バスです。",
+      "options": ["What", "Where", "Who", "How"],
+      "answer": 3,
+      "why": "「どうやって」と手段を聞くときは How を使う。"
+    },
+    {
+      "id": "g4-wh-05",
+      "type": "choice",
+      "q": "___ sport do you like?",
+      "ja": "あなたは何のスポーツが好きですか。",
+      "options": ["How", "Where", "What", "Who"],
+      "answer": 2,
+      "why": "「何の〜」と聞くときは What + 名詞 を使う。"
+    },
+    {
+      "id": "g4-wh-06",
+      "type": "choice",
+      "q": "___ old is your sister?",
+      "ja": "あなたのお姉さんは何歳ですか。",
+      "options": ["What", "How", "When", "Where"],
+      "answer": 1,
+      "why": "「何歳」と聞くときは How old を使う。"
+    },
+    {
+      "id": "g4-wh-07",
+      "type": "choice",
+      "q": "___ books do you have? — I have five.",
+      "ja": "あなたは何冊の本を持っていますか。— 5冊です。",
+      "options": ["How much", "How long", "How many", "How old"],
+      "answer": 2,
+      "why": "数えられる名詞の数を聞くときは How many を使う。"
+    },
+    {
+      "id": "g4-wh-08",
+      "type": "choice",
+      "q": "___ is this bag? — It's 3,000 yen.",
+      "ja": "このかばんはいくらですか。— 3,000円です。",
+      "options": ["How many", "How much", "How long", "How old"],
+      "answer": 1,
+      "why": "値段を聞くときは How much を使う。"
+    },
+    {
+      "id": "g4-wh-09",
+      "type": "choice",
+      "q": "___ does Ken get up? — At six.",
+      "ja": "ケンは何時に起きますか。— 6時です。",
+      "options": ["What time", "How many", "How long", "Where"],
+      "answer": 0,
+      "why": "「何時に」と聞くときは What time を使う。"
+    },
+    {
+      "id": "g4-wh-10",
+      "type": "choice",
+      "q": "___ are you sad? — Because I lost my key.",
+      "ja": "なぜ悲しいのですか。— 鍵をなくしたからです。",
+      "options": ["How", "Where", "Why", "What"],
+      "answer": 2,
+      "why": "理由を聞くときは Why を使い、Because で答える。"
+    },
+    {
+      "id": "g4-wh-11",
+      "type": "choice",
+      "q": "___ does it take from here to the station? — About ten minutes.",
+      "ja": "ここから駅までどのくらいかかりますか。— 約10分です。",
+      "options": ["How much", "How many", "How long", "How old"],
+      "answer": 2,
+      "why": "時間の長さを聞くときは How long を使う。"
+    },
+    {
+      "id": "g4-wh-12",
+      "type": "choice",
+      "q": "___ does your mother do? — She is a nurse.",
+      "ja": "あなたのお母さんの職業は何ですか。— 看護師です。",
+      "options": ["Who", "Where", "How", "What"],
+      "answer": 3,
+      "why": "職業を聞くときは What does ~ do? を使う。"
+    },
+    {
+      "id": "g4-wh-13",
+      "type": "choice",
+      "q": "___ teaches you English? — Ms. Tanaka does.",
+      "ja": "だれがあなたに英語を教えていますか。— 田中先生です。",
+      "options": ["What", "Where", "Who", "How"],
+      "answer": 2,
+      "why": "「だれが」と主語を聞くときは Who を使う。Who が主語なので does は不要。"
+    },
+    {
+      "id": "g4-wh-14",
+      "type": "choice",
+      "q": "___ color do you like? — I like blue.",
+      "ja": "何色が好きですか。— 青が好きです。",
+      "options": ["How", "What", "Where", "When"],
+      "answer": 1,
+      "why": "「何色」は What color を使う。"
+    },
+    {
+      "id": "g4-wh-15",
+      "type": "choice",
+      "q": "___ is the post office? — It's near the station.",
+      "ja": "郵便局はどこですか。— 駅の近くです。",
+      "options": ["What", "Who", "Where", "When"],
+      "answer": 2,
+      "why": "場所を聞くときは Where を使う。"
+    },
+    {
+      "id": "g4-wh-16",
+      "type": "choice",
+      "q": "___ tall is your brother? — He is 170 cm.",
+      "ja": "あなたのお兄さんの身長はどのくらいですか。— 170cmです。",
+      "options": ["What", "How", "Where", "When"],
+      "answer": 1,
+      "why": "身長を聞くときは How tall を使う。"
+    },
+    {
+      "id": "g4-wh-17",
+      "type": "choice",
+      "q": "___ do you practice the piano? — On Wednesdays.",
+      "ja": "あなたはいつピアノの練習をしますか。— 水曜日です。",
+      "options": ["What", "How", "When", "Where"],
+      "answer": 2,
+      "why": "「いつ」と日時を聞くときは When を使う。"
+    },
+    {
+      "id": "g4-wh-18",
+      "type": "choice",
+      "q": "___ did you come to Japan? — Last year.",
+      "ja": "あなたはいつ日本に来ましたか。— 去年です。",
+      "options": ["Where", "How", "What", "When"],
+      "answer": 3,
+      "why": "時期を聞いているので When。答えが Last year で時を表す。"
+    },
+    {
+      "id": "g4-wh-19",
+      "type": "choice",
+      "q": "___ is the weather today? — It's sunny.",
+      "ja": "今日の天気はどうですか。— 晴れです。",
+      "options": ["What", "How", "Where", "Who"],
+      "answer": 1,
+      "why": "天気を聞くときは How is the weather? を使う。"
+    },
+    {
+      "id": "g4-wh-20",
+      "type": "choice",
+      "q": "___ students are there in your class? — Thirty.",
+      "ja": "あなたのクラスには何人の生徒がいますか。— 30人です。",
+      "options": ["How much", "How long", "How old", "How many"],
+      "answer": 3,
+      "why": "人数（数えられる名詞）を聞くときは How many を使う。"
+    },
+    {
+      "id": "g4-wh-21",
+      "type": "order",
+      "ja": "あなたは何のスポーツが好きですか。",
+      "words": ["what", "sport", "do", "you", "like"],
+      "full": "What sport do you like?",
+      "why": "What + 名詞 を文頭に置き、do + 主語 + 動詞の原形の語順。"
+    },
+    {
+      "id": "g4-wh-22",
+      "type": "order",
+      "ja": "彼女はどこに住んでいますか。",
+      "words": ["where", "does", "she", "live"],
+      "full": "Where does she live?",
+      "why": "Where を文頭に置き、does + 主語 + 動詞の原形。"
+    },
+    {
+      "id": "g4-wh-23",
+      "type": "order",
+      "ja": "あなたは何冊の本を持っていますか。",
+      "words": ["how", "many", "books", "do", "you", "have"],
+      "full": "How many books do you have?",
+      "why": "How many + 名詞の複数形 を文頭に置く。"
+    },
+    {
+      "id": "g4-wh-24",
+      "type": "order",
+      "ja": "このペンはいくらですか。",
+      "words": ["how", "much", "is", "this", "pen"],
+      "full": "How much is this pen?",
+      "why": "値段は How much + be動詞 + 主語 の語順。"
+    },
+    {
+      "id": "g4-wh-25",
+      "type": "order",
+      "ja": "だれがこのケーキを作りましたか。",
+      "words": ["who", "made", "this", "cake"],
+      "full": "Who made this cake?",
+      "why": "Who が主語なので、Who + 動詞 + 目的語の語順。do/does は不要。"
+    },
+    {
+      "id": "g4-wh-26",
+      "type": "order",
+      "ja": "あなたはなぜ英語を勉強していますか。",
+      "words": ["why", "are", "you", "studying", "English"],
+      "full": "Why are you studying English?",
+      "why": "Why を文頭に置き、are + 主語 + -ing形の語順。"
+    },
+    {
+      "id": "g4-wh-27",
+      "type": "order",
+      "ja": "ケンは何時に学校に行きますか。",
+      "words": ["what", "time", "does", "Ken", "go", "to", "school"],
+      "full": "What time does Ken go to school?",
+      "why": "What time を文頭に置き、does + 主語 + 動詞の原形。"
+    },
+    {
+      "id": "g4-wh-28",
+      "type": "order",
+      "ja": "あなたのお父さんは何歳ですか。",
+      "words": ["how", "old", "is", "your", "father"],
+      "full": "How old is your father?",
+      "why": "How old を文頭に置き、is + 主語の語順。"
+    },
+    {
+      "id": "g4-wh-29",
+      "type": "order",
+      "ja": "あなたは放課後、何をしますか。",
+      "words": ["what", "do", "you", "do", "after", "school"],
+      "full": "What do you do after school?",
+      "why": "What を文頭に、do + you + do（動詞の原形）の語順。"
+    },
+    {
+      "id": "g4-wh-30",
+      "type": "order",
+      "ja": "ここから駅までどのくらいかかりますか。",
+      "words": ["how", "long", "does", "it", "take", "from", "here", "to", "the", "station"],
+      "full": "How long does it take from here to the station?",
+      "why": "How long を文頭に置き、does + it + take + from ~ to ~ の語順。"
+    }
+  ]
+}

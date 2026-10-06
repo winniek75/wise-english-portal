@@ -1,0 +1,496 @@
+{
+  "id": "p2-inversion",
+  "grade": "p2",
+  "title": "倒置と否定の構文",
+  "points": [
+    "Never have I ...",
+    "Not only A but also B",
+    "Neither ... nor ...",
+    "Hardly had ... when ...",
+    "So + 形容詞 + that"
+  ],
+  "examples": [
+    {
+      "en": "Never have I seen such a beautiful sunset.",
+      "ja": "あんなに美しい夕焼けは見たことがない。"
+    },
+    {
+      "en": "Not only is she smart, but she is also kind.",
+      "ja": "彼女は頭がいいだけでなく、優しくもある。"
+    },
+    {
+      "en": "The movie was so exciting that I watched it twice.",
+      "ja": "その映画はとても面白かったので、2回見た。"
+    }
+  ],
+  "questions": [
+    {
+      "id": "p2-inversion-01",
+      "type": "choice",
+      "q": "Never ___ I seen such a beautiful sunset.",
+      "ja": "あんなに美しい夕焼けは見たことがない。",
+      "options": [
+        "had",
+        "have",
+        "was",
+        "did"
+      ],
+      "answer": 1,
+      "why": "Never + have + 主語 + 過去分詞 の倒置。現在完了の否定。"
+    },
+    {
+      "id": "p2-inversion-02",
+      "type": "choice",
+      "q": "Not only ___ she smart, but she is also kind.",
+      "ja": "彼女は頭がいいだけでなく、優しくもある。",
+      "options": [
+        "was",
+        "is",
+        "does",
+        "has"
+      ],
+      "answer": 1,
+      "why": "Not only のあとは倒置。be動詞を主語の前に出す。"
+    },
+    {
+      "id": "p2-inversion-03",
+      "type": "choice",
+      "q": "The movie was ___ exciting that I watched it twice.",
+      "ja": "その映画はとても面白かったので、2回見た。",
+      "options": [
+        "too",
+        "very",
+        "so",
+        "such"
+      ],
+      "answer": 2,
+      "why": "so + 形容詞 + that で「とても〜なので…」。"
+    },
+    {
+      "id": "p2-inversion-04",
+      "type": "choice",
+      "q": "Neither Tom ___ Ken was at the party last night.",
+      "ja": "トムもケンも昨夜のパーティーにいなかった。",
+      "options": [
+        "or",
+        "and",
+        "nor",
+        "but"
+      ],
+      "answer": 2,
+      "why": "Neither A nor B で「AもBも〜ない」。"
+    },
+    {
+      "id": "p2-inversion-05",
+      "type": "choice",
+      "q": "Hardly ___ he started the speech when the fire alarm went off.",
+      "ja": "彼がスピーチを始めたとたん、火災警報が鳴った。",
+      "options": [
+        "has",
+        "did",
+        "had",
+        "was"
+      ],
+      "answer": 2,
+      "why": "Hardly had + 主語 + 過去分詞 + when で「〜するとすぐに」。"
+    },
+    {
+      "id": "p2-inversion-06",
+      "type": "choice",
+      "q": "It was ___ a good book that I could not put it down.",
+      "ja": "とても良い本だったので、読むのをやめられなかった。",
+      "options": [
+        "so",
+        "such",
+        "very",
+        "too"
+      ],
+      "answer": 1,
+      "why": "such + a + 形容詞 + 名詞 + that で「とても〜な…なので」。"
+    },
+    {
+      "id": "p2-inversion-07",
+      "type": "choice",
+      "q": "Not only does he play the piano, ___ he also sings well.",
+      "ja": "彼はピアノを弾くだけでなく、歌もうまい。",
+      "options": [
+        "and",
+        "or",
+        "but",
+        "so"
+      ],
+      "answer": 2,
+      "why": "Not only A but also B。but で後半をつなぐ。"
+    },
+    {
+      "id": "p2-inversion-08",
+      "type": "choice",
+      "q": "Little ___ she know about the surprise party.",
+      "ja": "彼女はサプライズパーティーのことをほとんど知らなかった。",
+      "options": [
+        "does",
+        "did",
+        "was",
+        "had"
+      ],
+      "answer": 1,
+      "why": "Little + did + 主語 + 動詞の原形。否定の副詞による倒置。"
+    },
+    {
+      "id": "p2-inversion-09",
+      "type": "choice",
+      "q": "She was ___ tired that she fell asleep on the train.",
+      "ja": "彼女はとても疲れていたので、電車の中で眠ってしまった。",
+      "options": [
+        "too",
+        "very",
+        "so",
+        "such"
+      ],
+      "answer": 2,
+      "why": "so + 形容詞 + that で「とても〜なので…」。"
+    },
+    {
+      "id": "p2-inversion-10",
+      "type": "choice",
+      "q": "Neither ___ I agree with his plan.",
+      "ja": "私も彼の計画には賛成しない。",
+      "options": [
+        "don't",
+        "do",
+        "am",
+        "will"
+      ],
+      "answer": 1,
+      "why": "Neither do I で「私も〜ない」。倒置の形。"
+    },
+    {
+      "id": "p2-inversion-11",
+      "type": "choice",
+      "q": "Seldom ___ we see snow in this city.",
+      "ja": "この街ではめったに雪を見ない。",
+      "options": [
+        "are",
+        "have",
+        "do",
+        "did"
+      ],
+      "answer": 2,
+      "why": "Seldom + do + 主語 + 動詞の原形。否定の副詞による倒置。"
+    },
+    {
+      "id": "p2-inversion-12",
+      "type": "choice",
+      "q": "He studied so hard ___ he passed the difficult exam.",
+      "ja": "彼はとても一生懸命勉強したので、難しい試験に合格した。",
+      "options": [
+        "because",
+        "which",
+        "that",
+        "what"
+      ],
+      "answer": 2,
+      "why": "so + 副詞/形容詞 + that で「とても〜なので…」。"
+    },
+    {
+      "id": "p2-inversion-13",
+      "type": "choice",
+      "q": "Neither my brother ___ I like horror movies.",
+      "ja": "兄も私もホラー映画が好きではない。",
+      "options": [
+        "or",
+        "and",
+        "but",
+        "nor"
+      ],
+      "answer": 3,
+      "why": "Neither A nor B で「AもBも〜ない」。"
+    },
+    {
+      "id": "p2-inversion-14",
+      "type": "choice",
+      "q": "Rarely ___ he been absent from school.",
+      "ja": "彼はめったに学校を休んだことがない。",
+      "options": [
+        "did",
+        "does",
+        "has",
+        "was"
+      ],
+      "answer": 2,
+      "why": "Rarely + has + 主語 + 過去分詞。否定の副詞による倒置。"
+    },
+    {
+      "id": "p2-inversion-15",
+      "type": "choice",
+      "q": "The problem was ___ difficult that no one could solve it.",
+      "ja": "その問題はとても難しかったので、誰も解けなかった。",
+      "options": [
+        "very",
+        "too",
+        "so",
+        "such"
+      ],
+      "answer": 2,
+      "why": "so + 形容詞 + that で「とても〜なので…」。"
+    },
+    {
+      "id": "p2-inversion-16",
+      "type": "choice",
+      "q": "Not only ___ he late, but he also forgot his textbook.",
+      "ja": "彼は遅刻しただけでなく、教科書も忘れた。",
+      "options": [
+        "is",
+        "did",
+        "was",
+        "does"
+      ],
+      "answer": 2,
+      "why": "過去の出来事。Not only was he late の倒置形。"
+    },
+    {
+      "id": "p2-inversion-17",
+      "type": "choice",
+      "q": "No sooner ___ she arrived than it started to rain.",
+      "ja": "彼女が到着するやいなや、雨が降り始めた。",
+      "options": [
+        "did",
+        "has",
+        "had",
+        "was"
+      ],
+      "answer": 2,
+      "why": "No sooner had + 主語 + 過去分詞 + than で「〜するとすぐに」。"
+    },
+    {
+      "id": "p2-inversion-18",
+      "type": "choice",
+      "q": "She is not only a good student ___ also a great athlete.",
+      "ja": "彼女は良い生徒であるだけでなく、素晴らしいスポーツ選手でもある。",
+      "options": [
+        "and",
+        "or",
+        "but",
+        "so"
+      ],
+      "answer": 2,
+      "why": "not only A but also B で「AだけでなくBも」。"
+    },
+    {
+      "id": "p2-inversion-19",
+      "type": "choice",
+      "q": "It was ___ cold a day that we stayed indoors.",
+      "ja": "とても寒い日だったので、私たちは室内にいた。",
+      "options": [
+        "so",
+        "such",
+        "very",
+        "too"
+      ],
+      "answer": 1,
+      "why": "such + a + 形容詞 + 名詞 + that の形。such a cold day that。"
+    },
+    {
+      "id": "p2-inversion-20",
+      "type": "choice",
+      "q": "At no time ___ I feel unsafe during the trip.",
+      "ja": "旅行中、一度も危険を感じなかった。",
+      "options": [
+        "do",
+        "had",
+        "did",
+        "was"
+      ],
+      "answer": 2,
+      "why": "At no time + did + 主語 + 原形。否定の副詞句による倒置。"
+    },
+    {
+      "id": "p2-inversion-21",
+      "type": "order",
+      "ja": "あんなに美しい夕焼けは見たことがない。",
+      "words": [
+        "never",
+        "have",
+        "I",
+        "seen",
+        "such",
+        "a",
+        "beautiful",
+        "sunset"
+      ],
+      "full": "Never have I seen such a beautiful sunset.",
+      "why": "Never + have + 主語 + 過去分詞 の倒置構文。"
+    },
+    {
+      "id": "p2-inversion-22",
+      "type": "order",
+      "ja": "彼はピアノを弾くだけでなく、歌もうまい。",
+      "words": [
+        "not",
+        "only",
+        "does",
+        "he",
+        "play",
+        "the",
+        "piano",
+        "but",
+        "he",
+        "also",
+        "sings",
+        "well"
+      ],
+      "full": "Not only does he play the piano, but he also sings well.",
+      "why": "Not only + 助動詞 + 主語 の倒置。but also で後半を接続。"
+    },
+    {
+      "id": "p2-inversion-23",
+      "type": "order",
+      "ja": "トムもケンもその映画を見なかった。",
+      "words": [
+        "neither",
+        "Tom",
+        "nor",
+        "Ken",
+        "watched",
+        "the",
+        "movie"
+      ],
+      "full": "Neither Tom nor Ken watched the movie.",
+      "why": "Neither A nor B で「AもBも〜ない」。"
+    },
+    {
+      "id": "p2-inversion-24",
+      "type": "order",
+      "ja": "その映画はとても面白かったので、2回見た。",
+      "words": [
+        "the",
+        "movie",
+        "was",
+        "so",
+        "exciting",
+        "that",
+        "I",
+        "watched",
+        "it",
+        "twice"
+      ],
+      "full": "The movie was so exciting that I watched it twice.",
+      "why": "so + 形容詞 + that で「とても〜なので…」。"
+    },
+    {
+      "id": "p2-inversion-25",
+      "type": "order",
+      "ja": "彼がスピーチを始めたとたん、火災警報が鳴った。",
+      "words": [
+        "hardly",
+        "had",
+        "he",
+        "started",
+        "the",
+        "speech",
+        "when",
+        "the",
+        "fire",
+        "alarm",
+        "went",
+        "off"
+      ],
+      "full": "Hardly had he started the speech when the fire alarm went off.",
+      "why": "Hardly had + 主語 + 過去分詞 + when で「〜するとすぐに」。"
+    },
+    {
+      "id": "p2-inversion-26",
+      "type": "order",
+      "ja": "この街ではめったに雪を見ない。",
+      "words": [
+        "seldom",
+        "do",
+        "we",
+        "see",
+        "snow",
+        "in",
+        "this",
+        "city"
+      ],
+      "full": "Seldom do we see snow in this city.",
+      "why": "Seldom + do + 主語 + 原形。否定の副詞の倒置。"
+    },
+    {
+      "id": "p2-inversion-27",
+      "type": "order",
+      "ja": "彼女が到着するやいなや、雨が降り始めた。",
+      "words": [
+        "no",
+        "sooner",
+        "had",
+        "she",
+        "arrived",
+        "than",
+        "it",
+        "started",
+        "to",
+        "rain"
+      ],
+      "full": "No sooner had she arrived than it started to rain.",
+      "why": "No sooner had + 主語 + 過去分詞 + than で「〜するとすぐに」。"
+    },
+    {
+      "id": "p2-inversion-28",
+      "type": "order",
+      "ja": "その問題はとても難しかったので、誰も解けなかった。",
+      "words": [
+        "the",
+        "problem",
+        "was",
+        "so",
+        "difficult",
+        "that",
+        "no",
+        "one",
+        "could",
+        "solve",
+        "it"
+      ],
+      "full": "The problem was so difficult that no one could solve it.",
+      "why": "so + 形容詞 + that で「とても〜なので…」。"
+    },
+    {
+      "id": "p2-inversion-29",
+      "type": "order",
+      "ja": "彼女は良い生徒であるだけでなく、素晴らしいスポーツ選手でもある。",
+      "words": [
+        "she",
+        "is",
+        "not",
+        "only",
+        "a",
+        "good",
+        "student",
+        "but",
+        "also",
+        "a",
+        "great",
+        "athlete"
+      ],
+      "full": "She is not only a good student but also a great athlete.",
+      "why": "not only A but also B で「AだけでなくBも」。"
+    },
+    {
+      "id": "p2-inversion-30",
+      "type": "order",
+      "ja": "兄も私もホラー映画が好きではない。",
+      "words": [
+        "neither",
+        "my",
+        "brother",
+        "nor",
+        "I",
+        "like",
+        "horror",
+        "movies"
+      ],
+      "full": "Neither my brother nor I like horror movies.",
+      "why": "Neither A nor B で「AもBも〜ない」。"
+    }
+  ]
+}

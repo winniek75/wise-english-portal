@@ -7,9 +7,20 @@ import g4Modals from "./json/grammar-g4-modals.json";
 import g4Comparison from "./json/grammar-g4-comparison.json";
 import g4ThereConj from "./json/grammar-g4-there-conj.json";
 import g4PastprogSvoo from "./json/grammar-g4-pastprog-svoo.json";
+import g4Present from "./json/grammar-g4-present.json";
+import g4Progressive from "./json/grammar-g4-progressive.json";
+import g4Wh from "./json/grammar-g4-wh.json";
+import g4Pronouns from "./json/grammar-g4-pronouns.json";
+import g4Imperative from "./json/grammar-g4-imperative.json";
+import g4Prepositions from "./json/grammar-g4-prepositions.json";
 import g3Infinitive from "./json/grammar-g3-infinitive.json";
 import g3Indirect from "./json/grammar-g3-indirect.json";
 import g3CompConj from "./json/grammar-g3-comp-conj.json";
+import g3Tag from "./json/grammar-g3-tag.json";
+import g3Tooto from "./json/grammar-g3-tooto.json";
+import g3GerundIdiom from "./json/grammar-g3-gerund-idiom.json";
+import g3PerfectProg from "./json/grammar-g3-perfect-prog.json";
+import g3Exclamatory from "./json/grammar-g3-exclamatory.json";
 import p2Perfect from "./json/grammar-p2-perfect.json";
 import p2ModalPerfect from "./json/grammar-p2-modal-perfect.json";
 import p2Causative from "./json/grammar-p2-causative.json";
@@ -17,6 +28,11 @@ import p2Participle from "./json/grammar-p2-participle.json";
 import p2Relative from "./json/grammar-p2-relative.json";
 import p2Subjunctive from "./json/grammar-p2-subjunctive.json";
 import p2Connectors from "./json/grammar-p2-connectors.json";
+import p2SubjunctivePp from "./json/grammar-p2-subjunctive-pp.json";
+import p2Emphasis from "./json/grammar-p2-emphasis.json";
+import p2Inversion from "./json/grammar-p2-inversion.json";
+import p2NounClause from "./json/grammar-p2-noun-clause.json";
+import p2FormalObject from "./json/grammar-p2-formal-object.json";
 
 export type GradeKey = "4" | "3" | "p2";
 
@@ -109,14 +125,25 @@ export interface GrammarUnit {
 }
 
 const units = [
+  g4Present,
+  g4Progressive,
   g4Future,
   g4Modals,
   g4Comparison,
   g4ThereConj,
   g4PastprogSvoo,
+  g4Wh,
+  g4Pronouns,
+  g4Imperative,
+  g4Prepositions,
   g3Infinitive,
   g3Indirect,
   g3CompConj,
+  g3Tag,
+  g3Tooto,
+  g3GerundIdiom,
+  g3PerfectProg,
+  g3Exclamatory,
   p2Perfect,
   p2ModalPerfect,
   p2Causative,
@@ -124,6 +151,11 @@ const units = [
   p2Relative,
   p2Subjunctive,
   p2Connectors,
+  p2SubjunctivePp,
+  p2Emphasis,
+  p2Inversion,
+  p2NounClause,
+  p2FormalObject,
 ] as unknown as GrammarUnit[];
 
 export const grammarUnits: GrammarUnit[] = units;

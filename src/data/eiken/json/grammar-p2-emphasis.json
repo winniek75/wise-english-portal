@@ -1,0 +1,488 @@
+{
+  "id": "p2-emphasis",
+  "grade": "p2",
+  "title": "強調構文（It is ... that ～）",
+  "points": [
+    "It is/was + 強調部分 + that + 残り",
+    "人を強調するときは that の代わりに who も可",
+    "時・場所を強調する場合"
+  ],
+  "examples": [
+    {
+      "en": "It was Tom that broke the window.",
+      "ja": "窓を割ったのはトムだった。"
+    },
+    {
+      "en": "It is this book that I want to read.",
+      "ja": "私が読みたいのはこの本です。"
+    },
+    {
+      "en": "It was in Kyoto that we first met.",
+      "ja": "私たちが初めて出会ったのは京都でだった。"
+    }
+  ],
+  "questions": [
+    {
+      "id": "p2-emphasis-01",
+      "type": "choice",
+      "q": "___ was Tom that broke the window.",
+      "ja": "窓を割ったのはトムだった。",
+      "options": [
+        "It",
+        "That",
+        "There",
+        "What"
+      ],
+      "answer": 0,
+      "why": "強調構文は It is/was + 強調部分 + that で始まる。"
+    },
+    {
+      "id": "p2-emphasis-02",
+      "type": "choice",
+      "q": "It was my mother ___ taught me how to cook.",
+      "ja": "私に料理を教えてくれたのは母だった。",
+      "options": [
+        "what",
+        "which",
+        "who",
+        "where"
+      ],
+      "answer": 2,
+      "why": "人を強調するとき that の代わりに who を使える。"
+    },
+    {
+      "id": "p2-emphasis-03",
+      "type": "choice",
+      "q": "It was yesterday ___ I lost my wallet.",
+      "ja": "私が財布をなくしたのは昨日だった。",
+      "options": [
+        "when",
+        "that",
+        "which",
+        "what"
+      ],
+      "answer": 1,
+      "why": "強調構文では時を強調するときも that を使う。"
+    },
+    {
+      "id": "p2-emphasis-04",
+      "type": "choice",
+      "q": "It is this book ___ I have been looking for.",
+      "ja": "私が探していたのはこの本です。",
+      "options": [
+        "what",
+        "which",
+        "who",
+        "that"
+      ],
+      "answer": 3,
+      "why": "物を強調する強調構文。that を使う。"
+    },
+    {
+      "id": "p2-emphasis-05",
+      "type": "choice",
+      "q": "It was in Kyoto ___ we first met.",
+      "ja": "私たちが初めて出会ったのは京都でだった。",
+      "options": [
+        "where",
+        "which",
+        "that",
+        "when"
+      ],
+      "answer": 2,
+      "why": "場所を強調しても that を使う。関係副詞の where ではない。"
+    },
+    {
+      "id": "p2-emphasis-06",
+      "type": "choice",
+      "q": "It ___ Ken who won the speech contest.",
+      "ja": "スピーチコンテストで優勝したのはケンだった。",
+      "options": [
+        "is",
+        "was",
+        "has",
+        "does"
+      ],
+      "answer": 1,
+      "why": "過去の出来事を強調。It was + 人 + who。"
+    },
+    {
+      "id": "p2-emphasis-07",
+      "type": "choice",
+      "q": "It is ___ that I want to visit most.",
+      "ja": "私が一番訪れたいのはパリです。",
+      "options": [
+        "Paris",
+        "to Paris",
+        "in Paris",
+        "at Paris"
+      ],
+      "answer": 0,
+      "why": "強調する名詞をそのまま置く。前置詞は不要。"
+    },
+    {
+      "id": "p2-emphasis-08",
+      "type": "choice",
+      "q": "It was not until last week ___ I heard the news.",
+      "ja": "先週になってやっとそのニュースを聞いた。",
+      "options": [
+        "when",
+        "that",
+        "which",
+        "where"
+      ],
+      "answer": 1,
+      "why": "not until を強調構文に入れた形。It was not until ... that 。"
+    },
+    {
+      "id": "p2-emphasis-09",
+      "type": "choice",
+      "q": "It ___ music that makes me happy.",
+      "ja": "私を幸せにするのは音楽です。",
+      "options": [
+        "was",
+        "were",
+        "is",
+        "has"
+      ],
+      "answer": 2,
+      "why": "現在の事実を強調するので It is を使う。"
+    },
+    {
+      "id": "p2-emphasis-10",
+      "type": "choice",
+      "q": "It was because of the rain ___ the game was canceled.",
+      "ja": "試合が中止になったのは雨のせいだった。",
+      "options": [
+        "why",
+        "that",
+        "which",
+        "what"
+      ],
+      "answer": 1,
+      "why": "理由を強調する場合も that を使う。"
+    },
+    {
+      "id": "p2-emphasis-11",
+      "type": "choice",
+      "q": "It was her smile ___ attracted everyone.",
+      "ja": "みんなを引きつけたのは彼女の笑顔だった。",
+      "options": [
+        "what",
+        "which",
+        "that",
+        "who"
+      ],
+      "answer": 2,
+      "why": "物（smile）を強調。that を使う。"
+    },
+    {
+      "id": "p2-emphasis-12",
+      "type": "choice",
+      "q": "It was Mr. Tanaka ___ helped me with my homework.",
+      "ja": "宿題を手伝ってくれたのは田中先生だった。",
+      "options": [
+        "which",
+        "what",
+        "that",
+        "where"
+      ],
+      "answer": 2,
+      "why": "人を強調する強調構文。that（または who）を使う。"
+    },
+    {
+      "id": "p2-emphasis-13",
+      "type": "choice",
+      "q": "It was on Sunday ___ we had the school festival.",
+      "ja": "学園祭があったのは日曜日だった。",
+      "options": [
+        "when",
+        "where",
+        "which",
+        "that"
+      ],
+      "answer": 3,
+      "why": "時を強調する強調構文。that を使う。"
+    },
+    {
+      "id": "p2-emphasis-14",
+      "type": "choice",
+      "q": "It is you ___ I trust the most.",
+      "ja": "私が最も信頼しているのはあなたです。",
+      "options": [
+        "who",
+        "which",
+        "where",
+        "what"
+      ],
+      "answer": 0,
+      "why": "人を強調するとき who を使うことができる。"
+    },
+    {
+      "id": "p2-emphasis-15",
+      "type": "choice",
+      "q": "It was at the station ___ I saw her for the last time.",
+      "ja": "彼女を最後に見たのは駅でだった。",
+      "options": [
+        "where",
+        "which",
+        "that",
+        "when"
+      ],
+      "answer": 2,
+      "why": "場所を強調する強調構文でも that を使う。"
+    },
+    {
+      "id": "p2-emphasis-16",
+      "type": "choice",
+      "q": "It was this song ___ reminded me of my childhood.",
+      "ja": "私に子供時代を思い出させたのはこの歌だった。",
+      "options": [
+        "what",
+        "that",
+        "which",
+        "who"
+      ],
+      "answer": 1,
+      "why": "物を強調する強調構文。that を使う。"
+    },
+    {
+      "id": "p2-emphasis-17",
+      "type": "choice",
+      "q": "It was after lunch ___ the meeting started.",
+      "ja": "会議が始まったのは昼食後だった。",
+      "options": [
+        "when",
+        "that",
+        "which",
+        "where"
+      ],
+      "answer": 1,
+      "why": "時を強調する強調構文。that を使う。"
+    },
+    {
+      "id": "p2-emphasis-18",
+      "type": "choice",
+      "q": "It was Mary, not Jane, ___ called you last night.",
+      "ja": "昨夜あなたに電話したのは、ジェーンではなくメアリーだった。",
+      "options": [
+        "which",
+        "what",
+        "who",
+        "where"
+      ],
+      "answer": 2,
+      "why": "人を強調（対比）。who を使う。"
+    },
+    {
+      "id": "p2-emphasis-19",
+      "type": "choice",
+      "q": "It is hard work ___ leads to success.",
+      "ja": "成功につながるのは努力です。",
+      "options": [
+        "what",
+        "who",
+        "that",
+        "where"
+      ],
+      "answer": 2,
+      "why": "抽象的な概念を強調。強調構文には that を使う。"
+    },
+    {
+      "id": "p2-emphasis-20",
+      "type": "choice",
+      "q": "It was during the summer ___ I learned to swim.",
+      "ja": "私が泳ぎを覚えたのは夏の間だった。",
+      "options": [
+        "when",
+        "where",
+        "that",
+        "which"
+      ],
+      "answer": 2,
+      "why": "時を表す表現を強調する場合も that を使う。"
+    },
+    {
+      "id": "p2-emphasis-21",
+      "type": "order",
+      "ja": "窓を割ったのはトムだった。",
+      "words": [
+        "it",
+        "was",
+        "Tom",
+        "that",
+        "broke",
+        "the",
+        "window"
+      ],
+      "full": "It was Tom that broke the window.",
+      "why": "強調構文。It was + Tom（強調部分）+ that + 残り。"
+    },
+    {
+      "id": "p2-emphasis-22",
+      "type": "order",
+      "ja": "私が読みたいのはこの本です。",
+      "words": [
+        "it",
+        "is",
+        "this",
+        "book",
+        "that",
+        "I",
+        "want",
+        "to",
+        "read"
+      ],
+      "full": "It is this book that I want to read.",
+      "why": "物を強調する強調構文。It is + this book + that。"
+    },
+    {
+      "id": "p2-emphasis-23",
+      "type": "order",
+      "ja": "私たちが初めて出会ったのは京都でだった。",
+      "words": [
+        "it",
+        "was",
+        "in",
+        "Kyoto",
+        "that",
+        "we",
+        "first",
+        "met"
+      ],
+      "full": "It was in Kyoto that we first met.",
+      "why": "場所を強調。It was + in Kyoto + that。"
+    },
+    {
+      "id": "p2-emphasis-24",
+      "type": "order",
+      "ja": "料理を教えてくれたのは母だった。",
+      "words": [
+        "it",
+        "was",
+        "my",
+        "mother",
+        "who",
+        "taught",
+        "me",
+        "how",
+        "to",
+        "cook"
+      ],
+      "full": "It was my mother who taught me how to cook.",
+      "why": "人を強調する強調構文。that の代わりに who を使用。"
+    },
+    {
+      "id": "p2-emphasis-25",
+      "type": "order",
+      "ja": "試合が中止になったのは雨のせいだった。",
+      "words": [
+        "it",
+        "was",
+        "because",
+        "of",
+        "the",
+        "rain",
+        "that",
+        "the",
+        "game",
+        "was",
+        "canceled"
+      ],
+      "full": "It was because of the rain that the game was canceled.",
+      "why": "理由を強調する強調構文。because of ... を It was と that で挟む。"
+    },
+    {
+      "id": "p2-emphasis-26",
+      "type": "order",
+      "ja": "先週になってやっとそのニュースを聞いた。",
+      "words": [
+        "it",
+        "was",
+        "not",
+        "until",
+        "last",
+        "week",
+        "that",
+        "I",
+        "heard",
+        "the",
+        "news"
+      ],
+      "full": "It was not until last week that I heard the news.",
+      "why": "not until の強調構文。It was not until ... that。"
+    },
+    {
+      "id": "p2-emphasis-27",
+      "type": "order",
+      "ja": "私を幸せにしてくれるのは音楽です。",
+      "words": [
+        "it",
+        "is",
+        "music",
+        "that",
+        "makes",
+        "me",
+        "happy"
+      ],
+      "full": "It is music that makes me happy.",
+      "why": "現在の事実を強調。It is + music + that。"
+    },
+    {
+      "id": "p2-emphasis-28",
+      "type": "order",
+      "ja": "私が最も信頼しているのはあなたです。",
+      "words": [
+        "it",
+        "is",
+        "you",
+        "that",
+        "I",
+        "trust",
+        "the",
+        "most"
+      ],
+      "full": "It is you that I trust the most.",
+      "why": "人を強調する強調構文。It is + you + that。"
+    },
+    {
+      "id": "p2-emphasis-29",
+      "type": "order",
+      "ja": "スピーチコンテストで優勝したのはケンだった。",
+      "words": [
+        "it",
+        "was",
+        "Ken",
+        "who",
+        "won",
+        "the",
+        "speech",
+        "contest"
+      ],
+      "full": "It was Ken who won the speech contest.",
+      "why": "人を強調。who を使用した強調構文。"
+    },
+    {
+      "id": "p2-emphasis-30",
+      "type": "order",
+      "ja": "彼女を最後に見たのは駅でだった。",
+      "words": [
+        "it",
+        "was",
+        "at",
+        "the",
+        "station",
+        "that",
+        "I",
+        "saw",
+        "her",
+        "for",
+        "the",
+        "last",
+        "time"
+      ],
+      "full": "It was at the station that I saw her for the last time.",
+      "why": "場所を強調する強調構文。at the station を It was と that で挟む。"
+    }
+  ]
+}

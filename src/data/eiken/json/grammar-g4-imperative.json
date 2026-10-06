@@ -1,0 +1,286 @@
+{
+  "id": "g4-imperative",
+  "grade": "4",
+  "title": "命令文と Let's",
+  "points": [
+    "命令文は動詞の原形で始める（主語 You は省略する）",
+    "否定の命令は Don't + 動詞の原形（〜してはいけません）",
+    "Let's + 動詞の原形で「〜しましょう」。否定は Let's not"
+  ],
+  "examples": [
+    {
+      "en": "Open the window, please.",
+      "ja": "窓を開けてください。"
+    },
+    {
+      "en": "Don't run in the hallway.",
+      "ja": "廊下を走ってはいけません。"
+    },
+    {
+      "en": "Let's play soccer after school.",
+      "ja": "放課後サッカーをしましょう。"
+    }
+  ],
+  "questions": [
+    {
+      "id": "g4-imperative-01",
+      "type": "choice",
+      "q": "___ the door, please.",
+      "ja": "ドアを閉めてください。",
+      "options": ["Closes", "Closing", "Close", "Closed"],
+      "answer": 2,
+      "why": "命令文は動詞の原形で始める。Close が正しい。"
+    },
+    {
+      "id": "g4-imperative-02",
+      "type": "choice",
+      "q": "___ run in the classroom.",
+      "ja": "教室で走ってはいけません。",
+      "options": ["Not", "Don't", "Doesn't", "Isn't"],
+      "answer": 1,
+      "why": "否定の命令文は Don't + 動詞の原形。"
+    },
+    {
+      "id": "g4-imperative-03",
+      "type": "choice",
+      "q": "Let's ___ to the park.",
+      "ja": "公園に行きましょう。",
+      "options": ["going", "goes", "went", "go"],
+      "answer": 3,
+      "why": "Let's のあとは動詞の原形。go が正しい。"
+    },
+    {
+      "id": "g4-imperative-04",
+      "type": "choice",
+      "q": "___ quiet in the library.",
+      "ja": "図書館では静かにしなさい。",
+      "options": ["Are", "Is", "Be", "Being"],
+      "answer": 2,
+      "why": "命令文で be動詞を使うときは原形の Be で始める。"
+    },
+    {
+      "id": "g4-imperative-05",
+      "type": "choice",
+      "q": "Don't ___ late for school.",
+      "ja": "学校に遅れてはいけません。",
+      "options": ["is", "are", "be", "being"],
+      "answer": 2,
+      "why": "Don't のあとは動詞の原形。be動詞の原形は be。"
+    },
+    {
+      "id": "g4-imperative-06",
+      "type": "choice",
+      "q": "Let's ___ lunch together.",
+      "ja": "一緒に昼ごはんを食べましょう。",
+      "options": ["having", "has", "had", "have"],
+      "answer": 3,
+      "why": "Let's のあとは動詞の原形。have が正しい。"
+    },
+    {
+      "id": "g4-imperative-07",
+      "type": "choice",
+      "q": "___ this book. It's very interesting.",
+      "ja": "この本を読みなさい。とてもおもしろいです。",
+      "options": ["Reads", "Reading", "Read", "To read"],
+      "answer": 2,
+      "why": "命令文は動詞の原形で始める。Read が正しい。"
+    },
+    {
+      "id": "g4-imperative-08",
+      "type": "choice",
+      "q": "Don't ___ your phone in class.",
+      "ja": "授業中に携帯電話を使ってはいけません。",
+      "options": ["uses", "use", "using", "used"],
+      "answer": 1,
+      "why": "Don't のあとは動詞の原形。use が正しい。"
+    },
+    {
+      "id": "g4-imperative-09",
+      "type": "choice",
+      "q": "Let's go swimming. — ___, let's.",
+      "ja": "泳ぎに行きましょう。— はい、そうしましょう。",
+      "options": ["No", "Yes", "Don't", "Not"],
+      "answer": 1,
+      "why": "Let's ~ に賛成するときは Yes, let's. と答える。"
+    },
+    {
+      "id": "g4-imperative-10",
+      "type": "choice",
+      "q": "___ careful. The road is dangerous.",
+      "ja": "気をつけなさい。道が危険です。",
+      "options": ["Are", "Is", "Be", "Being"],
+      "answer": 2,
+      "why": "命令文で「〜でありなさい」は Be で始める。"
+    },
+    {
+      "id": "g4-imperative-11",
+      "type": "choice",
+      "q": "Don't ___ the flowers in the garden.",
+      "ja": "庭の花を摘んではいけません。",
+      "options": ["picks", "pick", "picking", "picked"],
+      "answer": 1,
+      "why": "Don't のあとは動詞の原形。pick が正しい。"
+    },
+    {
+      "id": "g4-imperative-12",
+      "type": "choice",
+      "q": "___ me your notebook, please.",
+      "ja": "ノートを見せてください。",
+      "options": ["Shows", "Showing", "Show", "Showed"],
+      "answer": 2,
+      "why": "命令文は動詞の原形で始める。Show が正しい。"
+    },
+    {
+      "id": "g4-imperative-13",
+      "type": "choice",
+      "q": "Let's ___ a movie tonight.",
+      "ja": "今夜、映画を見ましょう。",
+      "options": ["watching", "watches", "watched", "watch"],
+      "answer": 3,
+      "why": "Let's のあとは動詞の原形。watch が正しい。"
+    },
+    {
+      "id": "g4-imperative-14",
+      "type": "choice",
+      "q": "___ sit down. You can stand here.",
+      "ja": "座らないでください。ここに立っていていいですよ。",
+      "options": ["Not", "No", "Don't", "Doesn't"],
+      "answer": 2,
+      "why": "「〜しないで」は Don't + 動詞の原形。"
+    },
+    {
+      "id": "g4-imperative-15",
+      "type": "choice",
+      "q": "___ your hands before lunch.",
+      "ja": "昼食の前に手を洗いなさい。",
+      "options": ["Washing", "Washes", "Washed", "Wash"],
+      "answer": 3,
+      "why": "命令文は動詞の原形で始める。Wash が正しい。"
+    },
+    {
+      "id": "g4-imperative-16",
+      "type": "choice",
+      "q": "Let's ___ play video games today.",
+      "ja": "今日はテレビゲームをするのはやめましょう。",
+      "options": ["don't", "doesn't", "not", "no"],
+      "answer": 2,
+      "why": "Let's の否定は Let's not + 動詞の原形。"
+    },
+    {
+      "id": "g4-imperative-17",
+      "type": "choice",
+      "q": "___ kind to everyone.",
+      "ja": "みんなにやさしくしなさい。",
+      "options": ["Are", "Is", "Be", "Being"],
+      "answer": 2,
+      "why": "命令文で形容詞を使うときは Be + 形容詞 で始める。"
+    },
+    {
+      "id": "g4-imperative-18",
+      "type": "choice",
+      "q": "Don't ___ worried. Everything will be fine.",
+      "ja": "心配しないで。すべてうまくいきますよ。",
+      "options": ["is", "are", "be", "being"],
+      "answer": 2,
+      "why": "Don't + be + 形容詞 で「〜であるな」。be動詞の原形は be。"
+    },
+    {
+      "id": "g4-imperative-19",
+      "type": "choice",
+      "q": "___ me at the station at three.",
+      "ja": "3時に駅で会いましょう。",
+      "options": ["Meets", "Meeting", "Met", "Meet"],
+      "answer": 3,
+      "why": "命令文は動詞の原形で始める。Meet が正しい。"
+    },
+    {
+      "id": "g4-imperative-20",
+      "type": "choice",
+      "q": "Let's ___ shopping this weekend.",
+      "ja": "今週末、買い物に行きましょう。",
+      "options": ["going", "goes", "went", "go"],
+      "answer": 3,
+      "why": "Let's のあとは動詞の原形。go shopping で「買い物に行く」。"
+    },
+    {
+      "id": "g4-imperative-21",
+      "type": "order",
+      "ja": "窓を開けてください。",
+      "words": ["open", "the", "window", "please"],
+      "full": "Open the window, please.",
+      "why": "命令文は動詞の原形 Open で始め、please を最後に置く。"
+    },
+    {
+      "id": "g4-imperative-22",
+      "type": "order",
+      "ja": "ここで泳いではいけません。",
+      "words": ["don't", "swim", "here"],
+      "full": "Don't swim here.",
+      "why": "否定の命令文は Don't + 動詞の原形。"
+    },
+    {
+      "id": "g4-imperative-23",
+      "type": "order",
+      "ja": "放課後サッカーをしましょう。",
+      "words": ["let's", "play", "soccer", "after", "school"],
+      "full": "Let's play soccer after school.",
+      "why": "Let's + 動詞の原形で「〜しましょう」。"
+    },
+    {
+      "id": "g4-imperative-24",
+      "type": "order",
+      "ja": "授業中は静かにしなさい。",
+      "words": ["be", "quiet", "during", "class"],
+      "full": "Be quiet during class.",
+      "why": "命令文で be動詞を使うときは Be + 形容詞 で始める。"
+    },
+    {
+      "id": "g4-imperative-25",
+      "type": "order",
+      "ja": "この部屋でたばこを吸ってはいけません。",
+      "words": ["don't", "smoke", "in", "this", "room"],
+      "full": "Don't smoke in this room.",
+      "why": "Don't + 動詞の原形で否定の命令文を作る。"
+    },
+    {
+      "id": "g4-imperative-26",
+      "type": "order",
+      "ja": "一緒に音楽を聴きましょう。",
+      "words": ["let's", "listen", "to", "music", "together"],
+      "full": "Let's listen to music together.",
+      "why": "Let's + 動詞の原形。listen to 〜 で「〜を聴く」。"
+    },
+    {
+      "id": "g4-imperative-27",
+      "type": "order",
+      "ja": "このケーキを食べてみてください。",
+      "words": ["please", "try", "this", "cake"],
+      "full": "Please try this cake.",
+      "why": "Please を文頭に置いて丁寧な命令文にする。"
+    },
+    {
+      "id": "g4-imperative-28",
+      "type": "order",
+      "ja": "教室で食べ物を食べてはいけません。",
+      "words": ["don't", "eat", "food", "in", "the", "classroom"],
+      "full": "Don't eat food in the classroom.",
+      "why": "Don't + 動詞の原形で「〜するな」。場所は in the classroom。"
+    },
+    {
+      "id": "g4-imperative-29",
+      "type": "order",
+      "ja": "みんなにやさしくしなさい。",
+      "words": ["be", "kind", "to", "everyone"],
+      "full": "Be kind to everyone.",
+      "why": "Be + 形容詞 + to 〜 で「〜にやさしくしなさい」。"
+    },
+    {
+      "id": "g4-imperative-30",
+      "type": "order",
+      "ja": "今日は遅くまで起きているのはやめましょう。",
+      "words": ["let's", "not", "stay", "up", "late", "today"],
+      "full": "Let's not stay up late today.",
+      "why": "Let's not + 動詞の原形で「〜するのはやめましょう」。"
+    }
+  ]
+}

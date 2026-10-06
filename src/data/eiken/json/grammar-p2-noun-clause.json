@@ -1,0 +1,487 @@
+{
+  "id": "p2-noun-clause",
+  "grade": "p2",
+  "title": "名詞節（that / whether / if）と同格の that",
+  "points": [
+    "The fact that ... で「〜という事実」",
+    "whether to ... / whether ... or not で「〜かどうか」",
+    "I'm sure that ... / I'm glad that ... など",
+    "It is important that ... の構文"
+  ],
+  "examples": [
+    {
+      "en": "The fact that he passed the exam surprised everyone.",
+      "ja": "彼が試験に合格したという事実はみんなを驚かせた。"
+    },
+    {
+      "en": "I don't know whether he will come or not.",
+      "ja": "彼が来るかどうか分からない。"
+    },
+    {
+      "en": "It is important that you study every day.",
+      "ja": "毎日勉強することが大切です。"
+    }
+  ],
+  "questions": [
+    {
+      "id": "p2-noun-clause-01",
+      "type": "choice",
+      "q": "The fact ___ he lied to us made us angry.",
+      "ja": "彼が私たちにうそをついたという事実は、私たちを怒らせた。",
+      "options": [
+        "what",
+        "which",
+        "that",
+        "who"
+      ],
+      "answer": 2,
+      "why": "同格の that。The fact that ... で「〜という事実」。"
+    },
+    {
+      "id": "p2-noun-clause-02",
+      "type": "choice",
+      "q": "I don't know ___ he will come to the party or not.",
+      "ja": "彼がパーティーに来るかどうか分からない。",
+      "options": [
+        "that",
+        "what",
+        "whether",
+        "which"
+      ],
+      "answer": 2,
+      "why": "「〜かどうか」は whether ... or not。"
+    },
+    {
+      "id": "p2-noun-clause-03",
+      "type": "choice",
+      "q": "I'm sure ___ she will pass the test.",
+      "ja": "彼女は試験に受かると確信しています。",
+      "options": [
+        "what",
+        "that",
+        "which",
+        "whether"
+      ],
+      "answer": 1,
+      "why": "I'm sure that ... で「〜だと確信している」。"
+    },
+    {
+      "id": "p2-noun-clause-04",
+      "type": "choice",
+      "q": "It is important ___ you finish your homework on time.",
+      "ja": "宿題を時間通りに終わらせることが大切です。",
+      "options": [
+        "what",
+        "which",
+        "that",
+        "whether"
+      ],
+      "answer": 2,
+      "why": "It is important that + 主語 + 動詞 の構文。"
+    },
+    {
+      "id": "p2-noun-clause-05",
+      "type": "choice",
+      "q": "She hasn't decided ___ to accept the offer.",
+      "ja": "彼女はそのオファーを受け入れるかどうかまだ決めていない。",
+      "options": [
+        "that",
+        "what",
+        "whether",
+        "which"
+      ],
+      "answer": 2,
+      "why": "whether to + 動詞の原形 で「〜するかどうか」。"
+    },
+    {
+      "id": "p2-noun-clause-06",
+      "type": "choice",
+      "q": "The news ___ the school would close shocked the students.",
+      "ja": "学校が閉校するというニュースは生徒たちに衝撃を与えた。",
+      "options": [
+        "what",
+        "which",
+        "who",
+        "that"
+      ],
+      "answer": 3,
+      "why": "同格の that。The news that ... で「〜というニュース」。"
+    },
+    {
+      "id": "p2-noun-clause-07",
+      "type": "choice",
+      "q": "I'm glad ___ you could come to my birthday party.",
+      "ja": "私の誕生日パーティーに来てくれてうれしいです。",
+      "options": [
+        "whether",
+        "what",
+        "that",
+        "which"
+      ],
+      "answer": 2,
+      "why": "I'm glad that ... で「〜してうれしい」。"
+    },
+    {
+      "id": "p2-noun-clause-08",
+      "type": "choice",
+      "q": "Do you know ___ the library opens on Sundays?",
+      "ja": "図書館が日曜日に開いているかどうか知っていますか。",
+      "options": [
+        "that",
+        "what",
+        "whether",
+        "which"
+      ],
+      "answer": 2,
+      "why": "「〜かどうか」を表す whether。"
+    },
+    {
+      "id": "p2-noun-clause-09",
+      "type": "choice",
+      "q": "I believe ___ everyone should have equal opportunities.",
+      "ja": "すべての人に平等な機会があるべきだと信じています。",
+      "options": [
+        "what",
+        "that",
+        "which",
+        "whether"
+      ],
+      "answer": 1,
+      "why": "I believe that ... で「〜だと信じている」。名詞節の that。"
+    },
+    {
+      "id": "p2-noun-clause-10",
+      "type": "choice",
+      "q": "The idea ___ we should plant more trees is great.",
+      "ja": "もっと木を植えるべきだという考えは素晴らしい。",
+      "options": [
+        "which",
+        "what",
+        "who",
+        "that"
+      ],
+      "answer": 3,
+      "why": "同格の that。The idea that ... で「〜という考え」。"
+    },
+    {
+      "id": "p2-noun-clause-11",
+      "type": "choice",
+      "q": "It is natural ___ children want to play outside.",
+      "ja": "子供たちが外で遊びたがるのは自然なことです。",
+      "options": [
+        "what",
+        "whether",
+        "that",
+        "which"
+      ],
+      "answer": 2,
+      "why": "It is natural that + 主語 + 動詞。that 節が真主語。"
+    },
+    {
+      "id": "p2-noun-clause-12",
+      "type": "choice",
+      "q": "I wonder ___ she likes chocolate or strawberry ice cream.",
+      "ja": "彼女がチョコレートとストロベリーのどちらのアイスが好きか気になる。",
+      "options": [
+        "that",
+        "what",
+        "whether",
+        "which"
+      ],
+      "answer": 2,
+      "why": "whether A or B で「AかBか」を表す。"
+    },
+    {
+      "id": "p2-noun-clause-13",
+      "type": "choice",
+      "q": "I'm afraid ___ we are going to be late for the meeting.",
+      "ja": "残念ながら会議に遅れそうです。",
+      "options": [
+        "whether",
+        "what",
+        "which",
+        "that"
+      ],
+      "answer": 3,
+      "why": "I'm afraid that ... で「残念ながら〜だ」。"
+    },
+    {
+      "id": "p2-noun-clause-14",
+      "type": "choice",
+      "q": "The question is ___ we should go by train or by bus.",
+      "ja": "問題は電車で行くべきかバスで行くべきかということです。",
+      "options": [
+        "that",
+        "what",
+        "whether",
+        "which"
+      ],
+      "answer": 2,
+      "why": "whether A or B で「AかBか」。補語として使う名詞節。"
+    },
+    {
+      "id": "p2-noun-clause-15",
+      "type": "choice",
+      "q": "His hope ___ he would become a doctor came true.",
+      "ja": "医者になりたいという彼の希望がかなった。",
+      "options": [
+        "which",
+        "what",
+        "that",
+        "who"
+      ],
+      "answer": 2,
+      "why": "同格の that。His hope that ... で「〜という希望」。"
+    },
+    {
+      "id": "p2-noun-clause-16",
+      "type": "choice",
+      "q": "It is clear ___ she has worked very hard.",
+      "ja": "彼女がとても一生懸命働いたことは明らかです。",
+      "options": [
+        "what",
+        "whether",
+        "which",
+        "that"
+      ],
+      "answer": 3,
+      "why": "It is clear that ... で「〜は明らかだ」。"
+    },
+    {
+      "id": "p2-noun-clause-17",
+      "type": "choice",
+      "q": "I'm not sure ___ I can attend the meeting tomorrow.",
+      "ja": "明日の会議に出席できるかどうか分からない。",
+      "options": [
+        "that",
+        "what",
+        "whether",
+        "which"
+      ],
+      "answer": 2,
+      "why": "「〜かどうか」は whether。not sure のあとなので疑問の意味。"
+    },
+    {
+      "id": "p2-noun-clause-18",
+      "type": "choice",
+      "q": "It is surprising ___ he can speak five languages.",
+      "ja": "彼が5か国語を話せるとは驚きです。",
+      "options": [
+        "what",
+        "which",
+        "that",
+        "whether"
+      ],
+      "answer": 2,
+      "why": "It is surprising that ... で「〜とは驚きだ」。"
+    },
+    {
+      "id": "p2-noun-clause-19",
+      "type": "choice",
+      "q": "The problem is ___ we don't have enough time.",
+      "ja": "問題は十分な時間がないということです。",
+      "options": [
+        "whether",
+        "what",
+        "that",
+        "which"
+      ],
+      "answer": 2,
+      "why": "The problem is that ... で「問題は〜ということだ」。"
+    },
+    {
+      "id": "p2-noun-clause-20",
+      "type": "choice",
+      "q": "I'm disappointed ___ you didn't tell me earlier.",
+      "ja": "もっと早く教えてくれなくて残念です。",
+      "options": [
+        "whether",
+        "what",
+        "which",
+        "that"
+      ],
+      "answer": 3,
+      "why": "I'm disappointed that ... で「〜で残念だ」。感情の that 節。"
+    },
+    {
+      "id": "p2-noun-clause-21",
+      "type": "order",
+      "ja": "彼が試験に合格したという事実はみんなを驚かせた。",
+      "words": [
+        "the",
+        "fact",
+        "that",
+        "he",
+        "passed",
+        "the",
+        "exam",
+        "surprised",
+        "everyone"
+      ],
+      "full": "The fact that he passed the exam surprised everyone.",
+      "why": "同格の that。The fact that ... で「〜という事実」。"
+    },
+    {
+      "id": "p2-noun-clause-22",
+      "type": "order",
+      "ja": "彼が来るかどうか分からない。",
+      "words": [
+        "I",
+        "don't",
+        "know",
+        "whether",
+        "he",
+        "will",
+        "come",
+        "or",
+        "not"
+      ],
+      "full": "I don't know whether he will come or not.",
+      "why": "whether ... or not で「〜かどうか」。"
+    },
+    {
+      "id": "p2-noun-clause-23",
+      "type": "order",
+      "ja": "毎日勉強することが大切です。",
+      "words": [
+        "it",
+        "is",
+        "important",
+        "that",
+        "you",
+        "study",
+        "every",
+        "day"
+      ],
+      "full": "It is important that you study every day.",
+      "why": "It is important that + 主語 + 動詞 の構文。"
+    },
+    {
+      "id": "p2-noun-clause-24",
+      "type": "order",
+      "ja": "彼女は試験に受かると確信しています。",
+      "words": [
+        "I'm",
+        "sure",
+        "that",
+        "she",
+        "will",
+        "pass",
+        "the",
+        "test"
+      ],
+      "full": "I'm sure that she will pass the test.",
+      "why": "I'm sure that ... で「〜だと確信している」。"
+    },
+    {
+      "id": "p2-noun-clause-25",
+      "type": "order",
+      "ja": "彼女はそのオファーを受け入れるかどうかまだ決めていない。",
+      "words": [
+        "she",
+        "hasn't",
+        "decided",
+        "whether",
+        "to",
+        "accept",
+        "the",
+        "offer"
+      ],
+      "full": "She hasn't decided whether to accept the offer.",
+      "why": "whether to + 動詞の原形 で「〜するかどうか」。"
+    },
+    {
+      "id": "p2-noun-clause-26",
+      "type": "order",
+      "ja": "学校が閉校するというニュースは生徒たちに衝撃を与えた。",
+      "words": [
+        "the",
+        "news",
+        "that",
+        "the",
+        "school",
+        "would",
+        "close",
+        "shocked",
+        "the",
+        "students"
+      ],
+      "full": "The news that the school would close shocked the students.",
+      "why": "同格の that。The news that ... で「〜というニュース」。"
+    },
+    {
+      "id": "p2-noun-clause-27",
+      "type": "order",
+      "ja": "問題は十分な時間がないということです。",
+      "words": [
+        "the",
+        "problem",
+        "is",
+        "that",
+        "we",
+        "don't",
+        "have",
+        "enough",
+        "time"
+      ],
+      "full": "The problem is that we don't have enough time.",
+      "why": "The problem is that ... で「問題は〜ということだ」。"
+    },
+    {
+      "id": "p2-noun-clause-28",
+      "type": "order",
+      "ja": "彼女がとても一生懸命働いたことは明らかです。",
+      "words": [
+        "it",
+        "is",
+        "clear",
+        "that",
+        "she",
+        "has",
+        "worked",
+        "very",
+        "hard"
+      ],
+      "full": "It is clear that she has worked very hard.",
+      "why": "It is clear that ... で「〜は明らかだ」。"
+    },
+    {
+      "id": "p2-noun-clause-29",
+      "type": "order",
+      "ja": "医者になりたいという彼の希望がかなった。",
+      "words": [
+        "his",
+        "hope",
+        "that",
+        "he",
+        "would",
+        "become",
+        "a",
+        "doctor",
+        "came",
+        "true"
+      ],
+      "full": "His hope that he would become a doctor came true.",
+      "why": "同格の that。His hope that ... で「〜という希望」。"
+    },
+    {
+      "id": "p2-noun-clause-30",
+      "type": "order",
+      "ja": "私の誕生日パーティーに来てくれてうれしいです。",
+      "words": [
+        "I'm",
+        "glad",
+        "that",
+        "you",
+        "could",
+        "come",
+        "to",
+        "my",
+        "birthday",
+        "party"
+      ],
+      "full": "I'm glad that you could come to my birthday party.",
+      "why": "I'm glad that ... で「〜してうれしい」。感情の that 節。"
+    }
+  ]
+}
