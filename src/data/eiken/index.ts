@@ -38,7 +38,7 @@ export function getGrade(key: string): GradeInfo | undefined {
   return grades.find((g) => g.key === key);
 }
 
-export const SETS_PER_GRADE = 24;
+export const SETS_PER_GRADE = 50;
 
 export interface Word {
   /** 学習記録のキー */

@@ -282,16 +282,50 @@ function buildCourse(grade: GradeKey): Course {
     s("eiken-drill", "ふくしゅう", label, 4, `/grammar/${mixId(grade)}`);
   const all = sets.length;
   const fin = meta[grade].finish;
-  const range = [8, 16, all];
-  for (let w = 9; w <= 12; w++) {
+
+  // 9週目以降：残りの単語セット（25-50）＋文法復習
+  const grammarWeeks = plans[grade].length; // 8
+  const coveredSets = grammarWeeks * 3; // 24
+  let setIdx = coveredSets + 1;
+  let weekIdx = grammarWeeks;
+  while (setIdx + 2 <= all) {
+    weekIdx++;
+    const first = setIdx;
     weeks.push({
-      title: `${w}週目：仕上げ${w === 12 ? "（本番前）" : ""}`,
+      title: `${weekIdx}週目：単語セット${first}〜${first + 2}`,
+      goal: "新しい単語を覚えて、文法はにがてを復習する",
+      days: [
+        { title: `単語セット${first}＋文法復習`, steps: [learn(first), mix(), review(first)] },
+        { title: `単語セット${first + 1}＋文法復習`, steps: [learn(first + 1), mix(), review(first + 1)] },
+        { title: `単語セット${first + 2}＋つかう`, steps: [learn(first + 2), fin[weekIdx % fin.length], review(first + 2)] },
+      ],
+    });
+    setIdx += 3;
+  }
+  // 余りのセット（50 % 3 = 2 → セット49, 50）
+  if (setIdx <= all) {
+    weekIdx++;
+    const days: Day[] = [];
+    for (let i = setIdx; i <= all; i++) {
+      days.push({ title: `単語セット${i}＋復習`, steps: [learn(i), mix(), review(i)] });
+    }
+    days.push({ title: "ここまでの復習", steps: [review(all, `単語ふくしゅう 12問（セット1〜${all}・にがて優先）`), mix(), fin[0]] });
+    weeks.push({ title: `${weekIdx}週目：単語の仕上げ`, goal: "最後の単語を覚えて、全体を復習する", days });
+  }
+
+  // 仕上げ週（3週間）
+  const totalContentWeeks = weekIdx;
+  const range = [Math.floor(all / 3), Math.floor(all * 2 / 3), all];
+  for (let w = 1; w <= 3; w++) {
+    const wn = totalContentWeeks + w;
+    weeks.push({
+      title: `${wn}週目：仕上げ${w === 3 ? "（本番前）" : ""}`,
       goal:
-        w === 12
+        w === 3
           ? "にがてな単語と文法をなくして、本番へ"
           : "過去問の解き直しを優先。ここでは単語と文法のにがてをつぶす",
       days: [0, 1, 2].map((d) => {
-        const upto = w === 9 ? range[d] : all;
+        const upto = w === 1 ? range[d] : all;
         return {
           title: `にがてつぶし ${d + 1}`,
           steps: [
@@ -304,14 +338,16 @@ function buildCourse(grade: GradeKey): Course {
     });
   }
 
+  const totalWeeks = weeks.length;
+  const totalSessions = totalWeeks * 3;
   return {
     id: info.courseId,
     icon: meta[grade].icon,
-    title: `${info.label}対策 12週間`,
-    subtitle: "単語144語と文法を、1回10分ずつ反復する",
+    title: `${info.label}対策 ${totalWeeks}週間`,
+    subtitle: `単語${all * 6}語と文法を、1回10分ずつ反復する`,
     audience: meta[grade].audience,
-    outcome: `${info.label}の頻出単語144語を覚え、文法の単元を1つずつ確かめる。9週目からはにがてつぶし`,
-    rhythm: "1回 約10分 × 週3回 × 12週間（全36回）",
+    outcome: `${info.label}の頻出単語${all * 6}語を覚え、文法の単元を1つずつ確かめる。後半はにがてつぶし`,
+    rhythm: `1回 約10分 × 週3回 × ${totalWeeks}週間（全${totalSessions}回）`,
     gradient: info.gradient,
     weeks,
   };

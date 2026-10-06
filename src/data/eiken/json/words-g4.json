@@ -1152,6 +1152,1254 @@
           "exJa": "私たちは博物館で恐竜の骨を見ました。"
         }
       ]
+    },
+    {
+      "n": 25,
+      "theme": "動物",
+      "words": [
+        {
+          "en": "pet",
+          "ja": "ペット",
+          "pos": "名",
+          "ex": "I have a pet rabbit at home.",
+          "exJa": "私は家にペットのうさぎがいます。"
+        },
+        {
+          "en": "feed",
+          "ja": "えさをやる",
+          "pos": "動",
+          "ex": "Please feed the cat before you go to school.",
+          "exJa": "学校に行く前にねこにえさをやってください。"
+        },
+        {
+          "en": "wing",
+          "ja": "つばさ",
+          "pos": "名",
+          "ex": "The bird has beautiful blue wings.",
+          "exJa": "その鳥は美しい青いつばさを持っています。"
+        },
+        {
+          "en": "wild",
+          "ja": "野生の",
+          "pos": "形",
+          "ex": "We saw wild deer in the mountains.",
+          "exJa": "私たちは山で野生のシカを見ました。"
+        },
+        {
+          "en": "raise",
+          "ja": "育てる",
+          "pos": "動",
+          "ex": "My sister wants to raise a puppy.",
+          "exJa": "姉は子犬を育てたいと思っています。"
+        },
+        {
+          "en": "gentle",
+          "ja": "やさしい",
+          "pos": "形",
+          "ex": "This horse is very gentle. You can touch it.",
+          "exJa": "この馬はとてもおとなしいです。さわっても大丈夫です。"
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "theme": "乗り物",
+      "words": [
+        {
+          "en": "ride",
+          "ja": "乗る",
+          "pos": "動",
+          "ex": "I ride my bicycle to school every day.",
+          "exJa": "私は毎日自転車に乗って学校へ行きます。"
+        },
+        {
+          "en": "drive",
+          "ja": "運転する",
+          "pos": "動",
+          "ex": "My mother can drive a car very well.",
+          "exJa": "母はとても上手に車を運転できます。"
+        },
+        {
+          "en": "flight",
+          "ja": "飛行便",
+          "pos": "名",
+          "ex": "Our flight to London leaves at ten.",
+          "exJa": "ロンドンへの飛行便は10時に出発します。"
+        },
+        {
+          "en": "platform",
+          "ja": "ホーム",
+          "pos": "名",
+          "ex": "The train will come to platform three.",
+          "exJa": "電車は3番ホームに来ます。"
+        },
+        {
+          "en": "fast",
+          "ja": "速い",
+          "pos": "形",
+          "ex": "This new train is very fast.",
+          "exJa": "この新しい電車はとても速いです。"
+        },
+        {
+          "en": "abroad",
+          "ja": "海外へ",
+          "pos": "副",
+          "ex": "She wants to study abroad next year.",
+          "exJa": "彼女は来年、海外へ留学したいと思っています。"
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "theme": "衣服",
+      "words": [
+        {
+          "en": "jacket",
+          "ja": "上着",
+          "pos": "名",
+          "ex": "Put on your jacket. It's cold outside.",
+          "exJa": "上着を着なさい。外は寒いですよ。"
+        },
+        {
+          "en": "pocket",
+          "ja": "ポケット",
+          "pos": "名",
+          "ex": "I put the coin in my pocket.",
+          "exJa": "私はコインをポケットに入れました。"
+        },
+        {
+          "en": "glove",
+          "ja": "手袋",
+          "pos": "名",
+          "ex": "I need my gloves when it snows.",
+          "exJa": "雪が降るときは手袋が必要です。"
+        },
+        {
+          "en": "dress",
+          "ja": "ドレス",
+          "pos": "名",
+          "ex": "She wore a red dress to the party.",
+          "exJa": "彼女はパーティーに赤いドレスを着ていきました。"
+        },
+        {
+          "en": "cotton",
+          "ja": "綿",
+          "pos": "名",
+          "ex": "This T-shirt is made of cotton.",
+          "exJa": "このTシャツは綿でできています。"
+        },
+        {
+          "en": "tight",
+          "ja": "きつい",
+          "pos": "形",
+          "ex": "These shoes are too tight for me.",
+          "exJa": "このくつは私にはきつすぎます。"
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "theme": "料理",
+      "words": [
+        {
+          "en": "recipe",
+          "ja": "レシピ",
+          "pos": "名",
+          "ex": "My mother gave me a cake recipe.",
+          "exJa": "母がケーキのレシピをくれました。"
+        },
+        {
+          "en": "bake",
+          "ja": "焼く",
+          "pos": "動",
+          "ex": "Let's bake cookies for the school fair.",
+          "exJa": "学校のバザーのためにクッキーを焼きましょう。"
+        },
+        {
+          "en": "boil",
+          "ja": "沸かす",
+          "pos": "動",
+          "ex": "Please boil some water for tea.",
+          "exJa": "お茶のためにお湯を沸かしてください。"
+        },
+        {
+          "en": "mix",
+          "ja": "混ぜる",
+          "pos": "動",
+          "ex": "Mix the eggs and sugar in a bowl.",
+          "exJa": "ボウルの中で卵と砂糖を混ぜてください。"
+        },
+        {
+          "en": "flour",
+          "ja": "小麦粉",
+          "pos": "名",
+          "ex": "We need flour to make bread.",
+          "exJa": "パンを作るには小麦粉が必要です。"
+        },
+        {
+          "en": "fresh",
+          "ja": "新鮮な",
+          "pos": "形",
+          "ex": "I like to eat fresh fish from the sea.",
+          "exJa": "私は海からとれた新鮮な魚を食べるのが好きです。"
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "theme": "場所",
+      "words": [
+        {
+          "en": "airport",
+          "ja": "空港",
+          "pos": "名",
+          "ex": "We arrived at the airport two hours early.",
+          "exJa": "私たちは2時間早く空港に着きました。"
+        },
+        {
+          "en": "library",
+          "ja": "図書館",
+          "pos": "名",
+          "ex": "I study at the library after school.",
+          "exJa": "私は放課後、図書館で勉強します。"
+        },
+        {
+          "en": "church",
+          "ja": "教会",
+          "pos": "名",
+          "ex": "There is an old church on the hill.",
+          "exJa": "丘の上に古い教会があります。"
+        },
+        {
+          "en": "factory",
+          "ja": "工場",
+          "pos": "名",
+          "ex": "My uncle works in a car factory.",
+          "exJa": "おじは自動車工場で働いています。"
+        },
+        {
+          "en": "entrance",
+          "ja": "入り口",
+          "pos": "名",
+          "ex": "I will meet you at the entrance of the park.",
+          "exJa": "公園の入り口で会いましょう。"
+        },
+        {
+          "en": "downtown",
+          "ja": "繁華街へ",
+          "pos": "副",
+          "ex": "Let's go downtown to see a movie.",
+          "exJa": "映画を見に繁華街へ行きましょう。"
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "theme": "感情",
+      "words": [
+        {
+          "en": "glad",
+          "ja": "うれしい",
+          "pos": "形",
+          "ex": "I'm glad to hear the good news.",
+          "exJa": "そのよい知らせを聞いてうれしいです。"
+        },
+        {
+          "en": "afraid",
+          "ja": "こわがって",
+          "pos": "形",
+          "ex": "My little sister is afraid of dogs.",
+          "exJa": "妹は犬をこわがっています。"
+        },
+        {
+          "en": "proud",
+          "ja": "誇りに思う",
+          "pos": "形",
+          "ex": "I am proud of my son. He works hard.",
+          "exJa": "私は息子を誇りに思います。彼はよくがんばっています。"
+        },
+        {
+          "en": "surprise",
+          "ja": "驚かす",
+          "pos": "動",
+          "ex": "Let's surprise Mom on her birthday.",
+          "exJa": "お母さんの誕生日に驚かしましょう。"
+        },
+        {
+          "en": "lonely",
+          "ja": "さびしい",
+          "pos": "形",
+          "ex": "I feel lonely when my friends are away.",
+          "exJa": "友だちがいないとさびしく感じます。"
+        },
+        {
+          "en": "smile",
+          "ja": "ほほえむ",
+          "pos": "動",
+          "ex": "She always smiles when she sees me.",
+          "exJa": "彼女は私を見るといつもほほえみます。"
+        }
+      ]
+    },
+    {
+      "n": 31,
+      "theme": "日常動作",
+      "words": [
+        {
+          "en": "wake",
+          "ja": "目が覚める",
+          "pos": "動",
+          "ex": "I wake up at six every morning.",
+          "exJa": "私は毎朝6時に目が覚めます。"
+        },
+        {
+          "en": "brush",
+          "ja": "みがく",
+          "pos": "動",
+          "ex": "I brush my teeth three times a day.",
+          "exJa": "私は1日に3回歯をみがきます。"
+        },
+        {
+          "en": "hang",
+          "ja": "かける",
+          "pos": "動",
+          "ex": "Please hang your coat on the hook.",
+          "exJa": "コートをフックにかけてください。"
+        },
+        {
+          "en": "fold",
+          "ja": "たたむ",
+          "pos": "動",
+          "ex": "Please fold your clothes and put them away.",
+          "exJa": "服をたたんでしまってください。"
+        },
+        {
+          "en": "lock",
+          "ja": "かぎをかける",
+          "pos": "動",
+          "ex": "Don't forget to lock the door when you leave.",
+          "exJa": "出かけるときはドアにかぎをかけるのを忘れないで。"
+        },
+        {
+          "en": "lazy",
+          "ja": "なまけた",
+          "pos": "形",
+          "ex": "He is lazy and never does his homework.",
+          "exJa": "彼はなまけていて、宿題を全然しません。"
+        }
+      ]
+    },
+    {
+      "n": 32,
+      "theme": "数と量",
+      "words": [
+        {
+          "en": "several",
+          "ja": "いくつかの",
+          "pos": "形",
+          "ex": "I have been to Kyoto several times.",
+          "exJa": "私は京都に何度か行ったことがあります。"
+        },
+        {
+          "en": "whole",
+          "ja": "全体の",
+          "pos": "形",
+          "ex": "I read the whole book in one day.",
+          "exJa": "私は1日でその本を全部読みました。"
+        },
+        {
+          "en": "double",
+          "ja": "2倍の",
+          "pos": "形",
+          "ex": "This room is double the size of mine.",
+          "exJa": "この部屋は私の部屋の2倍の大きさです。"
+        },
+        {
+          "en": "amount",
+          "ja": "量",
+          "pos": "名",
+          "ex": "What is the total amount of money?",
+          "exJa": "お金の合計はいくらですか。"
+        },
+        {
+          "en": "score",
+          "ja": "得点",
+          "pos": "名",
+          "ex": "The final score was three to two.",
+          "exJa": "最終得点は3対2でした。"
+        },
+        {
+          "en": "plenty",
+          "ja": "たくさん",
+          "pos": "名",
+          "ex": "We have plenty of time. Don't rush.",
+          "exJa": "時間はたくさんあります。急がないで。"
+        }
+      ]
+    },
+    {
+      "n": 33,
+      "theme": "位置と方向",
+      "words": [
+        {
+          "en": "toward",
+          "ja": "〜の方へ",
+          "pos": "前",
+          "ex": "The cat walked toward the door slowly.",
+          "exJa": "ねこはゆっくりドアの方へ歩いていきました。"
+        },
+        {
+          "en": "above",
+          "ja": "〜の上に",
+          "pos": "前",
+          "ex": "There is a clock above the door.",
+          "exJa": "ドアの上に時計があります。"
+        },
+        {
+          "en": "below",
+          "ja": "〜の下に",
+          "pos": "前",
+          "ex": "The temperature is below zero today.",
+          "exJa": "今日は気温がゼロ度以下です。"
+        },
+        {
+          "en": "across",
+          "ja": "〜を横切って",
+          "pos": "前",
+          "ex": "Be careful when you walk across the street.",
+          "exJa": "通りを横切るときは注意しなさい。"
+        },
+        {
+          "en": "along",
+          "ja": "〜に沿って",
+          "pos": "前",
+          "ex": "Let's walk along the river to the park.",
+          "exJa": "川に沿って公園まで歩きましょう。"
+        },
+        {
+          "en": "through",
+          "ja": "〜を通り抜けて",
+          "pos": "前",
+          "ex": "The train goes through a long tunnel.",
+          "exJa": "電車は長いトンネルを通り抜けます。"
+        }
+      ]
+    },
+    {
+      "n": 34,
+      "theme": "通信と情報",
+      "words": [
+        {
+          "en": "receive",
+          "ja": "受け取る",
+          "pos": "動",
+          "ex": "I received a letter from my pen pal.",
+          "exJa": "私はペンパルから手紙を受け取りました。"
+        },
+        {
+          "en": "contact",
+          "ja": "連絡する",
+          "pos": "動",
+          "ex": "Please contact me if you have any questions.",
+          "exJa": "質問があれば私に連絡してください。"
+        },
+        {
+          "en": "information",
+          "ja": "情報",
+          "pos": "名",
+          "ex": "I found the information on the internet.",
+          "exJa": "私はインターネットでその情報を見つけました。"
+        },
+        {
+          "en": "notice",
+          "ja": "気づく",
+          "pos": "動",
+          "ex": "Did you notice the new painting on the wall?",
+          "exJa": "壁にかかっている新しい絵に気づきましたか。"
+        },
+        {
+          "en": "reply",
+          "ja": "返事する",
+          "pos": "動",
+          "ex": "He didn't reply to my email.",
+          "exJa": "彼は私のメールに返事をしませんでした。"
+        },
+        {
+          "en": "simple",
+          "ja": "かんたんな",
+          "pos": "形",
+          "ex": "The rules of this game are very simple.",
+          "exJa": "このゲームのルールはとてもかんたんです。"
+        }
+      ]
+    },
+    {
+      "n": 35,
+      "theme": "芸術と音楽",
+      "words": [
+        {
+          "en": "performance",
+          "ja": "演技",
+          "pos": "名",
+          "ex": "Her piano performance was beautiful.",
+          "exJa": "彼女のピアノの演技は美しかったです。"
+        },
+        {
+          "en": "stage",
+          "ja": "舞台",
+          "pos": "名",
+          "ex": "The singer walked onto the stage.",
+          "exJa": "歌手が舞台の上に歩いてきました。"
+        },
+        {
+          "en": "draw",
+          "ja": "描く",
+          "pos": "動",
+          "ex": "I like to draw pictures of flowers.",
+          "exJa": "私は花の絵を描くのが好きです。"
+        },
+        {
+          "en": "instrument",
+          "ja": "楽器",
+          "pos": "名",
+          "ex": "Can you play any musical instrument?",
+          "exJa": "何か楽器を演奏できますか。"
+        },
+        {
+          "en": "modern",
+          "ja": "現代の",
+          "pos": "形",
+          "ex": "This is a museum of modern art.",
+          "exJa": "これは現代美術の美術館です。"
+        },
+        {
+          "en": "create",
+          "ja": "作り出す",
+          "pos": "動",
+          "ex": "She created a beautiful song for the show.",
+          "exJa": "彼女はショーのために美しい歌を作り出しました。"
+        }
+      ]
+    },
+    {
+      "n": 36,
+      "theme": "体と健康",
+      "words": [
+        {
+          "en": "fever",
+          "ja": "熱",
+          "pos": "名",
+          "ex": "I have a fever. I feel very hot.",
+          "exJa": "熱があります。とても暑く感じます。"
+        },
+        {
+          "en": "cough",
+          "ja": "せき",
+          "pos": "名",
+          "ex": "She has a bad cough today.",
+          "exJa": "彼女は今日、ひどいせきが出ています。"
+        },
+        {
+          "en": "exercise",
+          "ja": "運動",
+          "pos": "名",
+          "ex": "Exercise is good for your health.",
+          "exJa": "運動は健康によいです。"
+        },
+        {
+          "en": "hurt",
+          "ja": "痛む",
+          "pos": "動",
+          "ex": "My leg hurts. I can't run today.",
+          "exJa": "足が痛みます。今日は走れません。"
+        },
+        {
+          "en": "weight",
+          "ja": "体重",
+          "pos": "名",
+          "ex": "He wants to lose some weight.",
+          "exJa": "彼は少し体重を減らしたいと思っています。"
+        },
+        {
+          "en": "healthy",
+          "ja": "健康な",
+          "pos": "形",
+          "ex": "Eating fruit every day keeps you healthy.",
+          "exJa": "毎日果物を食べると健康でいられます。"
+        }
+      ]
+    },
+    {
+      "n": 37,
+      "theme": "地理",
+      "words": [
+        {
+          "en": "coast",
+          "ja": "海岸",
+          "pos": "名",
+          "ex": "We drove along the coast and saw the ocean.",
+          "exJa": "私たちは海岸沿いをドライブして海を見ました。"
+        },
+        {
+          "en": "continent",
+          "ja": "大陸",
+          "pos": "名",
+          "ex": "Asia is the largest continent in the world.",
+          "exJa": "アジアは世界で最も大きい大陸です。"
+        },
+        {
+          "en": "desert",
+          "ja": "砂漠",
+          "pos": "名",
+          "ex": "It is very hot in the desert during the day.",
+          "exJa": "砂漠は日中とても暑いです。"
+        },
+        {
+          "en": "border",
+          "ja": "国境",
+          "pos": "名",
+          "ex": "We crossed the border into Canada.",
+          "exJa": "私たちは国境を越えてカナダに入りました。"
+        },
+        {
+          "en": "population",
+          "ja": "人口",
+          "pos": "名",
+          "ex": "The population of this city is about one million.",
+          "exJa": "この市の人口は約100万人です。"
+        },
+        {
+          "en": "deep",
+          "ja": "深い",
+          "pos": "形",
+          "ex": "This lake is very deep. Don't swim here.",
+          "exJa": "この湖はとても深いです。ここで泳がないで。"
+        }
+      ]
+    },
+    {
+      "n": 38,
+      "theme": "環境",
+      "words": [
+        {
+          "en": "recycle",
+          "ja": "リサイクルする",
+          "pos": "動",
+          "ex": "We should recycle plastic bottles.",
+          "exJa": "私たちはペットボトルをリサイクルすべきです。"
+        },
+        {
+          "en": "nature",
+          "ja": "自然",
+          "pos": "名",
+          "ex": "We should protect nature for the future.",
+          "exJa": "将来のために自然を守るべきです。"
+        },
+        {
+          "en": "pollution",
+          "ja": "汚染",
+          "pos": "名",
+          "ex": "Air pollution is a big problem in big cities.",
+          "exJa": "大都市では大気汚染が大きな問題です。"
+        },
+        {
+          "en": "reduce",
+          "ja": "減らす",
+          "pos": "動",
+          "ex": "We should reduce the use of plastic bags.",
+          "exJa": "私たちはビニール袋の使用を減らすべきです。"
+        },
+        {
+          "en": "waste",
+          "ja": "むだにする",
+          "pos": "動",
+          "ex": "Don't waste food. Eat everything on your plate.",
+          "exJa": "食べ物をむだにしないで。お皿の上のものは全部食べなさい。"
+        },
+        {
+          "en": "environment",
+          "ja": "環境",
+          "pos": "名",
+          "ex": "We must take care of our environment.",
+          "exJa": "私たちは環境を大切にしなければなりません。"
+        }
+      ]
+    },
+    {
+      "n": 39,
+      "theme": "社会",
+      "words": [
+        {
+          "en": "community",
+          "ja": "地域社会",
+          "pos": "名",
+          "ex": "Our community has a big park and a pool.",
+          "exJa": "私たちの地域には大きな公園とプールがあります。"
+        },
+        {
+          "en": "volunteer",
+          "ja": "ボランティア",
+          "pos": "名",
+          "ex": "She works as a volunteer at the hospital.",
+          "exJa": "彼女は病院でボランティアとして働いています。"
+        },
+        {
+          "en": "rule",
+          "ja": "規則",
+          "pos": "名",
+          "ex": "You must follow the rules of the school.",
+          "exJa": "学校の規則に従わなければなりません。"
+        },
+        {
+          "en": "support",
+          "ja": "支える",
+          "pos": "動",
+          "ex": "My parents always support me.",
+          "exJa": "両親はいつも私を支えてくれます。"
+        },
+        {
+          "en": "respect",
+          "ja": "尊敬する",
+          "pos": "動",
+          "ex": "We should respect our teachers.",
+          "exJa": "私たちは先生を尊敬すべきです。"
+        },
+        {
+          "en": "fair",
+          "ja": "公平な",
+          "pos": "形",
+          "ex": "The teacher is always fair to everyone.",
+          "exJa": "先生はいつもみんなに公平です。"
+        }
+      ]
+    },
+    {
+      "n": 40,
+      "theme": "文化",
+      "words": [
+        {
+          "en": "tradition",
+          "ja": "伝統",
+          "pos": "名",
+          "ex": "Wearing kimono is a Japanese tradition.",
+          "exJa": "着物を着ることは日本の伝統です。"
+        },
+        {
+          "en": "culture",
+          "ja": "文化",
+          "pos": "名",
+          "ex": "I want to learn about American culture.",
+          "exJa": "私はアメリカの文化について学びたいです。"
+        },
+        {
+          "en": "custom",
+          "ja": "習慣",
+          "pos": "名",
+          "ex": "Taking off shoes at the door is a Japanese custom.",
+          "exJa": "玄関でくつをぬぐのは日本の習慣です。"
+        },
+        {
+          "en": "ceremony",
+          "ja": "式",
+          "pos": "名",
+          "ex": "We went to a tea ceremony in Kyoto.",
+          "exJa": "私たちは京都でお茶の式に行きました。"
+        },
+        {
+          "en": "foreign",
+          "ja": "外国の",
+          "pos": "形",
+          "ex": "Many foreign tourists visit Japan every year.",
+          "exJa": "毎年たくさんの外国人観光客が日本を訪れます。"
+        },
+        {
+          "en": "ancient",
+          "ja": "古代の",
+          "pos": "形",
+          "ex": "We saw an ancient temple in Nara.",
+          "exJa": "私たちは奈良で古代の寺を見ました。"
+        }
+      ]
+    },
+    {
+      "n": 41,
+      "theme": "道具と物",
+      "words": [
+        {
+          "en": "tool",
+          "ja": "道具",
+          "pos": "名",
+          "ex": "My father keeps his tools in the garage.",
+          "exJa": "父は車庫に道具をしまっています。"
+        },
+        {
+          "en": "battery",
+          "ja": "電池",
+          "pos": "名",
+          "ex": "The clock stopped. It needs a new battery.",
+          "exJa": "時計が止まりました。新しい電池が必要です。"
+        },
+        {
+          "en": "fix",
+          "ja": "修理する",
+          "pos": "動",
+          "ex": "My father can fix my broken bicycle.",
+          "exJa": "父は私のこわれた自転車を修理できます。"
+        },
+        {
+          "en": "handle",
+          "ja": "取っ手",
+          "pos": "名",
+          "ex": "Hold the handle and pull the door.",
+          "exJa": "取っ手を持ってドアを引いてください。"
+        },
+        {
+          "en": "wrap",
+          "ja": "包む",
+          "pos": "動",
+          "ex": "Let's wrap this gift in pretty paper.",
+          "exJa": "このプレゼントをきれいな紙で包みましょう。"
+        },
+        {
+          "en": "thin",
+          "ja": "薄い",
+          "pos": "形",
+          "ex": "This book is very thin. I can read it quickly.",
+          "exJa": "この本はとても薄いです。すぐ読めます。"
+        }
+      ]
+    },
+    {
+      "n": 42,
+      "theme": "建物と施設",
+      "words": [
+        {
+          "en": "floor",
+          "ja": "階",
+          "pos": "名",
+          "ex": "My office is on the fifth floor.",
+          "exJa": "私のオフィスは5階にあります。"
+        },
+        {
+          "en": "stairs",
+          "ja": "階段",
+          "pos": "名",
+          "ex": "Let's take the stairs instead of the elevator.",
+          "exJa": "エレベーターではなく階段を使いましょう。"
+        },
+        {
+          "en": "ceiling",
+          "ja": "天井",
+          "pos": "名",
+          "ex": "The ceiling of this room is very high.",
+          "exJa": "この部屋の天井はとても高いです。"
+        },
+        {
+          "en": "hall",
+          "ja": "ホール",
+          "pos": "名",
+          "ex": "The concert was held in a large hall.",
+          "exJa": "コンサートは大きなホールで開かれました。"
+        },
+        {
+          "en": "repair",
+          "ja": "修理する",
+          "pos": "動",
+          "ex": "They will repair the roof next week.",
+          "exJa": "来週、屋根を修理します。"
+        },
+        {
+          "en": "narrow",
+          "ja": "せまい",
+          "pos": "形",
+          "ex": "This road is too narrow for buses.",
+          "exJa": "この道はバスには狭すぎます。"
+        }
+      ]
+    },
+    {
+      "n": 43,
+      "theme": "交通",
+      "words": [
+        {
+          "en": "traffic",
+          "ja": "交通",
+          "pos": "名",
+          "ex": "There is a lot of traffic in the morning.",
+          "exJa": "朝は交通量がとても多いです。"
+        },
+        {
+          "en": "sign",
+          "ja": "標識",
+          "pos": "名",
+          "ex": "That sign says 'No parking.'",
+          "exJa": "あの標識には「駐車禁止」と書いてあります。"
+        },
+        {
+          "en": "cross",
+          "ja": "渡る",
+          "pos": "動",
+          "ex": "Look both ways before you cross the street.",
+          "exJa": "通りを渡る前に左右を見なさい。"
+        },
+        {
+          "en": "direction",
+          "ja": "方向",
+          "pos": "名",
+          "ex": "Which direction is the station from here?",
+          "exJa": "駅はここからどの方向ですか。"
+        },
+        {
+          "en": "accident",
+          "ja": "事故",
+          "pos": "名",
+          "ex": "There was a car accident near the school.",
+          "exJa": "学校の近くで自動車事故がありました。"
+        },
+        {
+          "en": "crowded",
+          "ja": "混雑した",
+          "pos": "形",
+          "ex": "The train is always crowded in the morning.",
+          "exJa": "電車は朝いつも混雑しています。"
+        }
+      ]
+    },
+    {
+      "n": 44,
+      "theme": "人の特徴",
+      "words": [
+        {
+          "en": "honest",
+          "ja": "正直な",
+          "pos": "形",
+          "ex": "Tom is very honest. He never tells lies.",
+          "exJa": "トムはとても正直です。うそをつきません。"
+        },
+        {
+          "en": "polite",
+          "ja": "礼儀正しい",
+          "pos": "形",
+          "ex": "She is always polite to her teachers.",
+          "exJa": "彼女はいつも先生に礼儀正しいです。"
+        },
+        {
+          "en": "patient",
+          "ja": "辛抱強い",
+          "pos": "形",
+          "ex": "Our teacher is very patient with us.",
+          "exJa": "先生は私たちにとても辛抱強いです。"
+        },
+        {
+          "en": "brave",
+          "ja": "勇敢な",
+          "pos": "形",
+          "ex": "The brave boy saved his friend from the river.",
+          "exJa": "その勇敢な少年は友だちを川から助けました。"
+        },
+        {
+          "en": "wise",
+          "ja": "かしこい",
+          "pos": "形",
+          "ex": "My grandmother is a very wise woman.",
+          "exJa": "祖母はとてもかしこい女性です。"
+        },
+        {
+          "en": "shy",
+          "ja": "はずかしがりの",
+          "pos": "形",
+          "ex": "He is shy and doesn't talk much.",
+          "exJa": "彼ははずかしがりで、あまり話しません。"
+        }
+      ]
+    },
+    {
+      "n": 45,
+      "theme": "動きの動詞",
+      "words": [
+        {
+          "en": "push",
+          "ja": "押す",
+          "pos": "動",
+          "ex": "Push this button to open the door.",
+          "exJa": "ドアを開けるにはこのボタンを押してください。"
+        },
+        {
+          "en": "pull",
+          "ja": "引く",
+          "pos": "動",
+          "ex": "Pull the door. Don't push it.",
+          "exJa": "ドアを引いてください。押さないで。"
+        },
+        {
+          "en": "shake",
+          "ja": "ふる",
+          "pos": "動",
+          "ex": "Shake the bottle before you drink the juice.",
+          "exJa": "ジュースを飲む前にボトルをふってください。"
+        },
+        {
+          "en": "drop",
+          "ja": "落とす",
+          "pos": "動",
+          "ex": "Be careful not to drop the glass.",
+          "exJa": "グラスを落とさないように気をつけて。"
+        },
+        {
+          "en": "kick",
+          "ja": "ける",
+          "pos": "動",
+          "ex": "He kicked the ball into the goal.",
+          "exJa": "彼はボールをゴールにけりこみました。"
+        },
+        {
+          "en": "slide",
+          "ja": "すべる",
+          "pos": "動",
+          "ex": "The children love to slide down the hill.",
+          "exJa": "子どもたちは丘をすべりおりるのが大好きです。"
+        }
+      ]
+    },
+    {
+      "n": 46,
+      "theme": "状態の形容詞",
+      "words": [
+        {
+          "en": "empty",
+          "ja": "空の",
+          "pos": "形",
+          "ex": "The box is empty. There is nothing inside.",
+          "exJa": "箱は空です。中には何もありません。"
+        },
+        {
+          "en": "full",
+          "ja": "いっぱいの",
+          "pos": "形",
+          "ex": "The bus is full. Let's wait for the next one.",
+          "exJa": "バスはいっぱいです。次のを待ちましょう。"
+        },
+        {
+          "en": "wet",
+          "ja": "ぬれた",
+          "pos": "形",
+          "ex": "My shoes are wet from the rain.",
+          "exJa": "雨でくつがぬれてしまいました。"
+        },
+        {
+          "en": "dry",
+          "ja": "かわいた",
+          "pos": "形",
+          "ex": "The clothes are dry now. Let's bring them in.",
+          "exJa": "洗濯物はもうかわきました。取り込みましょう。"
+        },
+        {
+          "en": "wide",
+          "ja": "広い",
+          "pos": "形",
+          "ex": "This river is very wide. We can't swim across.",
+          "exJa": "この川はとても広いです。泳いで渡れません。"
+        },
+        {
+          "en": "smooth",
+          "ja": "なめらかな",
+          "pos": "形",
+          "ex": "The surface of this table is very smooth.",
+          "exJa": "このテーブルの表面はとてもなめらかです。"
+        }
+      ]
+    },
+    {
+      "n": 47,
+      "theme": "学校生活",
+      "words": [
+        {
+          "en": "absent",
+          "ja": "欠席の",
+          "pos": "形",
+          "ex": "Tom was absent from school yesterday.",
+          "exJa": "トムは昨日学校を欠席しました。"
+        },
+        {
+          "en": "grade",
+          "ja": "学年",
+          "pos": "名",
+          "ex": "My brother is in the third grade.",
+          "exJa": "弟は3年生です。"
+        },
+        {
+          "en": "textbook",
+          "ja": "教科書",
+          "pos": "名",
+          "ex": "Open your textbook to page twenty.",
+          "exJa": "教科書の20ページを開いてください。"
+        },
+        {
+          "en": "present",
+          "ja": "発表する",
+          "pos": "動",
+          "ex": "I will present my report to the class.",
+          "exJa": "私はクラスで自分のレポートを発表します。"
+        },
+        {
+          "en": "correct",
+          "ja": "正しい",
+          "pos": "形",
+          "ex": "Your answer is correct. Good job!",
+          "exJa": "あなたの答えは正しいです。よくできました！"
+        },
+        {
+          "en": "piece",
+          "ja": "一つ",
+          "pos": "名",
+          "ex": "May I have a piece of paper?",
+          "exJa": "紙を1枚もらえますか。"
+        }
+      ]
+    },
+    {
+      "n": 48,
+      "theme": "放課後",
+      "words": [
+        {
+          "en": "activity",
+          "ja": "活動",
+          "pos": "名",
+          "ex": "What club activity do you do after school?",
+          "exJa": "放課後はどんな部活動をしていますか。"
+        },
+        {
+          "en": "lesson",
+          "ja": "レッスン",
+          "pos": "名",
+          "ex": "I have a piano lesson every Friday.",
+          "exJa": "私は毎週金曜日にピアノのレッスンがあります。"
+        },
+        {
+          "en": "match",
+          "ja": "試合",
+          "pos": "名",
+          "ex": "We have a soccer match this Saturday.",
+          "exJa": "今週の土曜日にサッカーの試合があります。"
+        },
+        {
+          "en": "scene",
+          "ja": "場面",
+          "pos": "名",
+          "ex": "The last scene of the play was very sad.",
+          "exJa": "その劇の最後の場面はとても悲しかったです。"
+        },
+        {
+          "en": "prepare",
+          "ja": "準備する",
+          "pos": "動",
+          "ex": "We need to prepare for the school festival.",
+          "exJa": "学園祭の準備をする必要があります。"
+        },
+        {
+          "en": "complete",
+          "ja": "完成させる",
+          "pos": "動",
+          "ex": "I need to complete my project by Monday.",
+          "exJa": "月曜日までにプロジェクトを完成させる必要があります。"
+        }
+      ]
+    },
+    {
+      "n": 49,
+      "theme": "色と形",
+      "words": [
+        {
+          "en": "shape",
+          "ja": "形",
+          "pos": "名",
+          "ex": "What shape is this box? It's a square.",
+          "exJa": "この箱はどんな形ですか。正方形です。"
+        },
+        {
+          "en": "circle",
+          "ja": "円",
+          "pos": "名",
+          "ex": "Please draw a circle on the paper.",
+          "exJa": "紙に円を描いてください。"
+        },
+        {
+          "en": "straight",
+          "ja": "まっすぐな",
+          "pos": "形",
+          "ex": "Go straight and turn left at the corner.",
+          "exJa": "まっすぐ行って、角で左に曲がってください。"
+        },
+        {
+          "en": "pale",
+          "ja": "うすい",
+          "pos": "形",
+          "ex": "The sky was a pale blue this morning.",
+          "exJa": "今朝の空はうすい青色でした。"
+        },
+        {
+          "en": "bright",
+          "ja": "明るい",
+          "pos": "形",
+          "ex": "The room is bright because of the big window.",
+          "exJa": "大きな窓のおかげで部屋が明るいです。"
+        },
+        {
+          "en": "pattern",
+          "ja": "模様",
+          "pos": "名",
+          "ex": "I like the flower pattern on this cup.",
+          "exJa": "このカップの花の模様が好きです。"
+        }
+      ]
+    },
+    {
+      "n": 50,
+      "theme": "科学と発見",
+      "words": [
+        {
+          "en": "discover",
+          "ja": "発見する",
+          "pos": "動",
+          "ex": "Scientists discovered a new kind of fish.",
+          "exJa": "科学者たちが新しい種類の魚を発見しました。"
+        },
+        {
+          "en": "experiment",
+          "ja": "実験",
+          "pos": "名",
+          "ex": "We did an experiment in science class.",
+          "exJa": "私たちは理科の授業で実験をしました。"
+        },
+        {
+          "en": "research",
+          "ja": "研究",
+          "pos": "名",
+          "ex": "He is doing research on animals.",
+          "exJa": "彼は動物についての研究をしています。"
+        },
+        {
+          "en": "invent",
+          "ja": "発明する",
+          "pos": "動",
+          "ex": "Who invented the telephone?",
+          "exJa": "電話を発明したのはだれですか。"
+        },
+        {
+          "en": "temperature",
+          "ja": "温度",
+          "pos": "名",
+          "ex": "The temperature is thirty degrees today.",
+          "exJa": "今日の温度は30度です。"
+        },
+        {
+          "en": "natural",
+          "ja": "自然の",
+          "pos": "形",
+          "ex": "This park has many natural springs.",
+          "exJa": "この公園には自然の泉がたくさんあります。"
+        }
+      ]
     }
   ]
 }

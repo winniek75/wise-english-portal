@@ -1152,6 +1152,1254 @@
           "exJa": "その祭りには世界のさまざまな国の食べ物がありました。"
         }
       ]
+    },
+    {
+      "n": 25,
+      "theme": "ビジネスと経済",
+      "words": [
+        {
+          "en": "compete",
+          "ja": "競争する",
+          "pos": "動",
+          "ex": "Many companies compete with each other to sell new products.",
+          "exJa": "多くの会社が新しい製品を売るために互いに競争しています。"
+        },
+        {
+          "en": "invest",
+          "ja": "投資する",
+          "pos": "動",
+          "ex": "He decided to invest his money in a small business.",
+          "exJa": "彼は自分のお金を小さな事業に投資することに決めました。"
+        },
+        {
+          "en": "demand",
+          "ja": "需要",
+          "pos": "名",
+          "ex": "There is a growing demand for electric cars in Japan.",
+          "exJa": "日本では電気自動車の需要が高まっています。"
+        },
+        {
+          "en": "budget",
+          "ja": "予算",
+          "pos": "名",
+          "ex": "The school has a limited budget for new computers.",
+          "exJa": "その学校は新しいコンピューターのための予算が限られています。"
+        },
+        {
+          "en": "financial",
+          "ja": "財政的な",
+          "pos": "形",
+          "ex": "Many students need financial support to go to college.",
+          "exJa": "多くの学生は大学に行くために財政的な支援を必要としています。"
+        },
+        {
+          "en": "meanwhile",
+          "ja": "その間に",
+          "pos": "副",
+          "ex": "I will cook dinner. Meanwhile, please set the table.",
+          "exJa": "私が夕食を作ります。その間に、テーブルを用意してください。"
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "theme": "科学と研究",
+      "words": [
+        {
+          "en": "discover",
+          "ja": "発見する",
+          "pos": "動",
+          "ex": "Scientists hope to discover new medicines from plants.",
+          "exJa": "科学者たちは植物から新しい薬を発見することを望んでいます。"
+        },
+        {
+          "en": "examine",
+          "ja": "調べる",
+          "pos": "動",
+          "ex": "The doctor will examine your eyes before giving you glasses.",
+          "exJa": "医師はメガネを処方する前にあなたの目を調べます。"
+        },
+        {
+          "en": "theory",
+          "ja": "理論",
+          "pos": "名",
+          "ex": "Darwin's theory of evolution changed the way we see nature.",
+          "exJa": "ダーウィンの進化論は私たちの自然の見方を変えました。"
+        },
+        {
+          "en": "evidence",
+          "ja": "証拠",
+          "pos": "名",
+          "ex": "There is strong evidence that exercise is good for the brain.",
+          "exJa": "運動が脳によいという強い証拠があります。"
+        },
+        {
+          "en": "accurate",
+          "ja": "正確な",
+          "pos": "形",
+          "ex": "This clock is very accurate and never loses time.",
+          "exJa": "この時計はとても正確で決して遅れません。"
+        },
+        {
+          "en": "previously",
+          "ja": "以前に",
+          "pos": "副",
+          "ex": "She had previously worked as a teacher before becoming a writer.",
+          "exJa": "彼女は作家になる前に以前は教師として働いていました。"
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "theme": "環境問題",
+      "words": [
+        {
+          "en": "pollute",
+          "ja": "汚染する",
+          "pos": "動",
+          "ex": "Factories must not pollute the rivers with waste water.",
+          "exJa": "工場は排水で川を汚染してはいけません。"
+        },
+        {
+          "en": "preserve",
+          "ja": "保存する",
+          "pos": "動",
+          "ex": "We must preserve the forests for future generations.",
+          "exJa": "私たちは将来の世代のために森林を保存しなければなりません。"
+        },
+        {
+          "en": "environment",
+          "ja": "環境",
+          "pos": "名",
+          "ex": "Recycling is one way to protect the environment.",
+          "exJa": "リサイクルは環境を守る一つの方法です。"
+        },
+        {
+          "en": "emission",
+          "ja": "排出",
+          "pos": "名",
+          "ex": "The government wants to cut carbon emissions by half.",
+          "exJa": "政府は二酸化炭素の排出を半分に減らしたいと考えています。"
+        },
+        {
+          "en": "renewable",
+          "ja": "再生可能な",
+          "pos": "形",
+          "ex": "Solar power is a clean and renewable source of energy.",
+          "exJa": "太陽光発電はクリーンで再生可能なエネルギー源です。"
+        },
+        {
+          "en": "severely",
+          "ja": "深刻に",
+          "pos": "副",
+          "ex": "The coral reef was severely damaged by the rising sea temperature.",
+          "exJa": "サンゴ礁は海水温の上昇によって深刻に損傷を受けました。"
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "theme": "国際関係",
+      "words": [
+        {
+          "en": "negotiate",
+          "ja": "交渉する",
+          "pos": "動",
+          "ex": "The two countries will negotiate a new trade agreement.",
+          "exJa": "二つの国は新しい貿易協定について交渉します。"
+        },
+        {
+          "en": "cooperate",
+          "ja": "協力する",
+          "pos": "動",
+          "ex": "All members must cooperate to finish the project on time.",
+          "exJa": "プロジェクトを期限内に終えるには全員が協力しなければなりません。"
+        },
+        {
+          "en": "conflict",
+          "ja": "紛争",
+          "pos": "名",
+          "ex": "The conflict between the two groups lasted for many years.",
+          "exJa": "二つのグループの間の紛争は何年も続きました。"
+        },
+        {
+          "en": "policy",
+          "ja": "政策",
+          "pos": "名",
+          "ex": "The government introduced a new policy to help small businesses.",
+          "exJa": "政府は中小企業を支援する新しい政策を導入しました。"
+        },
+        {
+          "en": "domestic",
+          "ja": "国内の",
+          "pos": "形",
+          "ex": "Domestic flights are usually cheaper than international ones.",
+          "exJa": "国内便はたいてい国際便より安いです。"
+        },
+        {
+          "en": "increasingly",
+          "ja": "ますます",
+          "pos": "副",
+          "ex": "English is becoming increasingly important in global business.",
+          "exJa": "英語はグローバルビジネスにおいてますます重要になっています。"
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "theme": "教育と学習",
+      "words": [
+        {
+          "en": "concentrate",
+          "ja": "集中する",
+          "pos": "動",
+          "ex": "Turn off the TV so you can concentrate on your homework.",
+          "exJa": "宿題に集中できるようにテレビを消しなさい。"
+        },
+        {
+          "en": "memorize",
+          "ja": "暗記する",
+          "pos": "動",
+          "ex": "I need to memorize fifty new English words for the test.",
+          "exJa": "テストのために新しい英単語を50個暗記する必要があります。"
+        },
+        {
+          "en": "curriculum",
+          "ja": "教育課程",
+          "pos": "名",
+          "ex": "The school changed its curriculum to include more science classes.",
+          "exJa": "その学校は理科の授業を増やすために教育課程を変更しました。"
+        },
+        {
+          "en": "scholarship",
+          "ja": "奨学金",
+          "pos": "名",
+          "ex": "She received a scholarship to study at a university in London.",
+          "exJa": "彼女はロンドンの大学で学ぶための奨学金を受け取りました。"
+        },
+        {
+          "en": "intellectual",
+          "ja": "知的な",
+          "pos": "形",
+          "ex": "Reading books is a good way to enjoy intellectual activities.",
+          "exJa": "読書は知的な活動を楽しむよい方法です。"
+        },
+        {
+          "en": "primarily",
+          "ja": "主として",
+          "pos": "副",
+          "ex": "This textbook is primarily written for high school students.",
+          "exJa": "この教科書は主として高校生のために書かれています。"
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "theme": "法と社会",
+      "words": [
+        {
+          "en": "forbid",
+          "ja": "禁止する",
+          "pos": "動",
+          "ex": "The law forbids people from smoking in public buildings.",
+          "exJa": "法律は公共の建物での喫煙を禁止しています。"
+        },
+        {
+          "en": "arrest",
+          "ja": "逮捕する",
+          "pos": "動",
+          "ex": "The police arrested the man who stole the bicycle.",
+          "exJa": "警察は自転車を盗んだ男を逮捕しました。"
+        },
+        {
+          "en": "justice",
+          "ja": "正義",
+          "pos": "名",
+          "ex": "Everyone should fight for justice and equal rights.",
+          "exJa": "誰もが正義と平等な権利のために戦うべきです。"
+        },
+        {
+          "en": "regulation",
+          "ja": "規制",
+          "pos": "名",
+          "ex": "New regulations were made to keep the food safe.",
+          "exJa": "食品の安全を守るために新しい規制が設けられました。"
+        },
+        {
+          "en": "legal",
+          "ja": "合法の",
+          "pos": "形",
+          "ex": "You need to be eighteen to get a legal driving license.",
+          "exJa": "合法的に運転免許を取得するには18歳になる必要があります。"
+        },
+        {
+          "en": "altogether",
+          "ja": "完全に",
+          "pos": "副",
+          "ex": "The city decided to ban plastic bags altogether.",
+          "exJa": "その市はビニール袋を完全に禁止することに決めました。"
+        }
+      ]
+    },
+    {
+      "n": 31,
+      "theme": "健康と医療",
+      "words": [
+        {
+          "en": "recover",
+          "ja": "回復する",
+          "pos": "動",
+          "ex": "It took her two weeks to recover from the cold.",
+          "exJa": "かぜから回復するのに彼女は2週間かかりました。"
+        },
+        {
+          "en": "cure",
+          "ja": "治す",
+          "pos": "動",
+          "ex": "Scientists are trying to find a way to cure this disease.",
+          "exJa": "科学者たちはこの病気を治す方法を見つけようとしています。"
+        },
+        {
+          "en": "symptom",
+          "ja": "症状",
+          "pos": "名",
+          "ex": "A high fever is one symptom of the flu.",
+          "exJa": "高熱はインフルエンザの症状の一つです。"
+        },
+        {
+          "en": "therapy",
+          "ja": "治療法",
+          "pos": "名",
+          "ex": "Music therapy can help reduce stress and anxiety.",
+          "exJa": "音楽療法はストレスや不安を減らすのに役立ちます。"
+        },
+        {
+          "en": "mental",
+          "ja": "精神的な",
+          "pos": "形",
+          "ex": "Getting enough sleep is important for your mental health.",
+          "exJa": "十分な睡眠を取ることは精神的な健康にとって大切です。"
+        },
+        {
+          "en": "consequently",
+          "ja": "その結果",
+          "pos": "副",
+          "ex": "He ate too much junk food. Consequently, he gained weight.",
+          "exJa": "彼はジャンクフードを食べすぎました。その結果、体重が増えました。"
+        }
+      ]
+    },
+    {
+      "n": 32,
+      "theme": "テクノロジー",
+      "words": [
+        {
+          "en": "operate",
+          "ja": "操作する",
+          "pos": "動",
+          "ex": "Can you show me how to operate this new machine?",
+          "exJa": "この新しい機械の操作の仕方を教えてもらえますか。"
+        },
+        {
+          "en": "install",
+          "ja": "設置する",
+          "pos": "動",
+          "ex": "We need to install a new air conditioner in the office.",
+          "exJa": "オフィスに新しいエアコンを設置する必要があります。"
+        },
+        {
+          "en": "device",
+          "ja": "装置",
+          "pos": "名",
+          "ex": "A smartphone is a useful device for communication.",
+          "exJa": "スマートフォンはコミュニケーションに便利な装置です。"
+        },
+        {
+          "en": "database",
+          "ja": "データベース",
+          "pos": "名",
+          "ex": "All customer information is stored in the company's database.",
+          "exJa": "すべての顧客情報は会社のデータベースに保存されています。"
+        },
+        {
+          "en": "digital",
+          "ja": "デジタルの",
+          "pos": "形",
+          "ex": "Many people now read books in a digital format.",
+          "exJa": "今では多くの人がデジタル形式で本を読んでいます。"
+        },
+        {
+          "en": "automatically",
+          "ja": "自動的に",
+          "pos": "副",
+          "ex": "The door opens automatically when someone walks near it.",
+          "exJa": "人が近くを歩くとドアが自動的に開きます。"
+        }
+      ]
+    },
+    {
+      "n": 33,
+      "theme": "メディアと情報",
+      "words": [
+        {
+          "en": "broadcast",
+          "ja": "放送する",
+          "pos": "動",
+          "ex": "The TV station will broadcast the soccer game live tonight.",
+          "exJa": "そのテレビ局は今夜サッカーの試合を生放送します。"
+        },
+        {
+          "en": "distribute",
+          "ja": "配布する",
+          "pos": "動",
+          "ex": "Volunteers will distribute food and water to the people in need.",
+          "exJa": "ボランティアが困っている人々に食べ物と水を配布します。"
+        },
+        {
+          "en": "article",
+          "ja": "記事",
+          "pos": "名",
+          "ex": "I read an interesting article about space travel in the newspaper.",
+          "exJa": "新聞で宇宙旅行についてのおもしろい記事を読みました。"
+        },
+        {
+          "en": "source",
+          "ja": "情報源",
+          "pos": "名",
+          "ex": "The Internet is an important source of information today.",
+          "exJa": "インターネットは今日重要な情報源です。"
+        },
+        {
+          "en": "reliable",
+          "ja": "信頼できる",
+          "pos": "形",
+          "ex": "You should check if the news comes from a reliable source.",
+          "exJa": "そのニュースが信頼できる情報源からのものかどうか確認すべきです。"
+        },
+        {
+          "en": "frequently",
+          "ja": "頻繁に",
+          "pos": "副",
+          "ex": "She frequently checks her email during the day.",
+          "exJa": "彼女は日中、頻繁にメールを確認します。"
+        }
+      ]
+    },
+    {
+      "n": 34,
+      "theme": "文化と伝統",
+      "words": [
+        {
+          "en": "celebrate",
+          "ja": "祝う",
+          "pos": "動",
+          "ex": "We celebrate New Year's Day with our family every year.",
+          "exJa": "私たちは毎年家族で元日を祝います。"
+        },
+        {
+          "en": "inherit",
+          "ja": "受け継ぐ",
+          "pos": "動",
+          "ex": "She inherited her love of music from her grandmother.",
+          "exJa": "彼女は音楽への愛を祖母から受け継ぎました。"
+        },
+        {
+          "en": "tradition",
+          "ja": "伝統",
+          "pos": "名",
+          "ex": "It is a tradition in Japan to eat mochi on New Year's Day.",
+          "exJa": "正月にもちを食べるのは日本の伝統です。"
+        },
+        {
+          "en": "ceremony",
+          "ja": "式典",
+          "pos": "名",
+          "ex": "The graduation ceremony will be held in the school gym.",
+          "exJa": "卒業式は学校の体育館で行われます。"
+        },
+        {
+          "en": "cultural",
+          "ja": "文化的な",
+          "pos": "形",
+          "ex": "There are many cultural differences between Japan and the U.S.",
+          "exJa": "日本とアメリカの間には多くの文化的な違いがあります。"
+        },
+        {
+          "en": "originally",
+          "ja": "もともと",
+          "pos": "副",
+          "ex": "This festival was originally held to pray for a good harvest.",
+          "exJa": "この祭りはもともと豊作を祈るために行われていました。"
+        }
+      ]
+    },
+    {
+      "n": 35,
+      "theme": "心理と感情",
+      "words": [
+        {
+          "en": "hesitate",
+          "ja": "ためらう",
+          "pos": "動",
+          "ex": "Don't hesitate to ask questions if you don't understand.",
+          "exJa": "わからなければ質問することをためらわないでください。"
+        },
+        {
+          "en": "satisfy",
+          "ja": "満足させる",
+          "pos": "動",
+          "ex": "The restaurant tries hard to satisfy all of its customers.",
+          "exJa": "そのレストランはすべてのお客様を満足させようと努力しています。"
+        },
+        {
+          "en": "emotion",
+          "ja": "感情",
+          "pos": "名",
+          "ex": "It is natural to feel strong emotions when watching a sad movie.",
+          "exJa": "悲しい映画を見ているときに強い感情を感じるのは自然なことです。"
+        },
+        {
+          "en": "confidence",
+          "ja": "自信",
+          "pos": "名",
+          "ex": "Practicing every day will give you more confidence in speaking English.",
+          "exJa": "毎日練習すれば英語を話す自信がもっとつきます。"
+        },
+        {
+          "en": "frustrated",
+          "ja": "いら立った",
+          "pos": "形",
+          "ex": "He felt frustrated because he could not solve the math problem.",
+          "exJa": "その数学の問題が解けなくて彼はいら立ちを感じました。"
+        },
+        {
+          "en": "sincerely",
+          "ja": "心から",
+          "pos": "副",
+          "ex": "I sincerely hope that your family is doing well.",
+          "exJa": "あなたのご家族がお元気であることを心から願っています。"
+        }
+      ]
+    },
+    {
+      "n": 36,
+      "theme": "都市と開発",
+      "words": [
+        {
+          "en": "construct",
+          "ja": "建設する",
+          "pos": "動",
+          "ex": "The city plans to construct a new bridge over the river.",
+          "exJa": "市は川に新しい橋を建設する計画です。"
+        },
+        {
+          "en": "expand",
+          "ja": "拡大する",
+          "pos": "動",
+          "ex": "The company wants to expand its business to other countries.",
+          "exJa": "その会社は他の国にも事業を拡大したいと考えています。"
+        },
+        {
+          "en": "architecture",
+          "ja": "建築",
+          "pos": "名",
+          "ex": "Kyoto is famous for its beautiful traditional architecture.",
+          "exJa": "京都は美しい伝統的な建築で有名です。"
+        },
+        {
+          "en": "facility",
+          "ja": "施設",
+          "pos": "名",
+          "ex": "The sports facility has a swimming pool and a gym.",
+          "exJa": "そのスポーツ施設にはプールとジムがあります。"
+        },
+        {
+          "en": "urban",
+          "ja": "都会の",
+          "pos": "形",
+          "ex": "Many young people move to urban areas to find jobs.",
+          "exJa": "多くの若者が仕事を探すために都会の地域に移ります。"
+        },
+        {
+          "en": "significantly",
+          "ja": "大幅に",
+          "pos": "副",
+          "ex": "The number of tourists has significantly increased this year.",
+          "exJa": "今年は観光客の数が大幅に増加しました。"
+        }
+      ]
+    },
+    {
+      "n": 37,
+      "theme": "食と農業",
+      "words": [
+        {
+          "en": "harvest",
+          "ja": "収穫する",
+          "pos": "動",
+          "ex": "Farmers harvest rice in the fall in most parts of Japan.",
+          "exJa": "日本のほとんどの地域では農家が秋に米を収穫します。"
+        },
+        {
+          "en": "cultivate",
+          "ja": "栽培する",
+          "pos": "動",
+          "ex": "They cultivate vegetables without using any chemicals.",
+          "exJa": "彼らは化学薬品を使わずに野菜を栽培しています。"
+        },
+        {
+          "en": "agriculture",
+          "ja": "農業",
+          "pos": "名",
+          "ex": "Agriculture is the main industry in this region.",
+          "exJa": "この地域では農業が主要な産業です。"
+        },
+        {
+          "en": "nutrition",
+          "ja": "栄養",
+          "pos": "名",
+          "ex": "Good nutrition is important for children's growth.",
+          "exJa": "よい栄養は子どもの成長にとって大切です。"
+        },
+        {
+          "en": "organic",
+          "ja": "有機の",
+          "pos": "形",
+          "ex": "More people are buying organic fruits and vegetables.",
+          "exJa": "有機の果物や野菜を買う人が増えています。"
+        },
+        {
+          "en": "relatively",
+          "ja": "比較的",
+          "pos": "副",
+          "ex": "Cooking at home is relatively cheaper than eating out.",
+          "exJa": "自宅で料理するのは外食するより比較的安いです。"
+        }
+      ]
+    },
+    {
+      "n": 38,
+      "theme": "交通と物流",
+      "words": [
+        {
+          "en": "transport",
+          "ja": "輸送する",
+          "pos": "動",
+          "ex": "Large trucks transport goods from factories to stores.",
+          "exJa": "大型トラックが工場から店へ商品を輸送します。"
+        },
+        {
+          "en": "commute",
+          "ja": "通勤する",
+          "pos": "動",
+          "ex": "She commutes to work by train every morning.",
+          "exJa": "彼女は毎朝電車で通勤しています。"
+        },
+        {
+          "en": "vehicle",
+          "ja": "乗り物",
+          "pos": "名",
+          "ex": "Only emergency vehicles can use this road at night.",
+          "exJa": "夜間にこの道路を使えるのは緊急車両だけです。"
+        },
+        {
+          "en": "cargo",
+          "ja": "貨物",
+          "pos": "名",
+          "ex": "The ship is carrying a large amount of cargo from China.",
+          "exJa": "その船は中国から大量の貨物を運んでいます。"
+        },
+        {
+          "en": "convenient",
+          "ja": "便利な",
+          "pos": "形",
+          "ex": "It is convenient to live near a train station.",
+          "exJa": "駅の近くに住むのは便利です。"
+        },
+        {
+          "en": "abroad",
+          "ja": "海外に",
+          "pos": "副",
+          "ex": "She wants to study abroad after she finishes high school.",
+          "exJa": "彼女は高校を卒業したら海外で勉強したいと思っています。"
+        }
+      ]
+    },
+    {
+      "n": 39,
+      "theme": "エネルギー",
+      "words": [
+        {
+          "en": "generate",
+          "ja": "生み出す",
+          "pos": "動",
+          "ex": "Wind turbines generate electricity without polluting the air.",
+          "exJa": "風力タービンは空気を汚染せずに電気を生み出します。"
+        },
+        {
+          "en": "consume",
+          "ja": "消費する",
+          "pos": "動",
+          "ex": "Modern air conditioners consume less energy than old ones.",
+          "exJa": "現代のエアコンは古いものよりエネルギーの消費が少ないです。"
+        },
+        {
+          "en": "nuclear",
+          "ja": "原子力の",
+          "pos": "形",
+          "ex": "Some countries still depend on nuclear power for electricity.",
+          "exJa": "いまだに電力を原子力に頼っている国もあります。"
+        },
+        {
+          "en": "shortage",
+          "ja": "不足",
+          "pos": "名",
+          "ex": "The water shortage forced people to save water every day.",
+          "exJa": "水不足のため人々は毎日節水を強いられました。"
+        },
+        {
+          "en": "solar",
+          "ja": "太陽の",
+          "pos": "形",
+          "ex": "Many houses in this area have solar panels on the roof.",
+          "exJa": "この地域の多くの家の屋根にはソーラーパネルがあります。"
+        },
+        {
+          "en": "efficiently",
+          "ja": "効率よく",
+          "pos": "副",
+          "ex": "New LED lights use energy more efficiently than old bulbs.",
+          "exJa": "新しいLEDライトは古い電球よりも効率よくエネルギーを使います。"
+        }
+      ]
+    },
+    {
+      "n": 40,
+      "theme": "スポーツと競技",
+      "words": [
+        {
+          "en": "defeat",
+          "ja": "打ち負かす",
+          "pos": "動",
+          "ex": "Our team defeated the champions in the final match.",
+          "exJa": "私たちのチームは決勝戦でチャンピオンを打ち負かしました。"
+        },
+        {
+          "en": "retire",
+          "ja": "引退する",
+          "pos": "動",
+          "ex": "The famous baseball player will retire at the end of this season.",
+          "exJa": "その有名な野球選手は今シーズンの終わりに引退します。"
+        },
+        {
+          "en": "athlete",
+          "ja": "選手",
+          "pos": "名",
+          "ex": "She is a great athlete who has won many gold medals.",
+          "exJa": "彼女は多くの金メダルを獲得したすばらしい選手です。"
+        },
+        {
+          "en": "tournament",
+          "ja": "トーナメント",
+          "pos": "名",
+          "ex": "Sixteen teams entered the tennis tournament this summer.",
+          "exJa": "この夏、16チームがテニスのトーナメントに参加しました。"
+        },
+        {
+          "en": "competitive",
+          "ja": "競争の激しい",
+          "pos": "形",
+          "ex": "Getting into that university is very competitive.",
+          "exJa": "その大学に入るのは競争がとても激しいです。"
+        },
+        {
+          "en": "deliberately",
+          "ja": "わざと",
+          "pos": "副",
+          "ex": "The player deliberately kicked the ball out of the field.",
+          "exJa": "その選手はわざとボールをフィールドの外に蹴り出しました。"
+        }
+      ]
+    },
+    {
+      "n": 41,
+      "theme": "芸術と表現",
+      "words": [
+        {
+          "en": "inspire",
+          "ja": "刺激を与える",
+          "pos": "動",
+          "ex": "Her story inspired many young people to follow their dreams.",
+          "exJa": "彼女の話は多くの若者に夢を追いかける刺激を与えました。"
+        },
+        {
+          "en": "compose",
+          "ja": "作曲する",
+          "pos": "動",
+          "ex": "Mozart began to compose music when he was only five years old.",
+          "exJa": "モーツァルトはわずか5歳のときに作曲を始めました。"
+        },
+        {
+          "en": "exhibition",
+          "ja": "展覧会",
+          "pos": "名",
+          "ex": "The art exhibition attracted thousands of visitors last month.",
+          "exJa": "その美術展は先月何千人もの来場者を引きつけました。"
+        },
+        {
+          "en": "sculpture",
+          "ja": "彫刻",
+          "pos": "名",
+          "ex": "There is a beautiful bronze sculpture in front of the museum.",
+          "exJa": "博物館の前に美しいブロンズの彫刻があります。"
+        },
+        {
+          "en": "creative",
+          "ja": "創造的な",
+          "pos": "形",
+          "ex": "The teacher always comes up with creative ideas for her classes.",
+          "exJa": "その先生はいつも授業のための創造的なアイデアを思いつきます。"
+        },
+        {
+          "en": "practically",
+          "ja": "ほぼ",
+          "pos": "副",
+          "ex": "The homework is practically finished. I just need to check it.",
+          "exJa": "宿題はほぼ終わっています。確認するだけです。"
+        }
+      ]
+    },
+    {
+      "n": 42,
+      "theme": "自然と生態系",
+      "words": [
+        {
+          "en": "adapt",
+          "ja": "適応する",
+          "pos": "動",
+          "ex": "Animals must adapt to changes in their environment to survive.",
+          "exJa": "動物は生き延びるために環境の変化に適応しなければなりません。"
+        },
+        {
+          "en": "migrate",
+          "ja": "移動する",
+          "pos": "動",
+          "ex": "Many birds migrate south when winter comes.",
+          "exJa": "冬が来ると多くの鳥が南へ移動します。"
+        },
+        {
+          "en": "species",
+          "ja": "種",
+          "pos": "名",
+          "ex": "This island is home to many rare species of birds.",
+          "exJa": "この島には多くの珍しい種の鳥が生息しています。"
+        },
+        {
+          "en": "habitat",
+          "ja": "生息地",
+          "pos": "名",
+          "ex": "Cutting down trees destroys the habitat of many animals.",
+          "exJa": "木を切り倒すことは多くの動物の生息地を破壊します。"
+        },
+        {
+          "en": "endangered",
+          "ja": "絶滅の危機にある",
+          "pos": "形",
+          "ex": "The panda is one of the most endangered animals in the world.",
+          "exJa": "パンダは世界で最も絶滅の危機にある動物の一つです。"
+        },
+        {
+          "en": "naturally",
+          "ja": "自然に",
+          "pos": "副",
+          "ex": "These flowers grow naturally in the mountains of Hokkaido.",
+          "exJa": "これらの花は北海道の山に自然に生えています。"
+        }
+      ]
+    },
+    {
+      "n": 43,
+      "theme": "経済と金融",
+      "words": [
+        {
+          "en": "import",
+          "ja": "輸入する",
+          "pos": "動",
+          "ex": "Japan imports a lot of food from other countries.",
+          "exJa": "日本は他の国から多くの食料を輸入しています。"
+        },
+        {
+          "en": "withdraw",
+          "ja": "引き出す",
+          "pos": "動",
+          "ex": "You can withdraw money from this ATM twenty-four hours a day.",
+          "exJa": "このATMでは24時間お金を引き出すことができます。"
+        },
+        {
+          "en": "currency",
+          "ja": "通貨",
+          "pos": "名",
+          "ex": "The yen is the official currency of Japan.",
+          "exJa": "円は日本の公式通貨です。"
+        },
+        {
+          "en": "economy",
+          "ja": "経済",
+          "pos": "名",
+          "ex": "Tourism plays a big role in the country's economy.",
+          "exJa": "観光業はその国の経済に大きな役割を果たしています。"
+        },
+        {
+          "en": "commercial",
+          "ja": "商業の",
+          "pos": "形",
+          "ex": "This area is full of commercial buildings and shops.",
+          "exJa": "この地域は商業ビルや店でいっぱいです。"
+        },
+        {
+          "en": "slightly",
+          "ja": "わずかに",
+          "pos": "副",
+          "ex": "The price of gas has slightly increased since last month.",
+          "exJa": "ガソリンの値段は先月からわずかに上がりました。"
+        }
+      ]
+    },
+    {
+      "n": 44,
+      "theme": "政治と政策",
+      "words": [
+        {
+          "en": "vote",
+          "ja": "投票する",
+          "pos": "動",
+          "ex": "Citizens over eighteen years old have the right to vote.",
+          "exJa": "18歳以上の市民には投票する権利があります。"
+        },
+        {
+          "en": "reform",
+          "ja": "改革する",
+          "pos": "動",
+          "ex": "The government plans to reform the education system next year.",
+          "exJa": "政府は来年、教育制度を改革する計画です。"
+        },
+        {
+          "en": "election",
+          "ja": "選挙",
+          "pos": "名",
+          "ex": "The next election will be held in November.",
+          "exJa": "次の選挙は11月に行われます。"
+        },
+        {
+          "en": "representative",
+          "ja": "代表者",
+          "pos": "名",
+          "ex": "Each class chose a representative to attend the school meeting.",
+          "exJa": "各クラスが学校の会議に出席する代表者を選びました。"
+        },
+        {
+          "en": "democratic",
+          "ja": "民主的な",
+          "pos": "形",
+          "ex": "In a democratic country, people can freely express their opinions.",
+          "exJa": "民主的な国では、人々は自由に意見を表明できます。"
+        },
+        {
+          "en": "formally",
+          "ja": "正式に",
+          "pos": "副",
+          "ex": "The new rule was formally announced by the principal today.",
+          "exJa": "新しい規則は今日、校長によって正式に発表されました。"
+        }
+      ]
+    },
+    {
+      "n": 45,
+      "theme": "コミュニケーション",
+      "words": [
+        {
+          "en": "persuade",
+          "ja": "説得する",
+          "pos": "動",
+          "ex": "She tried to persuade her parents to let her study abroad.",
+          "exJa": "彼女は留学を許してもらうよう両親を説得しようとしました。"
+        },
+        {
+          "en": "interpret",
+          "ja": "通訳する",
+          "pos": "動",
+          "ex": "He was asked to interpret the speech from English to Japanese.",
+          "exJa": "彼はそのスピーチを英語から日本語に通訳するよう頼まれました。"
+        },
+        {
+          "en": "debate",
+          "ja": "討論",
+          "pos": "名",
+          "ex": "The students had a lively debate about school uniforms.",
+          "exJa": "生徒たちは制服について活発な討論をしました。"
+        },
+        {
+          "en": "perspective",
+          "ja": "見方",
+          "pos": "名",
+          "ex": "Traveling gives you a new perspective on different cultures.",
+          "exJa": "旅行は異なる文化に対する新しい見方を与えてくれます。"
+        },
+        {
+          "en": "fluent",
+          "ja": "流ちょうな",
+          "pos": "形",
+          "ex": "She is fluent in both English and French.",
+          "exJa": "彼女は英語とフランス語の両方が流ちょうです。"
+        },
+        {
+          "en": "politely",
+          "ja": "丁寧に",
+          "pos": "副",
+          "ex": "He politely asked the woman if the seat was taken.",
+          "exJa": "彼はその女性にその席が空いているかどうか丁寧にたずねました。"
+        }
+      ]
+    },
+    {
+      "n": 46,
+      "theme": "人口と社会",
+      "words": [
+        {
+          "en": "decline",
+          "ja": "減少する",
+          "pos": "動",
+          "ex": "The population of this village has declined over the past ten years.",
+          "exJa": "この村の人口は過去10年間で減少しました。"
+        },
+        {
+          "en": "contribute",
+          "ja": "貢献する",
+          "pos": "動",
+          "ex": "Everyone can contribute to making their town a better place.",
+          "exJa": "誰もが自分の町をよりよい場所にすることに貢献できます。"
+        },
+        {
+          "en": "poverty",
+          "ja": "貧困",
+          "pos": "名",
+          "ex": "Many organizations are working to end poverty in the world.",
+          "exJa": "多くの組織が世界の貧困をなくすために活動しています。"
+        },
+        {
+          "en": "welfare",
+          "ja": "福祉",
+          "pos": "名",
+          "ex": "The city spends a lot of money on public welfare programs.",
+          "exJa": "その市は公共の福祉事業に多くのお金を使っています。"
+        },
+        {
+          "en": "elderly",
+          "ja": "年配の",
+          "pos": "形",
+          "ex": "We should offer our seats to elderly people on the bus.",
+          "exJa": "バスでは年配の方に席を譲るべきです。"
+        },
+        {
+          "en": "rapidly",
+          "ja": "急速に",
+          "pos": "副",
+          "ex": "Technology is changing rapidly in the twenty-first century.",
+          "exJa": "21世紀にはテクノロジーが急速に変化しています。"
+        }
+      ]
+    },
+    {
+      "n": 47,
+      "theme": "倫理と価値観",
+      "words": [
+        {
+          "en": "respect",
+          "ja": "尊敬する",
+          "pos": "動",
+          "ex": "Students should respect their teachers and classmates.",
+          "exJa": "生徒は先生やクラスメートを尊敬すべきです。"
+        },
+        {
+          "en": "volunteer",
+          "ja": "ボランティアをする",
+          "pos": "動",
+          "ex": "Many students volunteer at the local hospital on weekends.",
+          "exJa": "多くの学生が週末に地元の病院でボランティアをしています。"
+        },
+        {
+          "en": "charity",
+          "ja": "慈善活動",
+          "pos": "名",
+          "ex": "She donated money to a charity that helps homeless people.",
+          "exJa": "彼女はホームレスの人々を助ける慈善活動に寄付しました。"
+        },
+        {
+          "en": "moral",
+          "ja": "道徳の",
+          "pos": "形",
+          "ex": "Parents should teach their children strong moral values.",
+          "exJa": "親は子どもにしっかりとした道徳的な価値観を教えるべきです。"
+        },
+        {
+          "en": "equal",
+          "ja": "平等な",
+          "pos": "形",
+          "ex": "All people should have equal chances to get a good education.",
+          "exJa": "すべての人がよい教育を受ける平等な機会を持つべきです。"
+        },
+        {
+          "en": "honestly",
+          "ja": "正直に",
+          "pos": "副",
+          "ex": "Please answer the questions honestly on this survey.",
+          "exJa": "このアンケートの質問に正直に答えてください。"
+        }
+      ]
+    },
+    {
+      "n": 48,
+      "theme": "歴史と変遷",
+      "words": [
+        {
+          "en": "conquer",
+          "ja": "征服する",
+          "pos": "動",
+          "ex": "The army tried to conquer the neighboring country long ago.",
+          "exJa": "その軍は昔、隣国を征服しようとしました。"
+        },
+        {
+          "en": "transform",
+          "ja": "変える",
+          "pos": "動",
+          "ex": "The Internet has transformed the way people communicate.",
+          "exJa": "インターネットは人々のコミュニケーションの方法を変えました。"
+        },
+        {
+          "en": "civilization",
+          "ja": "文明",
+          "pos": "名",
+          "ex": "The ancient Egyptian civilization lasted for thousands of years.",
+          "exJa": "古代エジプト文明は何千年も続きました。"
+        },
+        {
+          "en": "revolution",
+          "ja": "革命",
+          "pos": "名",
+          "ex": "The Industrial Revolution changed the way goods were produced.",
+          "exJa": "産業革命は商品の生産方法を変えました。"
+        },
+        {
+          "en": "historical",
+          "ja": "歴史的な",
+          "pos": "形",
+          "ex": "This castle is one of the most important historical sites in Japan.",
+          "exJa": "この城は日本で最も重要な歴史的場所の一つです。"
+        },
+        {
+          "en": "formerly",
+          "ja": "かつて",
+          "pos": "副",
+          "ex": "This building was formerly used as a post office.",
+          "exJa": "この建物はかつて郵便局として使われていました。"
+        }
+      ]
+    },
+    {
+      "n": 49,
+      "theme": "統計と数量",
+      "words": [
+        {
+          "en": "calculate",
+          "ja": "計算する",
+          "pos": "動",
+          "ex": "Please calculate the total cost of the items on the list.",
+          "exJa": "リストにある商品の合計金額を計算してください。"
+        },
+        {
+          "en": "estimate",
+          "ja": "見積もる",
+          "pos": "動",
+          "ex": "Experts estimate that the project will take about two years.",
+          "exJa": "専門家はそのプロジェクトに約2年かかると見積もっています。"
+        },
+        {
+          "en": "proportion",
+          "ja": "割合",
+          "pos": "名",
+          "ex": "A large proportion of students use the Internet for homework.",
+          "exJa": "大きな割合の生徒が宿題にインターネットを使っています。"
+        },
+        {
+          "en": "survey",
+          "ja": "調査",
+          "pos": "名",
+          "ex": "A recent survey shows that most people prefer working from home.",
+          "exJa": "最近の調査によると、ほとんどの人が在宅勤務を好んでいます。"
+        },
+        {
+          "en": "sufficient",
+          "ja": "十分な",
+          "pos": "形",
+          "ex": "Make sure you have sufficient water before you go hiking.",
+          "exJa": "ハイキングに行く前に十分な水があるか確認しなさい。"
+        },
+        {
+          "en": "approximately",
+          "ja": "おおよそ",
+          "pos": "副",
+          "ex": "The flight takes approximately twelve hours from Tokyo to London.",
+          "exJa": "東京からロンドンまでのフライトはおおよそ12時間かかります。"
+        }
+      ]
+    },
+    {
+      "n": 50,
+      "theme": "抽象概念",
+      "words": [
+        {
+          "en": "assume",
+          "ja": "仮定する",
+          "pos": "動",
+          "ex": "Don't assume that everyone agrees with your opinion.",
+          "exJa": "みんなが自分の意見に賛成していると仮定してはいけません。"
+        },
+        {
+          "en": "distinguish",
+          "ja": "区別する",
+          "pos": "動",
+          "ex": "It is hard to distinguish the twins because they look so alike.",
+          "exJa": "その双子はそっくりなので区別するのが難しいです。"
+        },
+        {
+          "en": "principle",
+          "ja": "原則",
+          "pos": "名",
+          "ex": "The basic principle of this diet is to eat less sugar.",
+          "exJa": "このダイエットの基本的な原則は砂糖を減らすことです。"
+        },
+        {
+          "en": "concept",
+          "ja": "概念",
+          "pos": "名",
+          "ex": "The concept of recycling is now taught in most schools.",
+          "exJa": "リサイクルの概念は今ではほとんどの学校で教えられています。"
+        },
+        {
+          "en": "essential",
+          "ja": "不可欠な",
+          "pos": "形",
+          "ex": "Sleep is essential for staying healthy and focused.",
+          "exJa": "睡眠は健康で集中力を保つために不可欠です。"
+        },
+        {
+          "en": "inevitably",
+          "ja": "必然的に",
+          "pos": "副",
+          "ex": "If you don't study, you will inevitably fail the exam.",
+          "exJa": "勉強しなければ、必然的に試験に落ちるでしょう。"
+        }
+      ]
     }
   ]
 }

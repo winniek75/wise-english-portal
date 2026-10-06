@@ -1152,6 +1152,1254 @@
           "exJa": "この美術館には現代の芸術作品がたくさんあります。"
         }
       ]
+    },
+    {
+      "n": 25,
+      "theme": "人間関係",
+      "words": [
+        {
+          "en": "trust",
+          "ja": "信頼する",
+          "pos": "動",
+          "ex": "You can trust me. I will keep your secret.",
+          "exJa": "私を信頼してください。あなたの秘密を守ります。"
+        },
+        {
+          "en": "forgive",
+          "ja": "許す",
+          "pos": "動",
+          "ex": "Please forgive me for being late today.",
+          "exJa": "今日遅刻したことを許してください。"
+        },
+        {
+          "en": "promise",
+          "ja": "約束する",
+          "pos": "動",
+          "ex": "I promise to call you every weekend.",
+          "exJa": "毎週末、あなたに電話すると約束します。"
+        },
+        {
+          "en": "neighbor",
+          "ja": "隣人",
+          "pos": "名",
+          "ex": "Our neighbor helped us move the heavy table.",
+          "exJa": "隣人が重いテーブルを運ぶのを手伝ってくれました。"
+        },
+        {
+          "en": "relationship",
+          "ja": "関係",
+          "pos": "名",
+          "ex": "A good relationship with friends is very important.",
+          "exJa": "友達とのよい関係はとても大切です。"
+        },
+        {
+          "en": "gentle",
+          "ja": "やさしい",
+          "pos": "形",
+          "ex": "She is always gentle with small children.",
+          "exJa": "彼女は小さな子どもにいつもやさしいです。"
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "theme": "学校行事",
+      "words": [
+        {
+          "en": "announce",
+          "ja": "発表する",
+          "pos": "動",
+          "ex": "The teacher will announce the winner of the contest tomorrow.",
+          "exJa": "先生は明日、コンテストの優勝者を発表します。"
+        },
+        {
+          "en": "organize",
+          "ja": "準備する・まとめる",
+          "pos": "動",
+          "ex": "We need to organize the school festival this year.",
+          "exJa": "今年は私たちが学園祭を準備しなければなりません。"
+        },
+        {
+          "en": "presentation",
+          "ja": "発表",
+          "pos": "名",
+          "ex": "I gave a presentation about my hometown in English class.",
+          "exJa": "私は英語の授業で自分の故郷についての発表をしました。"
+        },
+        {
+          "en": "ceremony",
+          "ja": "式",
+          "pos": "名",
+          "ex": "The graduation ceremony was held in the gym.",
+          "exJa": "卒業式は体育館で行われました。"
+        },
+        {
+          "en": "prize",
+          "ja": "賞",
+          "pos": "名",
+          "ex": "Lisa won first prize in the speech contest.",
+          "exJa": "リサはスピーチコンテストで1等賞を取りました。"
+        },
+        {
+          "en": "certain",
+          "ja": "確信して",
+          "pos": "形",
+          "ex": "I am certain that our team will win the game.",
+          "exJa": "私は私たちのチームが試合に勝つと確信しています。"
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "theme": "健康と病院",
+      "words": [
+        {
+          "en": "examine",
+          "ja": "診察する",
+          "pos": "動",
+          "ex": "The doctor examined my eyes carefully.",
+          "exJa": "医者は私の目を注意深く診察しました。"
+        },
+        {
+          "en": "suffer",
+          "ja": "苦しむ",
+          "pos": "動",
+          "ex": "Many people suffer from headaches in summer.",
+          "exJa": "多くの人が夏に頭痛に苦しみます。"
+        },
+        {
+          "en": "patient",
+          "ja": "患者",
+          "pos": "名",
+          "ex": "The hospital takes care of about fifty patients every day.",
+          "exJa": "その病院は毎日約50人の患者を診ています。"
+        },
+        {
+          "en": "medicine",
+          "ja": "薬",
+          "pos": "名",
+          "ex": "Take this medicine three times a day after meals.",
+          "exJa": "この薬を食後に1日3回飲んでください。"
+        },
+        {
+          "en": "pain",
+          "ja": "痛み",
+          "pos": "名",
+          "ex": "I felt a sudden pain in my back this morning.",
+          "exJa": "今朝、背中に突然の痛みを感じました。"
+        },
+        {
+          "en": "pale",
+          "ja": "青白い",
+          "pos": "形",
+          "ex": "You look pale. Are you feeling all right?",
+          "exJa": "顔色が青白いですよ。大丈夫ですか。"
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "theme": "買い物と経済",
+      "words": [
+        {
+          "en": "afford",
+          "ja": "余裕がある",
+          "pos": "動",
+          "ex": "I can't afford to buy a new computer right now.",
+          "exJa": "今は新しいコンピューターを買う余裕がありません。"
+        },
+        {
+          "en": "deliver",
+          "ja": "配達する",
+          "pos": "動",
+          "ex": "The shop will deliver the new desk to our house tomorrow.",
+          "exJa": "お店は明日、新しい机を私たちの家に配達してくれます。"
+        },
+        {
+          "en": "goods",
+          "ja": "品物",
+          "pos": "名",
+          "ex": "This store sells goods from many different countries.",
+          "exJa": "この店はさまざまな国からの品物を売っています。"
+        },
+        {
+          "en": "sale",
+          "ja": "特売",
+          "pos": "名",
+          "ex": "The department store is having a big sale this weekend.",
+          "exJa": "そのデパートは今週末、大きな特売をしています。"
+        },
+        {
+          "en": "value",
+          "ja": "価値",
+          "pos": "名",
+          "ex": "This old painting has a great value.",
+          "exJa": "この古い絵画には大きな価値があります。"
+        },
+        {
+          "en": "cheap",
+          "ja": "安い",
+          "pos": "形",
+          "ex": "These vegetables are cheap because they are in season.",
+          "exJa": "これらの野菜は旬なので安いです。"
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "theme": "旅と交通",
+      "words": [
+        {
+          "en": "delay",
+          "ja": "遅らせる",
+          "pos": "動",
+          "ex": "The heavy rain delayed the train for thirty minutes.",
+          "exJa": "大雨で電車が30分遅れました。"
+        },
+        {
+          "en": "depart",
+          "ja": "出発する",
+          "pos": "動",
+          "ex": "The bus will depart from the station at eight o'clock.",
+          "exJa": "バスは8時に駅を出発します。"
+        },
+        {
+          "en": "passenger",
+          "ja": "乗客",
+          "pos": "名",
+          "ex": "All passengers must wear seat belts on the bus.",
+          "exJa": "バスではすべての乗客がシートベルトを着用しなければなりません。"
+        },
+        {
+          "en": "luggage",
+          "ja": "荷物",
+          "pos": "名",
+          "ex": "Please put your luggage on the shelf above your seat.",
+          "exJa": "荷物は座席の上の棚に置いてください。"
+        },
+        {
+          "en": "fare",
+          "ja": "運賃",
+          "pos": "名",
+          "ex": "The bus fare from here to the airport is five hundred yen.",
+          "exJa": "ここから空港までのバスの運賃は500円です。"
+        },
+        {
+          "en": "direct",
+          "ja": "直接の",
+          "pos": "形",
+          "ex": "Is there a direct train to Osaka from here?",
+          "exJa": "ここから大阪への直通列車はありますか。"
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "theme": "自然と天候",
+      "words": [
+        {
+          "en": "blow",
+          "ja": "吹く",
+          "pos": "動",
+          "ex": "A strong wind began to blow from the sea.",
+          "exJa": "海から強い風が吹き始めました。"
+        },
+        {
+          "en": "flood",
+          "ja": "洪水",
+          "pos": "名",
+          "ex": "The heavy rain caused a big flood in the town.",
+          "exJa": "大雨がその町に大きな洪水を引き起こしました。"
+        },
+        {
+          "en": "climate",
+          "ja": "気候",
+          "pos": "名",
+          "ex": "The climate of this island is warm all year round.",
+          "exJa": "この島の気候は一年中暖かいです。"
+        },
+        {
+          "en": "temperature",
+          "ja": "気温",
+          "pos": "名",
+          "ex": "The temperature dropped to zero degrees last night.",
+          "exJa": "昨夜、気温が0度まで下がりました。"
+        },
+        {
+          "en": "foggy",
+          "ja": "霧の深い",
+          "pos": "形",
+          "ex": "It was so foggy that I could not see the road ahead.",
+          "exJa": "霧がとても深くて、前方の道路が見えませんでした。"
+        },
+        {
+          "en": "within",
+          "ja": "〜以内に",
+          "pos": "前",
+          "ex": "The storm will arrive within a few hours.",
+          "exJa": "あらしは数時間以内にやって来るでしょう。"
+        }
+      ]
+    },
+    {
+      "n": 31,
+      "theme": "科学と技術",
+      "words": [
+        {
+          "en": "develop",
+          "ja": "発達させる",
+          "pos": "動",
+          "ex": "Scientists are trying to develop new medicine.",
+          "exJa": "科学者たちは新しい薬を開発しようとしています。"
+        },
+        {
+          "en": "research",
+          "ja": "研究",
+          "pos": "名",
+          "ex": "He is doing research on how fish live in deep water.",
+          "exJa": "彼は魚が深い水の中でどのように生きるかの研究をしています。"
+        },
+        {
+          "en": "experiment",
+          "ja": "実験",
+          "pos": "名",
+          "ex": "We did an experiment with water and salt in science class.",
+          "exJa": "理科の授業で水と塩の実験をしました。"
+        },
+        {
+          "en": "method",
+          "ja": "方法",
+          "pos": "名",
+          "ex": "There are many methods to learn a foreign language.",
+          "exJa": "外国語を学ぶ方法はたくさんあります。"
+        },
+        {
+          "en": "digital",
+          "ja": "デジタルの",
+          "pos": "形",
+          "ex": "Most students use a digital dictionary these days.",
+          "exJa": "最近のほとんどの生徒はデジタル辞書を使います。"
+        },
+        {
+          "en": "recently",
+          "ja": "最近",
+          "pos": "副",
+          "ex": "I recently started reading English newspapers online.",
+          "exJa": "私は最近、英語の新聞をオンラインで読み始めました。"
+        }
+      ]
+    },
+    {
+      "n": 32,
+      "theme": "社会と政治",
+      "words": [
+        {
+          "en": "vote",
+          "ja": "投票する",
+          "pos": "動",
+          "ex": "In Japan, you can vote when you are eighteen years old.",
+          "exJa": "日本では18歳になると投票できます。"
+        },
+        {
+          "en": "collect",
+          "ja": "集める",
+          "pos": "動",
+          "ex": "We collected money to help people in need.",
+          "exJa": "私たちは困っている人々を助けるためにお金を集めました。"
+        },
+        {
+          "en": "population",
+          "ja": "人口",
+          "pos": "名",
+          "ex": "The population of this city is about three million.",
+          "exJa": "この市の人口は約300万人です。"
+        },
+        {
+          "en": "society",
+          "ja": "社会",
+          "pos": "名",
+          "ex": "We all have a part to play in society.",
+          "exJa": "私たちには皆、社会で果たすべき役割があります。"
+        },
+        {
+          "en": "law",
+          "ja": "法律",
+          "pos": "名",
+          "ex": "Everyone must follow the law of the country.",
+          "exJa": "だれもがその国の法律に従わなければなりません。"
+        },
+        {
+          "en": "equal",
+          "ja": "平等な",
+          "pos": "形",
+          "ex": "All people should have equal chances in life.",
+          "exJa": "すべての人は人生で平等な機会を持つべきです。"
+        }
+      ]
+    },
+    {
+      "n": 33,
+      "theme": "文化と芸術",
+      "words": [
+        {
+          "en": "design",
+          "ja": "デザインする",
+          "pos": "動",
+          "ex": "My sister designed a poster for the school festival.",
+          "exJa": "姉が学園祭のポスターをデザインしました。"
+        },
+        {
+          "en": "display",
+          "ja": "展示する",
+          "pos": "動",
+          "ex": "The students' paintings were displayed in the hall.",
+          "exJa": "生徒たちの絵がホールに展示されていました。"
+        },
+        {
+          "en": "novel",
+          "ja": "小説",
+          "pos": "名",
+          "ex": "I read an exciting novel about a boy living on an island.",
+          "exJa": "島で暮らす少年についてのわくわくする小説を読みました。"
+        },
+        {
+          "en": "talent",
+          "ja": "才能",
+          "pos": "名",
+          "ex": "She has a great talent for playing the piano.",
+          "exJa": "彼女にはピアノを弾くすばらしい才能があります。"
+        },
+        {
+          "en": "creative",
+          "ja": "創造的な",
+          "pos": "形",
+          "ex": "Tom is very creative and always has new ideas.",
+          "exJa": "トムはとても創造的で、いつも新しいアイデアを持っています。"
+        },
+        {
+          "en": "besides",
+          "ja": "〜のほかに",
+          "pos": "前",
+          "ex": "Besides English, she can also speak French.",
+          "exJa": "英語のほかに、彼女はフランス語も話せます。"
+        }
+      ]
+    },
+    {
+      "n": 34,
+      "theme": "仕事と職業",
+      "words": [
+        {
+          "en": "employ",
+          "ja": "雇う",
+          "pos": "動",
+          "ex": "The new hotel will employ about fifty people.",
+          "exJa": "新しいホテルは約50人を雇う予定です。"
+        },
+        {
+          "en": "manage",
+          "ja": "経営する",
+          "pos": "動",
+          "ex": "Mr. Tanaka manages a small restaurant near the park.",
+          "exJa": "田中さんは公園の近くで小さなレストランを経営しています。"
+        },
+        {
+          "en": "salary",
+          "ja": "給料",
+          "pos": "名",
+          "ex": "He saved part of his salary every month.",
+          "exJa": "彼は毎月、給料の一部を貯金しました。"
+        },
+        {
+          "en": "career",
+          "ja": "職業・経歴",
+          "pos": "名",
+          "ex": "She wants to have a career in medicine.",
+          "exJa": "彼女は医学の分野で職業に就きたいと思っています。"
+        },
+        {
+          "en": "responsible",
+          "ja": "責任がある",
+          "pos": "形",
+          "ex": "Each student is responsible for keeping the classroom clean.",
+          "exJa": "各生徒は教室をきれいに保つ責任があります。"
+        },
+        {
+          "en": "quite",
+          "ja": "かなり",
+          "pos": "副",
+          "ex": "This job is quite difficult, but I will try my best.",
+          "exJa": "この仕事はかなり難しいですが、全力をつくします。"
+        }
+      ]
+    },
+    {
+      "n": 35,
+      "theme": "メディアと情報",
+      "words": [
+        {
+          "en": "publish",
+          "ja": "出版する",
+          "pos": "動",
+          "ex": "The writer published her new book last month.",
+          "exJa": "その作家は先月、新しい本を出版しました。"
+        },
+        {
+          "en": "report",
+          "ja": "報告する",
+          "pos": "動",
+          "ex": "The news reporter reported on the fire in the city.",
+          "exJa": "ニュースの記者がその市の火事について報告しました。"
+        },
+        {
+          "en": "advertisement",
+          "ja": "広告",
+          "pos": "名",
+          "ex": "I saw an advertisement for the concert on the internet.",
+          "exJa": "インターネットでそのコンサートの広告を見ました。"
+        },
+        {
+          "en": "channel",
+          "ja": "チャンネル",
+          "pos": "名",
+          "ex": "Which channel is the soccer game on tonight?",
+          "exJa": "今夜のサッカーの試合はどのチャンネルでやっていますか。"
+        },
+        {
+          "en": "latest",
+          "ja": "最新の",
+          "pos": "形",
+          "ex": "Have you heard the latest news about the new school?",
+          "exJa": "新しい学校についての最新のニュースを聞きましたか。"
+        },
+        {
+          "en": "actually",
+          "ja": "実は",
+          "pos": "副",
+          "ex": "I thought the movie was boring, but it was actually very good.",
+          "exJa": "その映画はつまらないと思っていましたが、実はとてもよかったです。"
+        }
+      ]
+    },
+    {
+      "n": 36,
+      "theme": "食と料理",
+      "words": [
+        {
+          "en": "taste",
+          "ja": "味がする",
+          "pos": "動",
+          "ex": "This cake tastes like the one my grandmother makes.",
+          "exJa": "このケーキは祖母が作るものと同じ味がします。"
+        },
+        {
+          "en": "bake",
+          "ja": "オーブンで焼く",
+          "pos": "動",
+          "ex": "My mother baked some cookies for my birthday party.",
+          "exJa": "母は私の誕生日パーティーのためにクッキーを焼きました。"
+        },
+        {
+          "en": "serve",
+          "ja": "出す・提供する",
+          "pos": "動",
+          "ex": "This restaurant serves breakfast from seven to ten.",
+          "exJa": "このレストランは7時から10時まで朝食を提供しています。"
+        },
+        {
+          "en": "dish",
+          "ja": "料理",
+          "pos": "名",
+          "ex": "Curry is a popular dish in Japan.",
+          "exJa": "カレーは日本で人気のある料理です。"
+        },
+        {
+          "en": "ingredient",
+          "ja": "材料",
+          "pos": "名",
+          "ex": "You need only three ingredients to make this soup.",
+          "exJa": "このスープを作るには3つの材料しか要りません。"
+        },
+        {
+          "en": "bitter",
+          "ja": "苦い",
+          "pos": "形",
+          "ex": "This coffee is too bitter for me. Can I have some sugar?",
+          "exJa": "このコーヒーは私には苦すぎます。砂糖をもらえますか。"
+        }
+      ]
+    },
+    {
+      "n": 37,
+      "theme": "感情と心理",
+      "words": [
+        {
+          "en": "regret",
+          "ja": "後悔する",
+          "pos": "動",
+          "ex": "I regret that I did not study harder for the test.",
+          "exJa": "テストのためにもっと一生懸命勉強しなかったことを後悔しています。"
+        },
+        {
+          "en": "admire",
+          "ja": "感心する",
+          "pos": "動",
+          "ex": "I admire her because she always helps other people.",
+          "exJa": "彼女はいつもほかの人を助けるので、私は彼女に感心しています。"
+        },
+        {
+          "en": "confidence",
+          "ja": "自信",
+          "pos": "名",
+          "ex": "Speaking in front of people gave me confidence.",
+          "exJa": "人前で話すことは私に自信を与えてくれました。"
+        },
+        {
+          "en": "fear",
+          "ja": "恐れ",
+          "pos": "名",
+          "ex": "She has a fear of flying in airplanes.",
+          "exJa": "彼女は飛行機で飛ぶことに恐れがあります。"
+        },
+        {
+          "en": "anxious",
+          "ja": "心配して",
+          "pos": "形",
+          "ex": "I was anxious about the English test tomorrow.",
+          "exJa": "明日の英語のテストが心配でした。"
+        },
+        {
+          "en": "eventually",
+          "ja": "最終的に",
+          "pos": "副",
+          "ex": "I tried many times, and eventually I succeeded.",
+          "exJa": "何度も挑戦して、最終的に成功しました。"
+        }
+      ]
+    },
+    {
+      "n": 38,
+      "theme": "都市と建物",
+      "words": [
+        {
+          "en": "construct",
+          "ja": "建設する",
+          "pos": "動",
+          "ex": "They will construct a new library next to the station.",
+          "exJa": "駅のとなりに新しい図書館を建設する予定です。"
+        },
+        {
+          "en": "surround",
+          "ja": "囲む",
+          "pos": "動",
+          "ex": "Beautiful mountains surround this small town.",
+          "exJa": "美しい山々がこの小さな町を囲んでいます。"
+        },
+        {
+          "en": "skyscraper",
+          "ja": "高層ビル",
+          "pos": "名",
+          "ex": "There are many skyscrapers in the center of the city.",
+          "exJa": "その市の中心には多くの高層ビルがあります。"
+        },
+        {
+          "en": "neighborhood",
+          "ja": "近所",
+          "pos": "名",
+          "ex": "There is a nice park in our neighborhood.",
+          "exJa": "私たちの近所にはすてきな公園があります。"
+        },
+        {
+          "en": "ancient",
+          "ja": "古代の",
+          "pos": "形",
+          "ex": "We visited an ancient castle during our school trip.",
+          "exJa": "修学旅行で古代の城を訪れました。"
+        },
+        {
+          "en": "toward",
+          "ja": "〜の方へ",
+          "pos": "前",
+          "ex": "The boy ran toward the school gate.",
+          "exJa": "その少年は校門の方へ走りました。"
+        }
+      ]
+    },
+    {
+      "n": 39,
+      "theme": "スポーツと体力",
+      "words": [
+        {
+          "en": "compete",
+          "ja": "競争する",
+          "pos": "動",
+          "ex": "She will compete in the swimming race next month.",
+          "exJa": "彼女は来月、水泳のレースに出場して競争します。"
+        },
+        {
+          "en": "defeat",
+          "ja": "負かす",
+          "pos": "動",
+          "ex": "Our team defeated the strongest team in the city.",
+          "exJa": "私たちのチームは市で最も強いチームを負かしました。"
+        },
+        {
+          "en": "match",
+          "ja": "試合",
+          "pos": "名",
+          "ex": "The tennis match will start at two o'clock.",
+          "exJa": "テニスの試合は2時に始まります。"
+        },
+        {
+          "en": "coach",
+          "ja": "コーチ",
+          "pos": "名",
+          "ex": "The coach told us to run faster during practice.",
+          "exJa": "コーチは練習中にもっと速く走るように言いました。"
+        },
+        {
+          "en": "score",
+          "ja": "得点",
+          "pos": "名",
+          "ex": "The final score of the game was three to one.",
+          "exJa": "試合の最終得点は3対1でした。"
+        },
+        {
+          "en": "regularly",
+          "ja": "定期的に",
+          "pos": "副",
+          "ex": "You should exercise regularly to stay healthy.",
+          "exJa": "健康でいるためには定期的に運動すべきです。"
+        }
+      ]
+    },
+    {
+      "n": 40,
+      "theme": "コミュニケーション",
+      "words": [
+        {
+          "en": "explain",
+          "ja": "説明する",
+          "pos": "動",
+          "ex": "Could you explain how to use this camera?",
+          "exJa": "このカメラの使い方を説明していただけますか。"
+        },
+        {
+          "en": "mention",
+          "ja": "述べる",
+          "pos": "動",
+          "ex": "She didn't mention the problem during the meeting.",
+          "exJa": "彼女は会議中にその問題について述べませんでした。"
+        },
+        {
+          "en": "suggest",
+          "ja": "提案する",
+          "pos": "動",
+          "ex": "I suggest that we leave early to avoid the traffic.",
+          "exJa": "渋滞を避けるために早く出発することを提案します。"
+        },
+        {
+          "en": "conversation",
+          "ja": "会話",
+          "pos": "名",
+          "ex": "I had a long conversation with my host family in English.",
+          "exJa": "ホストファミリーと英語で長い会話をしました。"
+        },
+        {
+          "en": "message",
+          "ja": "伝言",
+          "pos": "名",
+          "ex": "Can I leave a message for Mr. Brown?",
+          "exJa": "ブラウンさんへの伝言をお願いできますか。"
+        },
+        {
+          "en": "correctly",
+          "ja": "正しく",
+          "pos": "副",
+          "ex": "Please spell your name correctly on the form.",
+          "exJa": "用紙にあなたの名前を正しくつづってください。"
+        }
+      ]
+    },
+    {
+      "n": 41,
+      "theme": "日常生活",
+      "words": [
+        {
+          "en": "hang",
+          "ja": "かける",
+          "pos": "動",
+          "ex": "Please hang your coat on the hook by the door.",
+          "exJa": "ドアのそばのフックにコートをかけてください。"
+        },
+        {
+          "en": "fix",
+          "ja": "修理する・直す",
+          "pos": "動",
+          "ex": "My father fixed the broken chair by himself.",
+          "exJa": "父はこわれたいすを自分で直しました。"
+        },
+        {
+          "en": "laundry",
+          "ja": "洗濯物",
+          "pos": "名",
+          "ex": "I have to do the laundry before it rains.",
+          "exJa": "雨が降る前に洗濯物をしなければなりません。"
+        },
+        {
+          "en": "chore",
+          "ja": "家事",
+          "pos": "名",
+          "ex": "Washing the dishes is one of my daily chores.",
+          "exJa": "皿洗いは私の毎日の家事の一つです。"
+        },
+        {
+          "en": "ordinary",
+          "ja": "普通の",
+          "pos": "形",
+          "ex": "It was just an ordinary day until the surprise party started.",
+          "exJa": "サプライズパーティーが始まるまでは、ただの普通の日でした。"
+        },
+        {
+          "en": "ahead",
+          "ja": "前方に",
+          "pos": "副",
+          "ex": "Go straight ahead and you will see the library.",
+          "exJa": "まっすぐ前方に進めば、図書館が見えます。"
+        }
+      ]
+    },
+    {
+      "n": 42,
+      "theme": "時間と変化",
+      "words": [
+        {
+          "en": "increase",
+          "ja": "増える",
+          "pos": "動",
+          "ex": "The number of foreign visitors to Japan has increased.",
+          "exJa": "日本への外国人観光客の数が増えました。"
+        },
+        {
+          "en": "reduce",
+          "ja": "減らす",
+          "pos": "動",
+          "ex": "We should reduce the amount of waste we make.",
+          "exJa": "私たちは出すごみの量を減らすべきです。"
+        },
+        {
+          "en": "improve",
+          "ja": "上達させる",
+          "pos": "動",
+          "ex": "I want to improve my English speaking skills.",
+          "exJa": "英語を話す力を上達させたいです。"
+        },
+        {
+          "en": "period",
+          "ja": "期間",
+          "pos": "名",
+          "ex": "We lived in America for a period of three years.",
+          "exJa": "私たちは3年間の期間、アメリカに住みました。"
+        },
+        {
+          "en": "former",
+          "ja": "以前の",
+          "pos": "形",
+          "ex": "My former teacher now works at a university.",
+          "exJa": "私の以前の先生は今、大学で働いています。"
+        },
+        {
+          "en": "gradually",
+          "ja": "だんだんと",
+          "pos": "副",
+          "ex": "The sky gradually became dark as the sun set.",
+          "exJa": "太陽が沈むにつれて、空はだんだんと暗くなりました。"
+        }
+      ]
+    },
+    {
+      "n": 43,
+      "theme": "数量と程度",
+      "words": [
+        {
+          "en": "weigh",
+          "ja": "重さがある",
+          "pos": "動",
+          "ex": "This bag weighs about ten kilograms.",
+          "exJa": "このかばんは約10キログラムの重さがあります。"
+        },
+        {
+          "en": "contain",
+          "ja": "含む",
+          "pos": "動",
+          "ex": "This drink contains a lot of sugar.",
+          "exJa": "この飲み物はたくさんの砂糖を含んでいます。"
+        },
+        {
+          "en": "amount",
+          "ja": "量",
+          "pos": "名",
+          "ex": "A large amount of water is used to grow rice.",
+          "exJa": "米を育てるのに大量の水が使われます。"
+        },
+        {
+          "en": "total",
+          "ja": "合計の",
+          "pos": "形",
+          "ex": "The total cost of the trip was about fifty thousand yen.",
+          "exJa": "旅行の合計費用は約5万円でした。"
+        },
+        {
+          "en": "entire",
+          "ja": "全体の",
+          "pos": "形",
+          "ex": "I spent the entire weekend reading this book.",
+          "exJa": "週末全体をこの本を読んで過ごしました。"
+        },
+        {
+          "en": "nearly",
+          "ja": "ほぼ",
+          "pos": "副",
+          "ex": "Nearly all the students passed the English test.",
+          "exJa": "ほぼすべての生徒が英語のテストに合格しました。"
+        }
+      ]
+    },
+    {
+      "n": 44,
+      "theme": "状態と性質",
+      "words": [
+        {
+          "en": "remain",
+          "ja": "〜のままである",
+          "pos": "動",
+          "ex": "Please remain quiet during the exam.",
+          "exJa": "試験中は静かなままでいてください。"
+        },
+        {
+          "en": "appear",
+          "ja": "現れる",
+          "pos": "動",
+          "ex": "A rainbow appeared in the sky after the rain.",
+          "exJa": "雨のあとに空に虹が現れました。"
+        },
+        {
+          "en": "shape",
+          "ja": "形",
+          "pos": "名",
+          "ex": "What shape is the swimming pool? It looks like a heart.",
+          "exJa": "プールはどんな形ですか。ハートのように見えます。"
+        },
+        {
+          "en": "smooth",
+          "ja": "なめらかな",
+          "pos": "形",
+          "ex": "The surface of the lake was smooth like a mirror.",
+          "exJa": "湖の表面は鏡のようになめらかでした。"
+        },
+        {
+          "en": "similar",
+          "ja": "似ている",
+          "pos": "形",
+          "ex": "Your bag is similar to mine, so I almost took the wrong one.",
+          "exJa": "あなたのかばんは私のと似ているので、あやうく間違えるところでした。"
+        },
+        {
+          "en": "exactly",
+          "ja": "正確に",
+          "pos": "副",
+          "ex": "The train arrived at exactly nine o'clock.",
+          "exJa": "電車は正確に9時に到着しました。"
+        }
+      ]
+    },
+    {
+      "n": 45,
+      "theme": "動作と行動",
+      "words": [
+        {
+          "en": "grab",
+          "ja": "つかむ",
+          "pos": "動",
+          "ex": "She grabbed my hand and we ran together.",
+          "exJa": "彼女は私の手をつかんで、一緒に走りました。"
+        },
+        {
+          "en": "lean",
+          "ja": "寄りかかる",
+          "pos": "動",
+          "ex": "Don't lean against the wall. The paint is still wet.",
+          "exJa": "壁に寄りかからないでください。ペンキがまだぬれています。"
+        },
+        {
+          "en": "rush",
+          "ja": "急ぐ",
+          "pos": "動",
+          "ex": "I had to rush to the station to catch the last train.",
+          "exJa": "終電に間に合うように駅へ急がなければなりませんでした。"
+        },
+        {
+          "en": "wander",
+          "ja": "歩き回る",
+          "pos": "動",
+          "ex": "We wandered around the old town and took many pictures.",
+          "exJa": "古い町を歩き回って、たくさんの写真を撮りました。"
+        },
+        {
+          "en": "opportunity",
+          "ja": "機会",
+          "pos": "名",
+          "ex": "I had an opportunity to talk with a famous writer.",
+          "exJa": "有名な作家と話す機会がありました。"
+        },
+        {
+          "en": "suddenly",
+          "ja": "突然",
+          "pos": "副",
+          "ex": "The lights suddenly went out during the movie.",
+          "exJa": "映画の最中に突然、電気が消えました。"
+        }
+      ]
+    },
+    {
+      "n": 46,
+      "theme": "思考と判断",
+      "words": [
+        {
+          "en": "consider",
+          "ja": "よく考える",
+          "pos": "動",
+          "ex": "You should consider all the choices before you decide.",
+          "exJa": "決める前にすべての選択肢をよく考えるべきです。"
+        },
+        {
+          "en": "determine",
+          "ja": "決心する",
+          "pos": "動",
+          "ex": "He determined to study abroad after high school.",
+          "exJa": "彼は高校のあと留学することを決心しました。"
+        },
+        {
+          "en": "compare",
+          "ja": "比較する",
+          "pos": "動",
+          "ex": "Let's compare the prices of these two books.",
+          "exJa": "この2冊の本の値段を比較しましょう。"
+        },
+        {
+          "en": "decision",
+          "ja": "決定",
+          "pos": "名",
+          "ex": "It was a difficult decision, but she chose to go abroad.",
+          "exJa": "難しい決定でしたが、彼女は海外に行くことを選びました。"
+        },
+        {
+          "en": "purpose",
+          "ja": "目的",
+          "pos": "名",
+          "ex": "The purpose of this meeting is to plan the school trip.",
+          "exJa": "この会議の目的は修学旅行の計画を立てることです。"
+        },
+        {
+          "en": "therefore",
+          "ja": "したがって",
+          "pos": "副",
+          "ex": "He was sick. Therefore, he could not come to the party.",
+          "exJa": "彼は病気でした。したがって、パーティーに来られませんでした。"
+        }
+      ]
+    },
+    {
+      "n": 47,
+      "theme": "知覚と感覚",
+      "words": [
+        {
+          "en": "recognize",
+          "ja": "見分ける",
+          "pos": "動",
+          "ex": "I didn't recognize him because he had changed so much.",
+          "exJa": "彼はとても変わっていたので、私は彼を見分けられませんでした。"
+        },
+        {
+          "en": "notice",
+          "ja": "気づく",
+          "pos": "動",
+          "ex": "Did you notice that the door was open?",
+          "exJa": "ドアが開いていることに気づきましたか。"
+        },
+        {
+          "en": "scent",
+          "ja": "香り",
+          "pos": "名",
+          "ex": "The sweet scent of flowers filled the garden.",
+          "exJa": "花の甘い香りが庭いっぱいに広がりました。"
+        },
+        {
+          "en": "sight",
+          "ja": "視力・光景",
+          "pos": "名",
+          "ex": "The sight of the sunset from the mountain was beautiful.",
+          "exJa": "山からの夕日の光景は美しかったです。"
+        },
+        {
+          "en": "familiar",
+          "ja": "よく知っている",
+          "pos": "形",
+          "ex": "This song sounds familiar. I think I've heard it before.",
+          "exJa": "この歌は聞き覚えがあります。前に聞いたことがあると思います。"
+        },
+        {
+          "en": "slightly",
+          "ja": "わずかに",
+          "pos": "副",
+          "ex": "The room was slightly cold, so I closed the window.",
+          "exJa": "部屋がわずかに寒かったので、窓を閉めました。"
+        }
+      ]
+    },
+    {
+      "n": 48,
+      "theme": "天候と季節",
+      "words": [
+        {
+          "en": "melt",
+          "ja": "溶ける",
+          "pos": "動",
+          "ex": "The snow on the mountain will melt when spring comes.",
+          "exJa": "春が来ると山の雪は溶けるでしょう。"
+        },
+        {
+          "en": "freeze",
+          "ja": "凍る",
+          "pos": "動",
+          "ex": "The lake freezes every winter and people skate on it.",
+          "exJa": "その湖は毎年冬に凍り、人々がその上でスケートをします。"
+        },
+        {
+          "en": "drought",
+          "ja": "干ばつ",
+          "pos": "名",
+          "ex": "The long drought made it hard for farmers to grow rice.",
+          "exJa": "長い干ばつのせいで農家は米を育てるのが困難でした。"
+        },
+        {
+          "en": "forecast",
+          "ja": "予報",
+          "pos": "名",
+          "ex": "The weather forecast says it will rain tomorrow.",
+          "exJa": "天気予報では明日は雨だと言っています。"
+        },
+        {
+          "en": "humid",
+          "ja": "蒸し暑い",
+          "pos": "形",
+          "ex": "Summers in Japan are very hot and humid.",
+          "exJa": "日本の夏はとても暑くて蒸し暑いです。"
+        },
+        {
+          "en": "throughout",
+          "ja": "〜の間じゅう",
+          "pos": "前",
+          "ex": "Cherry blossoms can be seen throughout Japan in spring.",
+          "exJa": "春には日本中いたるところで桜の花を見ることができます。"
+        }
+      ]
+    },
+    {
+      "n": 49,
+      "theme": "法と規則",
+      "words": [
+        {
+          "en": "allow",
+          "ja": "許可する",
+          "pos": "動",
+          "ex": "Students are not allowed to use phones in class.",
+          "exJa": "生徒は授業中に電話を使うことを許可されていません。"
+        },
+        {
+          "en": "forbid",
+          "ja": "禁じる",
+          "pos": "動",
+          "ex": "The sign says swimming is forbidden in this river.",
+          "exJa": "標識にはこの川で泳ぐことは禁じられていると書いてあります。"
+        },
+        {
+          "en": "obey",
+          "ja": "従う",
+          "pos": "動",
+          "ex": "Everyone should obey the traffic rules.",
+          "exJa": "だれもが交通ルールに従うべきです。"
+        },
+        {
+          "en": "permission",
+          "ja": "許可",
+          "pos": "名",
+          "ex": "You need to get permission from your parents first.",
+          "exJa": "まずご両親から許可をもらう必要があります。"
+        },
+        {
+          "en": "strict",
+          "ja": "厳しい",
+          "pos": "形",
+          "ex": "Our school has strict rules about wearing uniforms.",
+          "exJa": "私たちの学校には制服着用について厳しい規則があります。"
+        },
+        {
+          "en": "according",
+          "ja": "〜によれば",
+          "pos": "前",
+          "ex": "According to the news, the typhoon will come tonight.",
+          "exJa": "ニュースによれば、今夜台風が来るそうです。"
+        }
+      ]
+    },
+    {
+      "n": 50,
+      "theme": "地理と世界",
+      "words": [
+        {
+          "en": "explore",
+          "ja": "探検する",
+          "pos": "動",
+          "ex": "The children explored the forest behind the school.",
+          "exJa": "子どもたちは学校の裏の森を探検しました。"
+        },
+        {
+          "en": "locate",
+          "ja": "位置する",
+          "pos": "動",
+          "ex": "The hotel is located near the beach.",
+          "exJa": "そのホテルは浜辺の近くに位置しています。"
+        },
+        {
+          "en": "continent",
+          "ja": "大陸",
+          "pos": "名",
+          "ex": "Africa is the second largest continent in the world.",
+          "exJa": "アフリカは世界で2番目に大きい大陸です。"
+        },
+        {
+          "en": "border",
+          "ja": "国境",
+          "pos": "名",
+          "ex": "We crossed the border between the two countries by bus.",
+          "exJa": "私たちはバスで2つの国の国境を越えました。"
+        },
+        {
+          "en": "local",
+          "ja": "地元の",
+          "pos": "形",
+          "ex": "We ate at a local restaurant and tried traditional food.",
+          "exJa": "地元のレストランで食事をして、伝統的な料理を試しました。"
+        },
+        {
+          "en": "beyond",
+          "ja": "〜の向こうに",
+          "pos": "前",
+          "ex": "There is a beautiful lake beyond the mountains.",
+          "exJa": "山の向こうに美しい湖があります。"
+        }
+      ]
     }
   ]
 }
