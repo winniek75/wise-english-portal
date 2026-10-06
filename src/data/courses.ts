@@ -1,4 +1,5 @@
 import { gameLink, getGame } from "./games";
+import { eikenCourses } from "./eiken/plan";
 
 export interface Step {
   gameId: string;
@@ -241,6 +242,7 @@ export const courses: Course[] = [
       },
     ],
   },
+  ...eikenCourses,
 ];
 
 export function getCourse(id: string): Course | undefined {

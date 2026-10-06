@@ -1,0 +1,286 @@
+{
+  "id": "g4-prepositions",
+  "grade": "4",
+  "title": "前置詞（in / on / at / to / from / with / by）",
+  "points": [
+    "時の前置詞: in（月・季節・年）, on（曜日・日付）, at（時刻・時点）",
+    "場所の前置詞: in（広い場所・中）, on（面の上）, at（地点）",
+    "手段・同伴: by（交通手段）, with（道具・一緒に）, from（出発点）, to（到着点）"
+  ],
+  "examples": [
+    {
+      "en": "I was born in 2012.",
+      "ja": "私は2012年に生まれました。"
+    },
+    {
+      "en": "The book is on the desk.",
+      "ja": "本は机の上にあります。"
+    },
+    {
+      "en": "She goes to school by bus.",
+      "ja": "彼女はバスで学校に行きます。"
+    }
+  ],
+  "questions": [
+    {
+      "id": "g4-prepositions-01",
+      "type": "choice",
+      "q": "I get up ___ six every morning.",
+      "ja": "私は毎朝6時に起きます。",
+      "options": ["in", "on", "at", "to"],
+      "answer": 2,
+      "why": "時刻の前には at を使う。at six。"
+    },
+    {
+      "id": "g4-prepositions-02",
+      "type": "choice",
+      "q": "We have a test ___ Monday.",
+      "ja": "私たちは月曜日にテストがあります。",
+      "options": ["in", "on", "at", "by"],
+      "answer": 1,
+      "why": "曜日の前には on を使う。on Monday。"
+    },
+    {
+      "id": "g4-prepositions-03",
+      "type": "choice",
+      "q": "My birthday is ___ July.",
+      "ja": "私の誕生日は7月です。",
+      "options": ["on", "at", "in", "from"],
+      "answer": 2,
+      "why": "月の前には in を使う。in July。"
+    },
+    {
+      "id": "g4-prepositions-04",
+      "type": "choice",
+      "q": "She goes to school ___ bus.",
+      "ja": "彼女はバスで学校に行きます。",
+      "options": ["with", "on", "by", "in"],
+      "answer": 2,
+      "why": "交通手段を表すときは by を使う。by bus。"
+    },
+    {
+      "id": "g4-prepositions-05",
+      "type": "choice",
+      "q": "The cat is ___ the table.",
+      "ja": "猫はテーブルの上にいます。",
+      "options": ["at", "on", "in", "by"],
+      "answer": 1,
+      "why": "面の上にあるときは on を使う。on the table。"
+    },
+    {
+      "id": "g4-prepositions-06",
+      "type": "choice",
+      "q": "I live ___ Tokyo.",
+      "ja": "私は東京に住んでいます。",
+      "options": ["on", "at", "to", "in"],
+      "answer": 3,
+      "why": "広い場所（都市・国）には in を使う。in Tokyo。"
+    },
+    {
+      "id": "g4-prepositions-07",
+      "type": "choice",
+      "q": "He is waiting ___ the bus stop.",
+      "ja": "彼はバス停で待っています。",
+      "options": ["in", "on", "at", "to"],
+      "answer": 2,
+      "why": "地点・場所の一点を表すときは at を使う。at the bus stop。"
+    },
+    {
+      "id": "g4-prepositions-08",
+      "type": "choice",
+      "q": "She cut the paper ___ scissors.",
+      "ja": "彼女ははさみで紙を切りました。",
+      "options": ["by", "with", "in", "on"],
+      "answer": 1,
+      "why": "道具を使うときは with を使う。with scissors。"
+    },
+    {
+      "id": "g4-prepositions-09",
+      "type": "choice",
+      "q": "I am ___ Japan.",
+      "ja": "私は日本の出身です。",
+      "options": ["to", "at", "from", "with"],
+      "answer": 2,
+      "why": "出身を表すときは from を使う。I am from Japan。"
+    },
+    {
+      "id": "g4-prepositions-10",
+      "type": "choice",
+      "q": "We play soccer ___ the afternoon.",
+      "ja": "私たちは午後にサッカーをします。",
+      "options": ["on", "at", "to", "in"],
+      "answer": 3,
+      "why": "午前・午後・夕方には in を使う。in the afternoon。"
+    },
+    {
+      "id": "g4-prepositions-11",
+      "type": "choice",
+      "q": "There is a picture ___ the wall.",
+      "ja": "壁に絵があります。",
+      "options": ["in", "at", "on", "to"],
+      "answer": 2,
+      "why": "壁の面に接しているときは on を使う。on the wall。"
+    },
+    {
+      "id": "g4-prepositions-12",
+      "type": "choice",
+      "q": "He went ___ Osaka last week.",
+      "ja": "彼は先週大阪に行きました。",
+      "options": ["at", "in", "from", "to"],
+      "answer": 3,
+      "why": "行き先を表すときは to を使う。went to Osaka。"
+    },
+    {
+      "id": "g4-prepositions-13",
+      "type": "choice",
+      "q": "I walk to school ___ my friends.",
+      "ja": "私は友だちと一緒に学校に歩いて行きます。",
+      "options": ["by", "from", "with", "at"],
+      "answer": 2,
+      "why": "「〜と一緒に」は with を使う。with my friends。"
+    },
+    {
+      "id": "g4-prepositions-14",
+      "type": "choice",
+      "q": "The store opens ___ nine ___ the morning.",
+      "ja": "その店は朝9時に開きます。",
+      "options": ["at / in", "in / on", "on / at", "at / on"],
+      "answer": 0,
+      "why": "時刻は at nine、午前は in the morning。"
+    },
+    {
+      "id": "g4-prepositions-15",
+      "type": "choice",
+      "q": "She was born ___ March 15th.",
+      "ja": "彼女は3月15日に生まれました。",
+      "options": ["in", "at", "on", "from"],
+      "answer": 2,
+      "why": "日付の前には on を使う。on March 15th。"
+    },
+    {
+      "id": "g4-prepositions-16",
+      "type": "choice",
+      "q": "The children are playing ___ the park.",
+      "ja": "子どもたちは公園で遊んでいます。",
+      "options": ["on", "at", "to", "in"],
+      "answer": 3,
+      "why": "公園などの広い場所の中では in を使う。in the park。"
+    },
+    {
+      "id": "g4-prepositions-17",
+      "type": "choice",
+      "q": "We arrived ___ the airport ___ 5 p.m.",
+      "ja": "私たちは午後5時に空港に着きました。",
+      "options": ["at / at", "in / on", "to / in", "on / at"],
+      "answer": 0,
+      "why": "空港という地点は at、時刻も at。at the airport at 5 p.m."
+    },
+    {
+      "id": "g4-prepositions-18",
+      "type": "choice",
+      "q": "I wrote this letter ___ a pen.",
+      "ja": "私はペンでこの手紙を書きました。",
+      "options": ["by", "in", "with", "on"],
+      "answer": 2,
+      "why": "道具を使って書くときは with を使う。with a pen。"
+    },
+    {
+      "id": "g4-prepositions-19",
+      "type": "choice",
+      "q": "It's very cold ___ winter in Hokkaido.",
+      "ja": "北海道では冬はとても寒いです。",
+      "options": ["on", "at", "in", "by"],
+      "answer": 2,
+      "why": "季節の前には in を使う。in winter。"
+    },
+    {
+      "id": "g4-prepositions-20",
+      "type": "choice",
+      "q": "The train ___ Tokyo arrives at noon.",
+      "ja": "東京からの電車は正午に着きます。",
+      "options": ["to", "from", "by", "with"],
+      "answer": 1,
+      "why": "「〜からの」は from を使う。from Tokyo。"
+    },
+    {
+      "id": "g4-prepositions-21",
+      "type": "order",
+      "ja": "私は毎朝7時に起きます。",
+      "words": ["I", "get", "up", "at", "seven", "every", "morning"],
+      "full": "I get up at seven every morning.",
+      "why": "時刻には at を使う。at seven。"
+    },
+    {
+      "id": "g4-prepositions-22",
+      "type": "order",
+      "ja": "彼女はバスで学校に行きます。",
+      "words": ["she", "goes", "to", "school", "by", "bus"],
+      "full": "She goes to school by bus.",
+      "why": "行き先は to、交通手段は by。"
+    },
+    {
+      "id": "g4-prepositions-23",
+      "type": "order",
+      "ja": "本は机の上にあります。",
+      "words": ["the", "book", "is", "on", "the", "desk"],
+      "full": "The book is on the desk.",
+      "why": "面の上にあるときは on を使う。"
+    },
+    {
+      "id": "g4-prepositions-24",
+      "type": "order",
+      "ja": "私は友だちと一緒に公園で遊びました。",
+      "words": ["I", "played", "in", "the", "park", "with", "my", "friends"],
+      "full": "I played in the park with my friends.",
+      "why": "場所は in the park、「〜と一緒に」は with。"
+    },
+    {
+      "id": "g4-prepositions-25",
+      "type": "order",
+      "ja": "彼はアメリカの出身です。",
+      "words": ["he", "is", "from", "America"],
+      "full": "He is from America.",
+      "why": "出身は from を使う。is from America。"
+    },
+    {
+      "id": "g4-prepositions-26",
+      "type": "order",
+      "ja": "私たちは日曜日にサッカーをします。",
+      "words": ["we", "play", "soccer", "on", "Sundays"],
+      "full": "We play soccer on Sundays.",
+      "why": "曜日には on を使う。on Sundays。"
+    },
+    {
+      "id": "g4-prepositions-27",
+      "type": "order",
+      "ja": "彼女は8月に日本に来ました。",
+      "words": ["she", "came", "to", "Japan", "in", "August"],
+      "full": "She came to Japan in August.",
+      "why": "行き先は to、月は in を使う。"
+    },
+    {
+      "id": "g4-prepositions-28",
+      "type": "order",
+      "ja": "壁に地図がかかっています。",
+      "words": ["there", "is", "a", "map", "on", "the", "wall"],
+      "full": "There is a map on the wall.",
+      "why": "壁の面に接しているので on the wall。"
+    },
+    {
+      "id": "g4-prepositions-29",
+      "type": "order",
+      "ja": "私はナイフでりんごを切りました。",
+      "words": ["I", "cut", "the", "apple", "with", "a", "knife"],
+      "full": "I cut the apple with a knife.",
+      "why": "道具は with を使う。with a knife。"
+    },
+    {
+      "id": "g4-prepositions-30",
+      "type": "order",
+      "ja": "その試合は午後3時に始まります。",
+      "words": ["the", "game", "starts", "at", "three", "in", "the", "afternoon"],
+      "full": "The game starts at three in the afternoon.",
+      "why": "時刻は at three、午後は in the afternoon。"
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "id": "p2-perfect",
+  "grade": "p2",
+  "title": "完了形の整理（現在完了・現在完了進行形・過去完了）",
+  "points": [
+    "現在完了は have+過去分詞。for は期間、since は始まった時",
+    "have been -ing は今も続く動作、had+過去分詞は過去より前のこと",
+    "yesterday など過去を表す語があれば過去形を使う"
+  ],
+  "examples": [
+    {
+      "en": "I have lived in this town for ten years.",
+      "ja": "私はこの町に10年間住んでいます。"
+    },
+    {
+      "en": "It has been raining since this morning.",
+      "ja": "今朝からずっと雨が降っています。"
+    },
+    {
+      "en": "The train had already left when we arrived.",
+      "ja": "私たちが着いたとき、電車はすでに出発していました。"
+    }
+  ],
+  "questions": [
+    {
+      "id": "p2-perfect-01",
+      "type": "choice",
+      "q": "I have lived in this town ___ ten years.",
+      "ja": "私はこの町に10年間住んでいます。",
+      "options": [
+        "for",
+        "since",
+        "from",
+        "during"
+      ],
+      "answer": 0,
+      "why": "ten years は期間。期間の長さには for を使う。"
+    },
+    {
+      "id": "p2-perfect-02",
+      "type": "choice",
+      "q": "Ken ___ his homework two hours ago.",
+      "ja": "ケンは2時間前に宿題を終えました。",
+      "options": [
+        "has finished",
+        "finishes",
+        "finished",
+        "is finishing"
+      ],
+      "answer": 2,
+      "why": "〜 ago は過去を表す語。現在完了ではなく過去形。"
+    },
+    {
+      "id": "p2-perfect-03",
+      "type": "choice",
+      "q": "My father has worked at this bank ___ 2010.",
+      "ja": "父は2010年からこの銀行で働いています。",
+      "options": [
+        "for",
+        "since",
+        "in",
+        "at"
+      ],
+      "answer": 1,
+      "why": "2010 は始まった時。「〜から」は since。"
+    },
+    {
+      "id": "p2-perfect-04",
+      "type": "choice",
+      "q": "Have you ever ___ to Hokkaido?",
+      "ja": "あなたは今までに北海道に行ったことがありますか。",
+      "options": [
+        "went",
+        "go",
+        "being",
+        "been"
+      ],
+      "answer": 3,
+      "why": "「行ったことがある」は have been to。"
+    },
+    {
+      "id": "p2-perfect-05",
+      "type": "choice",
+      "q": "It ___ since this morning.",
+      "ja": "今朝からずっと雨が降っています。",
+      "options": [
+        "rains",
+        "has been raining",
+        "is raining",
+        "rained"
+      ],
+      "answer": 1,
+      "why": "今も続く動作は have been -ing。since が目印。"
+    },
+    {
+      "id": "p2-perfect-06",
+      "type": "choice",
+      "q": "I ___ this movie when I was a child.",
+      "ja": "私は子どものころにこの映画を見ました。",
+      "options": [
+        "saw",
+        "have seen",
+        "see",
+        "have been seeing"
+      ],
+      "answer": 0,
+      "why": "when I was a child は過去の時。過去形を使う。"
+    },
+    {
+      "id": "p2-perfect-07",
+      "type": "choice",
+      "q": "The train ___ already left when we arrived at the station.",
+      "ja": "私たちが駅に着いたとき、電車はすでに出発していました。",
+      "options": [
+        "has",
+        "was",
+        "is",
+        "had"
+      ],
+      "answer": 3,
+      "why": "着いた時（過去）より前のことは had+過去分詞。"
+    },
+    {
+      "id": "p2-perfect-08",
+      "type": "choice",
+      "q": "I have ___ finished my report, so I can go out now.",
+      "ja": "私はちょうどレポートを終えたので、今から出かけられます。",
+      "options": [
+        "yet",
+        "ever",
+        "just",
+        "ago"
+      ],
+      "answer": 2,
+      "why": "「ちょうど〜したところ」は have just+過去分詞。"
+    },
+    {
+      "id": "p2-perfect-09",
+      "type": "choice",
+      "q": "Emma ___ the piano since noon, and she is still practicing.",
+      "ja": "エマは正午からずっとピアノをひいていて、まだ練習しています。",
+      "options": [
+        "played",
+        "is playing",
+        "has been playing",
+        "was playing"
+      ],
+      "answer": 2,
+      "why": "正午から今まで続く動作なので have been -ing。"
+    },
+    {
+      "id": "p2-perfect-10",
+      "type": "choice",
+      "q": "We ___ to Kyoto on a school trip last year.",
+      "ja": "私たちは昨年、修学旅行で京都に行きました。",
+      "options": [
+        "went",
+        "have been",
+        "have gone",
+        "go"
+      ],
+      "answer": 0,
+      "why": "last year は過去を表す語。現在完了は使えない。"
+    },
+    {
+      "id": "p2-perfect-11",
+      "type": "choice",
+      "q": "When I got home, I realized that I ___ my umbrella on the bus.",
+      "ja": "家に着いたとき、バスにかさを置き忘れたことに気づきました。",
+      "options": [
+        "have left",
+        "had left",
+        "leave",
+        "am leaving"
+      ],
+      "answer": 1,
+      "why": "気づいた時（過去）より前のことは had+過去分詞。"
+    },
+    {
+      "id": "p2-perfect-12",
+      "type": "choice",
+      "q": "My grandfather ___ in this house since he was born.",
+      "ja": "祖父は生まれたときからずっとこの家に住んでいます。",
+      "options": [
+        "lives",
+        "is living",
+        "lived",
+        "has lived"
+      ],
+      "answer": 3,
+      "why": "since があり今も続く状態なので現在完了。"
+    },
+    {
+      "id": "p2-perfect-13",
+      "type": "choice",
+      "q": "Tom was very hungry because he ___ anything since breakfast.",
+      "ja": "トムは朝食から何も食べていなかったので、とても空腹でした。",
+      "options": [
+        "had not eaten",
+        "has not eaten",
+        "does not eat",
+        "is not eating"
+      ],
+      "answer": 0,
+      "why": "空腹だった過去の時点まで続いたことは過去完了。"
+    },
+    {
+      "id": "p2-perfect-14",
+      "type": "choice",
+      "q": "I ___ never seen such a beautiful lake before I visited Canada.",
+      "ja": "カナダを訪れるまで、私はそんなに美しい湖を見たことがありませんでした。",
+      "options": [
+        "have",
+        "had",
+        "was",
+        "did"
+      ],
+      "answer": 1,
+      "why": "訪れた時（過去）までの経験は had+過去分詞。"
+    },
+    {
+      "id": "p2-perfect-15",
+      "type": "order",
+      "ja": "私はこの本を3回読んだことがあります。",
+      "words": [
+        "I",
+        "have",
+        "read",
+        "this",
+        "book",
+        "three",
+        "times"
+      ],
+      "full": "I have read this book three times.",
+      "why": "経験は have+過去分詞。回数は文の最後に置く。"
+    },
+    {
+      "id": "p2-perfect-16",
+      "type": "order",
+      "ja": "母は2時間ずっと料理をしています。",
+      "words": [
+        "my",
+        "mother",
+        "has",
+        "been",
+        "cooking",
+        "for",
+        "two",
+        "hours"
+      ],
+      "full": "My mother has been cooking for two hours.",
+      "why": "今も続く動作は have been -ing。期間は for。"
+    },
+    {
+      "id": "p2-perfect-17",
+      "type": "order",
+      "ja": "私はトムを彼が子どものころから知っています。",
+      "words": [
+        "I",
+        "have",
+        "known",
+        "Tom",
+        "since",
+        "he",
+        "was",
+        "a",
+        "child"
+      ],
+      "full": "I have known Tom since he was a child.",
+      "why": "know は状態なので have known。since のあとは文も置ける。"
+    },
+    {
+      "id": "p2-perfect-18",
+      "type": "order",
+      "ja": "由美は試合が始まってしまったと私たちに言いました。",
+      "words": [
+        "Yumi",
+        "told",
+        "us",
+        "that",
+        "the",
+        "game",
+        "had",
+        "begun"
+      ],
+      "full": "Yumi told us that the game had begun.",
+      "why": "言った時（過去）より前のことは had+過去分詞。"
+    },
+    {
+      "id": "p2-perfect-19",
+      "type": "order",
+      "ja": "あなたのお兄さんはいつカナダから戻ってきましたか。",
+      "words": [
+        "when",
+        "did",
+        "your",
+        "brother",
+        "come",
+        "back",
+        "from",
+        "Canada"
+      ],
+      "full": "When did your brother come back from Canada?",
+      "why": "when で過去の時をたずねる文は過去形（did）を使う。"
+    },
+    {
+      "id": "p2-perfect-20",
+      "type": "order",
+      "ja": "今朝からずっと雨が降っているのですか。",
+      "words": [
+        "has",
+        "it",
+        "been",
+        "raining",
+        "since",
+        "this",
+        "morning"
+      ],
+      "full": "Has it been raining since this morning?",
+      "why": "have been -ing の疑問文は has / have を主語の前に出す。"
+    }
+  ]
+}

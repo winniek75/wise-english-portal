@@ -1,0 +1,505 @@
+{
+  "id": "p2-subjunctive-pp",
+  "grade": "p2",
+  "title": "仮定法過去完了（If I had + 過去分詞）",
+  "points": [
+    "If + 主語 + had + 過去分詞, 主語 + would/could have + 過去分詞",
+    "仮定法過去との違い（時制のズレ）",
+    "I wish I had + 過去分詞（過去の後悔）",
+    "as if + 主語 + had + 過去分詞（過去の事実に反する比喩）"
+  ],
+  "examples": [
+    {
+      "en": "If I had studied harder, I would have passed the exam.",
+      "ja": "もっと一生懸命勉強していたら、試験に受かっていただろう。"
+    },
+    {
+      "en": "I wish I had brought my umbrella.",
+      "ja": "傘を持ってくればよかったのに。"
+    },
+    {
+      "en": "She talked as if she had seen the movie before.",
+      "ja": "彼女はまるでその映画を以前見たことがあるかのように話した。"
+    }
+  ],
+  "questions": [
+    {
+      "id": "p2-subjunctive-pp-01",
+      "type": "choice",
+      "q": "If I ___ harder, I would have passed the exam.",
+      "ja": "もっと一生懸命勉強していたら、試験に受かっていただろう。",
+      "options": [
+        "studied",
+        "had studied",
+        "have studied",
+        "would study"
+      ],
+      "answer": 1,
+      "why": "過去の事実に反する仮定。if節は had + 過去分詞を使う。"
+    },
+    {
+      "id": "p2-subjunctive-pp-02",
+      "type": "choice",
+      "q": "If she had left earlier, she ___ the train.",
+      "ja": "もっと早く出ていたら、彼女は電車に乗れていただろう。",
+      "options": [
+        "will catch",
+        "caught",
+        "would have caught",
+        "has caught"
+      ],
+      "answer": 2,
+      "why": "仮定法過去完了の主節は would/could have + 過去分詞。"
+    },
+    {
+      "id": "p2-subjunctive-pp-03",
+      "type": "choice",
+      "q": "I wish I ___ my umbrella yesterday.",
+      "ja": "昨日、傘を持ってくればよかったのに。",
+      "options": [
+        "bring",
+        "brought",
+        "had brought",
+        "would bring"
+      ],
+      "answer": 2,
+      "why": "過去の後悔を表す。I wish + had + 過去分詞。"
+    },
+    {
+      "id": "p2-subjunctive-pp-04",
+      "type": "choice",
+      "q": "If we had known about the party, we ___ come.",
+      "ja": "パーティーのことを知っていたら、来ていただろう。",
+      "options": [
+        "will have",
+        "would have",
+        "had",
+        "have"
+      ],
+      "answer": 1,
+      "why": "if節が had + 過去分詞なので、主節は would have + 過去分詞。"
+    },
+    {
+      "id": "p2-subjunctive-pp-05",
+      "type": "choice",
+      "q": "If it ___ rained, we would have played baseball.",
+      "ja": "雨が降っていなかったら、野球をしていただろう。",
+      "options": [
+        "has not",
+        "did not",
+        "had not",
+        "would not have"
+      ],
+      "answer": 2,
+      "why": "仮定法過去完了の否定。if + had not + 過去分詞。"
+    },
+    {
+      "id": "p2-subjunctive-pp-06",
+      "type": "choice",
+      "q": "He talked as if he ___ to Paris before.",
+      "ja": "彼はまるで以前パリに行ったことがあるかのように話した。",
+      "options": [
+        "went",
+        "has been",
+        "had been",
+        "would go"
+      ],
+      "answer": 2,
+      "why": "as if のあとで過去の事実に反する場合は had + 過去分詞。"
+    },
+    {
+      "id": "p2-subjunctive-pp-07",
+      "type": "choice",
+      "q": "I wish I ___ so much cake at the party last night.",
+      "ja": "昨夜のパーティーであんなにたくさんケーキを食べなければよかった。",
+      "options": [
+        "didn't eat",
+        "hadn't eaten",
+        "don't eat",
+        "won't eat"
+      ],
+      "answer": 1,
+      "why": "過去の後悔。I wish + had not + 過去分詞。"
+    },
+    {
+      "id": "p2-subjunctive-pp-08",
+      "type": "choice",
+      "q": "If Tom had gotten up earlier, he ___ been late for school.",
+      "ja": "トムがもっと早く起きていたら、学校に遅刻しなかっただろう。",
+      "options": [
+        "would have",
+        "wouldn't have",
+        "didn't",
+        "hasn't"
+      ],
+      "answer": 1,
+      "why": "仮定法過去完了の否定。would not have + 過去分詞。"
+    },
+    {
+      "id": "p2-subjunctive-pp-09",
+      "type": "choice",
+      "q": "If I ___ you were in the hospital, I would have visited you.",
+      "ja": "あなたが入院していると知っていたら、お見舞いに行っていたのに。",
+      "options": [
+        "know",
+        "knew",
+        "had known",
+        "have known"
+      ],
+      "answer": 2,
+      "why": "過去の事実に反する仮定。if + had + 過去分詞。"
+    },
+    {
+      "id": "p2-subjunctive-pp-10",
+      "type": "choice",
+      "q": "She looked as if she ___ all night.",
+      "ja": "彼女はまるで一晩中泣いていたかのように見えた。",
+      "options": [
+        "cries",
+        "cried",
+        "had been crying",
+        "is crying"
+      ],
+      "answer": 2,
+      "why": "as if + had been + 現在分詞で、過去の継続的な仮定を表す。"
+    },
+    {
+      "id": "p2-subjunctive-pp-11",
+      "type": "choice",
+      "q": "If he ___ the map, he could have found the hotel easily.",
+      "ja": "地図を持っていたら、彼は簡単にホテルを見つけられたのに。",
+      "options": [
+        "has",
+        "had had",
+        "would have",
+        "has had"
+      ],
+      "answer": 1,
+      "why": "仮定法過去完了。if + had + 過去分詞。had had は have の過去完了形。"
+    },
+    {
+      "id": "p2-subjunctive-pp-12",
+      "type": "choice",
+      "q": "I ___ have bought that book if I had had enough money.",
+      "ja": "十分なお金があったら、あの本を買っていただろう。",
+      "options": [
+        "will",
+        "shall",
+        "would",
+        "can"
+      ],
+      "answer": 2,
+      "why": "仮定法過去完了の主節は would + have + 過去分詞。"
+    },
+    {
+      "id": "p2-subjunctive-pp-13",
+      "type": "choice",
+      "q": "If you had told me the truth, I ___ angry.",
+      "ja": "本当のことを言ってくれていたら、怒らなかったのに。",
+      "options": [
+        "would not be",
+        "will not be",
+        "would not have been",
+        "am not"
+      ],
+      "answer": 2,
+      "why": "過去の事実に反する仮定。主節は would not have been。"
+    },
+    {
+      "id": "p2-subjunctive-pp-14",
+      "type": "choice",
+      "q": "I wish I ___ that movie with you last weekend.",
+      "ja": "先週末にあなたとあの映画を見ればよかった。",
+      "options": [
+        "saw",
+        "had seen",
+        "have seen",
+        "see"
+      ],
+      "answer": 1,
+      "why": "過去の後悔。I wish + had + 過去分詞。"
+    },
+    {
+      "id": "p2-subjunctive-pp-15",
+      "type": "choice",
+      "q": "If they had practiced more, they ___ the game.",
+      "ja": "もっと練習していたら、彼らは試合に勝っていただろう。",
+      "options": [
+        "win",
+        "won",
+        "could have won",
+        "can win"
+      ],
+      "answer": 2,
+      "why": "仮定法過去完了。could have + 過去分詞で「〜できていただろう」。"
+    },
+    {
+      "id": "p2-subjunctive-pp-16",
+      "type": "choice",
+      "q": "If the weather ___ fine yesterday, we could have gone hiking.",
+      "ja": "昨日天気が良かったら、ハイキングに行けたのに。",
+      "options": [
+        "is",
+        "were",
+        "had been",
+        "will be"
+      ],
+      "answer": 2,
+      "why": "過去の事実に反する仮定（昨日）なので had + 過去分詞。"
+    },
+    {
+      "id": "p2-subjunctive-pp-17",
+      "type": "choice",
+      "q": "She wishes she ___ harder when she was a student.",
+      "ja": "彼女は学生時代にもっと勉強すればよかったと思っている。",
+      "options": [
+        "studies",
+        "studied",
+        "had studied",
+        "would study"
+      ],
+      "answer": 2,
+      "why": "過去のことを後悔。wish + had + 過去分詞。"
+    },
+    {
+      "id": "p2-subjunctive-pp-18",
+      "type": "choice",
+      "q": "If I had checked the schedule, I ___ missed the meeting.",
+      "ja": "スケジュールを確認していたら、会議に遅れなかっただろう。",
+      "options": [
+        "would have",
+        "will have",
+        "would not have",
+        "did not"
+      ],
+      "answer": 2,
+      "why": "確認していれば遅れなかった。would not have + 過去分詞。"
+    },
+    {
+      "id": "p2-subjunctive-pp-19",
+      "type": "choice",
+      "q": "He acted as if nothing ___.",
+      "ja": "彼はまるで何も起こらなかったかのようにふるまった。",
+      "options": [
+        "happens",
+        "happened",
+        "had happened",
+        "will happen"
+      ],
+      "answer": 2,
+      "why": "acted（過去）より前の仮定なので had + 過去分詞。"
+    },
+    {
+      "id": "p2-subjunctive-pp-20",
+      "type": "choice",
+      "q": "If my mother ___ me up, I would have been late for the exam.",
+      "ja": "母が起こしてくれなかったら、試験に遅刻していただろう。",
+      "options": [
+        "doesn't wake",
+        "didn't wake",
+        "hadn't woken",
+        "won't wake"
+      ],
+      "answer": 2,
+      "why": "過去の事実に反する仮定の否定。if + had not + 過去分詞。"
+    },
+    {
+      "id": "p2-subjunctive-pp-21",
+      "type": "order",
+      "ja": "もっと早く出発していたら、電車に間に合っていただろう。",
+      "words": [
+        "if",
+        "we",
+        "had",
+        "left",
+        "earlier",
+        "we",
+        "would",
+        "have",
+        "caught",
+        "the",
+        "train"
+      ],
+      "full": "If we had left earlier, we would have caught the train.",
+      "why": "仮定法過去完了。If + had + 過去分詞, would have + 過去分詞。"
+    },
+    {
+      "id": "p2-subjunctive-pp-22",
+      "type": "order",
+      "ja": "あの本を読んでいればよかったのに。",
+      "words": [
+        "I",
+        "wish",
+        "I",
+        "had",
+        "read",
+        "that",
+        "book"
+      ],
+      "full": "I wish I had read that book.",
+      "why": "過去の後悔。I wish + had + 過去分詞。"
+    },
+    {
+      "id": "p2-subjunctive-pp-23",
+      "type": "order",
+      "ja": "彼女はまるでそのニュースを聞いたことがあるかのように見えた。",
+      "words": [
+        "she",
+        "looked",
+        "as",
+        "if",
+        "she",
+        "had",
+        "heard",
+        "the",
+        "news"
+      ],
+      "full": "She looked as if she had heard the news.",
+      "why": "as if + had + 過去分詞で過去の事実に反する比喩。"
+    },
+    {
+      "id": "p2-subjunctive-pp-24",
+      "type": "order",
+      "ja": "天気が良かったら、ピクニックに行けたのに。",
+      "words": [
+        "if",
+        "the",
+        "weather",
+        "had",
+        "been",
+        "nice",
+        "we",
+        "could",
+        "have",
+        "gone",
+        "on",
+        "a",
+        "picnic"
+      ],
+      "full": "If the weather had been nice, we could have gone on a picnic.",
+      "why": "仮定法過去完了。could have + 過去分詞で「〜できたのに」。"
+    },
+    {
+      "id": "p2-subjunctive-pp-25",
+      "type": "order",
+      "ja": "あなたの助けがなかったら、私はそのプロジェクトを終わらせられなかっただろう。",
+      "words": [
+        "if",
+        "you",
+        "had",
+        "not",
+        "helped",
+        "me",
+        "I",
+        "could",
+        "not",
+        "have",
+        "finished",
+        "the",
+        "project"
+      ],
+      "full": "If you had not helped me, I could not have finished the project.",
+      "why": "仮定法過去完了の否定形。if + had not + 過去分詞。"
+    },
+    {
+      "id": "p2-subjunctive-pp-26",
+      "type": "order",
+      "ja": "もっとお金を貯めていたら、海外旅行に行けていたのに。",
+      "words": [
+        "if",
+        "I",
+        "had",
+        "saved",
+        "more",
+        "money",
+        "I",
+        "could",
+        "have",
+        "traveled",
+        "abroad"
+      ],
+      "full": "If I had saved more money, I could have traveled abroad.",
+      "why": "仮定法過去完了。could have + 過去分詞で「〜できたのに」。"
+    },
+    {
+      "id": "p2-subjunctive-pp-27",
+      "type": "order",
+      "ja": "彼はまるで何年もそこに住んでいたかのように話した。",
+      "words": [
+        "he",
+        "talked",
+        "as",
+        "if",
+        "he",
+        "had",
+        "lived",
+        "there",
+        "for",
+        "years"
+      ],
+      "full": "He talked as if he had lived there for years.",
+      "why": "as if + had + 過去分詞で過去の事実に反する内容を表す。"
+    },
+    {
+      "id": "p2-subjunctive-pp-28",
+      "type": "order",
+      "ja": "彼女の忠告を聞いていたら、この問題を避けられたのに。",
+      "words": [
+        "if",
+        "I",
+        "had",
+        "listened",
+        "to",
+        "her",
+        "advice",
+        "I",
+        "would",
+        "have",
+        "avoided",
+        "this",
+        "problem"
+      ],
+      "full": "If I had listened to her advice, I would have avoided this problem.",
+      "why": "仮定法過去完了。if + had + 過去分詞, would have + 過去分詞。"
+    },
+    {
+      "id": "p2-subjunctive-pp-29",
+      "type": "order",
+      "ja": "あの時真実を話してくれていればよかったのに。",
+      "words": [
+        "I",
+        "wish",
+        "you",
+        "had",
+        "told",
+        "me",
+        "the",
+        "truth",
+        "then"
+      ],
+      "full": "I wish you had told me the truth then.",
+      "why": "過去の後悔。I wish + 主語 + had + 過去分詞。"
+    },
+    {
+      "id": "p2-subjunctive-pp-30",
+      "type": "order",
+      "ja": "もし彼がその薬を飲んでいたら、すぐに良くなっていただろう。",
+      "words": [
+        "if",
+        "he",
+        "had",
+        "taken",
+        "the",
+        "medicine",
+        "he",
+        "would",
+        "have",
+        "gotten",
+        "better",
+        "soon"
+      ],
+      "full": "If he had taken the medicine, he would have gotten better soon.",
+      "why": "仮定法過去完了。if + had + 過去分詞, would have + 過去分詞。"
+    }
+  ]
+}

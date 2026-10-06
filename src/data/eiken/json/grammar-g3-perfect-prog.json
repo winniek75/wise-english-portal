@@ -1,0 +1,47 @@
+{
+  "id": "g3-perfect-prog",
+  "grade": "3",
+  "title": "現在完了進行形（have been -ing）",
+  "points": [
+    "have/has been -ing で「（ずっと）～し続けている」を表す",
+    "for（期間）や since（起点）と一緒に使うことが多い",
+    "現在完了（have + 過去分詞）との使い分け：動作の継続は進行形、状態の継続は現在完了"
+  ],
+  "examples": [
+    { "en": "I have been studying English for three hours.", "ja": "私は3時間ずっと英語を勉強しています。" },
+    { "en": "She has been waiting for the bus since 8 o'clock.", "ja": "彼女は8時からずっとバスを待っています。" },
+    { "en": "How long have you been living in Tokyo?", "ja": "あなたはどのくらい東京に住んでいますか？" }
+  ],
+  "questions": [
+    { "id": "g3-perfect-prog-01", "type": "choice", "q": "I have been ___ tennis for two hours.", "ja": "私は2時間ずっとテニスをしています。", "options": ["play", "played", "playing", "to play"], "answer": 2, "why": "have been のあとは -ing 形（現在分詞）を使う。have been playing が正しい形。" },
+    { "id": "g3-perfect-prog-02", "type": "choice", "q": "She has been reading the book ___ this morning.", "ja": "彼女は今朝からずっとその本を読んでいます。", "options": ["for", "since", "during", "while"], "answer": 1, "why": "「今朝から」のように起点を表すときは since を使う。" },
+    { "id": "g3-perfect-prog-03", "type": "choice", "q": "They have been ___ here for thirty minutes.", "ja": "彼らは30分間ずっとここで待っています。", "options": ["wait", "waited", "waiting", "to wait"], "answer": 2, "why": "have been のあとは -ing 形。have been waiting が現在完了進行形。" },
+    { "id": "g3-perfect-prog-04", "type": "choice", "q": "It ___ been raining since last night.", "ja": "昨夜からずっと雨が降り続いています。", "options": ["have", "has", "is", "was"], "answer": 1, "why": "主語が It（3人称単数）なので has been -ing の形になる。" },
+    { "id": "g3-perfect-prog-05", "type": "choice", "q": "How long ___ you been studying Japanese?", "ja": "あなたはどのくらい日本語を勉強し続けていますか？", "options": ["do", "are", "have", "did"], "answer": 2, "why": "現在完了進行形の疑問文は Have + 主語 + been -ing の形。" },
+    { "id": "g3-perfect-prog-06", "type": "choice", "q": "Tom has been playing the guitar ___ three years.", "ja": "トムは3年間ずっとギターをひいています。", "options": ["since", "for", "during", "from"], "answer": 1, "why": "「3年間」のように期間を表すときは for を使う。" },
+    { "id": "g3-perfect-prog-07", "type": "choice", "q": "My mother ___ been cooking dinner for an hour.", "ja": "母は1時間ずっと夕食を作り続けています。", "options": ["have", "has", "is", "was"], "answer": 1, "why": "主語が My mother（3人称単数）なので has を使う。" },
+    { "id": "g3-perfect-prog-08", "type": "choice", "q": "We have been ___ soccer since we were children.", "ja": "私たちは子どものころからずっとサッカーをしています。", "options": ["play", "plays", "played", "playing"], "answer": 3, "why": "have been のあとは -ing 形。playing が正しい。" },
+    { "id": "g3-perfect-prog-09", "type": "choice", "q": "She has been living in London ___ 2019.", "ja": "彼女は2019年からずっとロンドンに住んでいます。", "options": ["for", "since", "from", "during"], "answer": 1, "why": "「2019年から」のように起点を表すときは since を使う。" },
+    { "id": "g3-perfect-prog-10", "type": "choice", "q": "___ has it been snowing?", "ja": "どのくらい雪が降り続けていますか？", "options": ["How far", "How much", "How long", "How often"], "answer": 2, "why": "期間をたずねるときは How long を使う。" },
+    { "id": "g3-perfect-prog-11", "type": "choice", "q": "I have been ___ for the bus for twenty minutes.", "ja": "私は20分間ずっとバスを待っています。", "options": ["wait", "waited", "waiting", "to wait"], "answer": 2, "why": "have been のあとは -ing 形。waiting が正しい。" },
+    { "id": "g3-perfect-prog-12", "type": "choice", "q": "Ken ___ been running in the park since 6 a.m.", "ja": "ケンは朝6時からずっと公園で走っています。", "options": ["have", "has", "is", "does"], "answer": 1, "why": "主語が Ken（3人称単数）なので has been -ing の形になる。" },
+    { "id": "g3-perfect-prog-13", "type": "choice", "q": "How long have you been ___ the piano?", "ja": "あなたはどのくらいピアノを練習し続けていますか？", "options": ["practice", "practiced", "practicing", "to practice"], "answer": 2, "why": "have been のあとは -ing 形。practicing が正しい。" },
+    { "id": "g3-perfect-prog-14", "type": "choice", "q": "She has been ___ English since she was ten.", "ja": "彼女は10歳のときからずっと英語を学んでいます。", "options": ["learn", "learned", "learning", "to learn"], "answer": 2, "why": "has been のあとは -ing 形で現在完了進行形を作る。" },
+    { "id": "g3-perfect-prog-15", "type": "choice", "q": "They ___ been talking on the phone for an hour.", "ja": "彼らは1時間ずっと電話で話し続けています。", "options": ["has", "is", "have", "are"], "answer": 2, "why": "主語が They（複数）なので have been -ing の形になる。" },
+    { "id": "g3-perfect-prog-16", "type": "choice", "q": "I have been working here ___ last April.", "ja": "私は去年の4月からずっとここで働いています。", "options": ["for", "since", "during", "from"], "answer": 1, "why": "「去年の4月から」のように起点を表すときは since を使う。" },
+    { "id": "g3-perfect-prog-17", "type": "choice", "q": "He has ___ sleeping for ten hours.", "ja": "彼は10時間ずっと寝ています。", "options": ["be", "been", "being", "is"], "answer": 1, "why": "has + been + -ing が現在完了進行形の正しい形。" },
+    { "id": "g3-perfect-prog-18", "type": "choice", "q": "My brother has been studying math ___ two hours.", "ja": "弟は2時間ずっと数学を勉強しています。", "options": ["since", "for", "during", "while"], "answer": 1, "why": "「2時間」のように期間を表すときは for を使う。" },
+    { "id": "g3-perfect-prog-19", "type": "choice", "q": "___ she been waiting for a long time?", "ja": "彼女は長い間ずっと待っていましたか？", "options": ["Have", "Has", "Is", "Does"], "answer": 1, "why": "主語が she（3人称単数）なので Has she been -ing? の形になる。" },
+    { "id": "g3-perfect-prog-20", "type": "choice", "q": "We have been cleaning the house ___ 9 o'clock.", "ja": "私たちは9時からずっと家を掃除しています。", "options": ["for", "since", "during", "from"], "answer": 1, "why": "「9時から」のように起点を表すときは since を使う。" },
+    { "id": "g3-perfect-prog-21", "type": "order", "ja": "私は2時間ずっと英語を勉強しています。", "words": ["I", "have", "been", "studying", "English", "for", "two", "hours"], "full": "I have been studying English for two hours.", "why": "have been -ing + for + 期間 で「～の間ずっと…し続けている」。" },
+    { "id": "g3-perfect-prog-22", "type": "order", "ja": "彼女は朝からずっと料理をしています。", "words": ["she", "has", "been", "cooking", "since", "this", "morning"], "full": "She has been cooking since this morning.", "why": "has been -ing + since + 起点 で「～からずっと…し続けている」。" },
+    { "id": "g3-perfect-prog-23", "type": "order", "ja": "あなたはどのくらいここに住んでいますか？", "words": ["how", "long", "have", "you", "been", "living", "here"], "full": "How long have you been living here?", "why": "How long + have + 主語 + been -ing? で期間をたずねる。" },
+    { "id": "g3-perfect-prog-24", "type": "order", "ja": "昨夜からずっと雪が降り続いています。", "words": ["it", "has", "been", "snowing", "since", "last", "night"], "full": "It has been snowing since last night.", "why": "It has been -ing で天気の継続を表す。since で起点を示す。" },
+    { "id": "g3-perfect-prog-25", "type": "order", "ja": "トムは30分間ずっとピアノをひいています。", "words": ["Tom", "has", "been", "playing", "the", "piano", "for", "thirty", "minutes"], "full": "Tom has been playing the piano for thirty minutes.", "why": "has been -ing + for + 期間 で「～の間ずっと…し続けている」。" },
+    { "id": "g3-perfect-prog-26", "type": "order", "ja": "彼らは1時間ずっとサッカーの練習をしています。", "words": ["they", "have", "been", "practicing", "soccer", "for", "an", "hour"], "full": "They have been practicing soccer for an hour.", "why": "have been -ing + for + 期間 で動作の継続を表す。" },
+    { "id": "g3-perfect-prog-27", "type": "order", "ja": "私の姉は2020年からずっとフランス語を学んでいます。", "words": ["my", "sister", "has", "been", "learning", "French", "since", "2020"], "full": "My sister has been learning French since 2020.", "why": "has been -ing + since + 年 で「～年からずっと…し続けている」。" },
+    { "id": "g3-perfect-prog-28", "type": "order", "ja": "あなたはどのくらいこの本を読み続けていますか？", "words": ["how", "long", "have", "you", "been", "reading", "this", "book"], "full": "How long have you been reading this book?", "why": "How long + have + 主語 + been -ing? で継続期間をたずねる。" },
+    { "id": "g3-perfect-prog-29", "type": "order", "ja": "母は朝からずっと庭で働いています。", "words": ["my", "mother", "has", "been", "working", "in", "the", "garden", "since", "morning"], "full": "My mother has been working in the garden since morning.", "why": "has been -ing + since morning で「朝からずっと…」を表す。" },
+    { "id": "g3-perfect-prog-30", "type": "order", "ja": "彼は3時間ずっとテレビゲームをしています。", "words": ["he", "has", "been", "playing", "video", "games", "for", "three", "hours"], "full": "He has been playing video games for three hours.", "why": "has been -ing + for + 期間 で動作の継続を表す。" }
+  ]
+}

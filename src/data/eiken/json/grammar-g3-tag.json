@@ -1,0 +1,47 @@
+{
+  "id": "g3-tag",
+  "grade": "3",
+  "title": "付加疑問文（〜ですよね？）",
+  "points": [
+    "肯定文のあとには否定の付加疑問（isn't it? / don't you? など）をつける",
+    "否定文のあとには肯定の付加疑問（is it? / do you? など）をつける",
+    "be動詞・助動詞・一般動詞それぞれに対応した付加疑問のパターン"
+  ],
+  "examples": [
+    { "en": "You are a student, aren't you?", "ja": "あなたは学生ですよね？" },
+    { "en": "Tom doesn't like math, does he?", "ja": "トムは数学が好きではないですよね？" },
+    { "en": "She can swim well, can't she?", "ja": "彼女は上手に泳げますよね？" }
+  ],
+  "questions": [
+    { "id": "g3-tag-01", "type": "choice", "q": "You are from Canada, ___ you?", "ja": "あなたはカナダ出身ですよね？", "options": ["are", "aren't", "do", "don't"], "answer": 1, "why": "肯定文（You are ...）のあとには否定の付加疑問 aren't you? をつける。" },
+    { "id": "g3-tag-02", "type": "choice", "q": "Tom likes soccer, ___ he?", "ja": "トムはサッカーが好きですよね？", "options": ["does", "is", "doesn't", "isn't"], "answer": 2, "why": "一般動詞の肯定文なので、否定の付加疑問は doesn't he? になる。" },
+    { "id": "g3-tag-03", "type": "choice", "q": "She can't drive a car, ___ she?", "ja": "彼女は車を運転できないですよね？", "options": ["can't", "can", "does", "doesn't"], "answer": 1, "why": "否定文（can't）のあとには肯定の付加疑問 can she? をつける。" },
+    { "id": "g3-tag-04", "type": "choice", "q": "It was very cold yesterday, ___ it?", "ja": "昨日はとても寒かったですよね？", "options": ["is", "was", "isn't", "wasn't"], "answer": 3, "why": "過去の肯定文（was）なので、否定の付加疑問は wasn't it? になる。" },
+    { "id": "g3-tag-05", "type": "choice", "q": "They don't have any pets, ___?", "ja": "彼らはペットを飼っていないですよね？", "options": ["don't they", "do they", "are they", "aren't they"], "answer": 1, "why": "否定文（don't have）のあとには肯定の付加疑問 do they? をつける。" },
+    { "id": "g3-tag-06", "type": "choice", "q": "You will come to the party, ___ you?", "ja": "あなたはパーティーに来ますよね？", "options": ["will", "do", "won't", "don't"], "answer": 2, "why": "will の肯定文のあとには否定の付加疑問 won't you? をつける。" },
+    { "id": "g3-tag-07", "type": "choice", "q": "Ken didn't finish his homework, ___ he?", "ja": "ケンは宿題を終えていないですよね？", "options": ["didn't", "doesn't", "did", "does"], "answer": 2, "why": "否定文（didn't）のあとには肯定の付加疑問 did he? をつける。" },
+    { "id": "g3-tag-08", "type": "choice", "q": "These books are interesting, ___?", "ja": "これらの本はおもしろいですよね？", "options": ["are they", "aren't they", "don't they", "do they"], "answer": 1, "why": "肯定文（are interesting）のあとには否定の付加疑問 aren't they? をつける。" },
+    { "id": "g3-tag-09", "type": "choice", "q": "Ms. Green teaches English, ___ she?", "ja": "グリーン先生は英語を教えていますよね？", "options": ["does", "is", "doesn't", "isn't"], "answer": 2, "why": "一般動詞の肯定文（teaches）なので、否定の付加疑問は doesn't she? になる。" },
+    { "id": "g3-tag-10", "type": "choice", "q": "Your brother isn't a doctor, ___ he?", "ja": "あなたのお兄さんは医者ではないですよね？", "options": ["isn't", "is", "does", "doesn't"], "answer": 1, "why": "否定文（isn't）のあとには肯定の付加疑問 is he? をつける。" },
+    { "id": "g3-tag-11", "type": "choice", "q": "You have been to Kyoto, ___?", "ja": "あなたは京都に行ったことがありますよね？", "options": ["have you", "haven't you", "did you", "didn't you"], "answer": 1, "why": "have been（現在完了）の肯定文なので、否定の付加疑問は haven't you? になる。" },
+    { "id": "g3-tag-12", "type": "choice", "q": "She won't be late, ___ she?", "ja": "彼女は遅れないですよね？", "options": ["won't", "will", "doesn't", "isn't"], "answer": 1, "why": "否定文（won't）のあとには肯定の付加疑問 will she? をつける。" },
+    { "id": "g3-tag-13", "type": "choice", "q": "They were playing tennis then, ___ they?", "ja": "彼らはそのときテニスをしていましたよね？", "options": ["were", "are", "weren't", "aren't"], "answer": 2, "why": "過去進行形の肯定文（were playing）なので、否定の付加疑問は weren't they? になる。" },
+    { "id": "g3-tag-14", "type": "choice", "q": "You couldn't see the stars last night, ___?", "ja": "昨夜は星が見えなかったですよね？", "options": ["couldn't you", "could you", "didn't you", "did you"], "answer": 1, "why": "否定文（couldn't）のあとには肯定の付加疑問 could you? をつける。" },
+    { "id": "g3-tag-15", "type": "choice", "q": "There is a park near your house, ___?", "ja": "あなたの家の近くに公園がありますよね？", "options": ["isn't there", "is there", "doesn't there", "aren't there"], "answer": 0, "why": "There is ... の肯定文に対する付加疑問は isn't there? になる。" },
+    { "id": "g3-tag-16", "type": "choice", "q": "He has never been abroad, ___?", "ja": "彼は海外に行ったことがないですよね？", "options": ["hasn't he", "has he", "didn't he", "did he"], "answer": 1, "why": "never は否定の意味なので、肯定の付加疑問 has he? をつける。" },
+    { "id": "g3-tag-17", "type": "choice", "q": "Mary should study harder, ___?", "ja": "メアリーはもっと一生懸命勉強すべきですよね？", "options": ["should she", "shouldn't she", "does she", "doesn't she"], "answer": 1, "why": "助動詞 should の肯定文なので、否定の付加疑問は shouldn't she? になる。" },
+    { "id": "g3-tag-18", "type": "choice", "q": "You didn't eat breakfast this morning, ___?", "ja": "あなたは今朝、朝ごはんを食べなかったですよね？", "options": ["didn't you", "did you", "haven't you", "have you"], "answer": 1, "why": "否定文（didn't eat）のあとには肯定の付加疑問 did you? をつける。" },
+    { "id": "g3-tag-19", "type": "choice", "q": "The movie was exciting, ___?", "ja": "その映画はわくわくしましたよね？", "options": ["was it", "is it", "wasn't it", "isn't it"], "answer": 2, "why": "過去の肯定文（was exciting）なので、否定の付加疑問は wasn't it? になる。" },
+    { "id": "g3-tag-20", "type": "choice", "q": "Lisa hasn't called you yet, ___?", "ja": "リサはまだあなたに電話していないですよね？", "options": ["hasn't she", "has she", "didn't she", "did she"], "answer": 1, "why": "否定文（hasn't called）のあとには肯定の付加疑問 has she? をつける。" },
+    { "id": "g3-tag-21", "type": "order", "ja": "あなたはテニスが好きですよね？", "words": ["you", "like", "tennis", "don't", "you"], "full": "You like tennis, don't you?", "why": "一般動詞の肯定文のあとに否定の付加疑問 don't you? を置く。" },
+    { "id": "g3-tag-22", "type": "order", "ja": "彼女はフランス語を話せますよね？", "words": ["she", "can", "speak", "French", "can't", "she"], "full": "She can speak French, can't she?", "why": "can の肯定文のあとに否定の付加疑問 can't she? を置く。" },
+    { "id": "g3-tag-23", "type": "order", "ja": "トムは昨日学校に来なかったですよね？", "words": ["Tom", "didn't", "come", "to", "school", "yesterday", "did", "he"], "full": "Tom didn't come to school yesterday, did he?", "why": "否定文（didn't come）のあとに肯定の付加疑問 did he? を置く。" },
+    { "id": "g3-tag-24", "type": "order", "ja": "このケーキはおいしいですよね？", "words": ["this", "cake", "is", "delicious", "isn't", "it"], "full": "This cake is delicious, isn't it?", "why": "be動詞の肯定文のあとに否定の付加疑問 isn't it? を置く。" },
+    { "id": "g3-tag-25", "type": "order", "ja": "彼らは東京に住んでいないですよね？", "words": ["they", "don't", "live", "in", "Tokyo", "do", "they"], "full": "They don't live in Tokyo, do they?", "why": "否定文（don't live）のあとに肯定の付加疑問 do they? を置く。" },
+    { "id": "g3-tag-26", "type": "order", "ja": "あなたのお父さんは料理が上手ですよね？", "words": ["your", "father", "is", "a", "good", "cook", "isn't", "he"], "full": "Your father is a good cook, isn't he?", "why": "be動詞の肯定文のあとに否定の付加疑問 isn't he? を置く。" },
+    { "id": "g3-tag-27", "type": "order", "ja": "彼女は明日来ますよね？", "words": ["she", "will", "come", "tomorrow", "won't", "she"], "full": "She will come tomorrow, won't she?", "why": "will の肯定文のあとに否定の付加疑問 won't she? を置く。" },
+    { "id": "g3-tag-28", "type": "order", "ja": "あなたはこの本を読んだことがありますよね？", "words": ["you", "have", "read", "this", "book", "haven't", "you"], "full": "You have read this book, haven't you?", "why": "現在完了の肯定文のあとに否定の付加疑問 haven't you? を置く。" },
+    { "id": "g3-tag-29", "type": "order", "ja": "ここにはネコがいないですよね？", "words": ["there", "aren't", "any", "cats", "here", "are", "there"], "full": "There aren't any cats here, are there?", "why": "There aren't ...（否定文）のあとに肯定の付加疑問 are there? を置く。" },
+    { "id": "g3-tag-30", "type": "order", "ja": "彼は泳げないですよね？", "words": ["he", "can't", "swim", "can", "he"], "full": "He can't swim, can he?", "why": "否定文（can't swim）のあとに肯定の付加疑問 can he? を置く。" }
+  ]
+}

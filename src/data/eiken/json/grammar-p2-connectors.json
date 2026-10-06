@@ -1,0 +1,323 @@
+{
+  "id": "p2-connectors",
+  "grade": "p2",
+  "title": "比較の慣用表現とつなぎ言葉",
+  "points": [
+    "twice as ~ as「2倍〜」、the 比較級, the 比較級「〜すればするほど」",
+    "however / therefore などは前の文との関係（逆接・結果・例）で選ぶ",
+    "although など接続詞のあとは文、despite など前置詞のあとは名詞"
+  ],
+  "examples": [
+    {
+      "en": "This bridge is twice as long as that one.",
+      "ja": "この橋はあの橋の2倍の長さです。"
+    },
+    {
+      "en": "The more you practice, the better you can play.",
+      "ja": "練習すればするほど、上手に演奏できます。"
+    },
+    {
+      "en": "Although it was raining, we played soccer.",
+      "ja": "雨が降っていましたが、私たちはサッカーをしました。"
+    }
+  ],
+  "questions": [
+    {
+      "id": "p2-connectors-01",
+      "type": "choice",
+      "q": "This bridge is twice as ___ as that one.",
+      "ja": "この橋はあの橋の2倍の長さです。",
+      "options": [
+        "longer",
+        "long",
+        "longest",
+        "length"
+      ],
+      "answer": 1,
+      "why": "as と as の間は形容詞のもとの形（原級）。"
+    },
+    {
+      "id": "p2-connectors-02",
+      "type": "choice",
+      "q": "___ Ken was tired, he finished his homework.",
+      "ja": "ケンはつかれていましたが、宿題を終えました。",
+      "options": [
+        "Although",
+        "Despite",
+        "Because of",
+        "During"
+      ],
+      "answer": 0,
+      "why": "あとが文（主語+動詞）なので接続詞の although。"
+    },
+    {
+      "id": "p2-connectors-03",
+      "type": "choice",
+      "q": "It is getting warmer and ___.",
+      "ja": "だんだん暖かくなってきています。",
+      "options": [
+        "warm",
+        "warmest",
+        "warmer",
+        "more warm"
+      ],
+      "answer": 2,
+      "why": "比較級 and 比較級 で「だんだん〜、ますます〜」。"
+    },
+    {
+      "id": "p2-connectors-04",
+      "type": "choice",
+      "q": "My phone rang ___ I was taking a bath.",
+      "ja": "おふろに入っている間に電話が鳴りました。",
+      "options": [
+        "during",
+        "despite",
+        "because of",
+        "while"
+      ],
+      "answer": 3,
+      "why": "あとが文なので while。during のあとは名詞。"
+    },
+    {
+      "id": "p2-connectors-05",
+      "type": "choice",
+      "q": "I studied hard for the test. ___, I could not get a good score.",
+      "ja": "私はテストのために熱心に勉強しました。しかし、良い点は取れませんでした。",
+      "options": [
+        "However",
+        "Therefore",
+        "For example",
+        "In addition"
+      ],
+      "answer": 0,
+      "why": "前の文から予想されることと逆の内容なので however。"
+    },
+    {
+      "id": "p2-connectors-06",
+      "type": "choice",
+      "q": "Please turn off your phone ___ the concert.",
+      "ja": "コンサートの間は電話の電源を切ってください。",
+      "options": [
+        "while",
+        "although",
+        "during",
+        "unless"
+      ],
+      "answer": 2,
+      "why": "あとが名詞（the concert）なので前置詞の during。"
+    },
+    {
+      "id": "p2-connectors-07",
+      "type": "choice",
+      "q": "The more you practice, the ___ you can play the piano.",
+      "ja": "練習すればするほど、ピアノを上手にひけるようになります。",
+      "options": [
+        "good",
+        "better",
+        "best",
+        "well"
+      ],
+      "answer": 1,
+      "why": "the 比較級, the 比較級。well の比較級は better。"
+    },
+    {
+      "id": "p2-connectors-08",
+      "type": "choice",
+      "q": "You cannot enter the room ___ you have a ticket.",
+      "ja": "チケットを持っていないかぎり、その部屋には入れません。",
+      "options": [
+        "so",
+        "despite",
+        "during",
+        "unless"
+      ],
+      "answer": 3,
+      "why": "unless+文 で「〜しないかぎり」（if 〜 not）。"
+    },
+    {
+      "id": "p2-connectors-09",
+      "type": "choice",
+      "q": "I like outdoor sports. ___, I often go camping and fishing.",
+      "ja": "私は屋外のスポーツが好きです。たとえば、よくキャンプやつりに行きます。",
+      "options": [
+        "For example",
+        "However",
+        "Instead",
+        "On the other hand"
+      ],
+      "answer": 0,
+      "why": "前の文の具体的な例をあげるので for example。"
+    },
+    {
+      "id": "p2-connectors-10",
+      "type": "choice",
+      "q": "It was raining hard. ___, we decided to stay home.",
+      "ja": "雨がはげしく降っていました。だから、私たちは家にいることにしました。",
+      "options": [
+        "However",
+        "Therefore",
+        "For example",
+        "On the other hand"
+      ],
+      "answer": 1,
+      "why": "前の文が理由、あとが結果なので therefore。"
+    },
+    {
+      "id": "p2-connectors-11",
+      "type": "choice",
+      "q": "Emma speaks English and French. ___, she is learning Chinese.",
+      "ja": "エマは英語とフランス語を話します。そのうえ、中国語も学んでいます。",
+      "options": [
+        "However",
+        "For example",
+        "In addition",
+        "As a result"
+      ],
+      "answer": 2,
+      "why": "同じ種類の情報をつけ加えるので in addition。"
+    },
+    {
+      "id": "p2-connectors-12",
+      "type": "choice",
+      "q": "It snowed a lot last night. ___, many trains were late this morning.",
+      "ja": "昨夜は雪がたくさん降りました。その結果、今朝は多くの電車が遅れました。",
+      "options": [
+        "However",
+        "For example",
+        "On the other hand",
+        "As a result"
+      ],
+      "answer": 3,
+      "why": "前の文が原因で、あとがその結果なので as a result。"
+    },
+    {
+      "id": "p2-connectors-13",
+      "type": "choice",
+      "q": "We did not go to the museum. ___, we went to the zoo.",
+      "ja": "私たちは博物館に行きませんでした。その代わりに、動物園に行きました。",
+      "options": [
+        "For example",
+        "Instead",
+        "In addition",
+        "Although"
+      ],
+      "answer": 1,
+      "why": "しなかったことの代わりにしたことを言うので instead。"
+    },
+    {
+      "id": "p2-connectors-14",
+      "type": "choice",
+      "q": "My brother loves sports. ___, I prefer reading at home.",
+      "ja": "兄はスポーツが大好きです。一方、私は家で読書するほうが好きです。",
+      "options": [
+        "On the other hand",
+        "Therefore",
+        "For example",
+        "In addition"
+      ],
+      "answer": 0,
+      "why": "2人を比べて対照的なことを言うので on the other hand。"
+    },
+    {
+      "id": "p2-connectors-15",
+      "type": "order",
+      "ja": "彼女はもうこの町に住んでいません。",
+      "words": [
+        "she",
+        "no",
+        "longer",
+        "lives",
+        "in",
+        "this",
+        "town"
+      ],
+      "full": "She no longer lives in this town.",
+      "why": "no longer は一般動詞の前に置き「もう〜ない」。"
+    },
+    {
+      "id": "p2-connectors-16",
+      "type": "order",
+      "ja": "テストは私が思っていたよりずっと簡単でした。",
+      "words": [
+        "the",
+        "test",
+        "was",
+        "much",
+        "easier",
+        "than",
+        "I",
+        "expected"
+      ],
+      "full": "The test was much easier than I expected.",
+      "why": "比較級+than I expected で「思ったより〜」。"
+    },
+    {
+      "id": "p2-connectors-17",
+      "type": "order",
+      "ja": "あなたはもうこれ以上この部屋を使えません。",
+      "words": [
+        "you",
+        "cannot",
+        "use",
+        "this",
+        "room",
+        "any",
+        "longer"
+      ],
+      "full": "You cannot use this room any longer.",
+      "why": "not ... any longer で「もうこれ以上〜ない」。"
+    },
+    {
+      "id": "p2-connectors-18",
+      "type": "order",
+      "ja": "冬休みの間、あなたは何をしましたか。",
+      "words": [
+        "what",
+        "did",
+        "you",
+        "do",
+        "during",
+        "the",
+        "winter",
+        "vacation"
+      ],
+      "full": "What did you do during the winter vacation?",
+      "why": "during は前置詞。あとには名詞（the winter vacation）が来る。"
+    },
+    {
+      "id": "p2-connectors-19",
+      "type": "order",
+      "ja": "あなたの飛行機は雪のせいで遅れたのですか。",
+      "words": [
+        "was",
+        "your",
+        "flight",
+        "late",
+        "because",
+        "of",
+        "the",
+        "snow"
+      ],
+      "full": "Was your flight late because of the snow?",
+      "why": "because of のあとは名詞。文なら because を使う。"
+    },
+    {
+      "id": "p2-connectors-20",
+      "type": "order",
+      "ja": "なぜ大雨にもかかわらず外出したのですか。",
+      "words": [
+        "why",
+        "did",
+        "you",
+        "go",
+        "out",
+        "despite",
+        "the",
+        "heavy",
+        "rain"
+      ],
+      "full": "Why did you go out despite the heavy rain?",
+      "why": "despite は前置詞「〜にもかかわらず」。あとは名詞。"
+    }
+  ]
+}

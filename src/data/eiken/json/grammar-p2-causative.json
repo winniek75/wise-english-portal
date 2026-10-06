@@ -1,0 +1,316 @@
+{
+  "id": "p2-causative",
+  "grade": "p2",
+  "title": "使役動詞・知覚動詞と不定詞／動名詞",
+  "points": [
+    "make / let / have+人+動詞の原形。get は 人+to 〜",
+    "have+物+過去分詞「〜してもらう」。see / hear+人+原形 か -ing",
+    "enjoy などは -ing、decide などは to 〜。前置詞のあとは -ing"
+  ],
+  "examples": [
+    {
+      "en": "My mother made me clean my room.",
+      "ja": "母は私に部屋をそうじさせました。"
+    },
+    {
+      "en": "I had my bike repaired at the shop.",
+      "ja": "私は店で自転車を修理してもらいました。"
+    },
+    {
+      "en": "I enjoy cooking, and I hope to become a chef.",
+      "ja": "私は料理を楽しんでいて、シェフになりたいと思っています。"
+    }
+  ],
+  "questions": [
+    {
+      "id": "p2-causative-01",
+      "type": "choice",
+      "q": "We enjoyed ___ soccer after school.",
+      "ja": "私たちは放課後サッカーをして楽しみました。",
+      "options": [
+        "to play",
+        "playing",
+        "play",
+        "played"
+      ],
+      "answer": 1,
+      "why": "enjoy のあとは動名詞（-ing）だけ。to 〜 は使えない。"
+    },
+    {
+      "id": "p2-causative-02",
+      "type": "choice",
+      "q": "We are planning ___ a party for Emma.",
+      "ja": "私たちはエマのためにパーティーを開く予定です。",
+      "options": [
+        "to have",
+        "having",
+        "have",
+        "had"
+      ],
+      "answer": 0,
+      "why": "plan のあとは to+動詞の原形。"
+    },
+    {
+      "id": "p2-causative-03",
+      "type": "choice",
+      "q": "My mother made me ___ my room.",
+      "ja": "母は私に部屋をそうじさせました。",
+      "options": [
+        "to clean",
+        "cleaning",
+        "clean",
+        "cleaned"
+      ],
+      "answer": 2,
+      "why": "make+人+動詞の原形 で「人に〜させる」。"
+    },
+    {
+      "id": "p2-causative-04",
+      "type": "choice",
+      "q": "Ken is good at ___ pictures.",
+      "ja": "ケンは絵をかくのが得意です。",
+      "options": [
+        "draw",
+        "to draw",
+        "drawn",
+        "drawing"
+      ],
+      "answer": 3,
+      "why": "at は前置詞。前置詞のあとの動詞は -ing。"
+    },
+    {
+      "id": "p2-causative-05",
+      "type": "choice",
+      "q": "Let me ___ you my new camera.",
+      "ja": "私の新しいカメラを見せてあげましょう。",
+      "options": [
+        "show",
+        "to show",
+        "showing",
+        "shown"
+      ],
+      "answer": 0,
+      "why": "let+人+動詞の原形 で「人に〜させてあげる」。"
+    },
+    {
+      "id": "p2-causative-06",
+      "type": "choice",
+      "q": "You should avoid ___ too many sweets.",
+      "ja": "あまいものを食べすぎるのは避けるべきです。",
+      "options": [
+        "to eat",
+        "eat",
+        "eating",
+        "ate"
+      ],
+      "answer": 2,
+      "why": "avoid のあとは動名詞（-ing）だけ。"
+    },
+    {
+      "id": "p2-causative-07",
+      "type": "choice",
+      "q": "Tom promised ___ home by six.",
+      "ja": "トムは6時までに帰ると約束しました。",
+      "options": [
+        "coming",
+        "to come",
+        "come",
+        "came"
+      ],
+      "answer": 1,
+      "why": "promise のあとは to+動詞の原形。"
+    },
+    {
+      "id": "p2-causative-08",
+      "type": "choice",
+      "q": "I had my bike ___ at the shop near the station.",
+      "ja": "私は駅の近くの店で自転車を修理してもらいました。",
+      "options": [
+        "repair",
+        "repairing",
+        "to repair",
+        "repaired"
+      ],
+      "answer": 3,
+      "why": "自転車は「修理される」側。have+物+過去分詞。"
+    },
+    {
+      "id": "p2-causative-09",
+      "type": "choice",
+      "q": "I saw him ___ the street.",
+      "ja": "私は彼が通りをわたっているのを見ました。",
+      "options": [
+        "crossed",
+        "crossing",
+        "to cross",
+        "crosses"
+      ],
+      "answer": 1,
+      "why": "see+人+-ing で「人が〜しているのを見る」。"
+    },
+    {
+      "id": "p2-causative-10",
+      "type": "choice",
+      "q": "I am looking forward to ___ you again.",
+      "ja": "またあなたに会えるのを楽しみにしています。",
+      "options": [
+        "seeing",
+        "see",
+        "saw",
+        "seen"
+      ],
+      "answer": 0,
+      "why": "look forward to の to は前置詞。あとは -ing。"
+    },
+    {
+      "id": "p2-causative-11",
+      "type": "choice",
+      "q": "I got my brother ___ me with my homework.",
+      "ja": "私は兄に宿題を手伝ってもらいました。",
+      "options": [
+        "help",
+        "helping",
+        "to help",
+        "helped"
+      ],
+      "answer": 2,
+      "why": "get は 人+to 〜。make や have とちがい to が必要。"
+    },
+    {
+      "id": "p2-causative-12",
+      "type": "choice",
+      "q": "Would you mind ___ the window?",
+      "ja": "窓を開けていただけませんか。",
+      "options": [
+        "to open",
+        "open",
+        "opened",
+        "opening"
+      ],
+      "answer": 3,
+      "why": "mind のあとは動名詞（-ing）だけ。"
+    },
+    {
+      "id": "p2-causative-13",
+      "type": "choice",
+      "q": "Emma helped me ___ the heavy boxes.",
+      "ja": "エマは私が重い箱を運ぶのを手伝ってくれました。",
+      "options": [
+        "carry",
+        "carrying",
+        "carried",
+        "carries"
+      ],
+      "answer": 0,
+      "why": "help+人+(to)+動詞の原形。-ing は使えない。"
+    },
+    {
+      "id": "p2-causative-14",
+      "type": "choice",
+      "q": "Mr. Smith had the students ___ their names on the paper.",
+      "ja": "スミス先生は生徒たちに紙に名前を書かせました。",
+      "options": [
+        "to write",
+        "write",
+        "wrote",
+        "written"
+      ],
+      "answer": 1,
+      "why": "have+人+動詞の原形 で「人に〜してもらう・させる」。"
+    },
+    {
+      "id": "p2-causative-15",
+      "type": "order",
+      "ja": "私はテニス部に入ることに決めました。",
+      "words": [
+        "I",
+        "decided",
+        "to",
+        "join",
+        "the",
+        "tennis",
+        "club"
+      ],
+      "full": "I decided to join the tennis club.",
+      "why": "decide のあとは to+動詞の原形。"
+    },
+    {
+      "id": "p2-causative-16",
+      "type": "order",
+      "ja": "母は私に野菜を食べさせました。",
+      "words": [
+        "my",
+        "mother",
+        "made",
+        "me",
+        "eat",
+        "vegetables"
+      ],
+      "full": "My mother made me eat vegetables.",
+      "why": "make+人+動詞の原形。to はつけない。"
+    },
+    {
+      "id": "p2-causative-17",
+      "type": "order",
+      "ja": "私はエマが私の大好きな歌を歌っているのを聞きました。",
+      "words": [
+        "I",
+        "heard",
+        "Emma",
+        "singing",
+        "my",
+        "favorite",
+        "song"
+      ],
+      "full": "I heard Emma singing my favorite song.",
+      "why": "hear+人+-ing で「人が〜しているのを聞く」。"
+    },
+    {
+      "id": "p2-causative-18",
+      "type": "order",
+      "ja": "あなたはどこで髪を切ってもらいましたか。",
+      "words": [
+        "where",
+        "did",
+        "you",
+        "have",
+        "your",
+        "hair",
+        "cut"
+      ],
+      "full": "Where did you have your hair cut?",
+      "why": "have+物+過去分詞 で「〜を…してもらう」。"
+    },
+    {
+      "id": "p2-causative-19",
+      "type": "order",
+      "ja": "彼はかぎを探すのをあきらめました。",
+      "words": [
+        "he",
+        "gave",
+        "up",
+        "looking",
+        "for",
+        "his",
+        "key"
+      ],
+      "full": "He gave up looking for his key.",
+      "why": "give up のあとは動名詞（-ing）。"
+    },
+    {
+      "id": "p2-causative-20",
+      "type": "order",
+      "ja": "あなたはレポートを書き終えましたか。",
+      "words": [
+        "have",
+        "you",
+        "finished",
+        "writing",
+        "your",
+        "report"
+      ],
+      "full": "Have you finished writing your report?",
+      "why": "finish のあとは動名詞（-ing）だけ。"
+    }
+  ]
+}

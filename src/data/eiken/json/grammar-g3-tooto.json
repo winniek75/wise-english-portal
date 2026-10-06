@@ -1,0 +1,47 @@
+{
+  "id": "g3-tooto",
+  "grade": "3",
+  "title": "too ... to ～ / so ... that ～ / enough to ～",
+  "points": [
+    "too + 形容詞 + to + 動詞の原形で「～すぎて…できない」",
+    "so + 形容詞/副詞 + that + 主語 + 動詞で「とても～なので…」",
+    "形容詞 + enough + to + 動詞の原形で「十分～なので…できる」"
+  ],
+  "examples": [
+    { "en": "This bag is too heavy to carry.", "ja": "このかばんは重すぎて運べません。" },
+    { "en": "She was so tired that she went to bed early.", "ja": "彼女はとても疲れていたので早く寝ました。" },
+    { "en": "He is tall enough to reach the shelf.", "ja": "彼は棚に届くくらい背が高いです。" }
+  ],
+  "questions": [
+    { "id": "g3-tooto-01", "type": "choice", "q": "This coffee is too hot ___.", "ja": "このコーヒーは熱すぎて飲めません。", "options": ["drink", "drinking", "to drink", "for drink"], "answer": 2, "why": "too + 形容詞のあとは to + 動詞の原形で「～すぎて…できない」。" },
+    { "id": "g3-tooto-02", "type": "choice", "q": "The test was ___ difficult that nobody could pass it.", "ja": "そのテストはとても難しかったので誰も合格できなかった。", "options": ["too", "enough", "so", "very"], "answer": 2, "why": "so + 形容詞 + that ... で「とても～なので…」を表す。" },
+    { "id": "g3-tooto-03", "type": "choice", "q": "She is old ___ to travel alone.", "ja": "彼女は一人で旅行できるくらいの年齢です。", "options": ["too", "enough", "so", "very"], "answer": 1, "why": "形容詞 + enough + to ～ で「十分～なので…できる」。" },
+    { "id": "g3-tooto-04", "type": "choice", "q": "He was ___ busy to help us yesterday.", "ja": "彼は昨日忙しすぎて私たちを手伝えなかった。", "options": ["so", "enough", "too", "very"], "answer": 2, "why": "too + 形容詞 + to ～ で「～すぎて…できない」。" },
+    { "id": "g3-tooto-05", "type": "choice", "q": "It was so cold ___ we stayed home all day.", "ja": "とても寒かったので一日中家にいました。", "options": ["too", "to", "that", "enough"], "answer": 2, "why": "so + 形容詞のあとに that + 主語 + 動詞 で結果を表す。" },
+    { "id": "g3-tooto-06", "type": "choice", "q": "My grandmother is too old ___ the mountain.", "ja": "祖母はその山に登るには年をとりすぎています。", "options": ["climb", "to climb", "climbing", "climbed"], "answer": 1, "why": "too + 形容詞 + to + 動詞の原形で「～すぎて…できない」。" },
+    { "id": "g3-tooto-07", "type": "choice", "q": "This room is large ___ for twenty people.", "ja": "この部屋は20人に十分な広さです。", "options": ["too", "so", "enough", "very"], "answer": 2, "why": "形容詞 + enough で「十分～」を表す。" },
+    { "id": "g3-tooto-08", "type": "choice", "q": "The movie was ___ scary that I couldn't sleep.", "ja": "その映画はとても怖かったので眠れませんでした。", "options": ["too", "so", "enough", "such"], "answer": 1, "why": "so + 形容詞 + that ... で「とても～なので…」を表す。" },
+    { "id": "g3-tooto-09", "type": "choice", "q": "He ran ___ fast that nobody could catch him.", "ja": "彼はとても速く走ったので誰も捕まえられなかった。", "options": ["too", "enough", "so", "very"], "answer": 2, "why": "so + 副詞 + that ... でも使える。「とても速く走ったので…」。" },
+    { "id": "g3-tooto-10", "type": "choice", "q": "This book is easy ___ to understand.", "ja": "この本は理解するのに十分やさしいです。", "options": ["too", "so", "enough", "very"], "answer": 2, "why": "形容詞 + enough + to ～ で「十分～なので…できる」。" },
+    { "id": "g3-tooto-11", "type": "choice", "q": "The water was too cold ___ in.", "ja": "その水は冷たすぎて泳げませんでした。", "options": ["swim", "to swim", "swimming", "swam"], "answer": 1, "why": "too + 形容詞 + to + 動詞の原形の形。swim in で「中で泳ぐ」。" },
+    { "id": "g3-tooto-12", "type": "choice", "q": "She spoke so ___ that I couldn't hear her.", "ja": "彼女はとても小さな声で話したので聞こえなかった。", "options": ["quiet", "quietly", "quieter", "quietest"], "answer": 1, "why": "spoke を修飾するのは副詞 quietly。so + 副詞 + that ... の形。" },
+    { "id": "g3-tooto-13", "type": "choice", "q": "This math problem is too ___ for me to solve.", "ja": "この数学の問題は私には難しすぎて解けません。", "options": ["difficulty", "difficult", "difficultly", "difficulties"], "answer": 1, "why": "too のあとには形容詞を置く。difficult が正しい。" },
+    { "id": "g3-tooto-14", "type": "choice", "q": "He is ___ enough to carry this heavy box.", "ja": "彼はこの重い箱を運べるくらい力がある。", "options": ["strong", "strongly", "strength", "stronger"], "answer": 0, "why": "形容詞 + enough + to ～ の形。形容詞 strong を使う。" },
+    { "id": "g3-tooto-15", "type": "choice", "q": "The baby was ___ young to walk.", "ja": "その赤ちゃんは歩くには小さすぎた。", "options": ["enough", "so", "very", "too"], "answer": 3, "why": "too + 形容詞 + to ～ で「～すぎて…できない」。" },
+    { "id": "g3-tooto-16", "type": "choice", "q": "It was so rainy ___ we canceled the picnic.", "ja": "とても雨だったのでピクニックを中止しました。", "options": ["to", "too", "enough", "that"], "answer": 3, "why": "so + 形容詞 + that ... で結果を表す。" },
+    { "id": "g3-tooto-17", "type": "choice", "q": "She studied hard ___ to pass the exam.", "ja": "彼女は試験に受かるくらい一生懸命勉強しました。", "options": ["too", "enough", "so", "such"], "answer": 1, "why": "副詞 + enough + to ～ で「十分～なので…できる」。" },
+    { "id": "g3-tooto-18", "type": "choice", "q": "I was ___ sleepy that I fell asleep in class.", "ja": "とても眠かったので授業中に寝てしまった。", "options": ["too", "so", "enough", "more"], "answer": 1, "why": "so + 形容詞 + that ... で「とても～なので…」。" },
+    { "id": "g3-tooto-19", "type": "choice", "q": "The question was too difficult for us ___.", "ja": "その問題は私たちには難しすぎて答えられなかった。", "options": ["answer", "to answer", "answering", "answered"], "answer": 1, "why": "too ... for 人 + to + 動詞の原形で「人にとって～すぎて…できない」。" },
+    { "id": "g3-tooto-20", "type": "choice", "q": "Are you brave ___ to try bungee jumping?", "ja": "あなたはバンジージャンプを試せるくらい勇敢ですか？", "options": ["too", "so", "enough", "very"], "answer": 2, "why": "形容詞 + enough + to ～ で「十分～なので…できる」。" },
+    { "id": "g3-tooto-21", "type": "order", "ja": "この箱は重すぎて持ち上げられません。", "words": ["this", "box", "is", "too", "heavy", "to", "lift"], "full": "This box is too heavy to lift.", "why": "too + 形容詞 + to + 動詞の原形で「～すぎて…できない」。" },
+    { "id": "g3-tooto-22", "type": "order", "ja": "彼はとても忙しかったので昼食を食べなかった。", "words": ["he", "was", "so", "busy", "that", "he", "skipped", "lunch"], "full": "He was so busy that he skipped lunch.", "why": "so + 形容詞 + that + 主語 + 動詞で結果を表す。" },
+    { "id": "g3-tooto-23", "type": "order", "ja": "彼女は一人で買い物に行けるくらいの年齢です。", "words": ["she", "is", "old", "enough", "to", "go", "shopping", "alone"], "full": "She is old enough to go shopping alone.", "why": "形容詞 + enough + to ～ で「十分～なので…できる」。" },
+    { "id": "g3-tooto-24", "type": "order", "ja": "この本は小さい子どもには難しすぎて読めません。", "words": ["this", "book", "is", "too", "difficult", "for", "small", "children", "to", "read"], "full": "This book is too difficult for small children to read.", "why": "too ... for 人 + to ～ で「人にとって～すぎて…できない」。" },
+    { "id": "g3-tooto-25", "type": "order", "ja": "とても暑かったので窓を開けました。", "words": ["it", "was", "so", "hot", "that", "I", "opened", "the", "window"], "full": "It was so hot that I opened the window.", "why": "so + 形容詞 + that + 主語 + 動詞の順で結果を表す。" },
+    { "id": "g3-tooto-26", "type": "order", "ja": "彼は十分速く走れるのでチームに入れます。", "words": ["he", "can", "run", "fast", "enough", "to", "join", "the", "team"], "full": "He can run fast enough to join the team.", "why": "副詞 + enough + to ～ で「十分～なので…できる」。" },
+    { "id": "g3-tooto-27", "type": "order", "ja": "その音楽はとても美しかったので私は感動しました。", "words": ["the", "music", "was", "so", "beautiful", "that", "I", "was", "moved"], "full": "The music was so beautiful that I was moved.", "why": "so + 形容詞 + that ... で「とても～なので…」を表す。" },
+    { "id": "g3-tooto-28", "type": "order", "ja": "このスープは熱すぎて飲めません。", "words": ["this", "soup", "is", "too", "hot", "to", "eat"], "full": "This soup is too hot to eat.", "why": "too + 形容詞 + to + 動詞の原形で「～すぎて…できない」。" },
+    { "id": "g3-tooto-29", "type": "order", "ja": "この部屋は私たち全員が座れるくらい広いです。", "words": ["this", "room", "is", "large", "enough", "for", "all", "of", "us", "to", "sit"], "full": "This room is large enough for all of us to sit.", "why": "形容詞 + enough + for 人 + to ～ で「人が～するのに十分…」。" },
+    { "id": "g3-tooto-30", "type": "order", "ja": "彼はとてもゆっくり話したので私は理解できました。", "words": ["he", "spoke", "so", "slowly", "that", "I", "could", "understand"], "full": "He spoke so slowly that I could understand.", "why": "so + 副詞 + that ... で「とても～に…したので」を表す。" }
+  ]
+}

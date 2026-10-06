@@ -1,0 +1,323 @@
+{
+  "id": "p2-relative",
+  "grade": "p2",
+  "title": "関係代名詞 what・whose と関係副詞",
+  "points": [
+    "what は「〜するもの・こと」。前に先行詞（名詞）を置かない",
+    "whose のあとは名詞。場所は where、時は when、理由は why",
+    "あとの文に欠けた語があれば which、なければ where"
+  ],
+  "examples": [
+    {
+      "en": "What I want now is a cup of hot tea.",
+      "ja": "私が今ほしいものは1ぱいの熱いお茶です。"
+    },
+    {
+      "en": "I have a friend whose father is a pilot.",
+      "ja": "私には父親がパイロットの友だちがいます。"
+    },
+    {
+      "en": "This is the town where I was born.",
+      "ja": "ここは私が生まれた町です。"
+    }
+  ],
+  "questions": [
+    {
+      "id": "p2-relative-01",
+      "type": "choice",
+      "q": "I have a friend ___ father is a pilot.",
+      "ja": "私には父親がパイロットの友だちがいます。",
+      "options": [
+        "who",
+        "whose",
+        "which",
+        "what"
+      ],
+      "answer": 1,
+      "why": "あとに名詞 father が続き「その人の」を表すので whose。"
+    },
+    {
+      "id": "p2-relative-02",
+      "type": "choice",
+      "q": "This is the town ___ I was born.",
+      "ja": "ここは私が生まれた町です。",
+      "options": [
+        "where",
+        "which",
+        "what",
+        "whose"
+      ],
+      "answer": 0,
+      "why": "先行詞が場所で、あとの文が完全なので where。"
+    },
+    {
+      "id": "p2-relative-03",
+      "type": "choice",
+      "q": "___ I want now is a cup of hot tea.",
+      "ja": "私が今ほしいものは1ぱいの熱いお茶です。",
+      "options": [
+        "That",
+        "Which",
+        "What",
+        "Who"
+      ],
+      "answer": 2,
+      "why": "先行詞がなく「〜するもの」を表すのは what。"
+    },
+    {
+      "id": "p2-relative-04",
+      "type": "choice",
+      "q": "I remember the day ___ we first met.",
+      "ja": "私は私たちが初めて会った日を覚えています。",
+      "options": [
+        "where",
+        "which",
+        "what",
+        "when"
+      ],
+      "answer": 3,
+      "why": "先行詞が時（the day）で、あとの文が完全なので when。"
+    },
+    {
+      "id": "p2-relative-05",
+      "type": "choice",
+      "q": "Show me ___ you have in your hand.",
+      "ja": "手に持っているものを私に見せてください。",
+      "options": [
+        "what",
+        "that",
+        "whose",
+        "where"
+      ],
+      "answer": 0,
+      "why": "前に名詞（先行詞）がないので what。that は使えない。"
+    },
+    {
+      "id": "p2-relative-06",
+      "type": "choice",
+      "q": "This is the book ___ I bought yesterday.",
+      "ja": "これは私が昨日買った本です。",
+      "options": [
+        "what",
+        "where",
+        "which",
+        "whose"
+      ],
+      "answer": 2,
+      "why": "先行詞 the book があるので what ではなく which。"
+    },
+    {
+      "id": "p2-relative-07",
+      "type": "choice",
+      "q": "Do you know the reason ___ Emma was late?",
+      "ja": "エマが遅れた理由を知っていますか。",
+      "options": [
+        "which",
+        "why",
+        "what",
+        "where"
+      ],
+      "answer": 1,
+      "why": "先行詞が the reason（理由）なら why。"
+    },
+    {
+      "id": "p2-relative-08",
+      "type": "choice",
+      "q": "That is the park ___ we visited last week.",
+      "ja": "あれは私たちが先週訪れた公園です。",
+      "options": [
+        "where",
+        "when",
+        "what",
+        "which"
+      ],
+      "answer": 3,
+      "why": "visited の目的語が欠けているので which。"
+    },
+    {
+      "id": "p2-relative-09",
+      "type": "choice",
+      "q": "The hotel ___ we stayed was near the beach.",
+      "ja": "私たちが泊まったホテルは浜辺の近くにありました。",
+      "options": [
+        "which",
+        "where",
+        "what",
+        "whose"
+      ],
+      "answer": 1,
+      "why": "stay は目的語をとらない。文が完全なので where。"
+    },
+    {
+      "id": "p2-relative-10",
+      "type": "choice",
+      "q": "This is ___ I solved the problem.",
+      "ja": "このようにして私はその問題を解きました。",
+      "options": [
+        "how",
+        "what",
+        "which",
+        "who"
+      ],
+      "answer": 0,
+      "why": "This is how 〜 で「このようにして〜」。方法を表す。"
+    },
+    {
+      "id": "p2-relative-11",
+      "type": "choice",
+      "q": "The boy ___ bike was broken walked to school.",
+      "ja": "自転車がこわれたその少年は歩いて学校に行きました。",
+      "options": [
+        "who",
+        "which",
+        "whose",
+        "that"
+      ],
+      "answer": 2,
+      "why": "「その少年の自転車」という関係なので whose+名詞。"
+    },
+    {
+      "id": "p2-relative-12",
+      "type": "choice",
+      "q": "I can't believe ___ Tom said to me yesterday.",
+      "ja": "私はトムが昨日私に言ったことが信じられません。",
+      "options": [
+        "that",
+        "which",
+        "whose",
+        "what"
+      ],
+      "answer": 3,
+      "why": "先行詞がなく said の目的語も欠けているので what。"
+    },
+    {
+      "id": "p2-relative-13",
+      "type": "choice",
+      "q": "Summer is the season ___ I like the best.",
+      "ja": "夏は私がいちばん好きな季節です。",
+      "options": [
+        "which",
+        "when",
+        "where",
+        "what"
+      ],
+      "answer": 0,
+      "why": "like の目的語が欠けている。時でも when ではなく which。"
+    },
+    {
+      "id": "p2-relative-14",
+      "type": "choice",
+      "q": "This is the house ___ my uncle lives in.",
+      "ja": "ここは私のおじが住んでいる家です。",
+      "options": [
+        "where",
+        "which",
+        "what",
+        "when"
+      ],
+      "answer": 1,
+      "why": "文末に in が残り、その目的語が欠けているので which。"
+    },
+    {
+      "id": "p2-relative-15",
+      "type": "order",
+      "ja": "私は彼の言っていることが理解できません。",
+      "words": [
+        "I",
+        "cannot",
+        "understand",
+        "what",
+        "he",
+        "is",
+        "saying"
+      ],
+      "full": "I cannot understand what he is saying.",
+      "why": "what+主語+動詞 で「〜すること」。動詞の目的語になる。"
+    },
+    {
+      "id": "p2-relative-16",
+      "type": "order",
+      "ja": "私には誕生日が明日の友だちがいます。",
+      "words": [
+        "I",
+        "have",
+        "a",
+        "friend",
+        "whose",
+        "birthday",
+        "is",
+        "tomorrow"
+      ],
+      "full": "I have a friend whose birthday is tomorrow.",
+      "why": "whose+名詞 を先行詞のすぐあとに置く。"
+    },
+    {
+      "id": "p2-relative-17",
+      "type": "order",
+      "ja": "私は彼女が育った都市を知っています。",
+      "words": [
+        "I",
+        "know",
+        "the",
+        "city",
+        "where",
+        "she",
+        "grew",
+        "up"
+      ],
+      "full": "I know the city where she grew up.",
+      "why": "場所+where+主語+動詞 の順。"
+    },
+    {
+      "id": "p2-relative-18",
+      "type": "order",
+      "ja": "遅刻した理由を私に教えてください。",
+      "words": [
+        "tell",
+        "me",
+        "the",
+        "reason",
+        "why",
+        "you",
+        "were",
+        "late"
+      ],
+      "full": "Tell me the reason why you were late.",
+      "why": "the reason why+主語+動詞 で「〜した理由」。"
+    },
+    {
+      "id": "p2-relative-19",
+      "type": "order",
+      "ja": "このようにして彼女は英語を話せるようになりました。",
+      "words": [
+        "this",
+        "is",
+        "how",
+        "she",
+        "learned",
+        "to",
+        "speak",
+        "English"
+      ],
+      "full": "This is how she learned to speak English.",
+      "why": "This is how+主語+動詞。the way how とは言わない。"
+    },
+    {
+      "id": "p2-relative-20",
+      "type": "order",
+      "ja": "トムが到着した日を覚えていますか。",
+      "words": [
+        "do",
+        "you",
+        "remember",
+        "the",
+        "day",
+        "when",
+        "Tom",
+        "arrived"
+      ],
+      "full": "Do you remember the day when Tom arrived?",
+      "why": "時+when+主語+動詞 の順。"
+    }
+  ]
+}

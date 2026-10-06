@@ -1,0 +1,312 @@
+{
+  "id": "g4-modals",
+  "grade": "4",
+  "title": "助動詞（can / must / have to / may / should）",
+  "points": [
+    "can / must / may / should のあとは動詞の原形",
+    "have to は「〜しなければならない」。主語が he, she なら has to",
+    "don't have to は「しなくてよい」、must not は「してはいけない」"
+  ],
+  "examples": [
+    {
+      "en": "You must wash your hands.",
+      "ja": "あなたは手を洗わなければなりません。"
+    },
+    {
+      "en": "She has to get up early tomorrow.",
+      "ja": "彼女は明日早く起きなければなりません。"
+    },
+    {
+      "en": "May I sit here?",
+      "ja": "ここにすわってもいいですか。"
+    }
+  ],
+  "questions": [
+    {
+      "id": "g4-modals-01",
+      "type": "choice",
+      "q": "My brother can ___ very fast.",
+      "ja": "私の兄はとても速く泳ぐことができます。",
+      "options": [
+        "swims",
+        "swim",
+        "swimming",
+        "swam"
+      ],
+      "answer": 1,
+      "why": "can のあとは動詞の原形。主語が he でも s はつけない。"
+    },
+    {
+      "id": "g4-modals-02",
+      "type": "choice",
+      "q": "We ___ be quiet in the library.",
+      "ja": "私たちは図書館では静かにしなければなりません。",
+      "options": [
+        "have",
+        "has",
+        "must",
+        "are"
+      ],
+      "answer": 2,
+      "why": "すぐあとが原形の be なので must。have なら to が必要。"
+    },
+    {
+      "id": "g4-modals-03",
+      "type": "choice",
+      "q": "He must ___ home before six.",
+      "ja": "彼は6時前に家に帰らなければなりません。",
+      "options": [
+        "comes",
+        "came",
+        "coming",
+        "come"
+      ],
+      "answer": 3,
+      "why": "must のあとは動詞の原形。主語が He でも s はつけない。"
+    },
+    {
+      "id": "g4-modals-04",
+      "type": "choice",
+      "q": "You ___ to get up early tomorrow.",
+      "ja": "あなたは明日早く起きなければなりません。",
+      "options": [
+        "have",
+        "must",
+        "should",
+        "can"
+      ],
+      "answer": 0,
+      "why": "あとに to があるので have。have to で「しなければならない」。"
+    },
+    {
+      "id": "g4-modals-05",
+      "type": "choice",
+      "q": "Emma ___ to practice the piano every day.",
+      "ja": "エマは毎日ピアノを練習しなければなりません。",
+      "options": [
+        "has",
+        "have",
+        "must",
+        "can"
+      ],
+      "answer": 0,
+      "why": "主語が Emma（3人称単数）なので have to は has to になる。"
+    },
+    {
+      "id": "g4-modals-06",
+      "type": "choice",
+      "q": "___ I use your pen? — Sure. Here you are.",
+      "ja": "あなたのペンを使ってもいいですか。— もちろん。はい、どうぞ。",
+      "options": [
+        "Am",
+        "May",
+        "Is",
+        "Does"
+      ],
+      "answer": 1,
+      "why": "「〜してもいいですか」とたずねるときは May I 〜?。"
+    },
+    {
+      "id": "g4-modals-07",
+      "type": "choice",
+      "q": "___ you open the window, please? — Sure.",
+      "ja": "窓を開けてくれませんか。— いいですよ。",
+      "options": [
+        "May",
+        "Are",
+        "Do",
+        "Can"
+      ],
+      "answer": 3,
+      "why": "相手にお願いするときは Can you 〜?。May は May I 〜? で使う。"
+    },
+    {
+      "id": "g4-modals-08",
+      "type": "choice",
+      "q": "You look tired. You ___ go to bed early.",
+      "ja": "つかれているようですね。早くねたほうがいいですよ。",
+      "options": [
+        "has",
+        "are",
+        "should",
+        "have"
+      ],
+      "answer": 2,
+      "why": "should + 原形で「〜したほうがいい」。have なら to が必要。"
+    },
+    {
+      "id": "g4-modals-09",
+      "type": "choice",
+      "q": "You ___ not eat in the library.",
+      "ja": "図書館で食べてはいけません。",
+      "options": [
+        "has",
+        "must",
+        "are",
+        "does"
+      ],
+      "answer": 1,
+      "why": "must not + 原形で「〜してはいけない」という禁止を表す。"
+    },
+    {
+      "id": "g4-modals-10",
+      "type": "choice",
+      "q": "You ___ to hurry. We have a lot of time.",
+      "ja": "急がなくていいですよ。時間はたくさんあります。",
+      "options": [
+        "must not",
+        "don't have",
+        "can't",
+        "shouldn't"
+      ],
+      "answer": 1,
+      "why": "あとに to があるので don't have。「しなくてよい」の意味。"
+    },
+    {
+      "id": "g4-modals-11",
+      "type": "choice",
+      "q": "Ken ___ have to cook today. His mother is home.",
+      "ja": "ケンは今日料理をしなくてもいいです。お母さんが家にいます。",
+      "options": [
+        "don't",
+        "isn't",
+        "doesn't",
+        "must not"
+      ],
+      "answer": 2,
+      "why": "主語が Ken なので、have to の否定は doesn't have to。"
+    },
+    {
+      "id": "g4-modals-12",
+      "type": "choice",
+      "q": "___ I have to finish this today? — No, you don't.",
+      "ja": "私は今日これを終わらせなければなりませんか。— いいえ、その必要はありません。",
+      "options": [
+        "Must",
+        "Am",
+        "Have",
+        "Do"
+      ],
+      "answer": 3,
+      "why": "have to の疑問文は Do（Does）を主語の前に置く。"
+    },
+    {
+      "id": "g4-modals-13",
+      "type": "choice",
+      "q": "I ___ to stay home yesterday.",
+      "ja": "私は昨日、家にいなければなりませんでした。",
+      "options": [
+        "had",
+        "have",
+        "must",
+        "has"
+      ],
+      "answer": 0,
+      "why": "yesterday があるので過去の文。have to の過去は had to。"
+    },
+    {
+      "id": "g4-modals-14",
+      "type": "choice",
+      "q": "I ___ not sleep well last night.",
+      "ja": "私は昨夜よくねむれませんでした。",
+      "options": [
+        "can",
+        "must",
+        "have",
+        "could"
+      ],
+      "answer": 3,
+      "why": "last night があるので過去の文。can の過去形は could。"
+    },
+    {
+      "id": "g4-modals-15",
+      "type": "order",
+      "ja": "あなたはこの本を読んだほうがいいです。",
+      "words": [
+        "you",
+        "should",
+        "read",
+        "this",
+        "book"
+      ],
+      "full": "You should read this book.",
+      "why": "should のあとに動詞の原形を置く。"
+    },
+    {
+      "id": "g4-modals-16",
+      "type": "order",
+      "ja": "窓を開けてもいいですか。",
+      "words": [
+        "may",
+        "I",
+        "open",
+        "the",
+        "window"
+      ],
+      "full": "May I open the window?",
+      "why": "「〜してもいいですか」は May I + 動詞の原形 の順。"
+    },
+    {
+      "id": "g4-modals-17",
+      "type": "order",
+      "ja": "あなたは気をつけなければなりません。",
+      "words": [
+        "you",
+        "have",
+        "to",
+        "be",
+        "careful"
+      ],
+      "full": "You have to be careful.",
+      "why": "have to のあとは原形。be動詞の原形は be。"
+    },
+    {
+      "id": "g4-modals-18",
+      "type": "order",
+      "ja": "あなたは私といっしょに来なくてもいいです。",
+      "words": [
+        "you",
+        "don't",
+        "have",
+        "to",
+        "come",
+        "with",
+        "me"
+      ],
+      "full": "You don't have to come with me.",
+      "why": "don't have to + 原形で「〜しなくてよい」。"
+    },
+    {
+      "id": "g4-modals-19",
+      "type": "order",
+      "ja": "学校に遅れてはいけません。",
+      "words": [
+        "you",
+        "must",
+        "not",
+        "be",
+        "late",
+        "for",
+        "school"
+      ],
+      "full": "You must not be late for school.",
+      "why": "must not + 原形で「〜してはいけない」。not は must のあと。"
+    },
+    {
+      "id": "g4-modals-20",
+      "type": "order",
+      "ja": "エマは毎日練習しなければなりませんか。",
+      "words": [
+        "does",
+        "Emma",
+        "have",
+        "to",
+        "practice",
+        "every",
+        "day"
+      ],
+      "full": "Does Emma have to practice every day?",
+      "why": "主語が Emma なので Does で始め、あとは have to + 原形。"
+    }
+  ]
+}

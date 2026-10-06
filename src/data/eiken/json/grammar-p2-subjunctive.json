@@ -1,0 +1,322 @@
+{
+  "id": "p2-subjunctive",
+  "grade": "p2",
+  "title": "仮定法過去と I wish",
+  "points": [
+    "仮定法過去: If+主語+過去形, 主語+would / could+動詞の原形",
+    "I wish+主語+過去形 で「〜ならいいのに」。be動詞は were",
+    "起こりそうなことは If+現在形, will。as if のあとも仮定法"
+  ],
+  "examples": [
+    {
+      "en": "If I were you, I would talk to the teacher.",
+      "ja": "もし私があなたなら、先生に話すでしょう。"
+    },
+    {
+      "en": "I wish I could speak French.",
+      "ja": "フランス語が話せたらいいのに。"
+    },
+    {
+      "en": "If it rains tomorrow, we will stay home.",
+      "ja": "もし明日雨が降れば、私たちは家にいます。"
+    }
+  ],
+  "questions": [
+    {
+      "id": "p2-subjunctive-01",
+      "type": "choice",
+      "q": "If I ___ you, I would talk to the teacher.",
+      "ja": "もし私があなたなら、先生に話すでしょう。",
+      "options": [
+        "am",
+        "be",
+        "were",
+        "will be"
+      ],
+      "answer": 2,
+      "why": "現実とちがう仮定。仮定法過去の be動詞は were。"
+    },
+    {
+      "id": "p2-subjunctive-02",
+      "type": "choice",
+      "q": "If it ___ tomorrow, we will stay home.",
+      "ja": "もし明日雨が降れば、私たちは家にいます。",
+      "options": [
+        "rains",
+        "rained",
+        "will rain",
+        "would rain"
+      ],
+      "answer": 0,
+      "why": "実際に起こりうること。if の中は未来でも現在形。"
+    },
+    {
+      "id": "p2-subjunctive-03",
+      "type": "choice",
+      "q": "If I had more money, I ___ buy that computer.",
+      "ja": "もっとお金があれば、あのコンピューターを買うのに。",
+      "options": [
+        "will",
+        "would",
+        "can",
+        "am"
+      ],
+      "answer": 1,
+      "why": "if の中が過去形（仮定法）なので would+原形。"
+    },
+    {
+      "id": "p2-subjunctive-04",
+      "type": "choice",
+      "q": "I wish I ___ speak French.",
+      "ja": "フランス語が話せたらいいのに。",
+      "options": [
+        "can",
+        "will",
+        "am",
+        "could"
+      ],
+      "answer": 3,
+      "why": "I wish のあとは過去形。can は could にする。"
+    },
+    {
+      "id": "p2-subjunctive-05",
+      "type": "choice",
+      "q": "I wish I ___ a brother.",
+      "ja": "兄弟がいたらいいのに。",
+      "options": [
+        "had",
+        "have",
+        "will have",
+        "has"
+      ],
+      "answer": 0,
+      "why": "I wish+主語+過去形 で今の事実とちがう願い。"
+    },
+    {
+      "id": "p2-subjunctive-06",
+      "type": "choice",
+      "q": "If you ___ a million yen, what would you do?",
+      "ja": "もし100万円持っていたら、あなたは何をしますか。",
+      "options": [
+        "have",
+        "will have",
+        "had",
+        "has"
+      ],
+      "answer": 2,
+      "why": "あとが would なので仮定法。if の中は過去形。"
+    },
+    {
+      "id": "p2-subjunctive-07",
+      "type": "choice",
+      "q": "If you ___ free next Sunday, will you help me?",
+      "ja": "もし次の日曜日にひまなら、手伝ってくれますか。",
+      "options": [
+        "were",
+        "are",
+        "will be",
+        "would be"
+      ],
+      "answer": 1,
+      "why": "あとが will なので現実の話。if の中は現在形。"
+    },
+    {
+      "id": "p2-subjunctive-08",
+      "type": "choice",
+      "q": "I wish it ___ not raining now. I want to play outside.",
+      "ja": "今、雨が降っていなければいいのに。外で遊びたいです。",
+      "options": [
+        "is",
+        "will be",
+        "be",
+        "were"
+      ],
+      "answer": 3,
+      "why": "I wish のあとの be動詞は主語が it でも were。"
+    },
+    {
+      "id": "p2-subjunctive-09",
+      "type": "choice",
+      "q": "I don't know her address. If I ___ it, I would write to her.",
+      "ja": "私は彼女の住所を知りません。もし知っていれば、手紙を書くのに。",
+      "options": [
+        "know",
+        "knew",
+        "will know",
+        "would know"
+      ],
+      "answer": 1,
+      "why": "実際は知らない。仮定法は if+過去形。"
+    },
+    {
+      "id": "p2-subjunctive-10",
+      "type": "choice",
+      "q": "What ___ you do if you were the captain of the team?",
+      "ja": "もしあなたがチームのキャプテンなら、どうしますか。",
+      "options": [
+        "would",
+        "will",
+        "do",
+        "are"
+      ],
+      "answer": 0,
+      "why": "if you were は仮定法。主節は would+原形。"
+    },
+    {
+      "id": "p2-subjunctive-11",
+      "type": "choice",
+      "q": "Ken talks as if he ___ everything about cars.",
+      "ja": "ケンはまるで車について何でも知っているかのように話します。",
+      "options": [
+        "will know",
+        "known",
+        "knew",
+        "knowing"
+      ],
+      "answer": 2,
+      "why": "as if「まるで〜のように」のあとは仮定法過去。"
+    },
+    {
+      "id": "p2-subjunctive-12",
+      "type": "choice",
+      "q": "If I ___ so busy, I could go with you.",
+      "ja": "こんなに忙しくなければ、あなたといっしょに行けるのに。",
+      "options": [
+        "am not",
+        "will not be",
+        "have not been",
+        "were not"
+      ],
+      "answer": 3,
+      "why": "あとが could なので仮定法。否定は were not。"
+    },
+    {
+      "id": "p2-subjunctive-13",
+      "type": "choice",
+      "q": "I wish my grandmother ___ closer to us.",
+      "ja": "祖母がもっと私たちの近くに住んでいたらいいのに。",
+      "options": [
+        "lived",
+        "lives",
+        "will live",
+        "living"
+      ],
+      "answer": 0,
+      "why": "I wish のあとは主語が何でも動詞を過去形にする。"
+    },
+    {
+      "id": "p2-subjunctive-14",
+      "type": "choice",
+      "q": "If Tom ___ harder, he will pass the test next week.",
+      "ja": "もっと熱心に勉強すれば、トムは来週のテストに合格するでしょう。",
+      "options": [
+        "studied",
+        "studies",
+        "will study",
+        "would study"
+      ],
+      "answer": 1,
+      "why": "主節が will なので直説法。if の中は現在形。"
+    },
+    {
+      "id": "p2-subjunctive-15",
+      "type": "order",
+      "ja": "父にもっと自由な時間があればいいのに。",
+      "words": [
+        "I",
+        "wish",
+        "my",
+        "father",
+        "had",
+        "more",
+        "free",
+        "time"
+      ],
+      "full": "I wish my father had more free time.",
+      "why": "I wish+主語+過去形。実際はちがうことへの願い。"
+    },
+    {
+      "id": "p2-subjunctive-16",
+      "type": "order",
+      "ja": "彼女が私の家の近くに住んでいたらいいのに。",
+      "words": [
+        "I",
+        "wish",
+        "she",
+        "lived",
+        "near",
+        "my",
+        "house"
+      ],
+      "full": "I wish she lived near my house.",
+      "why": "I wish のあとの動詞は過去形（lived）。"
+    },
+    {
+      "id": "p2-subjunctive-17",
+      "type": "order",
+      "ja": "今日が休日ならいいのに。",
+      "words": [
+        "I",
+        "wish",
+        "today",
+        "were",
+        "a",
+        "holiday"
+      ],
+      "full": "I wish today were a holiday.",
+      "why": "I wish のあとの be動詞は were を使う。"
+    },
+    {
+      "id": "p2-subjunctive-18",
+      "type": "order",
+      "ja": "まるで何でも知っているかのように話してはいけません。",
+      "words": [
+        "do",
+        "not",
+        "talk",
+        "as",
+        "if",
+        "you",
+        "knew",
+        "everything"
+      ],
+      "full": "Do not talk as if you knew everything.",
+      "why": "as if+主語+過去形 で「まるで〜のように」。"
+    },
+    {
+      "id": "p2-subjunctive-19",
+      "type": "order",
+      "ja": "彼は私をまるで子どものように扱います。",
+      "words": [
+        "he",
+        "treats",
+        "me",
+        "as",
+        "if",
+        "I",
+        "were",
+        "a",
+        "child"
+      ],
+      "full": "He treats me as if I were a child.",
+      "why": "as if のあとの be動詞は I でも were。"
+    },
+    {
+      "id": "p2-subjunctive-20",
+      "type": "order",
+      "ja": "由美はあなたが彼女のパーティーに来られたらいいのにと思っています。",
+      "words": [
+        "Yumi",
+        "wishes",
+        "you",
+        "could",
+        "come",
+        "to",
+        "her",
+        "party"
+      ],
+      "full": "Yumi wishes you could come to her party.",
+      "why": "wish のあとは could+原形 で「〜できたらいいのに」。"
+    }
+  ]
+}

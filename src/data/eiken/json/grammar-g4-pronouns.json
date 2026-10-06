@@ -1,0 +1,286 @@
+{
+  "id": "g4-pronouns",
+  "grade": "4",
+  "title": "代名詞（目的格・所有代名詞・再帰代名詞）",
+  "points": [
+    "目的格（him / her / them / us / me / it）は動詞や前置詞のあとに置く",
+    "所有代名詞（mine / yours / his / hers / ours / theirs）は「〜のもの」の意味",
+    "再帰代名詞（myself / yourself / himself / herself）は「自分自身」の意味"
+  ],
+  "examples": [
+    {
+      "en": "I like him very much.",
+      "ja": "私は彼がとても好きです。"
+    },
+    {
+      "en": "This book is mine.",
+      "ja": "この本は私のものです。"
+    },
+    {
+      "en": "She made lunch by herself.",
+      "ja": "彼女は自分で昼食を作りました。"
+    }
+  ],
+  "questions": [
+    {
+      "id": "g4-pronouns-01",
+      "type": "choice",
+      "q": "I know ___. She is a kind girl.",
+      "ja": "私は彼女を知っています。彼女はやさしい女の子です。",
+      "options": ["she", "her", "hers", "herself"],
+      "answer": 1,
+      "why": "動詞 know のあとは目的格。she の目的格は her。"
+    },
+    {
+      "id": "g4-pronouns-02",
+      "type": "choice",
+      "q": "Please help ___. We need your help.",
+      "ja": "私たちを助けてください。あなたの助けが必要です。",
+      "options": ["we", "our", "us", "ours"],
+      "answer": 2,
+      "why": "動詞 help のあとは目的格。we の目的格は us。"
+    },
+    {
+      "id": "g4-pronouns-03",
+      "type": "choice",
+      "q": "This pencil is ___. I bought it yesterday.",
+      "ja": "この鉛筆は私のものです。昨日買いました。",
+      "options": ["me", "my", "I", "mine"],
+      "answer": 3,
+      "why": "「私のもの」は所有代名詞 mine。"
+    },
+    {
+      "id": "g4-pronouns-04",
+      "type": "choice",
+      "q": "Do you know ___? He is our new teacher.",
+      "ja": "あなたは彼を知っていますか。彼は新しい先生です。",
+      "options": ["he", "his", "him", "himself"],
+      "answer": 2,
+      "why": "動詞 know のあとは目的格。he の目的格は him。"
+    },
+    {
+      "id": "g4-pronouns-05",
+      "type": "choice",
+      "q": "Is this bag ___? — Yes, it's my bag.",
+      "ja": "このかばんはあなたのものですか。— はい、私のかばんです。",
+      "options": ["you", "your", "yours", "yourself"],
+      "answer": 2,
+      "why": "「あなたのもの」は所有代名詞 yours。"
+    },
+    {
+      "id": "g4-pronouns-06",
+      "type": "choice",
+      "q": "I made this cake by ___.",
+      "ja": "私はこのケーキを自分で作りました。",
+      "options": ["me", "my", "mine", "myself"],
+      "answer": 3,
+      "why": "by myself で「自分自身で」の意味。再帰代名詞を使う。"
+    },
+    {
+      "id": "g4-pronouns-07",
+      "type": "choice",
+      "q": "Ken gave ___ a nice present.",
+      "ja": "ケンは私にすてきなプレゼントをくれました。",
+      "options": ["I", "my", "me", "mine"],
+      "answer": 2,
+      "why": "gave のあとは目的格。I の目的格は me。"
+    },
+    {
+      "id": "g4-pronouns-08",
+      "type": "choice",
+      "q": "My bike is old, but ___ is new.",
+      "ja": "私の自転車は古いですが、彼のは新しいです。",
+      "options": ["he", "him", "his", "himself"],
+      "answer": 2,
+      "why": "「彼のもの」は所有代名詞 his。his は所有格と所有代名詞が同じ形。"
+    },
+    {
+      "id": "g4-pronouns-09",
+      "type": "choice",
+      "q": "We saw ___ at the park yesterday.",
+      "ja": "私たちは昨日、公園で彼らを見ました。",
+      "options": ["they", "their", "them", "theirs"],
+      "answer": 2,
+      "why": "動詞 saw のあとは目的格。they の目的格は them。"
+    },
+    {
+      "id": "g4-pronouns-10",
+      "type": "choice",
+      "q": "That cat is ___. We found it last month.",
+      "ja": "あの猫は私たちのものです。先月見つけました。",
+      "options": ["we", "our", "us", "ours"],
+      "answer": 3,
+      "why": "「私たちのもの」は所有代名詞 ours。"
+    },
+    {
+      "id": "g4-pronouns-11",
+      "type": "choice",
+      "q": "She looked at ___ and smiled.",
+      "ja": "彼女は私を見て微笑みました。",
+      "options": ["I", "my", "me", "mine"],
+      "answer": 2,
+      "why": "前置詞 at のあとは目的格。I の目的格は me。"
+    },
+    {
+      "id": "g4-pronouns-12",
+      "type": "choice",
+      "q": "Tom enjoyed ___ at the party.",
+      "ja": "トムはパーティーで楽しみました。",
+      "options": ["him", "his", "he", "himself"],
+      "answer": 3,
+      "why": "enjoy oneself で「楽しむ」。Tom なので himself。"
+    },
+    {
+      "id": "g4-pronouns-13",
+      "type": "choice",
+      "q": "These books are ___. She bought them.",
+      "ja": "これらの本は彼女のものです。彼女が買いました。",
+      "options": ["she", "her", "hers", "herself"],
+      "answer": 2,
+      "why": "「彼女のもの」は所有代名詞 hers。"
+    },
+    {
+      "id": "g4-pronouns-14",
+      "type": "choice",
+      "q": "Please call ___ tonight.",
+      "ja": "今夜、彼に電話してください。",
+      "options": ["he", "his", "him", "himself"],
+      "answer": 2,
+      "why": "動詞 call のあとは目的格。he の目的格は him。"
+    },
+    {
+      "id": "g4-pronouns-15",
+      "type": "choice",
+      "q": "My hat is red. ___ is blue.",
+      "ja": "私の帽子は赤いです。あなたのは青いです。",
+      "options": ["You", "Your", "Yours", "Yourself"],
+      "answer": 2,
+      "why": "「あなたのもの」は所有代名詞 Yours。"
+    },
+    {
+      "id": "g4-pronouns-16",
+      "type": "choice",
+      "q": "Let ___ help you with that.",
+      "ja": "それを手伝わせてください。",
+      "options": ["I", "my", "me", "mine"],
+      "answer": 2,
+      "why": "Let のあとは目的格。I の目的格は me。Let me ~。"
+    },
+    {
+      "id": "g4-pronouns-17",
+      "type": "choice",
+      "q": "She introduced ___ to the class.",
+      "ja": "彼女はクラスに自己紹介しました。",
+      "options": ["her", "she", "hers", "herself"],
+      "answer": 3,
+      "why": "「自分自身を」紹介したので再帰代名詞 herself。"
+    },
+    {
+      "id": "g4-pronouns-18",
+      "type": "choice",
+      "q": "I met ___ at the station.",
+      "ja": "私は駅で彼女に会いました。",
+      "options": ["she", "hers", "her", "herself"],
+      "answer": 2,
+      "why": "動詞 met のあとは目的格。she の目的格は her。"
+    },
+    {
+      "id": "g4-pronouns-19",
+      "type": "choice",
+      "q": "Those shoes are ___. They are over there.",
+      "ja": "あの靴は彼らのものです。あそこにあります。",
+      "options": ["they", "their", "them", "theirs"],
+      "answer": 3,
+      "why": "「彼らのもの」は所有代名詞 theirs。"
+    },
+    {
+      "id": "g4-pronouns-20",
+      "type": "choice",
+      "q": "Please sit down and make ___ at home.",
+      "ja": "座って、くつろいでください。",
+      "options": ["you", "your", "yours", "yourself"],
+      "answer": 3,
+      "why": "make yourself at home で「くつろぐ」。再帰代名詞 yourself。"
+    },
+    {
+      "id": "g4-pronouns-21",
+      "type": "order",
+      "ja": "私は彼をとてもよく知っています。",
+      "words": ["I", "know", "him", "very", "well"],
+      "full": "I know him very well.",
+      "why": "動詞 know のあとに目的格 him を置く。"
+    },
+    {
+      "id": "g4-pronouns-22",
+      "type": "order",
+      "ja": "この本は私のものです。",
+      "words": ["this", "book", "is", "mine"],
+      "full": "This book is mine.",
+      "why": "「私のもの」は所有代名詞 mine。be動詞のあとに置く。"
+    },
+    {
+      "id": "g4-pronouns-23",
+      "type": "order",
+      "ja": "彼女は私たちに英語を教えてくれます。",
+      "words": ["she", "teaches", "us", "English"],
+      "full": "She teaches us English.",
+      "why": "動詞のあとに目的格 us、そして目的語 English の順。"
+    },
+    {
+      "id": "g4-pronouns-24",
+      "type": "order",
+      "ja": "あの自転車は彼女のものですか。",
+      "words": ["is", "that", "bike", "hers"],
+      "full": "Is that bike hers?",
+      "why": "疑問文は be動詞を前に。「彼女のもの」は hers。"
+    },
+    {
+      "id": "g4-pronouns-25",
+      "type": "order",
+      "ja": "私は彼女にプレゼントをあげました。",
+      "words": ["I", "gave", "her", "a", "present"],
+      "full": "I gave her a present.",
+      "why": "gave のあとに目的格 her、そして a present の順。"
+    },
+    {
+      "id": "g4-pronouns-26",
+      "type": "order",
+      "ja": "彼は自分で朝ごはんを作りました。",
+      "words": ["he", "made", "breakfast", "by", "himself"],
+      "full": "He made breakfast by himself.",
+      "why": "by himself で「自分自身で」。再帰代名詞を使う。"
+    },
+    {
+      "id": "g4-pronouns-27",
+      "type": "order",
+      "ja": "私たちに写真を見せてください。",
+      "words": ["please", "show", "us", "the", "pictures"],
+      "full": "Please show us the pictures.",
+      "why": "show のあとに目的格 us、そして the pictures の順。"
+    },
+    {
+      "id": "g4-pronouns-28",
+      "type": "order",
+      "ja": "あなたの傘はどれですか。私のはこれです。",
+      "words": ["mine", "is", "this", "one"],
+      "full": "Mine is this one.",
+      "why": "所有代名詞 Mine を主語にして「私のものはこれです」。"
+    },
+    {
+      "id": "g4-pronouns-29",
+      "type": "order",
+      "ja": "彼らを駅まで連れて行ってください。",
+      "words": ["please", "take", "them", "to", "the", "station"],
+      "full": "Please take them to the station.",
+      "why": "動詞 take のあとに目的格 them を置く。"
+    },
+    {
+      "id": "g4-pronouns-30",
+      "type": "order",
+      "ja": "彼女は自分自身のことを話しました。",
+      "words": ["she", "talked", "about", "herself"],
+      "full": "She talked about herself.",
+      "why": "前置詞 about のあとに再帰代名詞 herself を置く。"
+    }
+  ]
+}

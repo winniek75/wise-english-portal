@@ -1,0 +1,37 @@
+{
+  "id": "g3-comp-conj",
+  "grade": "3",
+  "title": "比較のまとめと接続詞",
+  "points": [
+    "as ... as は「同じくらい…」、not as ... as は「～ほど…ではない」",
+    "than any other + 単数名詞、one of the 最上級 + 複数名詞",
+    "when / if / because / though のあとは 主語 + 動詞"
+  ],
+  "examples": [
+    { "en": "This is the best movie I have ever seen.", "ja": "これは私が今までに見た中でいちばんよい映画です。" },
+    { "en": "Kyoto is one of the oldest cities in Japan.", "ja": "京都は日本で最も古い都市の1つです。" },
+    { "en": "I was so tired that I went to bed early.", "ja": "私はとても疲れていたので、早く寝ました。" }
+  ],
+  "questions": [
+    { "id": "g3-comp-conj-01", "type": "choice", "q": "My bag is as ___ as yours.", "ja": "私のかばんはあなたのと同じくらい大きいです。", "options": ["big", "bigger", "biggest", "more big"], "answer": 0, "why": "as と as の間には形容詞のもとの形（原級）を入れる。" },
+    { "id": "g3-comp-conj-02", "type": "choice", "q": "I think ___ Emma is a good singer.", "ja": "私はエマは歌が上手だと思います。", "options": ["when", "because", "that", "though"], "answer": 2, "why": "「～だと思う」は think that + 主語 + 動詞 で表す。" },
+    { "id": "g3-comp-conj-03", "type": "choice", "q": "___ I was a child, I lived in Osaka.", "ja": "私は子どものとき、大阪に住んでいました。", "options": ["During", "When", "That", "But"], "answer": 1, "why": "「～のとき」は when + 主語 + 動詞。during のあとは名詞だけ。" },
+    { "id": "g3-comp-conj-04", "type": "choice", "q": "We didn't play soccer ___ it was raining.", "ja": "雨が降っていたので、私たちはサッカーをしませんでした。", "options": ["because of", "during", "that", "because"], "answer": 3, "why": "主語 + 動詞が続く理由は because。because of のあとは名詞。" },
+    { "id": "g3-comp-conj-05", "type": "choice", "q": "This book is not as interesting ___ that one.", "ja": "この本はあの本ほどおもしろくありません。", "options": ["than", "as", "so", "that"], "answer": 1, "why": "not as ... as ～ で「～ほど…ではない」。than は使わない。" },
+    { "id": "g3-comp-conj-06", "type": "choice", "q": "___ it is sunny tomorrow, we will go to the beach.", "ja": "もし明日晴れたら、私たちは海辺に行きます。", "options": ["If", "That", "During", "But"], "answer": 0, "why": "「もし～なら」と条件を表し、文と文をつなぐ接続詞は if。" },
+    { "id": "g3-comp-conj-07", "type": "choice", "q": "Tokyo is one of the biggest ___ in the world.", "ja": "東京は世界で最も大きい都市の1つです。", "options": ["city", "a city", "cities", "the city"], "answer": 2, "why": "one of the 最上級 のあとの名詞は複数形にする。" },
+    { "id": "g3-comp-conj-08", "type": "choice", "q": "I always brush my teeth ___ I go to bed.", "ja": "私はいつも寝る前に歯をみがきます。", "options": ["ago", "that", "during", "before"], "answer": 3, "why": "「～する前に」は before + 主語 + 動詞。ago は文をつなげない。" },
+    { "id": "g3-comp-conj-09", "type": "choice", "q": "Mt. Fuji is higher than any other ___ in Japan.", "ja": "富士山は日本のほかのどの山よりも高いです。", "options": ["mountains", "mountain", "a mountain", "the mountains"], "answer": 1, "why": "than any other のあとの名詞は単数形にする。" },
+    { "id": "g3-comp-conj-10", "type": "choice", "q": "___ I was taking a bath, the phone rang.", "ja": "私がおふろに入っている間に、電話が鳴りました。", "options": ["During", "That", "While", "And"], "answer": 2, "why": "「～している間に」は while + 主語 + 動詞。during のあとは名詞。" },
+    { "id": "g3-comp-conj-11", "type": "choice", "q": "This is the best movie I have ___ seen.", "ja": "これは私が今までに見た中でいちばんよい映画です。", "options": ["ever", "ago", "yet", "since"], "answer": 0, "why": "最上級 + I have ever + 過去分詞 で「今までに～した中でいちばん」。" },
+    { "id": "g3-comp-conj-12", "type": "choice", "q": "The stars come out ___ the sun goes down.", "ja": "太陽が沈んだあとに星が出ます。", "options": ["later", "during", "that", "after"], "answer": 3, "why": "「～したあとに」は after + 主語 + 動詞。later は文をつなげない。" },
+    { "id": "g3-comp-conj-13", "type": "choice", "q": "___ it was very cold, Tom went swimming in the sea.", "ja": "とても寒かったけれども、トムは海へ泳ぎに行きました。", "options": ["But", "Though", "That", "During"], "answer": 1, "why": "「～だけれども」は though + 主語 + 動詞。but は文の頭でつなげない。" },
+    { "id": "g3-comp-conj-14", "type": "choice", "q": "The question was ___ difficult that nobody could answer it.", "ja": "その問題はとても難しかったので、だれも答えられませんでした。", "options": ["very", "too", "so", "as"], "answer": 2, "why": "so + 形容詞 + that ～ で「とても…なので～」。" },
+    { "id": "g3-comp-conj-15", "type": "order", "ja": "私はケンはテニスが上手だと思います。", "words": ["I", "think", "that", "Ken", "plays", "tennis", "well"], "full": "I think that Ken plays tennis well.", "why": "think that + 主語 + 動詞 の順で「～だと思う」。" },
+    { "id": "g3-comp-conj-16", "type": "order", "ja": "私は彼の最も人気のある本の1冊を読みました。", "words": ["I", "read", "one", "of", "his", "most", "popular", "books"], "full": "I read one of his most popular books.", "why": "one of + 最上級 + 複数名詞 の順で「最も…な～の1つ」。" },
+    { "id": "g3-comp-conj-17", "type": "order", "ja": "私はほかのどの生徒よりも速く走ります。", "words": ["I", "run", "faster", "than", "any", "other", "student"], "full": "I run faster than any other student.", "why": "比較級 + than any other + 単数名詞 の順に並べる。" },
+    { "id": "g3-comp-conj-18", "type": "order", "ja": "とても暑かったので、私たちは眠れませんでした。", "words": ["it", "was", "so", "hot", "that", "we", "couldn't", "sleep"], "full": "It was so hot that we couldn't sleep.", "why": "so + 形容詞 + that + 主語 + 動詞 で「とても…なので～」。" },
+    { "id": "g3-comp-conj-19", "type": "order", "ja": "彼は私が今までに読んだ中でいちばんよい物語を書きました。", "words": ["he", "wrote", "the", "best", "story", "I", "have", "ever", "read"], "full": "He wrote the best story I have ever read.", "why": "the + 最上級 + 名詞 のあとに I have ever + 過去分詞 を置く。" },
+    { "id": "g3-comp-conj-20", "type": "order", "ja": "私は彼女たちが姉妹だとは知りませんでした。", "words": ["I", "didn't", "know", "that", "they", "were", "sisters"], "full": "I didn't know that they were sisters.", "why": "know that + 主語 + 動詞。didn't に合わせて were にする。" }
+  ]
+}

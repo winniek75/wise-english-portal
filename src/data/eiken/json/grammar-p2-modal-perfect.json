@@ -1,0 +1,313 @@
+{
+  "id": "p2-modal-perfect",
+  "grade": "p2",
+  "title": "助動詞＋have＋過去分詞と受動態の応用",
+  "points": [
+    "must have+過去分詞「〜したにちがいない」should have「〜すべきだった」",
+    "助動詞の受動態は 助動詞+be+過去分詞。進行形は being を使う",
+    "be known to / be covered with など by 以外の前置詞に注意"
+  ],
+  "examples": [
+    {
+      "en": "He must have missed the train.",
+      "ja": "彼は電車に乗り遅れたにちがいありません。"
+    },
+    {
+      "en": "Stars can be seen from this hill.",
+      "ja": "この丘から星を見ることができます。"
+    },
+    {
+      "en": "The mountain is covered with snow.",
+      "ja": "その山は雪でおおわれています。"
+    }
+  ],
+  "questions": [
+    {
+      "id": "p2-modal-perfect-01",
+      "type": "choice",
+      "q": "This song is known ___ everyone in Japan.",
+      "ja": "この歌は日本のみんなに知られています。",
+      "options": [
+        "with",
+        "to",
+        "at",
+        "in"
+      ],
+      "answer": 1,
+      "why": "「〜に知られている」は be known to 〜。"
+    },
+    {
+      "id": "p2-modal-perfect-02",
+      "type": "choice",
+      "q": "The top of the mountain is covered ___ snow.",
+      "ja": "その山の頂上は雪でおおわれています。",
+      "options": [
+        "with",
+        "to",
+        "at",
+        "of"
+      ],
+      "answer": 0,
+      "why": "「〜でおおわれている」は be covered with 〜。"
+    },
+    {
+      "id": "p2-modal-perfect-03",
+      "type": "choice",
+      "q": "Stars can ___ clearly from this hill at night.",
+      "ja": "夜、この丘から星がはっきり見えます。",
+      "options": [
+        "see",
+        "seeing",
+        "be seen",
+        "be seeing"
+      ],
+      "answer": 2,
+      "why": "星は「見られる」側。助動詞+be+過去分詞にする。"
+    },
+    {
+      "id": "p2-modal-perfect-04",
+      "type": "choice",
+      "q": "This letter must ___ by tomorrow morning.",
+      "ja": "この手紙は明日の朝までに送られなければなりません。",
+      "options": [
+        "send",
+        "sent",
+        "be sending",
+        "be sent"
+      ],
+      "answer": 3,
+      "why": "手紙は「送られる」側。must のあとは be+過去分詞。"
+    },
+    {
+      "id": "p2-modal-perfect-05",
+      "type": "choice",
+      "q": "We were surprised ___ the news.",
+      "ja": "私たちはその知らせに驚きました。",
+      "options": [
+        "at",
+        "to",
+        "of",
+        "for"
+      ],
+      "answer": 0,
+      "why": "「〜に驚く」は be surprised at 〜。"
+    },
+    {
+      "id": "p2-modal-perfect-06",
+      "type": "choice",
+      "q": "The ground is wet. It must ___ last night.",
+      "ja": "地面がぬれています。昨夜、雨が降ったにちがいありません。",
+      "options": [
+        "rain",
+        "have rained",
+        "be rained",
+        "raining"
+      ],
+      "answer": 1,
+      "why": "過去のことへの「〜したにちがいない」は must have+過去分詞。"
+    },
+    {
+      "id": "p2-modal-perfect-07",
+      "type": "choice",
+      "q": "A new library is ___ built near the station now.",
+      "ja": "今、駅の近くに新しい図書館が建てられているところです。",
+      "options": [
+        "been",
+        "be",
+        "being",
+        "having"
+      ],
+      "answer": 2,
+      "why": "「〜されているところ」は be being+過去分詞。"
+    },
+    {
+      "id": "p2-modal-perfect-08",
+      "type": "choice",
+      "q": "This computer has ___ used for over ten years.",
+      "ja": "このコンピューターは10年以上使われています。",
+      "options": [
+        "been",
+        "being",
+        "be",
+        "was"
+      ],
+      "answer": 0,
+      "why": "完了形の受動態は have been+過去分詞。"
+    },
+    {
+      "id": "p2-modal-perfect-09",
+      "type": "choice",
+      "q": "I failed the test. I should ___ harder last week.",
+      "ja": "私はテストに落ちました。先週もっと一生けんめい勉強するべきでした。",
+      "options": [
+        "study",
+        "be studied",
+        "studying",
+        "have studied"
+      ],
+      "answer": 3,
+      "why": "しなかったことへの後悔は should have+過去分詞。"
+    },
+    {
+      "id": "p2-modal-perfect-10",
+      "type": "choice",
+      "q": "Tom cannot ___ the window yesterday. He was not here.",
+      "ja": "トムが昨日窓を割ったはずがありません。彼はここにいませんでした。",
+      "options": [
+        "break",
+        "have broken",
+        "be broken",
+        "breaking"
+      ],
+      "answer": 1,
+      "why": "「〜したはずがない」は cannot have+過去分詞。"
+    },
+    {
+      "id": "p2-modal-perfect-11",
+      "type": "choice",
+      "q": "I can't find my key. I might ___ it on the train yesterday.",
+      "ja": "かぎが見つかりません。昨日電車で落としたのかもしれません。",
+      "options": [
+        "drop",
+        "be dropped",
+        "have dropped",
+        "dropping"
+      ],
+      "answer": 2,
+      "why": "「〜したかもしれない」は may / might have+過去分詞。"
+    },
+    {
+      "id": "p2-modal-perfect-12",
+      "type": "choice",
+      "q": "Emma got a perfect score on the test. She ___ have studied very hard.",
+      "ja": "エマはテストで満点を取りました。とても熱心に勉強したにちがいありません。",
+      "options": [
+        "cannot",
+        "should not",
+        "must"
+      ],
+      "answer": 2,
+      "why": "満点という証拠があるので「〜したにちがいない」の must。"
+    },
+    {
+      "id": "p2-modal-perfect-13",
+      "type": "choice",
+      "q": "The bus has already left. We ___ have left home earlier.",
+      "ja": "バスはもう出てしまいました。私たちはもっと早く家を出るべきでした。",
+      "options": [
+        "should",
+        "must",
+        "cannot",
+        "may"
+      ],
+      "answer": 0,
+      "why": "実際はしなかったことへの後悔は should have。"
+    },
+    {
+      "id": "p2-modal-perfect-14",
+      "type": "choice",
+      "q": "Ken ___ have seen Emma at the park today. She is in London now.",
+      "ja": "ケンが今日公園でエマを見たはずがありません。彼女は今ロンドンにいます。",
+      "options": [
+        "must",
+        "should",
+        "may",
+        "cannot"
+      ],
+      "answer": 3,
+      "why": "ありえないことなので「〜したはずがない」の cannot have。"
+    },
+    {
+      "id": "p2-modal-perfect-15",
+      "type": "order",
+      "ja": "その箱はおもちゃでいっぱいでした。",
+      "words": [
+        "the",
+        "box",
+        "was",
+        "filled",
+        "with",
+        "toys"
+      ],
+      "full": "The box was filled with toys.",
+      "why": "「〜でいっぱいだ」は be filled with 〜。by ではない。"
+    },
+    {
+      "id": "p2-modal-perfect-16",
+      "type": "order",
+      "ja": "これらの本は家に持ち帰ることができません。",
+      "words": [
+        "these",
+        "books",
+        "cannot",
+        "be",
+        "taken",
+        "home"
+      ],
+      "full": "These books cannot be taken home.",
+      "why": "本は「持ち帰られる」側。助動詞+be+過去分詞。"
+    },
+    {
+      "id": "p2-modal-perfect-17",
+      "type": "order",
+      "ja": "その古い橋は修理されているところです。",
+      "words": [
+        "the",
+        "old",
+        "bridge",
+        "is",
+        "being",
+        "repaired"
+      ],
+      "full": "The old bridge is being repaired.",
+      "why": "進行形の受動態は be+being+過去分詞の順。"
+    },
+    {
+      "id": "p2-modal-perfect-18",
+      "type": "order",
+      "ja": "あなたの自転車はもう修理されましたか。",
+      "words": [
+        "has",
+        "your",
+        "bike",
+        "been",
+        "repaired",
+        "yet"
+      ],
+      "full": "Has your bike been repaired yet?",
+      "why": "完了形の受動態の疑問文は Has+主語+been+過去分詞。"
+    },
+    {
+      "id": "p2-modal-perfect-19",
+      "type": "order",
+      "ja": "私はあなたの助言を聞くべきでした。",
+      "words": [
+        "I",
+        "should",
+        "have",
+        "listened",
+        "to",
+        "your",
+        "advice"
+      ],
+      "full": "I should have listened to your advice.",
+      "why": "「〜すべきだった」は should have+過去分詞。"
+    },
+    {
+      "id": "p2-modal-perfect-20",
+      "type": "order",
+      "ja": "彼女は会議のことを忘れたのかもしれません。",
+      "words": [
+        "she",
+        "may",
+        "have",
+        "forgotten",
+        "about",
+        "the",
+        "meeting"
+      ],
+      "full": "She may have forgotten about the meeting.",
+      "why": "「〜したかもしれない」は may have+過去分詞。"
+    }
+  ]
+}
