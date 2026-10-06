@@ -40,29 +40,16 @@ interface Dashboard {
 }
 
 /**
- * 推奨経路: DB側の関数 get_parent_dashboard(p_code) がコードを照合し、その子の記録だけを返す
- * （docs/supabase-parent-access.sql）。関数がまだ無い環境では従来のテーブル直接参照で動かす。
+ * 名前で検索してダッシュボードを表示する（コード不要版）。
+ * まずRPC関数を試し、なければ直接テーブルを参照する。
  */
-async function loadDashboard(code: string): Promise<Dashboard | null> {
-  const rpc = await request('rpc/get_parent_dashboard', {
-    method: 'POST',
-    body: JSON.stringify({ p_code: code }),
-  });
-  if (rpc.ok) {
-    const data = await rpc.json();
-    if (!data || !data.player) return null;
-    return {
-      player: data.player,
-      sessions: data.sessions || [],
-      wrongAnswers: data.wrong_answers || [],
-      scope: '直近90日',
-    };
-  }
-  if (rpc.status !== 404) throw new LoadError(`http ${rpc.status}`);
+async function searchByName(name: string): Promise<{ players: Player[] }> {
+  // ilike で部分一致（前方一致）
+  const data = await api(`players?display_name=ilike.${encodeURIComponent(name)}*&select=*&limit=10`);
+  return { players: data || [] };
+}
 
-  const access = await api(`parent_access?access_code=eq.${code}&select=player_id`);
-  if (!access || access.length === 0) return null;
-  const playerId = access[0].player_id;
+async function loadDashboard(playerId: string): Promise<Dashboard | null> {
   const [playerData, sessionData, wrongData] = await Promise.all([
     api(`players?id=eq.${playerId}&select=*`),
     api(`game_sessions?player_id=eq.${playerId}&order=played_at.desc&limit=50&select=*`),
@@ -132,33 +119,53 @@ const GAME_URLS: Record<string, string> = Object.fromEntries(
 );
 
 export default function ParentDashboard() {
-  const [code, setCode] = useState('');
+  const [name, setName] = useState('');
+  const [candidates, setCandidates] = useState<Player[]>([]);
   const [player, setPlayer] = useState<Player | null>(null);
   const [sessions, setSessions] = useState<Session[]>([]);
   const [wrongAnswers, setWrongAnswers] = useState<WrongAnswer[]>([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
-  const [view, setView] = useState<'code' | 'dashboard'>('code');
+  const [view, setView] = useState<'search' | 'select' | 'dashboard'>('search');
 
   const [scope, setScope] = useState('');
 
-  const handleSubmit = async () => {
-    if (code.length !== 6) { setError('6桁のコードを入力してください'); return; }
+  const handleSearch = async () => {
+    if (name.trim().length === 0) { setError('お子さまの名前を入力してください'); return; }
     setLoading(true);
     setError('');
     try {
-      const data = await loadDashboard(code);
-      if (!data) {
-        setError('コードが見つかりません。数字をもう一度ご確認ください。');
+      const result = await searchByName(name.trim());
+      if (result.players.length === 0) {
+        setError('この名前の記録が見つかりません。ゲームで使っている名前を入力してください。');
         return;
       }
+      if (result.players.length === 1) {
+        await selectPlayer(result.players[0].id);
+      } else {
+        setCandidates(result.players);
+        setView('select');
+      }
+    } catch {
+      setError('読み込めませんでした。通信状況を確認して、もう一度お試しください。');
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const selectPlayer = async (playerId: string) => {
+    setLoading(true);
+    setError('');
+    try {
+      const data = await loadDashboard(playerId);
+      if (!data) { setError('記録を読み込めませんでした。'); return; }
       setPlayer(data.player);
       setSessions(data.sessions);
       setWrongAnswers(data.wrongAnswers);
       setScope(data.scope);
       setView('dashboard');
     } catch {
-      setError('読み込めませんでした。通信状況を確認して、もう一度「確認する」を押してください。');
+      setError('読み込めませんでした。');
     } finally {
       setLoading(false);
     }
@@ -186,52 +193,83 @@ export default function ParentDashboard() {
   const today = new Date().toLocaleDateString('ja-JP');
   const todaySessions = sessions.filter(s => new Date(s.played_at).toLocaleDateString('ja-JP') === today);
 
-  if (view === 'code') {
+  if (view === 'search') {
     return (
       <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-950 to-slate-900 flex items-center justify-center p-6">
         <div className="max-w-md w-full bg-white/10 backdrop-blur-xl rounded-3xl p-8 shadow-2xl border border-white/20">
           <div className="text-center mb-8">
             <div className="text-6xl mb-4">👨‍👩‍👧‍👦</div>
             <h1 className="text-3xl font-black text-white mb-2">保護者の方へ</h1>
-            <p className="text-gray-300">お子さまの学習のようすを確認できます。<br/>6桁のアクセスコードを入力してください。</p>
+            <p className="text-gray-300">お子さまの学習のようすを確認できます。<br/>ゲームで使っている名前を入力してください。</p>
           </div>
 
           <div className="mb-6">
             <input
               type="text"
-              inputMode="numeric"
               autoComplete="off"
-              aria-label="6桁のアクセスコード"
-              onKeyDown={e => { if (e.key === 'Enter') handleSubmit(); }}
-              maxLength={6}
-              value={code}
-              onChange={e => setCode(e.target.value.replace(/\D/g, ''))}
-              placeholder="000000"
-              className="w-full text-center text-4xl font-mono tracking-[0.5em] bg-white/5 border-2 border-white/20 rounded-2xl px-6 py-4 text-white placeholder-gray-600 focus:border-purple-400 focus:outline-none transition-all"
+              aria-label="お子さまの名前"
+              onKeyDown={e => { if (e.key === 'Enter') handleSearch(); }}
+              value={name}
+              onChange={e => setName(e.target.value)}
+              placeholder="なまえ"
+              className="w-full text-center text-2xl bg-white/5 border-2 border-white/20 rounded-2xl px-6 py-4 text-white placeholder-gray-600 focus:border-purple-400 focus:outline-none transition-all"
             />
           </div>
 
           {error && <p role="alert" className="text-red-300 text-center mb-4">{error}</p>}
 
           <button
-            onClick={handleSubmit}
-            disabled={loading || code.length !== 6}
+            onClick={handleSearch}
+            disabled={loading || name.trim().length === 0}
             className="w-full py-4 rounded-2xl font-bold text-lg text-white transition-all hover:scale-[1.02] disabled:opacity-50"
             style={{ background: 'linear-gradient(135deg, #8b5cf6, #ec4899)' }}
           >
-            {loading ? '読み込み中...' : '確認する'}
+            {loading ? '読み込み中...' : '検索する'}
           </button>
 
-          <div className="mt-8 p-4 rounded-xl bg-white/5 border border-white/10">
-            <p className="text-sm text-gray-300 text-center">
-              アクセスコードは、お子さまのゲーム画面の<br/>
-              プロフィール設定から確認できます
-            </p>
-          </div>
           <div className="mt-4 flex justify-center gap-5 text-sm">
             <a href="/" className="text-purple-300 hover:text-white">← 学習ホーム</a>
             <a href="/about" className="text-purple-300 hover:text-white">使い方・データの扱い</a>
           </div>
+        </div>
+      </div>
+    );
+  }
+
+  if (view === 'select') {
+    return (
+      <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-950 to-slate-900 flex items-center justify-center p-6">
+        <div className="max-w-md w-full bg-white/10 backdrop-blur-xl rounded-3xl p-8 shadow-2xl border border-white/20">
+          <div className="text-center mb-6">
+            <h2 className="text-2xl font-black text-white mb-2">お子さまを選んでください</h2>
+            <p className="text-gray-300 text-sm">{candidates.length}人の「{name}」さんが見つかりました</p>
+          </div>
+
+          <div className="space-y-3 mb-6">
+            {candidates.map((p) => (
+              <button
+                key={p.id}
+                onClick={() => selectPlayer(p.id)}
+                disabled={loading}
+                className="w-full flex items-center gap-4 bg-white/5 hover:bg-white/10 border border-white/10 rounded-2xl p-4 transition-all text-left disabled:opacity-50"
+              >
+                <span className="text-4xl">{p.avatar_emoji}</span>
+                <div>
+                  <div className="text-white font-bold text-lg">{p.display_name}</div>
+                  <div className="text-gray-400 text-sm">Lv.{p.level} · {p.total_xp.toLocaleString()} XP · {p.games_played}回プレイ</div>
+                </div>
+              </button>
+            ))}
+          </div>
+
+          {error && <p role="alert" className="text-red-300 text-center mb-4">{error}</p>}
+
+          <button
+            onClick={() => { setView('search'); setCandidates([]); setError(''); }}
+            className="w-full py-3 rounded-2xl font-bold text-sm text-gray-300 bg-white/5 hover:bg-white/10 transition-all"
+          >
+            ← 別の名前で検索
+          </button>
         </div>
       </div>
     );
@@ -244,7 +282,7 @@ export default function ParentDashboard() {
       <div className="max-w-4xl mx-auto space-y-6">
         {/* Header */}
         <div className="flex items-center justify-between">
-          <button onClick={() => setView('code')} className="text-gray-400 hover:text-white transition-all">
+          <button onClick={() => { setView('search'); setName(''); setCandidates([]); setError(''); }} className="text-gray-400 hover:text-white transition-all">
             ← 戻る
           </button>
           <span className="text-sm text-gray-400">保護者ページ</span>
