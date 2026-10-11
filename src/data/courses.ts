@@ -10,6 +10,8 @@ export interface Step {
   path: string;
   /** 3ステップの役割 */
   role: "おぼえる" | "たしかめる" | "つかう" | "ふくしゅう";
+  /** アプリを開く前に見せる操作ガイド（1〜3行） */
+  guide?: string[];
 }
 
 export interface Day {
@@ -40,8 +42,9 @@ const s = (
   role: Step["role"],
   label: string,
   minutes: number,
-  path: string
-): Step => ({ gameId, role, label, minutes, path });
+  path: string,
+  guide?: string[]
+): Step => ({ gameId, role, label, minutes, path, guide });
 
 /** フォニックス1グループ分（6音）の1週間 */
 function phonicsWeek(
@@ -60,25 +63,52 @@ function phonicsWeek(
       {
         title: `${a.join("・")} の音`,
         steps: [
-          s("phonics", "おぼえる", `${a.join("・")} の音を聞く（音→ことばの順にタップ）`, 4, `/?group=${group}`),
-          s("phonics-sounds", "たしかめる", `${a.join("・")} の音があるかな？ 10問`, 3, `/?letters=${a.join(",")}&mode=practice&count=10`),
-          s("phonics", "つかう", "音と文字をあわせるゲーム", 3, `/games/letter-match?group=${group}`),
+          s("phonics", "おぼえる", `${a.join("・")} の音を聞く（音→ことばの順にタップ）`, 4, `/?group=${group}`, [
+            "もじを タップすると おとが きこえるよ",
+            "「おとを きく」ボタンを おしてみよう",
+            "したの ことばも タップして きいてね",
+          ]),
+          s("phonics-sounds", "たしかめる", `${a.join("・")} の音があるかな？ 10問`, 3, `/?letters=${a.join(",")}&mode=practice&count=10`, [
+            "おとを きいて、この おとが あるかな？",
+            "YES か NO を えらぼう",
+          ]),
+          s("phonics", "つかう", "音と文字をあわせるゲーム", 3, `/games/letter-match?group=${group}`, [
+            "おとが ながれるよ",
+            "あう もじを えらんで タップしよう",
+          ]),
         ],
       },
       {
         title: `${b.join("・")} の音`,
         steps: [
-          s("phonics", "おぼえる", `${b.join("・")} の音を聞く（音→ことばの順にタップ）`, 4, `/?group=${group}`),
-          s("phonics-sounds", "たしかめる", `${b.join("・")} の音があるかな？ 10問`, 3, `/?letters=${b.join(",")}&mode=practice&count=10`),
-          s("phonics", "つかう", "音を聞いてバブルをタップ", 3, `/games/bubble-pop?group=${group}`),
+          s("phonics", "おぼえる", `${b.join("・")} の音を聞く（音→ことばの順にタップ）`, 4, `/?group=${group}`, [
+            "もじを タップすると おとが きこえるよ",
+            "「おとを きく」ボタンを おしてみよう",
+            "したの ことばも タップして きいてね",
+          ]),
+          s("phonics-sounds", "たしかめる", `${b.join("・")} の音があるかな？ 10問`, 3, `/?letters=${b.join(",")}&mode=practice&count=10`, [
+            "おとを きいて、この おとが あるかな？",
+            "YES か NO を えらぼう",
+          ]),
+          s("phonics", "つかう", "音を聞いてバブルをタップ", 3, `/games/bubble-pop?group=${group}`, [
+            "おとが ながれたら バブルを タップ！",
+          ]),
         ],
       },
       {
         title: "6つの音のふくしゅう",
         steps: [
-          s("phonics-sounds", "ふくしゅう", "今週の6つの音 10問", 3, `/?letters=${all.join(",")}&mode=practice&count=10`),
-          s("phonics-battle", "つかう", "今週の文字でできる英単語 10問（時間制限なし）", 3, `/?stage=${group}&mode=practice&count=10`),
-          s("sight-words", "おぼえる", `よく出ることば（${sightName}）カードあわせ`, 4, `/?players=1&pairs=4&set=${sightSet}`),
+          s("phonics-sounds", "ふくしゅう", "今週の6つの音 10問", 3, `/?letters=${all.join(",")}&mode=practice&count=10`, [
+            "おとを きいて YES か NO を えらぼう",
+          ]),
+          s("phonics-battle", "つかう", "今週の文字でできる英単語 10問（時間制限なし）", 3, `/?stage=${group}&mode=practice&count=10`, [
+            "にほんごを みて あう えいごを えらぼう",
+            "じかん せいげん なし。ゆっくり でいいよ",
+          ]),
+          s("sight-words", "おぼえる", `よく出ることば（${sightName}）カードあわせ`, 4, `/?players=1&pairs=4&set=${sightSet}`, [
+            "カードを 2まい めくって おなじ ことばを さがそう",
+            "めくると よみあげるよ。よく きいてね",
+          ]),
         ],
       },
     ],
@@ -88,9 +118,17 @@ function phonicsWeek(
 const vocabDay = (unit: number): Day => ({
   title: `ユニット${unit}（6語）`,
   steps: [
-    s("flashinput", "おぼえる", `写真と音声で6語をおぼえる`, 5, `/?unit=5-${unit}`),
-    s("eiken-game", "たしかめる", "おぼえた6語の4択クイズ", 3, `/?unit=5-${unit}`),
-    s("falling-word", "つかう", "おぼえた6語で落下ゲーム", 2, `/?unit=5-${unit}`),
+    s("flashinput", "おぼえる", `写真と音声で6語をおぼえる`, 5, `/?unit=5-${unit}`, [
+      "しゃしんと おとで たんごを おぼえよう",
+      "さいごに もじを いれて たしかめるよ",
+    ]),
+    s("eiken-game", "たしかめる", "おぼえた6語の4択クイズ", 3, `/?unit=5-${unit}`, [
+      "にほんごを みて あう えいごを 4つから えらぼう",
+    ]),
+    s("falling-word", "つかう", "おぼえた6語で落下ゲーム", 2, `/?unit=5-${unit}`, [
+      "えいごが でてくるよ",
+      "おちてくる にほんごの なかから あう ものを タップ！",
+    ]),
   ],
 });
 
@@ -115,25 +153,50 @@ export const courses: Course[] = [
           {
             title: "はじめての単語",
             steps: [
-              s("flashinput", "おぼえる", "写真と音声で6語をおぼえる", 5, "/?unit=5-1"),
-              s("eiken-game", "たしかめる", "おぼえた6語の4択クイズ", 3, "/?unit=5-1"),
-              s("falling-word", "つかう", "おぼえた6語で落下ゲーム", 2, "/?unit=5-1"),
+              s("flashinput", "おぼえる", "写真と音声で6語をおぼえる", 5, "/?unit=5-1", [
+                "しゃしんと おとで たんごを おぼえよう",
+                "さいごに もじを いれて たしかめるよ",
+              ]),
+              s("eiken-game", "たしかめる", "おぼえた6語の4択クイズ", 3, "/?unit=5-1", [
+                "にほんごを みて あう えいごを 4つから えらぼう",
+              ]),
+              s("falling-word", "つかう", "おぼえた6語で落下ゲーム", 2, "/?unit=5-1", [
+                "えいごが でてくるよ",
+                "おちてくる にほんごから あう ものを タップ！",
+              ]),
             ],
           },
           {
             title: "はじめての文",
             steps: [
-              s("flashinput", "おぼえる", "写真と音声で6語をおぼえる", 5, "/?unit=5-2"),
-              s("aredo-game", "たしかめる", "Am・Is・Are をえらぶ 5問", 2, "/?level=be&count=5"),
-              s("instant-english", "つかう", "ことばをならべて文をつくる 5問", 3, "/?mode=shuffle&level=starter&count=5"),
+              s("flashinput", "おぼえる", "写真と音声で6語をおぼえる", 5, "/?unit=5-2", [
+                "しゃしんと おとで たんごを おぼえよう",
+                "さいごに もじを いれて たしかめるよ",
+              ]),
+              s("aredo-game", "たしかめる", "Am・Is・Are をえらぶ 5問", 2, "/?level=be&count=5", [
+                "えいごの ぶんを よんでね",
+                "さいしょに くる ことばを えらぼう（Am？ Is？ Are？）",
+              ]),
+              s("instant-english", "つかう", "ことばをならべて文をつくる 5問", 3, "/?mode=shuffle&level=starter&count=5", [
+                "バラバラの ことばを ならべて ぶんを つくろう",
+                "ことばを タップする じゅんばんで ぶんが できるよ",
+              ]),
             ],
           },
           {
             title: "4週間のまとめ",
             steps: [
-              s("phonics-sounds", "ふくしゅう", "これまでの音 10問", 3, "/?letters=s,a,t,e,h,m,g,o,b&mode=practice&count=10"),
-              s("phonics-battle", "ふくしゅう", "1週目の英単語にもういちど 10問", 3, "/?stage=1&mode=practice&count=10"),
-              s("sight-words", "ふくしゅう", "よく出ることば 8ペアにちょうせん", 4, "/?players=1&pairs=8&set=pronouns,numbers"),
+              s("phonics-sounds", "ふくしゅう", "これまでの音 10問", 3, "/?letters=s,a,t,e,h,m,g,o,b&mode=practice&count=10", [
+                "おとを きいて YES か NO を えらぼう",
+              ]),
+              s("phonics-battle", "ふくしゅう", "1週目の英単語にもういちど 10問", 3, "/?stage=1&mode=practice&count=10", [
+                "にほんごを みて あう えいごを えらぼう",
+                "じかん せいげん なし。ゆっくり でいいよ",
+              ]),
+              s("sight-words", "ふくしゅう", "よく出ることば 8ペアにちょうせん", 4, "/?players=1&pairs=8&set=pronouns,numbers", [
+                "カードを 2まい めくって おなじ ことばを さがそう",
+                "めくると よみあげるよ。よく きいてね",
+              ]),
             ],
           },
         ],
@@ -164,9 +227,18 @@ export const courses: Course[] = [
           {
             title: "かくにんテスト",
             steps: [
-              s("eiken-game", "たしかめる", "5級かくにんテスト 10問", 3, "/?grade=5&mode=normal&count=10"),
-              s("falling-word", "つかう", "やさしいモードで10語", 2, "/?grade=5&mode=easy&count=10"),
-              s("aredo-game", "つかう", "Am・Is・Are をえらぶ 10問", 4, "/?level=be&count=10"),
+              s("eiken-game", "たしかめる", "5級かくにんテスト 10問", 3, "/?grade=5&mode=normal&count=10", [
+                "にほんごを みて あう えいごを 4つから えらぼう",
+                "10もん あるよ。がんばって！",
+              ]),
+              s("falling-word", "つかう", "やさしいモードで10語", 2, "/?grade=5&mode=easy&count=10", [
+                "えいごが でてくるよ",
+                "おちてくる にほんごから あう ものを タップ！",
+              ]),
+              s("aredo-game", "つかう", "Am・Is・Are をえらぶ 10問", 4, "/?level=be&count=10", [
+                "えいごの ぶんを よんでね",
+                "さいしょに くる ことばを えらぼう（Am？ Is？ Are？）",
+              ]),
             ],
           },
         ],
@@ -190,23 +262,44 @@ export const courses: Course[] = [
           {
             title: "be動詞と一般動詞",
             steps: [
-              s("aredo-game", "たしかめる", "Am・Is・Are 10問", 3, "/?level=be&count=10"),
-              s("aredo-game", "たしかめる", "Do・Does もまぜて 10問", 4, "/?level=does&count=10"),
-              s("instant-english", "つかう", "ことばをならべて文をつくる 5問", 3, "/?mode=shuffle&level=beginner&count=5"),
+              s("aredo-game", "たしかめる", "Am・Is・Are 10問", 3, "/?level=be&count=10", [
+                "えいぶんの さいしょに くる ことばを えらぼう",
+                "Am / Is / Are のどれかな？",
+              ]),
+              s("aredo-game", "たしかめる", "Do・Does もまぜて 10問", 4, "/?level=does&count=10", [
+                "こんどは Do と Does も でてくるよ",
+                "うしろの ことばを みて きめよう",
+              ]),
+              s("instant-english", "つかう", "ことばをならべて文をつくる 5問", 3, "/?mode=shuffle&level=beginner&count=5", [
+                "バラバラの ことばを ならべて ぶんを つくろう",
+                "ことばを タップする じゅんばんで ぶんが できるよ",
+              ]),
             ],
           },
           {
             title: "過去形",
             steps: [
-              s("eiken-grammar", "たしかめる", "過去形 10問（解説つき）", 5, "/?unit=past&count=10"),
-              s("reading-dash", "つかう", "過去の文章をじっくり読む 2文章", 5, "/?level=medium&mode=careful&count=2"),
+              s("eiken-grammar", "たしかめる", "過去形 10問（解説つき）", 5, "/?unit=past&count=10", [
+                "（　）に はいる ことばを えらぼう",
+                "まちがえても かいせつが でるよ",
+              ]),
+              s("reading-dash", "つかう", "過去の文章をじっくり読む 2文章", 5, "/?level=medium&mode=careful&count=2", [
+                "えいぶんを よんで しつもんに こたえよう",
+                "「じっくり」モードだから あわてなくて だいじょうぶ",
+              ]),
             ],
           },
           {
             title: "現在完了と受動態",
             steps: [
-              s("eiken-grammar", "たしかめる", "現在完了 10問", 5, "/?unit=pp&count=10"),
-              s("eiken-grammar", "たしかめる", "受動態 10問", 5, "/?unit=passive&count=10"),
+              s("eiken-grammar", "たしかめる", "現在完了 10問", 5, "/?unit=pp&count=10", [
+                "（　）に はいる ことばを えらぼう",
+                "まちがえても かいせつが でるよ",
+              ]),
+              s("eiken-grammar", "たしかめる", "受動態 10問", 5, "/?unit=passive&count=10", [
+                "（　）に はいる ことばを えらぼう",
+                "まちがえても かいせつが でるよ",
+              ]),
             ],
           },
         ],
@@ -218,24 +311,47 @@ export const courses: Course[] = [
           {
             title: "to と ing",
             steps: [
-              s("grammar-drill", "たしかめる", "to / ing 基礎 10問＋作文2問", 5, "/?mode=basic&count=10"),
-              s("grammar-drill", "つかう", "意味が変わる動詞 8問", 5, "/?mode=both&count=8"),
+              s("grammar-drill", "たしかめる", "to / ing 基礎 10問＋作文2問", 5, "/?mode=basic&count=10", [
+                "to と ing、どっちの かたち？ 2つから えらぼう",
+                "さいごに じぶんで 1ぶん つくるよ",
+              ]),
+              s("grammar-drill", "つかう", "意味が変わる動詞 8問", 5, "/?mode=both&count=8", [
+                "stop to ～ と stop ～ing、いみが ちがうよ",
+                "ばめんに あう ほうを えらぼう",
+              ]),
             ],
           },
           {
             title: "関係代名詞",
             steps: [
-              s("verbform-battle", "おぼえる", "導入レッスンを読む", 5, "/?level=grade3&mode=lesson"),
-              s("verbform-battle", "たしかめる", "who の問題 5問", 3, "/?unit=who&count=5"),
-              s("verbform-battle", "たしかめる", "which の問題 5問", 3, "/?unit=which&count=5"),
+              s("verbform-battle", "おぼえる", "導入レッスンを読む", 5, "/?level=grade3&mode=lesson", [
+                "れいぶんを よんで つかいかたを まなぼう",
+                "「つぎへ」を おして すすめてね",
+              ]),
+              s("verbform-battle", "たしかめる", "who の問題 5問", 3, "/?unit=who&count=5", [
+                "（　）に はいる ことばを いれよう",
+                "who / which / that から えらんでね",
+              ]),
+              s("verbform-battle", "たしかめる", "which の問題 5問", 3, "/?unit=which&count=5", [
+                "（　）に はいる ことばを いれよう",
+                "who / which / that から えらんでね",
+              ]),
             ],
           },
           {
             title: "まとめ",
             steps: [
-              s("eiken-grammar", "ふくしゅう", "3単元まぜこぜ 10問", 4, "/?unit=mix&count=10"),
-              s("verbform-battle", "ふくしゅう", "関係詞＆分詞 3級 10問", 4, "/?level=grade3&count=10"),
-              s("reading-dash", "つかう", "長めの文章をじっくり読む 2文章", 4, "/?level=hard&mode=careful&count=2"),
+              s("eiken-grammar", "ふくしゅう", "3単元まぜこぜ 10問", 4, "/?unit=mix&count=10", [
+                "（　）に はいる ことばを えらぼう",
+                "いろんな たんげんが まざっているよ",
+              ]),
+              s("verbform-battle", "ふくしゅう", "関係詞＆分詞 3級 10問", 4, "/?level=grade3&count=10", [
+                "（　）に はいる ことばを いれよう",
+              ]),
+              s("reading-dash", "つかう", "長めの文章をじっくり読む 2文章", 4, "/?level=hard&mode=careful&count=2", [
+                "えいぶんを よんで しつもんに こたえよう",
+                "「じっくり」モードだから あわてなくて だいじょうぶ",
+              ]),
             ],
           },
         ],

@@ -1,9 +1,10 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import { Course, flatDays, stepGameName, stepKey, stepUrl } from "@/data/courses";
+import { Course, Step, flatDays, stepGameName, stepKey, stepUrl } from "@/data/courses";
 import { getGame } from "@/data/games";
 import { loadProgress, saveProgress } from "@/lib/progress";
+import { MissionModal } from "./MissionModal";
 
 const roleColor: Record<string, string> = {
   おぼえる: "bg-sky-100 text-sky-800",
@@ -16,6 +17,7 @@ export function CoursePlayer({ course }: { course: Course }) {
   const days = useMemo(() => flatDays(course), [course]);
   const [done, setDone] = useState<string[]>([]);
   const [ready, setReady] = useState(false);
+  const [mission, setMission] = useState<{ step: Step; key: string } | null>(null);
 
   useEffect(() => {
     setDone(loadProgress()[course.id] ?? []);
@@ -111,9 +113,8 @@ export function CoursePlayer({ course }: { course: Course }) {
                         {step.label}
                       </p>
                     </div>
-                    <a
-                      href={stepUrl(step)}
-                      onClick={() => mark(key)}
+                    <button
+                      onClick={() => setMission({ step, key })}
                       className={`flex-shrink-0 rounded-xl px-4 py-2.5 text-sm font-bold ${
                         isNext
                           ? "bg-indigo-600 text-white hover:bg-indigo-700"
@@ -121,7 +122,7 @@ export function CoursePlayer({ course }: { course: Course }) {
                       }`}
                     >
                       {isDone ? "もういちど" : "はじめる"}
-                    </a>
+                    </button>
                   </li>
                 );
               })}
@@ -194,6 +195,17 @@ export function CoursePlayer({ course }: { course: Course }) {
           ))}
         </div>
       </section>
+
+      {mission && (
+        <MissionModal
+          step={mission.step}
+          onClose={() => setMission(null)}
+          onDone={() => {
+            mark(mission.key);
+            setMission(null);
+          }}
+        />
+      )}
     </div>
   );
 }
