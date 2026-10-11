@@ -1,8 +1,8 @@
 export function HeroSection() {
   return (
     <section className="relative overflow-hidden bg-gradient-to-br from-indigo-600 via-purple-600 to-pink-500 text-white">
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 pb-20 sm:pt-16 sm:pb-24 text-center">
-        <h1 className="text-3xl sm:text-5xl font-extrabold tracking-tight mb-3">
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-10 pb-16 sm:pt-16 sm:pb-24 text-center">
+        <h1 className="text-2xl sm:text-5xl font-extrabold tracking-tight mb-3">
           今日の10分で、使える英語をふやそう
         </h1>
         <p className="text-base sm:text-lg text-white/85 max-w-2xl mx-auto">

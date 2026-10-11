@@ -26,15 +26,15 @@ export function GameCard({ game, index, progressState, onStart }: GameCardProps)
   return (
     <a
       href={game.url}
-      className={`card-hover flex flex-col rounded-2xl border-2 ${game.color} p-5 sm:p-6 animate-fade-in-up`}
+      className={`card-hover flex flex-col rounded-2xl border-2 ${game.color} p-4 sm:p-6 animate-fade-in-up`}
       style={{ animationDelay: `${index * 0.1}s` }}
       onClick={() => onStart?.(game.id)}
     >
-      <div className="flex items-start gap-4">
-        <div className="text-4xl flex-shrink-0">{game.icon}</div>
+      <div className="flex items-start gap-3 sm:gap-4">
+        <div className="text-3xl sm:text-4xl flex-shrink-0">{game.icon}</div>
         <div className="flex-1 min-w-0">
           <div className="flex items-center gap-2 mb-1 flex-wrap">
-            <h4 className="font-bold text-gray-900 text-lg leading-tight">
+            <h4 className="font-bold text-gray-900 text-base sm:text-lg leading-tight">
               {game.titleJa}
             </h4>
             {badge && (
@@ -52,8 +52,8 @@ export function GameCard({ game, index, progressState, onStart }: GameCardProps)
         </div>
       </div>
 
-      <dl className="mt-4 grid grid-cols-3 gap-2 text-xs">
-        <div className="rounded-lg bg-white/80 ring-1 ring-gray-200 px-2 py-1.5">
+      <dl className="mt-3 sm:mt-4 grid grid-cols-3 gap-1.5 sm:gap-2 text-xs">
+        <div className="rounded-lg bg-white/80 ring-1 ring-gray-200 px-1.5 sm:px-2 py-1.5">
           <dt className="text-gray-400">対象</dt>
           <dd className="font-medium text-gray-700">{game.level}</dd>
         </div>
@@ -85,8 +85,8 @@ export function GameCard({ game, index, progressState, onStart }: GameCardProps)
         ))}
       </div>
 
-      <div className="mt-auto pt-4 flex justify-end">
-        <span className="rounded-xl bg-indigo-600 text-white px-4 py-2 text-sm font-bold">
+      <div className="mt-auto pt-3 sm:pt-4 flex justify-end">
+        <span className="rounded-xl bg-indigo-600 text-white px-4 py-2.5 text-sm font-bold min-h-[44px] flex items-center">
           {game.use === "class" ? "ひらく" : "はじめる"} →
         </span>
       </div>

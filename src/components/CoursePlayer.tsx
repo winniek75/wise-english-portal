@@ -47,7 +47,7 @@ export function CoursePlayer({ course }: { course: Course }) {
       {/* 今日の10分 */}
       <section
         aria-labelledby="today"
-        className="rounded-3xl bg-white border-2 border-indigo-200 shadow-lg p-5 sm:p-8"
+        className="rounded-2xl sm:rounded-3xl bg-white border-2 border-indigo-200 shadow-lg p-4 sm:p-8"
       >
         <div className="flex flex-wrap items-baseline justify-between gap-2 mb-1">
           <h2 id="today" className="text-2xl font-extrabold text-gray-900">
@@ -81,7 +81,7 @@ export function CoursePlayer({ course }: { course: Course }) {
                 return (
                   <li
                     key={key}
-                    className={`flex items-center gap-3 rounded-2xl border-2 p-3 sm:p-4 ${
+                    className={`flex items-center gap-2 sm:gap-3 rounded-xl sm:rounded-2xl border-2 p-2.5 sm:p-4 ${
                       isDone
                         ? "border-gray-200 bg-gray-50"
                         : isNext
@@ -92,7 +92,7 @@ export function CoursePlayer({ course }: { course: Course }) {
                     <button
                       onClick={() => toggle(key)}
                       aria-label={isDone ? "おわりを とりけす" : "おわりに する"}
-                      className={`flex-shrink-0 w-9 h-9 rounded-full border-2 text-lg font-bold flex items-center justify-center ${
+                      className={`flex-shrink-0 w-10 h-10 sm:w-9 sm:h-9 rounded-full border-2 text-lg font-bold flex items-center justify-center ${
                         isDone
                           ? "bg-emerald-500 border-emerald-500 text-white"
                           : "border-gray-300 text-gray-400 bg-white"
@@ -115,7 +115,7 @@ export function CoursePlayer({ course }: { course: Course }) {
                     </div>
                     <button
                       onClick={() => setMission({ step, key })}
-                      className={`flex-shrink-0 rounded-xl px-4 py-2.5 text-sm font-bold ${
+                      className={`flex-shrink-0 rounded-xl px-3 sm:px-4 py-2.5 text-sm font-bold min-h-[44px] ${
                         isNext
                           ? "bg-indigo-600 text-white hover:bg-indigo-700"
                           : "bg-white text-indigo-700 ring-1 ring-indigo-200 hover:bg-indigo-50"

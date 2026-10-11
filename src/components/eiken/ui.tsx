@@ -23,7 +23,7 @@ export function Shell({
         <div className="max-w-2xl mx-auto px-4 py-3 flex items-center gap-3">
           <a
             href={backHref}
-            className="flex-shrink-0 rounded-lg px-2 py-1.5 text-sm font-bold text-indigo-700 hover:bg-indigo-50"
+            className="flex-shrink-0 rounded-lg px-3 py-2 text-sm font-bold text-indigo-700 hover:bg-indigo-50 min-h-[44px] flex items-center"
           >
             ← コースへ
           </a>
@@ -73,7 +73,7 @@ export function PrimaryButton({
       type="button"
       onClick={onClick}
       disabled={disabled}
-      className="w-full rounded-2xl bg-indigo-600 text-white px-5 py-3.5 text-base font-bold hover:bg-indigo-700 disabled:bg-gray-300 disabled:text-gray-500"
+      className="w-full rounded-2xl bg-indigo-600 text-white px-5 py-3.5 text-base font-bold hover:bg-indigo-700 disabled:bg-gray-300 disabled:text-gray-500 min-h-[48px]"
     >
       {children}
     </button>
@@ -103,7 +103,7 @@ export function OptionButton({
       type="button"
       onClick={onClick}
       disabled={disabled}
-      className={`w-full text-left rounded-2xl border-2 px-4 py-3.5 text-lg font-bold transition-colors ${cls}`}
+      className={`w-full text-left rounded-2xl border-2 px-4 py-3.5 text-base sm:text-lg font-bold transition-colors min-h-[48px] ${cls}`}
     >
       {state === "right" && <span aria-hidden>○ </span>}
       {state === "wrong" && <span aria-hidden>× </span>}

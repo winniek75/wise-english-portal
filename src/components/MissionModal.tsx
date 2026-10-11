@@ -35,27 +35,27 @@ export function MissionModal({ step, onClose, onDone }: Props) {
 
   return (
     <div
-      className="fixed inset-0 z-50 flex items-center justify-center p-4"
+      className="fixed inset-0 z-50 flex items-end sm:items-center justify-center p-0 sm:p-4"
       style={{ backgroundColor: "rgba(0,0,0,0.5)" }}
       onClick={onClose}
     >
       <div
-        className="w-full max-w-sm rounded-3xl bg-white shadow-2xl overflow-hidden animate-fade-in-up"
+        className="w-full max-w-sm rounded-t-3xl sm:rounded-3xl bg-white shadow-2xl overflow-hidden animate-fade-in-up max-h-[90vh] overflow-y-auto"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Header */}
         <div
-          className={`bg-gradient-to-br ${roleBg[step.role] ?? "from-gray-400 to-gray-500"} p-6 text-center text-white`}
+          className={`bg-gradient-to-br ${roleBg[step.role] ?? "from-gray-400 to-gray-500"} p-5 sm:p-6 text-center text-white`}
         >
-          <div className="text-5xl mb-2">{game.icon}</div>
-          <p className="text-lg font-extrabold">{stepGameName(step)}</p>
+          <div className="text-4xl sm:text-5xl mb-2">{game.icon}</div>
+          <p className="text-base sm:text-lg font-extrabold">{stepGameName(step)}</p>
           <div className="inline-flex items-center gap-1.5 mt-2 bg-white/20 rounded-full px-3 py-1 text-sm font-bold">
             {roleEmoji[step.role]} {step.role}
           </div>
         </div>
 
         {/* Guide */}
-        <div className="p-6">
+        <div className="p-4 sm:p-6">
           <p className="text-sm font-bold text-gray-500 mb-3">やること</p>
           {guide.length > 0 ? (
             <ol className="space-y-2.5">
@@ -80,13 +80,13 @@ export function MissionModal({ step, onClose, onDone }: Props) {
 
           <button
             onClick={handleGo}
-            className="mt-5 w-full rounded-2xl bg-indigo-600 hover:bg-indigo-700 text-white text-xl font-extrabold py-4 shadow-lg transition-transform active:scale-95"
+            className="mt-5 w-full rounded-2xl bg-indigo-600 hover:bg-indigo-700 text-white text-lg sm:text-xl font-extrabold py-4 shadow-lg transition-transform active:scale-95 min-h-[56px]"
           >
             GO!
           </button>
           <button
             onClick={onClose}
-            className="mt-2 w-full text-sm text-gray-400 font-bold py-2"
+            className="mt-2 w-full text-sm text-gray-400 font-bold py-2 min-h-[44px]"
           >
             もどる
           </button>

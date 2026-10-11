@@ -18,22 +18,22 @@ export function CategorySection({
   onStart,
 }: CategorySectionProps) {
   return (
-    <section id={category.id} className="pt-10 sm:pt-12 scroll-mt-20">
-      <div className="flex items-center gap-3 mb-8">
+    <section id={category.id} className="pt-8 sm:pt-12 scroll-mt-20">
+      <div className="flex items-center gap-3 mb-5 sm:mb-8">
         <div
-          className={`flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-br ${category.gradient} text-white text-2xl shadow-lg`}
+          className={`flex items-center justify-center w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-gradient-to-br ${category.gradient} text-white text-xl sm:text-2xl shadow-lg`}
         >
           {category.icon}
         </div>
         <div>
-          <h3 className="text-2xl font-bold text-gray-900">
+          <h3 className="text-xl sm:text-2xl font-bold text-gray-900">
             {category.titleJa}
           </h3>
-          <p className="text-sm text-gray-500">{category.description}</p>
+          <p className="text-xs sm:text-sm text-gray-500">{category.description}</p>
         </div>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5">
         {category.games.map((game, gameIndex) => (
           <GameCard
             key={game.id}
