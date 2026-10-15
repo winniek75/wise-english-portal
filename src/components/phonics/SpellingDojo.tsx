@@ -148,6 +148,11 @@ function ChooseMode({ groups, onAnswer }: { groups: SpellingGroup[]; onAnswer: (
     speak(nq.w.word);
   }, [groups]);
 
+  // 問題が変わったら自動読み上げ
+  useEffect(() => {
+    speak(q.w.word);
+  }, [q]);
+
   // 音グループが変わったら新しい問題に
   useEffect(() => {
     setQ(makeQ(groups));
@@ -165,6 +170,7 @@ function ChooseMode({ groups, onAnswer }: { groups: SpellingGroup[]; onAnswer: (
     if (picked) return;
     setPicked(s);
     onAnswer(s === q.w.pattern);
+    speak(q.w.word);
   };
 
   const [a, v, c, e, z] = splitWord(q.w.word, q.w.pattern);
@@ -178,10 +184,10 @@ function ChooseMode({ groups, onAnswer }: { groups: SpellingGroup[]; onAnswer: (
 
   return (
     <div className="rounded-3xl bg-white border border-gray-200 p-5 sm:p-6 text-center space-y-4">
-      <div className="text-6xl leading-none" aria-hidden>
+      <button type="button" onClick={() => speak(q.w.word)} className="text-6xl leading-none cursor-pointer hover:scale-110 transition-transform" aria-label={`${q.w.word} を読み上げ`}>
         {q.w.pic}
-      </div>
-      <p className="text-4xl sm:text-5xl font-extrabold tracking-wider text-gray-900 font-mono">
+      </button>
+      <p onClick={() => speak(q.w.word)} className="text-4xl sm:text-5xl font-extrabold tracking-wider text-gray-900 font-mono cursor-pointer">
         {a}
         <Gap ch={v} />
         {isSplit && (
@@ -345,7 +351,10 @@ function SortMode({ groups, onAnswer }: { groups: SpellingGroup[]; onAnswer: (ok
             {placed[s]?.map((w) => (
               <span
                 key={w.word}
-                className="block rounded-lg bg-white border border-emerald-300 px-2 py-1 text-center text-sm font-bold text-gray-800"
+                role="button"
+                tabIndex={0}
+                onClick={(e) => { e.stopPropagation(); speak(w.word); }}
+                className="block rounded-lg bg-white border border-emerald-300 px-2 py-1 text-center text-sm font-bold text-gray-800 cursor-pointer hover:bg-emerald-50 active:bg-emerald-100"
               >
                 {w.word}
               </span>
