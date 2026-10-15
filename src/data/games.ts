@@ -86,6 +86,21 @@ export const categories: Category[] = [
         color: pink,
       },
       {
+        id: "spelling-dojo",
+        title: "Spelling Dojo",
+        titleJa: "同音異綴れんしゅう",
+        description:
+          "ai／ay／a_e のように「同じ音・ちがう綴り」を、絵と音声を手がかりにえらぶ・しわける。Jolly Phonics の9グループ・約140語",
+        url: "/phonics/spelling",
+        icon: "🥋",
+        level: "小学生・フォニックス後半",
+        minutes: "3〜5",
+        skill: "同じ音の綴りの使い分け",
+        use: "home",
+        tags: ["9グループ", "音声つき"],
+        color: pink,
+      },
+      {
         id: "sight-words",
         title: "Sight Words Memory",
         titleJa: "サイトワーズメモリー",
