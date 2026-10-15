@@ -82,15 +82,27 @@ export function shuffle<T>(arr: T[]): T[] {
   return a;
 }
 
+let _audio: HTMLAudioElement | null = null;
+
 export function speak(text: string) {
   try {
-    const synth = window.speechSynthesis;
-    if (!synth) return;
-    synth.cancel();
-    const u = new SpeechSynthesisUtterance(text);
-    u.lang = "en-US";
-    u.rate = 0.9;
-    synth.speak(u);
+    // Google Translate TTS
+    const url = `https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=${encodeURIComponent(text)}`;
+    if (_audio) {
+      _audio.pause();
+      _audio.currentTime = 0;
+    }
+    _audio = new Audio(url);
+    _audio.play().catch(() => {
+      // フォールバック: Web Speech API
+      const synth = window.speechSynthesis;
+      if (!synth) return;
+      synth.cancel();
+      const u = new SpeechSynthesisUtterance(text);
+      u.lang = "en-US";
+      u.rate = 0.9;
+      synth.speak(u);
+    });
   } catch {
     /* 読み上げのない端末では何もしない */
   }
