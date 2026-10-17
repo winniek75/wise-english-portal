@@ -271,7 +271,23 @@ function SortMode({ groups, onAnswer }: { groups: SpellingGroup[]; onAnswer: (ok
   const setup = useCallback(
     (g: SpellingGroup) => {
       setGroup(g);
-      setPool(shuffle(g.words).slice(0, Math.min(9, g.words.length)));
+      // 各パターンから均等に選んでバランスよくする
+      const perPattern = Math.max(1, Math.floor(9 / g.spellings.length));
+      const byPattern: Record<string, SpellingWord[]> = {};
+      for (const w of g.words) {
+        (byPattern[w.pattern] ??= []).push(w);
+      }
+      let selected: SpellingWord[] = [];
+      for (const s of g.spellings) {
+        selected.push(...shuffle(byPattern[s] || []).slice(0, perPattern));
+      }
+      // 残り枠を埋める
+      const used = new Set(selected.map((w) => w.word));
+      const rest = shuffle(g.words.filter((w) => !used.has(w.word)));
+      while (selected.length < 9 && rest.length > 0) {
+        selected.push(rest.pop()!);
+      }
+      setPool(shuffle(selected));
       setPlaced(Object.fromEntries(g.spellings.map((s) => [s, []])));
       setSel(null);
       setMsg(null);
